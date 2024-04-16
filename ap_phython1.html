@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BocoranSumatifAP</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+	h4 {color:blue}
+    .question {
+        margin-bottom: 20px;
+    }
+    .code-block {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+</style>
+
+</head>
+<body>
+<div class="container-fluid">
+
+<div class="question">
+<h1>Latihan Informatika : Algoritma dan Pemrograman </h1>
+<p>Paket latihan pra Sumatif TP Algoritma dan Pembelajaran, <br>
+silahkan dipelajari dengan baik. Semoga sukses.<br><br>*Pak Ikhwan Fisika.
+</p>
+<div id="accordion">
+
+<div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse1">
+<h2>Latihan Soal Python: Komen, Print, Variabel dan Operator </h2></a></div><div id="collapse1" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+<h5 style="color:Tomato">catatan: format output koma spasi berarti ganti baris</h5>
+<!--separator soal-->
+<hr><h4 id="operator-1">Soal 1</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python"># hari ini jumat print("hari ini mendung")
+print("besok sabtu") #mungkin mendung
+</code></pre>
+
+<p><strong>Jawaban:</strong> besok sabtu</p>
+
+<!--separator soal-->
+<hr><h4 id="operator-2">Soal 2</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">hariIni="kamis"
+print(hariIni=="kamis") 
+print(hariIni=="rabu")
+hariIni="rabu"
+print(hariIni!="kamis")
+</code></pre>
+<p><strong>Jawaban:</strong> True, False, True </p>
+<!--separator soal-->
+<hr><h4 id="operator-3">Soal 3</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">hariIni="senin"
+print(hariIni) 
+hariIni="rabu"
+print("hariIni")
+print(hariIni=="senin")
+</code></pre>
+<p><strong>Jawaban:</strong> senin, hariIni, False</p>
+<!--separator soal-->
+<hr><h4 id="operator-4">Soal 4</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">hariIni="jumat"
+cek1=hariIni=="kamis"
+print("cek1")
+print(cek1)
+print("hariIni",hariIni)
+</code></pre>
+<p><strong>Jawaban:</strong> cek1, False, hariIni jumat</p>
+<!--separator soal-->
+<hr><h4 id="operator-5">Soal 5</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">a=7
+a-=2
+print(a)
+a+3
+print(a)
+</code></pre>
+<p><strong>Jawaban:</strong> 5, 5</p>
+<!--separator soal-->
+<hr><h4 id="operator-6">Soal 6</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">b=7
+b-=2
+b-4
+b*=2
+b+4
+b**=2
+print(b)
+print("b-4")
+print(b-5)
+</code></pre>
+<p><strong>Jawaban:</strong>100, b-4, 95</p>
+<!--separator soal-->
+<hr><h4 id="operator-7">Soal 7</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">#soal tentang div dan mod
+c=25
+print(c//7)
+print(c%7)
+</code></pre>
+<p><strong>Jawaban:</strong>3, 4</p>
+<!--separator soal-->
+<hr><h4 id="operator-8">Soal 8</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">#soal tentang div dan mod
+b=1234
+print(b//100)
+print(b%100)
+print(b%2)
+b=4321
+print(b%2)
+</code></pre>
+<p><strong>Jawaban:</strong>12, 34, 0, 1</p>
+<!--separator soal-->
+<hr><h4 id="operator-9">Soal 9</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">x = 15
+x *= 2
+x -= 7
+x //= 3
+print(x)
+</code></pre>
+<p><strong>Jawaban:</strong>7</p>
+<!--separator soal-->
+<hr><h4 id="operator-10">Soal 10</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">x = 20
+x //= 3
+x **= 2
+x += 4
+print(x)
+</code></pre>
+<p><strong>Jawaban:</strong>40</p>
+<!--separator soal-->
+</div>
+</div></div><div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse2">
+<h2>Latihan Soal Python: Logika Percabangan (If, If-Else, If-Elif-Else) </h2></a></div><div id="collapse2" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+<h5 style="color:Tomato">catatan: format output koma spasi berarti ganti baris</h5>
+<!--separator soal-->
+<hr><h4 id="if-1">Soal 1</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">hariIni="selasa"
+if (hariIni=="selasa"): print("salah")
+if (hariIni=="rabu"): print("salah aja")
+</code></pre>
+<p><strong>Jawaban:</strong> salah</p>
+<!--separator soal-->
+<hr><h4 id="if-2">Soal 2</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">hariIni="selasa"
+if (hariIni=="rabu"): print("salah") 
+else: print("bener")
+</code></pre>
+<p><strong>Jawaban:</strong> bener</p>
+<!--separator soal-->
+<hr><h4 id="if-3">Soal 3</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">a=5
+if(a>6):
+    a+=2
+    a*=2
+    a//=10
+else:    
+    a+=3
+    a*=3
+    a//=10
+print(a)
+</code></pre>
+<p><strong>Jawaban:</strong>2</p>
+<!--separator soal-->
+<hr><h4 id="if-4">Soal 4</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">x = 10
+if x > 9:
+    print("A")
+    if x > 6:
+        print("B")
+else:
+    print("C")
+</code></pre>
+<p><strong>Jawaban:</strong>A, B</p>
+<!--separator soal-->
+<hr><h4 id="if-5">Soal 5</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">x = 7
+if x > 9:
+    print("A")
+    if x > 6:
+        print("B")
+else:
+    print("C")
+</code></pre>
+<p><strong>Jawaban:</strong> C</p>
+<!--separator soal-->
+<hr><h4 id="if-6">Soal 6</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">x = 7
+if x > 9:
+    print("A")
+if x > 6:
+    print("B")
+else:
+    print("C")
+</code></pre>
+<p><strong>Jawaban:</strong> B</p>
+<!--separator soal-->
+<hr><h4 id="if-7">Soal 7</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">x = 8
+if x < 3:
+    print("A")
+elif x < 7:
+    print("B")
+elif x < 10:
+    print("C")
+else:
+    print("D")
+</code></pre>
+<p><strong>Jawaban:</strong>C</p>
+<!--separator soal-->
+<hr><h4 id="if-8">Soal 8</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">x = 18
+x *= 2
+x -= 7
+x //= 5
+if x > 5:
+    print("A")
+elif x < 3:
+    print("B")
+else:
+    print("C")
+</code></pre>
+<p><strong>Jawaban:</strong>C</p>
+<!--separator soal-->
+<hr><h4 id="if-9">Soal 9</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">x = 12
+x %= 5
+if x == 0:
+    print("A")
+elif x < 0:
+    print("B")
+else:
+    print("C")
+</code></pre>
+<p><strong>Jawaban:</strong>C</p>
+<!--separator soal-->
+<hr><h4 id="if-10">Soal 10</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">x = 25
+x //= 6
+x -= 2
+if x != 2:
+    print("Halo")
+else:
+    print("Hai")
+
+</code></pre>
+<p><strong>Jawaban:</strong>Hai</p>
+<!--separator soal-->
+</div>
+</div></div><div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse3">
+<h2>Latihan Soal Python: Loop While</h2></a></div><div id="collapse3" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+<h5 style="color:Tomato">catatan: format output spasi berarti ganti baris</h5>
+<hr><h4 id="while-1">Soal 1</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">x = 1
+while x < 5:
+    print(x)
+    x += 1
+</code></pre>
+<p>A) 1 2 3 4<br>B) 1 2 3 4 5<br>C) 2 3 4 5<br>D) 1  </p>
+<p><strong>Jawaban:</strong> A) 1 2 3 4</p>
+<hr><h4 id="while-2">Soal 2</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">x = 5
+while x > 0:
+    print(x)
+    x -= 2
+</code></pre>
+<p>A) 5 3 1<br>B) 5 4 3 2 1<br>C) 5 2<br>D) 4 2  </p>
+<p><strong>Jawaban:</strong> A) 5 3 1</p>
+<hr><h4 id="while-3">Soal 3</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">x = 0
+while x < 3:
+    print("Hello")
+</code></pre>
+<p>A) Hello<br>B) Hello Hello Hello<br>C) Tidak ada output<br>D) Infinite loop  </p>
+<p><strong>Jawaban:</strong> D) Infinite loop</p>
+<hr><h4 id="while-4">Soal 4</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">i = 0
+while i < 3:
+    print(i)
+    i += 1
+else:
+    print("Selesai")
+</code></pre>
+<p>A) 0 1 2<br>B) 0 1 2 Selesai<br>C) 1 2 3<br>D) Selesai  </p>
+<p><strong>Jawaban:</strong> B) 0 1 2 Selesai</p>
+<hr><h4 id="while-5">Soal 5</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">i = 5
+while i > 0:
+    print(i)
+    if i == 3:
+        break
+    i -= 1
+</code></pre>
+<p>A) 5 4 3<br>B) 5 4 3 2 1<br>C) 5 4 3 2<br>D) 5 4  </p>
+<p><strong>Jawaban:</strong> A) 5 4 3</p>
+<hr><h4 id="while-6">Soal 6</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">i = 0
+while i < 5:
+    print(i)
+    i += 2
+else:
+    print("Selesai")
+</code></pre>
+<p>A) 0 1 2 3 4<br>B) 0 2 4 Selesai<br>C) 2 4<br>D) 0 2 4 6  </p>
+<p><strong>Jawaban:</strong> B) 0 2 4 Selesai</p>
+<hr><h4 id="while-7">Soal 7</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">x = 10
+while x > 0:
+    print(x)
+    x -= 3
+else:
+    print("Selesai")
+</code></pre>
+<p>A) 10 7 4 1 Selesai<br>B) 10 7 4 Selesai<br>C) 10 7 Selesai<br>D) Selesai  </p>
+<p><strong>Jawaban:</strong> A) 10 7 4 1 Selesai</p>
+<hr><h4 id="while-8">Soal 8</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">i = 0
+while i < 4:
+    if i == 1:
+	i += 1
+	continue
+    print(i)
+    i += 1
+</code></pre>
+<p>A) 0 1 2<br>B) 0 1<br>C) 0 1 2 3<br>D) 0 1 2 1  </p>
+<p><strong>Jawaban:</strong> C) 0 2 3</p>
+<hr><h4 id="while-9">Soal 9</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">x = 3
+while x >= 0:
+    print(x)
+    x -= 1
+else:
+    print("Selesai")
+</code></pre>
+<p>A) 3 2 1 0 Selesai<br>B) 3 2 1 0<br>C) 2 1 0 Selesai<br>D) 3 2 1  </p>
+<p><strong>Jawaban:</strong> A) 3 2 1 0 Selesai</p>
+<hr><h4 id="while-10">Soal 10</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">i = 0
+while True:
+    print(i)
+    i += 1
+    if i >= 3:
+        break
+</code></pre>
+<p>A) 0 1 2<br>B) 0 1 2 3<br>C) Infinite loop<br>D) Tidak ada output  </p>
+<p><strong>Jawaban:</strong> A) 0 1 2</p>
+
+<hr>
+</div>
+</div></div><div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse4">
+<h2>Latihan Soal Python: Loop For</h2></a></div><div id="collapse4" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+<h5 style="color:Tomato">catatan: format output spasi berarti ganti baris</h5>
+<hr><h4 id="for-1">Soal 1</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">for i in range(3):
+    print(i)
+</code></pre>
+<p>A) 0<br>B) 0 1 2<br>C) 1 2 3<br>D) 1 2  </p>
+<p><strong>Jawaban:</strong> B) 0 1 2</p>
+<hr><h4 id="for-2">Soal 2</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">for i in range(1, 4):
+    print(i)
+</code></pre>
+<p>A) 1 2 3<br>B) 1 2<br>C) 0 1 2 3<br>D) 0 1 2  </p>
+<p><strong>Jawaban:</strong> A) 1 2 3</p>
+<hr><h4 id="for-3">Soal 3</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">for i in range(0, 10, 2):
+    print(i)
+</code></pre>
+<p>A) 0 2 4 6 8<br>B) 2 4 6 8<br>C) 0 1 2 3 4 5 6 7 8 9<br>D) 1 3 5 7 9  </p>
+<p><strong>Jawaban:</strong> A) 0 2 4 6 8</p>
+<hr><h4 id="for-4">Soal 4</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">for char in "Python":
+    print(char)
+</code></pre>
+<p>A) P y t h o n<br>B) Python<br>C) P<br>D) P y t h o n y  </p>
+<p><strong>Jawaban:</strong> A) P y t h o n</p>
+<hr><h4 id="for-5">Soal 5</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">for i in range(3):
+    for j in range(2):
+        print(i, j)
+</code></pre>
+<p>A) (0, 0) (0, 1) (1, 0) (1, 1) (2, 0) (2, 1)<br>B) (1, 0) (1, 1) (2, 0) (2, 1) (3, 0) (3, 1)<br>C) 0 1 2 0 1 2<br>D) 0 0 1 1 2 2  </p>
+<p><strong>Jawaban:</strong> A) (0, 0) (0, 1) (1, 0) (1, 1) (2, 0) (2, 1)</p>
+<hr><h4 id="for-6">Soal 6</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">for i in range(5):
+    if i == 3:
+        break
+    print(i)
+</code></pre>
+<p>A) 0 1 2<br>B) 0 1 2 3<br>C) 1 2 3 4<br>D) 0 1 2 4  </p>
+<p><strong>Jawaban:</strong> A) 0 1 2</p>
+<hr><h4 id="for-7">Soal 7</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">nums = [1, 2, 3, 4]
+for i in nums:
+    print(i * 2)
+</code></pre>
+<p>A) 2 4 6 8<br>B) 1 2 3 4<br>C) 1 2 4 8<br>D) 2 4 6  </p>
+<p><strong>Jawaban:</strong> A) 2 4 6 8</p>
+<hr><h4 id="for-8">Soal 8</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">for i in range(5):
+    if i % 2 == 0:
+        continue
+    print(i)
+</code></pre>
+<p>A) 0 2 4<br>B) 1 3<br>C) 0 1 2 3 4<br>D) 1 3 5  </p>
+<p><strong>Jawaban:</strong> B) 1 3</p>
+<hr><h4 id="for-9">Soal 9</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">for i in range(3):
+    print(i)
+else:
+    print("Selesai")
+</code></pre>
+<p>A) 0 1 2<br>B) 0 1 2 Selesai<br>C) 1 2 3<br>D) 0 1 2 3 Selesai  </p>
+<p><strong>Jawaban:</strong> B) 0 1 2 Selesai</p>
+<hr><h4 id="for-10">Soal 10</h4>
+<p>Apa output dari kode berikut?</p>
+<pre><code class="language-python">for i in range(2, 5):
+    print(i, end=", ")
+print("Selesai")
+</code></pre>
+<p>A) 2, 3, 4, Selesai<br>B) 2 3 4 Selesai<br>C) 0 1 2 3 4 Selesai<br>D) 2, 3, 4  </p>
+<p><strong>Jawaban:</strong> A) 2, 3, 4, Selesai</p>
+</div></div>
+
+<script>
+    // Highlight syntax pada blok kode
+    document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightBlock(block);
+    });
+</script>
+
+
+</div>
+</div>
+</div>
+</div> 
+</body>
+</html>
