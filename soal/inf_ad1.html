@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BocoranSumatifAD</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+	h4 {color:blue}
+    .soal {
+        font-size: 150%;
+		color:blue;
+		margin-right: 15px;
+    }
+	code{font-size: 125%;}
+    .code-block {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+</style>
+<script>
+    
+</script>
+</head>
+<body>
+<div class="container-fluid">
+
+<h1>Latihan Informatika : Analisis Data </h1>
+<p>Paket latihan pra Sumatif TP Analisis Data <br>
+silahkan dipelajari dengan baik. Semoga sukses.<br><br>*Pak Ikhwan Fisika.
+</p>
+<div id="accordion">
+
+<div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse1">
+<h2>Latihan Analisis Data 1: aritmatika, sum-count-max-min-average, </h2></a></div><div id="collapse1" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+<h5 style="color:Tomato">Materi 1: rumus dan operator aritmatika <kbd>+ - * /</kbd> </h5>
+<p>
+<p>perhatikan data berikut:<br><img src="https://ikhwanfisika.sirv.com/Images/inf70/AD001.gif"></p>
+-rumus di spreadsheet (pengolah angka) didahului <kbd>=</kbd><br>
+-blok kolom E-H, hide<br>
+-JAN_pemasukan: <code class="language-excel">=B2*C2</code><br>
+-copy paste sampai bawah<br>
+-soal 1: rumus untuk mencari pemasukan MERDADA bulan februari adalah <code class="language-excel">=B4*D4</code><br>
+-operator aritmatika: <kbd>+ - * /</kbd><br>
+</p>
+<!--separator soal-->
+<hr><p><span class="soal" id="adkeg1_1">Soal 1</span>
+rumus untuk mencari pemasukan MERDADA bulan februari adalah</p>
+<details><summary><strong>Kunci:</strong></summary>
+<code class="language-excel">=B4*D4</code></details>
+<!--separator soal-->
+<hr><p><span class="soal" id="adkeg1_2">Soal 2</span>
+rumus untuk mencari selisih pengunjung Jalatunda dan Merdada bulan februari adalah</p>
+<details><summary><strong>Kunci:</strong></summary>
+<code class="language-excel">=D3-D4</code></details>
+<!--separator soal-->
+<hr><p><span class="soal" id="adkeg1_3">Soal 3</span>
+rumus untuk mencari total pemasukan MERDADA bulan januari dan februari adalah</p>
+<details><summary><strong>Kunci:</strong></summary>
+<code class="language-excel">=B4*(C4+D4)</code></details>
+<!--separator soal-->
+<hr><p><span class="soal" id="adkeg1_4">Soal 4</span>
+rumus untuk mencari total pemasukan JALATUNDA bulan januari-juni adalah</p>
+<details><summary><strong>Kunci:</strong></summary>
+<code class="language-excel">=B3*(C3+D3+E3+F3+G3+H3)</code></details>
+<!--separator soal--><br><hr>
+<h5 style="color:Tomato">Materi 2: rumus SUM, COUNT, MAX, MIN, AVERAGE</h5>
+
+<hr><p><span class="soal" id="adkeg1_5">Soal 5</span>
+rumus untuk menentukan total pengunjung seluruh objek wisata di bulan januari:</p>
+<details><summary><strong>Kunci:</strong></summary>
+<code class="language-excel">=SUM(C2:C29) </code></details>
+<!--separator soal-->
+<hr><p><span class="soal" id="adkeg1_6">Soal 6</span>
+rumus untuk menentukan total pemasukan seluruh objek wisata di bulan januari:</p>
+<details><summary><strong>Kunci:</strong></summary>
+<code class="language-excel">=SUM(J2:J29) </code></details>
+<!--separator soal-->
+<hr><p><span class="soal" id="adkeg1_7">Soal 7</span>
+ dimasukkan rumus =MAX(B2:B29), outputnya adalah:</p>
+<details><summary><strong>Kunci:</strong></summary>
+<code class="language-excel">220000 </code></details>
+<!--separator soal-->
+<hr><p><span class="soal" id="adkeg1_8">Soal 8</span>
+dimasukkan rumus =MIN(C2:C29), outputnya adalah: </p>
+<details><summary><strong>Kunci:</strong></summary>
+<code class="language-excel">85 </code></details>
+<!--separator soal-->
+<hr><p><span class="soal" id="adkeg1_9">Soal 9</span>
+rumus untuk mencari rerata jumlah pengunjung bulan maret semua destinasi adalah:</p>
+<details><summary><strong>Kunci:</strong></summary>
+<code class="language-excel">=AVERAGE(E2:E29) </code></details>
+<!--separator soal-->
+</div>
+</div>
+</div> 
+<div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse3">
+<h2>Latihan Analisis Data 2: </h2></a></div><div id="collapse3" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+<h5 style="color:Tomato">catatan: format output spasi berarti ganti baris</h5>
+
+
+</div>
+</div>
+</div> 
+</div> 
+</div> 
+<script>
+    // Highlight syntax pada blok kode
+    document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightBlock(block);
+    });
+</script>
+
+</body>
+</html>
