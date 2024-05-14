@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>BocoranSumatifGelombang</title>
+	<title>BocoranSumatif</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -45,8 +46,8 @@ silahkan dipelajari dengan baik. Semoga sukses.<br><br>*Pak Ikhwan Fisika.
 
 <div class="card">
 <div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse1">
-<h2>Aip - GelombangBerjalan</h2></a></div><div id="collapse1" class="collapse" data-bs-parent="#accordion"><div class="card-body">
-<h5 style="color:Tomato">Materi 1: <kbd></kbd> </h5>
+<h2>Materi 2 Persamaan Gelombang</h2></a></div><div id="collapse1" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+<!-- <h5 style="color:Tomato">Materi 1: Persamaan Gelombang<kbd></kbd> </h5> -->
 <p>
 <!--separator soal-->
 <hr><p><span class="soal" id="gel1_01">Soal 1</span>[Aip 12 - Contoh 1.1]<br>
@@ -74,7 +75,7 @@ Pada permukaan suatu danau terdapat dua buah gabus yang terpisah satu dari lainn
 <details><summary><strong>Kunci:</strong></summary><span id="gel103j"></span> m/s</details>
 <!--separator soal-->
 <hr><p><span class="soal" id="gel1_04">Soal 4</span>[Aip 12 - SPM 1.1_2]<br>
-Gelombang air laut menyebabkan permukaan air naik turun dengan periode <span id="gel104p"></span> sekon. Jika jarak antardua puncak gelombang <span id="gel104l"></span> meter, berapa lama waktu yang diperlukan gelombang untuk mencapai jarak <span id="gel104s"></span> meter?</p>
+Gelombang air laut menyebabkan permukaan air naik turun dengan periode <span id="gel104p"></span> sekon. Jika jarak antar dua puncak gelombang <span id="gel104l"></span> meter, berapa lama waktu yang diperlukan gelombang untuk mencapai jarak <span id="gel104s"></span> meter?</p>
 <details><summary><strong>Kunci:</strong></summary><span id="gel104j"></span> s</details>
 <!--separator soal-->
 <hr><p><span class="soal" id="gel1_05">Soal 5</span>[Aip 12 - SPM 1.1_3]<br>
@@ -86,6 +87,45 @@ Gelombang transversal merambat dari A ke B dengan cepat rambat <span id="gel105v
 </div>
 </div>
 </div> 
+
+<div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse2">
+<h2>Materi 3 Persamaan Simpangan Gelombang</h2></a></div><div id="collapse2" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+<!-- <h5 style="color:Tomato">Materi 1: Persamaan Gelombang<kbd></kbd> </h5> -->
+<p>
+<!--separator soal-->
+<hr><p><span class="soal" id="gel3_01">Soal 1</span>[Aip 12 - Contoh 1.6]<br>
+Persamaan gelombang transversal yang merambat sepanjang tali yang sangat panjang adalah <br>
+y = <span id="gel301a"></span>sin(<span id="gel301k"></span>&pi;x + <span id="gel301w"></span>&pi;t) <br>
+dengan y dan x dalam cm dan t dalam sekon.
+Tentukan: <br>
+a. amplitudo gelombang,<br>
+b. panjang gelombang,<br>
+c. frekuensi gelombang, dan<br></p>
+
+<details><summary><strong>Kunci:</strong></summary>a. <span id="gel301aa"></span> cm ; b. <span id="gel301jl"></span> cm ; c. <span id="gel301jf"></span> Hz</details>
+<!--separator soal-->
+<hr><p><span class="soal" id="gel3_02">Soal 2</span>[Aip 12 - Contoh 1.7]<br>
+Gelombang merambat dari titik A ke titik B dengan amplitudo 10-2 m dan periode 0,2 sekon. Jarak AB = 0,3 m. Jika cepat rambat gelombang 2,5 m/ s, tentukan beda fase antara titik A dan B pada suatu saat tertentu.</p>
+
+<details><summary><strong>Kunci:</strong></summary><span id="gel101j"></span> m/s</details>
+<!--separator soal-->
+<hr><p><span class="soal" id="gel3_03">Soal 3</span>[Aip 12 - SPM 1.3_1]<br>
+Suatu gelombang dinyatakan dengan persamaan<br>
+y = 0,200,04(x-60t) . <br>
+Jika semua jarak diukur dalam cm dan waktu dalam sekon, tentukan:<br>
+a. panjang gelombang,<br>
+b. frekuensi gelombang,<br>
+c. cepat rambat gelombang, <br>
+
+</p>
+<details><summary><strong>Kunci:</strong></summary><span id="gel101j"></span> m/s</details>
+<!--separator soal-->
+
+
+</div>
+</div>
+</div>
 
 <!--<div class="card">
 <div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse3">
@@ -129,15 +169,15 @@ document.getElementById("gel102jp").innerHTML = gel102jp.toPrecision(2);
 document.getElementById("gel102jl").innerHTML = gel102jl.toPrecision(2);
 
 //gel103
-let gel103s=Math.floor(Math.random() * 10)+1; //random antara 1-11 kelipatan 1
+let gel103s=Math.floor(Math.random() * 50)+50; //random antara 50-100 kelipatan 1
 let gel103f=Math.floor(Math.random() * 10)+2; //random antara 2-12 kelipatan 1
 let gel103b=Math.floor(Math.random() * 8)+1; //random antara 1-9 kelipatan 1
 
-let gel103j=gel103f*gel103s/(gel103b+0.5);
+let gel103j=0.01*gel103f*gel103s/(gel103b+0.5);
 document.getElementById("gel103s").innerHTML = gel103s.toFixed(0);
 document.getElementById("gel103f").innerHTML = gel103f.toFixed(0);
 document.getElementById("gel103b").innerHTML = gel103b.toFixed(0);
-document.getElementById("gel103j").innerHTML = gel103j.toPrecision(3);
+document.getElementById("gel103j").innerHTML = gel103j.toPrecision(2);
 
 //gel104
 let gel104p=Math.floor(Math.random() * 6)*0.5+1; //random antara 1-4 kelipatan 0.5
@@ -148,7 +188,7 @@ let gel104j=gel104s/(gel104l/gel104p);
 document.getElementById("gel104p").innerHTML = gel104p.toFixed(1);
 document.getElementById("gel104l").innerHTML = gel104l.toFixed(0);
 document.getElementById("gel104s").innerHTML = gel104s.toFixed(0);
-document.getElementById("gel104j").innerHTML = gel104j.toPrecision(3);
+document.getElementById("gel104j").innerHTML = gel104j.toPrecision(2);
 
 //gel105
 let gel105v=Math.floor(Math.random() * 40)*0.2+1; //random antara 1-9 kelipatan 0.2
@@ -163,85 +203,25 @@ document.getElementById("gel105a").innerHTML = gel105a.toFixed(0);
 document.getElementById("gel105s").innerHTML = gel105s.toFixed(0);;
 document.getElementById("gel105j").innerHTML = gel105j.toFixed(0);;
 
+//gel301
+let gel301a=Math.floor(Math.random() * 20)*2+2; //random antara 2-40 kelipatan 2
+let gel301k=Math.floor(Math.random() * 40)*0.02+0.02; //random antara 0.02-0.80 kelipatan 0.02
+let gel301w=Math.floor(Math.random() * 16)+2; //random antara 2-16 kelipatan 1
+
+let gel301aa=gel301a;
+let gel301jl=2/gel301k;
+let gel301jf=gel301w/2;
+
+document.getElementById("gel301a").innerHTML = gel301a.toPrecision(2);
+document.getElementById("gel301k").innerHTML = gel301k.toPrecision(2);
+document.getElementById("gel301w").innerHTML = gel301w.toPrecision(2);;
+document.getElementById("gel301aa").innerHTML = gel301aa.toPrecision(2);;
+document.getElementById("gel301jl").innerHTML = gel301jl.toPrecision(3);;
+document.getElementById("gel301jf").innerHTML = gel301jf.toPrecision(3);;
+
+
 </script>
 
 </body>
 </html>
 
-
-
-
-<!--
-<span id="fk02k"></span>
-<h1>Fisika Fase F - Gelombang</h1>
-<h2>Aip - Gerak Harmonik Sederhana</h2>
-<h3>Bagian A.</h3>
-<p>2.<br>Jika dalam skala Kelvin menunjukan <span id="fk02k"></span> K, angka ini akan sesuai dengan skala Fahrenheit sebesar ....  </p>
-<p>3.<br>Sebuah benda suhunya <span id="fk03c"></span>° C. Jika alat ukur temperatur diganti dengan skala Fahrenheit, nilai temperatur menjadi .... </p>
-<p>6.<br>Apabila angka yang ditunjukkan termometer Farenheit <span id="fk06n"></span> kali angka yang ditunjukkan termometer Celsius, temperatur benda tersebut adalah....  </p>
-<p>7.<br>Sebuah termometer X pada es yang sedang melebur menunjukkan –<span id="fk07b"></span>°X dan titik didih air <span id="fk07a"></span>°X. Apabila sebuah benda suhunya <span id="fk07c"></span>°C, skala yang ditunjukkan termometer X adalah ....  </p>
-<p>13.<br>Logam yang massanya <span id="fk13m"></span> gram memiliki kalor jenis <span id="fk13c"></span> J/kg°C dan suhunya berubah dari 25°C menjadi <span id="fk13a"></span>°C. Jumlah kalor yang diterima logam adalah .... </p>
-<p>2.<br> </p>
-<p>2.<br> </p>
-<p>2.<br> </p>
-<p>2.<br> </p>
-<hr>
-<h2>Kunci Jawaban</h2>
-<h3>Bagian A.</h3>
-<p>No. 2: <span id="fk02j"></span> °F</p>
-<p>No. 3: <span id="fk03j"></span> °F</p>
-<p>No. 6: <span id="fk06jc"></span> °C ; <span id="fk06jf"></span> °F</p>
-<p>No. 7: <span id="fk07j"></span> °X</p>
-<p>No. 13: <span id="fk13j"></span> J</p>
-<p>No. 3: <span id="fk02j"></span></p>
-<p>No. 3: <span id="fk02j"></span></p>
-<p>No. 3: <span id="fk02j"></span></p>
-<script>
-//Math.floor(Math.random() * 10)*2+50; //random antara 50-70 kelipatan 2
-
-//fk02
-let fk02k=Math.floor(Math.random() * 100)+273; //random antara 273-373 kelipatan 1
-let fk02j=(fk02k-273)*9/5 + 32;
-document.getElementById("fk02k").innerHTML = fk02k;
-document.getElementById("fk02j").innerHTML = fk02j;
-
-//fk03
-let fk03c=Math.floor(Math.random() * 210)-10; //random antara -10 - 200 kelipatan 1
-let fk03j=fk03c*9/5 + 32;
-document.getElementById("fk03c").innerHTML = fk03c;
-document.getElementById("fk03j").innerHTML = fk03j;
-
-//fk06
-let fk06n=Math.floor(Math.random() * 5)+2; //random antara 2-7 kelipatan 1
-let fk06jc=32/(fk06n-9/5);
-let fk06jf=32/(1-9/(5*fk06n));
-document.getElementById("fk06n").innerHTML = fk06n;
-document.getElementById("fk06jc").innerHTML = fk06jc.toFixed(2);
-document.getElementById("fk06jf").innerHTML = fk06jf.toFixed(2);
-
-//fk07
-let fk07b=Math.floor(Math.random() * 3)*10+10; //random antara 10-40 kelipatan 10
-let fk07a=Math.floor(Math.random() * 13)*10+70; //random antara 70-200 kelipatan 10
-let fk07c=Math.floor(Math.random() * 18)*5+5; //random antara 5-95 kelipatan 5
-let fk07j=(fk07a+fk07b)*(fk07c/100)-fk07b;
-
-document.getElementById("fk07b").innerHTML = fk07b;
-document.getElementById("fk07a").innerHTML = fk07a;
-document.getElementById("fk07c").innerHTML = fk07c;
-document.getElementById("fk07j").innerHTML = fk07j.toFixed(2);
-
-//fk13
-let fk13m=Math.floor(Math.random() * 80)*10+200; //random antara 200-1000 kelipatan 10
-let fk13c=Math.floor(Math.random() * 40)*10+400; //random antara 400-800 kelipatan 10
-let fk13a=Math.floor(Math.random() * 35)*2+50; //random antara 50-120 kelipatan 2
-let fk13j=(fk13m/1000 * fk13c)*(fk13a-25);
-
-document.getElementById("fk13m").innerHTML = fk13m;
-document.getElementById("fk13c").innerHTML = fk13c;
-document.getElementById("fk13a").innerHTML = fk13a;
-document.getElementById("fk13j").innerHTML = fk13j.toFixed(2);
-
-</script>
-
-</body>
-</html> -->
