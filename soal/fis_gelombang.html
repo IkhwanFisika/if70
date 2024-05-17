@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -90,7 +91,6 @@ Gelombang transversal merambat dari A ke B dengan cepat rambat <span id="gel105v
 <div class="card">
 <div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse2">
 <h2>Materi 3 Persamaan Simpangan Gelombang</h2></a></div><div id="collapse2" class="collapse" data-bs-parent="#accordion"><div class="card-body">
-<!-- <h5 style="color:Tomato">Materi 1: Persamaan Gelombang<kbd></kbd> </h5> -->
 <p>
 <!--separator soal-->
 <hr><p><span class="soal" id="gel3_01">Soal 1</span>[Aip 12 - Contoh 1.6]<br>
@@ -125,6 +125,46 @@ c. cepat rambat gelombang, <br>
 </div>
 </div>
 </div>
+<br>
+<div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse4">
+<h2>Materi 4 Gelombang Stasioner</h2></a></div><div id="collapse4" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+<h5 style="color:Tomato">Gelombang Stasioner</h5>
+
+<!--separator soal-->
+<hr><p><span class="soal" id="gel4_01">Soal 4-1</span>[Aip 12 - SPM 1.4_1]<br>
+Dua buah gelombang masing-masing dengan amplitudo <span id="gel401a"></span> cm dan panjang gelombang <span id="gel401l"></span> cm bergerak dalam arah berlawanan dan bersuperposisi sehingga diperoleh gelombang stasioner. Tentukan:<br>
+a. amplitudo maksimum gelombang stasioner,<br>
+b. jarak antara titik simpul dan titik perut yang berdekatan, dan<br>
+c. jarak antara dua titik simpul yang berdekatan.</p>
+<details><summary><strong>Kunci:</strong></summary>a. <span id="gel401ja"></span> cm ; b. <span id="gel401js1"></span> cm ; c. <span id="gel401js2"></span> cm</details>
+<hr>
+<h5 style="color:Tomato">Gelombang Stasioner pada Tali</h5>
+
+<!--separator soal-->
+<hr><p><span class="soal" id="gel4_02">Soal 4-2</span>[Aip 12 - SPM 2.1_2]<br>
+Dawai gitar dengan panjang <span id="gel402p"></span> cm digetarkan sehingga membentuk <span id="gel402s"></span> buah simpul. Frekuensi nada yang dihasilkannya adalah <span id="gel402f"></span> Hz. Massa jenis linear dawai <span id="gel402m"></span> g/ cm. Tentukan:<br>
+a. panjang gelombang yang dihasilkan,<br>
+b. cepat rambat gelombang dalam dawai, dan<br>
+c. gaya tegangan dawai.</p>
+<details><summary><strong>Kunci:</strong></summary>a. <span id="gel402jl"></span> cm ; b. <span id="gel402jv"></span> m/s ; c. <span id="gel402jf"></span> Newton</details>
+
+<!--separator soal
+
+<hr><p><span class="soal" id="gel3_03">Soal 3</span>[Aip 12 - SPM 1.3_1]<br>
+Suatu gelombang merambat dalam suatu medium dinyatakan dengan persamaan<br>
+y = <span id="gel303a"></span> sin <span id="gel303b"></span>&pi;(<span id="gel303c"></span>t - <span id="gel303d"></span>x) . <br>
+Jika semua jarak diukur dalam cm dan waktu dalam sekon, tentukan:<br>
+a. panjang gelombang,<br>
+b. frekuensi gelombang,<br>
+c. cepat rambat gelombang, <br>
+
+</p>
+<details><summary><strong>Kunci:</strong></summary>a. <span id="gel303jl"></span> cm ; b. <span id="gel303jf"></span> Hz ; c. <span id="gel303jv"></span> cm/s</details> -->
+
+</div>
+</div>
+</div> 
 
 <!--<div class="card">
 <div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse3">
@@ -250,8 +290,117 @@ document.getElementById("gel303jl").innerHTML = gel303jl.toPrecision(2);
 document.getElementById("gel303jf").innerHTML = gel303jf.toPrecision(2);
 document.getElementById("gel303jv").innerHTML = gel303jv.toPrecision(2);
 
+
+//gel401
+let gel401a=Math.floor(Math.random() * 10)*2+12; //random antara 12-32 kelipatan 2
+let gel401l=Math.floor(Math.random() * 20)+12; //random antara 12-32 kelipatan 1
+
+let gel401ja=2*gel401a;
+let gel401js1=0.25*gel401l;
+let gel401js2=0.5*gel401l;
+
+document.getElementById("gel401a").innerHTML = gel401a.toPrecision(2);
+document.getElementById("gel401l").innerHTML = gel401l.toPrecision(2);
+document.getElementById("gel401ja").innerHTML = gel401ja.toPrecision(2);
+document.getElementById("gel401js1").innerHTML = gel401js1.toFixed(1);
+document.getElementById("gel401js2").innerHTML = gel401js2.toPrecision(2);
+
+//gel402
+let gel402p=Math.floor(Math.random() * 25)*2+30; //random antara 30-80 kelipatan 2
+let gel402s=Math.floor(Math.random() * 8)+2; //random antara 2-8 kelipatan 1
+let gel402f=Math.floor(Math.random() * 200)*2+100; //random antara 100-500 kelipatan 2
+let gel402m=Math.floor(Math.random() * 40)*0.5+1; //random antara 1-21 kelipatan 0.5
+
+let gel402jl=2*gel402s/(gel402s+1);
+let gel402jv=(gel402jl+gel402f)/100;
+let gel402jf=gel402jv*gel402jv*gel402m/10;
+
+document.getElementById("gel402p").innerHTML = gel402p.toPrecision(2);
+document.getElementById("gel402s").innerHTML = gel402s.toPrecision(1);
+document.getElementById("gel402f").innerHTML = gel402f.toPrecision(3);
+document.getElementById("gel402m").innerHTML = gel402m.toFixed(1);
+document.getElementById("gel402jl").innerHTML = gel402jl.toPrecision(2);
+document.getElementById("gel402jf").innerHTML = gel402jf.toPrecision(3);
+document.getElementById("gel402jv").innerHTML = gel402jv.toPrecision(2);
 </script>
 
 </body>
 </html>
 
+
+
+
+<!--
+<span id="fk02k"></span>
+<h1>Fisika Fase F - Gelombang</h1>
+<h2>Aip - Gerak Harmonik Sederhana</h2>
+<h3>Bagian A.</h3>
+<p>2.<br>Jika dalam skala Kelvin menunjukan <span id="fk02k"></span> K, angka ini akan sesuai dengan skala Fahrenheit sebesar ....  </p>
+<p>3.<br>Sebuah benda suhunya <span id="fk03c"></span>° C. Jika alat ukur temperatur diganti dengan skala Fahrenheit, nilai temperatur menjadi .... </p>
+<p>6.<br>Apabila angka yang ditunjukkan termometer Farenheit <span id="fk06n"></span> kali angka yang ditunjukkan termometer Celsius, temperatur benda tersebut adalah....  </p>
+<p>7.<br>Sebuah termometer X pada es yang sedang melebur menunjukkan –<span id="fk07b"></span>°X dan titik didih air <span id="fk07a"></span>°X. Apabila sebuah benda suhunya <span id="fk07c"></span>°C, skala yang ditunjukkan termometer X adalah ....  </p>
+<p>13.<br>Logam yang massanya <span id="fk13m"></span> gram memiliki kalor jenis <span id="fk13c"></span> J/kg°C dan suhunya berubah dari 25°C menjadi <span id="fk13a"></span>°C. Jumlah kalor yang diterima logam adalah .... </p>
+<p>2.<br> </p>
+<p>2.<br> </p>
+<p>2.<br> </p>
+<p>2.<br> </p>
+<hr>
+<h2>Kunci Jawaban</h2>
+<h3>Bagian A.</h3>
+<p>No. 2: <span id="fk02j"></span> °F</p>
+<p>No. 3: <span id="fk03j"></span> °F</p>
+<p>No. 6: <span id="fk06jc"></span> °C ; <span id="fk06jf"></span> °F</p>
+<p>No. 7: <span id="fk07j"></span> °X</p>
+<p>No. 13: <span id="fk13j"></span> J</p>
+<p>No. 3: <span id="fk02j"></span></p>
+<p>No. 3: <span id="fk02j"></span></p>
+<p>No. 3: <span id="fk02j"></span></p>
+<script>
+//Math.floor(Math.random() * 10)*2+50; //random antara 50-70 kelipatan 2
+
+//fk02
+let fk02k=Math.floor(Math.random() * 100)+273; //random antara 273-373 kelipatan 1
+let fk02j=(fk02k-273)*9/5 + 32;
+document.getElementById("fk02k").innerHTML = fk02k;
+document.getElementById("fk02j").innerHTML = fk02j;
+
+//fk03
+let fk03c=Math.floor(Math.random() * 210)-10; //random antara -10 - 200 kelipatan 1
+let fk03j=fk03c*9/5 + 32;
+document.getElementById("fk03c").innerHTML = fk03c;
+document.getElementById("fk03j").innerHTML = fk03j;
+
+//fk06
+let fk06n=Math.floor(Math.random() * 5)+2; //random antara 2-7 kelipatan 1
+let fk06jc=32/(fk06n-9/5);
+let fk06jf=32/(1-9/(5*fk06n));
+document.getElementById("fk06n").innerHTML = fk06n;
+document.getElementById("fk06jc").innerHTML = fk06jc.toFixed(2);
+document.getElementById("fk06jf").innerHTML = fk06jf.toFixed(2);
+
+//fk07
+let fk07b=Math.floor(Math.random() * 3)*10+10; //random antara 10-40 kelipatan 10
+let fk07a=Math.floor(Math.random() * 13)*10+70; //random antara 70-200 kelipatan 10
+let fk07c=Math.floor(Math.random() * 18)*5+5; //random antara 5-95 kelipatan 5
+let fk07j=(fk07a+fk07b)*(fk07c/100)-fk07b;
+
+document.getElementById("fk07b").innerHTML = fk07b;
+document.getElementById("fk07a").innerHTML = fk07a;
+document.getElementById("fk07c").innerHTML = fk07c;
+document.getElementById("fk07j").innerHTML = fk07j.toFixed(2);
+
+//fk13
+let fk13m=Math.floor(Math.random() * 80)*10+200; //random antara 200-1000 kelipatan 10
+let fk13c=Math.floor(Math.random() * 40)*10+400; //random antara 400-800 kelipatan 10
+let fk13a=Math.floor(Math.random() * 35)*2+50; //random antara 50-120 kelipatan 2
+let fk13j=(fk13m/1000 * fk13c)*(fk13a-25);
+
+document.getElementById("fk13m").innerHTML = fk13m;
+document.getElementById("fk13c").innerHTML = fk13c;
+document.getElementById("fk13a").innerHTML = fk13a;
+document.getElementById("fk13j").innerHTML = fk13j.toFixed(2);
+
+</script>
+
+</body>
+</html> -->
