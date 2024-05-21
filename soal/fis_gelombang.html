@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -149,18 +148,36 @@ b. cepat rambat gelombang dalam dawai, dan<br>
 c. gaya tegangan dawai.</p>
 <details><summary><strong>Kunci:</strong></summary>a. <span id="gel402jl"></span> cm ; b. <span id="gel402jv"></span> m/s ; c. <span id="gel402jf"></span> Newton</details>
 
-<!--separator soal
-
-<hr><p><span class="soal" id="gel3_03">Soal 3</span>[Aip 12 - SPM 1.3_1]<br>
-Suatu gelombang merambat dalam suatu medium dinyatakan dengan persamaan<br>
-y = <span id="gel303a"></span> sin <span id="gel303b"></span>&pi;(<span id="gel303c"></span>t - <span id="gel303d"></span>x) . <br>
-Jika semua jarak diukur dalam cm dan waktu dalam sekon, tentukan:<br>
-a. panjang gelombang,<br>
-b. frekuensi gelombang,<br>
-c. cepat rambat gelombang, <br>
-
+<!--separator soal-->
+<hr>
+<h5 style="color:Tomato">Gelombang Stasioner pada Pipa Organa</h5>
+<hr><p><span class="soal" id="gel4_03">Soal 4-3</span>[Aip 12 - Contoh 2.5]<br>
+Sebuah pipa organa memiliki panjang <span id="gel403p"></span> cm. Jika cepat rambat bunyi di udara sebesar 330 m/ s, tentukan frekuensi nada dasar dan dua nada atas berikutnya jika:<br>
+a. pipa terbuka pada kedua ujungnya, dan<br>
+b. pipa tertutup pada salah satu ujungnya.
 </p>
-<details><summary><strong>Kunci:</strong></summary>a. <span id="gel303jl"></span> cm ; b. <span id="gel303jf"></span> Hz ; c. <span id="gel303jv"></span> cm/s</details> -->
+<details><summary><strong>Kunci:</strong></summary>a. <span id="gel403jb1"></span> Hz, <span id="gel403jb2"></span> Hz, <span id="gel403jb3"></span> Hz; <br>b. <span id="gel403jt1"></span> Hz, <span id="gel403jt2"></span> Hz, <span id="gel403jt3"></span> Hz</details> 
+
+<!--separator soal-->
+<hr><p><span class="soal" id="gel4_04">Soal 4-4</span>[Aip 12 - Contoh 2.6]<br>
+Sebuah pipa organa dapat menghasilkan frekuensi harmonik berturut-turut <span id="gel404f1"></span> Hz, <span id="gel404f2"></span> Hz, dan <span id="gel404f3"></span> Hz.<br>
+a. Apakah pipa organa tersebut terbuka atau tertutup?<br>
+b. Berapa frekuensi nada dasarnya?</p>
+<details><summary><strong>Kunci:</strong></summary>a. Pipa Organa Terbuka ; b. <span id="gel404jf"></span> Hz</details>
+
+<!--separator soal-->
+<hr><p><span class="soal" id="gel4_05">Soal 4-5</span>[Aip 12 - Contoh 2.6]<br>
+Sebuah pipa organa dapat menghasilkan frekuensi harmonik berturut-turut <span id="gel405f1"></span> Hz, <span id="gel405f2"></span> Hz, dan <span id="gel405f3"></span> Hz.<br>
+a. Apakah pipa organa tersebut terbuka atau tertutup?<br>
+b. Berapa frekuensi nada dasarnya?</p>
+<details><summary><strong>Kunci:</strong></summary>a. Pipa Organa Tertutup ; b. <span id="gel405jf"></span> Hz</details>
+
+<!--separator soal-->
+<hr><p><span class="soal" id="gel4_06">Soal 4-6</span>[Aip 12 - Contoh 2.7]<br>
+Sebuah tabung gelas kedua ujungnya terbuka. Tabung gelas tersebut dimasukkan ke dalam bejana berisi air. Di atas tabung digetarkan garputala dengan frekuensi tertentu. Mula-mula, tabung penuh berisi air, lalu ditarik ke atas. Jika bunyi paling keras pertama terdengar pada saat panjang tabung yang di atas air <span id="gel406p"></span> cm dan kecepatan rambat bunyi saat itu 340 m/ s, tentukan:<br>
+a. panjang gelombang bunyi tersebut di udara, dan<br>
+b. frekuensi bunyi.</p>
+<details><summary><strong>Kunci:</strong></summary>a. <span id="gel406jl"></span> cm ; b. <span id="gel406jf"></span> Hz</details> 
 
 </div>
 </div>
@@ -322,85 +339,62 @@ document.getElementById("gel402m").innerHTML = gel402m.toFixed(1);
 document.getElementById("gel402jl").innerHTML = gel402jl.toPrecision(2);
 document.getElementById("gel402jf").innerHTML = gel402jf.toPrecision(3);
 document.getElementById("gel402jv").innerHTML = gel402jv.toPrecision(2);
+
+//gel403
+let gel403p=Math.floor(Math.random() * 15)*2+15; //random antara 15-45 kelipatan 2
+
+let gel403jb1=330/(2*gel403p/100);
+let gel403jb2=2*330/(2*gel403p/100);
+let gel403jb3=3*330/(2*gel403p/100);
+
+let gel403jt1=330/(4*gel403p/100);
+let gel403jt2=3*330/(4*gel403p/100);
+let gel403jt3=5*330/(4*gel403p/100);
+
+document.getElementById("gel403p").innerHTML = gel403p.toFixed(0);
+document.getElementById("gel403jb1").innerHTML = gel403jb1.toFixed(0);
+document.getElementById("gel403jb2").innerHTML = gel403jb2.toFixed(0);
+document.getElementById("gel403jb3").innerHTML = gel403jb3.toFixed(0);
+document.getElementById("gel403jt1").innerHTML = gel403jt1.toFixed(0);
+document.getElementById("gel403jt2").innerHTML = gel403jt2.toFixed(0);
+document.getElementById("gel403jt3").innerHTML = gel403jt3.toFixed(0);
+
+//gel404
+let gel404r=Math.floor(Math.random() * 5)+1; //random antara 1-6 kelipatan 1
+let gel404jf=Math.floor(Math.random() * 150)*2+100; //random antara 100-400 kelipatan 2
+
+let gel404f1=gel404r*gel404jf;
+let gel404f2=(gel404r+1)*gel404jf;
+let gel404f3=(gel404r+2)*gel404jf;
+
+document.getElementById("gel404f1").innerHTML = gel404f1.toFixed(0);
+document.getElementById("gel404f2").innerHTML = gel404f2.toFixed(0);
+document.getElementById("gel404f3").innerHTML = gel404f3.toFixed(0);
+document.getElementById("gel404jf").innerHTML = gel404jf.toFixed(0);
+
+//gel405
+let gel405r=Math.floor(Math.random() * 3)*2+1; //random antara 1-7 kelipatan 2 ganjil
+let gel405jf=Math.floor(Math.random() * 150)*2+100; //random antara 100-400 kelipatan 2
+
+let gel405f1=gel405r*gel405jf;
+let gel405f2=(gel405r+2)*gel405jf;
+let gel405f3=(gel405r+4)*gel405jf;
+
+document.getElementById("gel405f1").innerHTML = gel405f1.toFixed(0);
+document.getElementById("gel405f2").innerHTML = gel405f2.toFixed(0);
+document.getElementById("gel405f3").innerHTML = gel405f3.toFixed(0);
+document.getElementById("gel405jf").innerHTML = gel405jf.toFixed(0);
+
+//gel406
+let gel406p=Math.floor(Math.random() * 20)+10; //random antara 10-30 kelipatan 1
+let gel406jl=gel406p*4;
+let gel406jf=340/(gel406jl/100);
+
+document.getElementById("gel406p").innerHTML = gel406p.toFixed(0);
+document.getElementById("gel406jl").innerHTML = gel406jl.toFixed(0);
+document.getElementById("gel406jf").innerHTML = gel406jf.toFixed(0);
+
 </script>
 
 </body>
 </html>
-
-
-
-
-<!--
-<span id="fk02k"></span>
-<h1>Fisika Fase F - Gelombang</h1>
-<h2>Aip - Gerak Harmonik Sederhana</h2>
-<h3>Bagian A.</h3>
-<p>2.<br>Jika dalam skala Kelvin menunjukan <span id="fk02k"></span> K, angka ini akan sesuai dengan skala Fahrenheit sebesar ....  </p>
-<p>3.<br>Sebuah benda suhunya <span id="fk03c"></span>° C. Jika alat ukur temperatur diganti dengan skala Fahrenheit, nilai temperatur menjadi .... </p>
-<p>6.<br>Apabila angka yang ditunjukkan termometer Farenheit <span id="fk06n"></span> kali angka yang ditunjukkan termometer Celsius, temperatur benda tersebut adalah....  </p>
-<p>7.<br>Sebuah termometer X pada es yang sedang melebur menunjukkan –<span id="fk07b"></span>°X dan titik didih air <span id="fk07a"></span>°X. Apabila sebuah benda suhunya <span id="fk07c"></span>°C, skala yang ditunjukkan termometer X adalah ....  </p>
-<p>13.<br>Logam yang massanya <span id="fk13m"></span> gram memiliki kalor jenis <span id="fk13c"></span> J/kg°C dan suhunya berubah dari 25°C menjadi <span id="fk13a"></span>°C. Jumlah kalor yang diterima logam adalah .... </p>
-<p>2.<br> </p>
-<p>2.<br> </p>
-<p>2.<br> </p>
-<p>2.<br> </p>
-<hr>
-<h2>Kunci Jawaban</h2>
-<h3>Bagian A.</h3>
-<p>No. 2: <span id="fk02j"></span> °F</p>
-<p>No. 3: <span id="fk03j"></span> °F</p>
-<p>No. 6: <span id="fk06jc"></span> °C ; <span id="fk06jf"></span> °F</p>
-<p>No. 7: <span id="fk07j"></span> °X</p>
-<p>No. 13: <span id="fk13j"></span> J</p>
-<p>No. 3: <span id="fk02j"></span></p>
-<p>No. 3: <span id="fk02j"></span></p>
-<p>No. 3: <span id="fk02j"></span></p>
-<script>
-//Math.floor(Math.random() * 10)*2+50; //random antara 50-70 kelipatan 2
-
-//fk02
-let fk02k=Math.floor(Math.random() * 100)+273; //random antara 273-373 kelipatan 1
-let fk02j=(fk02k-273)*9/5 + 32;
-document.getElementById("fk02k").innerHTML = fk02k;
-document.getElementById("fk02j").innerHTML = fk02j;
-
-//fk03
-let fk03c=Math.floor(Math.random() * 210)-10; //random antara -10 - 200 kelipatan 1
-let fk03j=fk03c*9/5 + 32;
-document.getElementById("fk03c").innerHTML = fk03c;
-document.getElementById("fk03j").innerHTML = fk03j;
-
-//fk06
-let fk06n=Math.floor(Math.random() * 5)+2; //random antara 2-7 kelipatan 1
-let fk06jc=32/(fk06n-9/5);
-let fk06jf=32/(1-9/(5*fk06n));
-document.getElementById("fk06n").innerHTML = fk06n;
-document.getElementById("fk06jc").innerHTML = fk06jc.toFixed(2);
-document.getElementById("fk06jf").innerHTML = fk06jf.toFixed(2);
-
-//fk07
-let fk07b=Math.floor(Math.random() * 3)*10+10; //random antara 10-40 kelipatan 10
-let fk07a=Math.floor(Math.random() * 13)*10+70; //random antara 70-200 kelipatan 10
-let fk07c=Math.floor(Math.random() * 18)*5+5; //random antara 5-95 kelipatan 5
-let fk07j=(fk07a+fk07b)*(fk07c/100)-fk07b;
-
-document.getElementById("fk07b").innerHTML = fk07b;
-document.getElementById("fk07a").innerHTML = fk07a;
-document.getElementById("fk07c").innerHTML = fk07c;
-document.getElementById("fk07j").innerHTML = fk07j.toFixed(2);
-
-//fk13
-let fk13m=Math.floor(Math.random() * 80)*10+200; //random antara 200-1000 kelipatan 10
-let fk13c=Math.floor(Math.random() * 40)*10+400; //random antara 400-800 kelipatan 10
-let fk13a=Math.floor(Math.random() * 35)*2+50; //random antara 50-120 kelipatan 2
-let fk13j=(fk13m/1000 * fk13c)*(fk13a-25);
-
-document.getElementById("fk13m").innerHTML = fk13m;
-document.getElementById("fk13c").innerHTML = fk13c;
-document.getElementById("fk13a").innerHTML = fk13a;
-document.getElementById("fk13j").innerHTML = fk13j.toFixed(2);
-
-</script>
-
-</body>
-</html> -->
