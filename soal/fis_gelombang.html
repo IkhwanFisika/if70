@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -328,9 +329,9 @@ let gel402s=Math.floor(Math.random() * 8)+2; //random antara 2-8 kelipatan 1
 let gel402f=Math.floor(Math.random() * 200)*2+100; //random antara 100-500 kelipatan 2
 let gel402m=Math.floor(Math.random() * 40)*0.5+1; //random antara 1-21 kelipatan 0.5
 
-let gel402jl=2*gel402s/(gel402s+1);
-let gel402jv=(gel402jl+gel402f)/100;
-let gel402jf=gel402jv*gel402jv*gel402m/10;
+let gel402jl=2*gel402p/(gel402s-1);
+let gel402jv=gel402jl*gel402f/100;
+let gel402jf=gel402jv*gel402jv*gel402m*0.1;
 
 document.getElementById("gel402p").innerHTML = gel402p.toPrecision(2);
 document.getElementById("gel402s").innerHTML = gel402s.toPrecision(1);
