@@ -211,7 +211,7 @@ b. Berapakah taraf intensitas bunyi oleh <span id="gel503n2"></span> buah sumber
 <hr><h5 style="color:Tomato">Efek Doppler</h5>
 
 <hr><p><span class="soal" id="gel5_04">Soal 5-4</span>[Aip 12 - Contoh 2.14]<br>
-Dua buah mobil masing-masing bergerak saling mendekati dengan kelajuan <span id="gel504v1"></span> m/s dan <span id="gel504v2"></span> m/s. Mobil pertama membunyikan sirine dengan frekuensi <span id="gel504f"></span> Hz. Jika cepat rambat bunyi di udara <span>340</span> m/ s, berapakah frekuensi bunyi sirine yang terdengar Oleh sopir mobil kedua?</p>
+Dua buah mobil masing-masing bergerak saling mendekati dengan kelajuan <span id="gel504v1"></span> m/s dan <span id="gel504v2"></span> m/s. Mobil pertama membunyikan sirine dengan frekuensi <span id="gel504f"></span> Hz. Jika cepat rambat bunyi di udara <span>340</span> m/ s, berapakah frekuensi bunyi sirine yang terdengar oleh sopir mobil kedua?</p>
 <details><summary><strong>Kunci:</strong></summary>5-4) <span id="gel504jf"></span> Hz </details>
 
 <hr><p><span class="soal" id="gel5_05">Soal 5-5</span>[Aip 12 - Contoh 2.15]<br>
@@ -221,11 +221,10 @@ b. bergerak mengejar kereta dengan kelajuan <span id="gel505v2"></span> km/jam, 
 c. bergerak berlawanan dengan arah kereta dengan kelajuan <span id="gel505v3"></span> km/jam (saling menjauhi).</p>
 <details><summary><strong>Kunci:</strong></summary>5-3) a. <span id="gel505jf1"></span> Hz ; b. <span id="gel505jf2"></span> Hz ; c. <span id="gel505jf3"></span> Hz</details>
 
+
 <hr><p><span class="soal" id="gel5_06">Soal 5-6</span>[Aip 12 - SPM 2.1_5]<br>
-Sebuah truk bergerak dengan kecepatan 36 km/jam di belakang sepeda motor. Ketika truk membunyikan klakson dengan frekuensi 1.000 Hz, pengemudi sepeda motor membaca speedometernya pada angka 72 km/jam. Jika cepat rambat bunyi di udara sebesar 340 m/s, berapakah frekuensi bunyi klakson yang terdengar pengemudi sepeda motor.</p>
-<details><summary><strong>Kunci:</strong></summary>5-3) a. <span id="gel503jt1"></span> dB ; b. <span id="gel503jt2"></span> dB</details>
-
-
+Sebuah truk bergerak dengan kecepatan <span id="gel506v1"></span> km/jam di belakang sepeda motor. Ketika truk membunyikan klakson dengan frekuensi <span id="gel506f"></span> Hz, pengemudi sepeda motor membaca speedometernya pada angka <span id="gel506v2"></span> km/jam. Jika cepat rambat bunyi di udara sebesar <span>340</span> m/s, berapakah frekuensi bunyi klakson yang terdengar pengemudi sepeda motor.</p>
+<details><summary><strong>Kunci:</strong></summary>5-6) <span id="gel506jf"></span> Hz</details>
 
 </div>
 </div>
@@ -495,6 +494,37 @@ document.getElementById("gel504f").innerHTML = gel504f.toFixed(0);
 document.getElementById("gel504v1").innerHTML = gel504v1.toFixed(0);
 document.getElementById("gel504v2").innerHTML = gel504v2.toFixed(0);
 document.getElementById("gel504jf").innerHTML = gel504jf.toFixed(0);
+
+//gel505
+let gel505v1=Math.floor(Math.random() * 30)*2+70; //random antara 70-140 kelipatan 2
+let gel505v2=Math.floor(Math.random() * 25)*2+20; //random antara 20-70 kelipatan 2
+let gel505v3=Math.floor(Math.random() * 25)*2+20; //random antara 20-70 kelipatan 2
+let gel505f=Math.floor(Math.random() * 800)+100; //random antara 100-900 kelipatan 1
+
+let gel505jf1=340*gel505f/(340+gel505v1/3.6);
+let gel505jf2=(340+gel505v2/3.6)*gel505f/(340+gel505v1/3.6);
+let gel505jf3=(340-gel505v3/3.6)*gel505f/(340+gel505v1/3.6);
+
+document.getElementById("gel505f").innerHTML = gel505f.toFixed(0);
+document.getElementById("gel505v1").innerHTML = gel505v1.toFixed(0);
+document.getElementById("gel505v2").innerHTML = gel505v2.toFixed(0);
+document.getElementById("gel505v3").innerHTML = gel505v3.toFixed(0);
+document.getElementById("gel505jf1").innerHTML = gel505jf1.toFixed(0);
+document.getElementById("gel505jf2").innerHTML = gel505jf2.toFixed(0);
+document.getElementById("gel505jf3").innerHTML = gel505jf3.toFixed(0);
+
+//gel506
+let gel506v1=Math.floor(Math.random() * 12)+74; //random antara 74-98 kelipatan 1
+let gel506v2=Math.floor(Math.random() * 15)+60; //random antara 60-75 kelipatan 1
+let gel506f=Math.floor(Math.random() * 399)+600; //random antara 600-999 kelipatan 1
+
+let gel506jf=(340-gel506v2/3.6)*gel506f/(340-gel506v1/3.6);
+
+document.getElementById("gel506f").innerHTML = gel506f.toFixed(0);
+document.getElementById("gel506v1").innerHTML = gel506v1.toFixed(0);
+document.getElementById("gel506v2").innerHTML = gel506v2.toFixed(0);
+document.getElementById("gel506jf").innerHTML = gel506jf.toFixed(0);
+
 
 </script>
 
