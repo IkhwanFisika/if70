@@ -133,7 +133,7 @@ b. di ujung solenoida.</p>
 <!--separator soal-->
 
 <hr><p><span class="soal" id="m1_10">Soal 1-10</span>[Aip 12 - Contoh 4.12Modifikasi]<br>
-<p>Muatan listrik <span id="m110q"></span> &micro;C bergerak dalam medan magnet sebesar <span id="m110b"></span> T dengan kecepatan <span id="m110v"></span><span>e4</span> m/s membentuk sudut <span id="m110sudut"></span>  terhadap arah medan magnet.  Tentukan besar gaya yang dialami muatan tersebut.</p>
+<p>Muatan listrik <span id="m110q"></span> &micro;C bergerak dalam medan magnet sebesar <span id="m110b"></span> T dengan kecepatan <span id="m110v"></span><span>e4</span> m/s membentuk sudut <span id="m110sudut"></span><span>&deg;</span>  terhadap arah medan magnet.  Tentukan besar gaya yang dialami muatan tersebut.</p>
 <details><summary><strong>Kunci:</strong></summary>1-10) F = <span id="m110j"></span> N</details>
 <!--separator soal-->
 
@@ -295,11 +295,13 @@ b. di ujung solenoida.</p>
             const m110q = Math.floor(Math.random() * 160) * 0.2 + 10; // random antara 10-90 kelipatan 0.2
             const m110b = Math.floor(Math.random() * 50) * 0.2 + 2; // random antara 2-12 kelipatan 0.2
             const m110v = Math.floor(Math.random() * 70) * 0.1 + 2; // random antara 2-9 kelipatan 0.1
-            const m110j = 1e-2 * m110b*m110q*m110v;
+            const m110sudut = Math.floor(Math.random() * 25) * 2 + 20; // random antara 20-70 kelipatan 2
+            const m110j = 1e-2 * m110b*m110q*m110v*Math.sin(m110sudut*Math.PI/180);
 
             document.getElementById("m110q").innerHTML = m110q.toFixed(1);
             document.getElementById("m110b").innerHTML = m110b.toFixed(1);
             document.getElementById("m110v").innerHTML = m110v.toFixed(1);
+            document.getElementById("m110sudut").innerHTML = m110sudut.toFixed(0);
             document.getElementById("m110j").innerHTML = m110j.toPrecision(3);
         }
 displayRandomSoal110();
