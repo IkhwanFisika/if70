@@ -447,7 +447,7 @@ let m103i1=Math.floor(Math.random() * 31)*0.5+3; //random antara 1-10 kelipatan 
 let m103i2=Math.floor(Math.random() * 31)*0.5+3; //random antara 1-10 kelipatan 0.5
 
 let m103d2=m103d-m103d1;
-let m103j=20*Math.sqrt(Math.pow((m103i1/m103d1),2) + Math.pow((m103i2/m103d2),2));
+let m103j=20*Math.sqrt(Math.pow((m103i1/Math.sqrt(m103d1)),2) + Math.pow((m103i2/Math.sqrt(m103d2)),2));
 
 document.getElementById("m103d").innerHTML  = m103d.toFixed(0);
 document.getElementById("m103d1").innerHTML = m103d1.toFixed(0);
@@ -461,7 +461,7 @@ let m102i1=Math.floor(Math.random() * 15)*0.2+6; //random antara 6--9 kelipatan 
 let m102i2=Math.floor(Math.random() * 20)*0.2+2; //random antara 2--6 kelipatan 0.2
 let m102a=Math.floor(Math.random() * 50)*0.2+4; //random antara 4-14 kelipatan 0.2
 
-let m102ja=10 * (m102i1 - m102i2)/m102a;
+let m102ja=40 * (m102i1 - m102i2)/m102a;
 let m102jb=m102i1/(m102i1+m102i2) * m102a ;
 
 document.getElementById("m102i1").innerHTML = m102i1.toFixed(1);
