@@ -124,7 +124,7 @@ b. di ujung solenoida.</p>
 <!--separator soal-->
 <hr><p><span class="soal" id="m1_08">Soal 1-8</span>[Aip 12 - Contoh 4.9 Modifikasi]<br>
 <p>Sebuah kawat lurus sepanjang <span id="m108l"></span> cm dialiri arus listrik <span id="m108i"></span> A searah <span id="m108arah1"></span> berada dalam medan magnet <span id="m108b"></span> mT searah <span id="m108arah2"></span>. Tentukan besar dan arah gaya yang dialami kawat..</p>
-<details><summary><strong>Kunci:</strong></summary>1-8) F = <span id="m108j"></span> mN arah ke <span id="m108jarah"></span></details>
+<details><summary><strong>Kunci:</strong></summary>1-8) F = <span id="m108j"></span> N arah ke <span id="m108jarah"></span></details>
 <!--separator soal-->
 
 <hr><p><span class="soal" id="m1_09">Soal 1-9</span>[Aip 12 - Contoh 4.10]<br>
@@ -361,7 +361,7 @@ const soal108 = [
             const m108l = Math.floor(Math.random() * 15) * 2 + 10; // random antara 10-40 kelipatan 2
             const m108i = Math.floor(Math.random() * 50) * 0.2 + 2; // random antara 2-12 kelipatan 0.2
             const m108b = Math.floor(Math.random() * 90) * 10 + 100; // random antara 100-900 kelipatan 10
-            const m108j = 1e-3 * m108b*m108i*m108l;
+            const m108j = 1e-5 * m108b*m108i*m108l;
 
             document.getElementById("m108l").innerHTML = m108l.toFixed(0);
             document.getElementById("m108i").innerHTML = m108i.toFixed(1);
