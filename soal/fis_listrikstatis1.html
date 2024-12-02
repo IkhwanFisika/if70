@@ -160,7 +160,7 @@ b. Berapakah kecepatan elektron saat menumbuk anoda?
 <hr>
 <!--separator soal-->
 <hr><p><span class="soal" id="ls3_01">Soal 3-01</span>[Aip 12 - Contoh 3.17]<br>
-Sebuah kapasitor terbuat dari dua keping sejajar. Luas tiap keping <span id="ls301a"></span> cm2 dan jarak antar keping <span id="ls301d"></span> mm. Medium di antara kedua keping adalah dielektrik dengan konstanta <span id="ls301c"></span>.
+Sebuah kapasitor terbuat dari dua keping sejajar. Luas tiap keping <span id="ls301a"></span> cm<sup>2</sup> dan jarak antar keping <span id="ls301d"></span> mm. Medium di antara kedua keping adalah dielektrik dengan konstanta <span id="ls301c"></span>.
 <br>a. Tentukan kapasitas kapasitor.
 <br>b. Jika kapasitor ini dihubungkan dengan baterai <span id="ls301v"></span> V, berapa muatan dan energi listrik yang dapat disimpan di dalamnya?
 
@@ -305,7 +305,7 @@ let ls301d=Math.floor(Math.random() * 22)*0.2+0.5; //random antara 0.6--5.0 keli
 let ls301c=Math.floor(Math.random() * 35)*0.2+2; //random antara 2.0--9.0 kelipatan 0.2
 let ls301v=Math.floor(Math.random() * 12)*1.5+1.5; //random antara 1.5--19.5 kelipatan 1.5
 
-let ls301jc = 8.85e-12 * ls301c * ls301a / ls301d;
+let ls301jc = 8.85e-13 * ls301c * ls301a / ls301d;
 let ls301jq = ls301jc * ls301v;
 let ls301je = 0.5 * ls301jq * ls301v;
 
