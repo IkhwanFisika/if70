@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TKG_BocoranSumatif</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript"
+     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+	span {color:blue;}
+	h4 {color:blue}
+    .soal {
+        font-size: 150%;
+		color:blue;
+		margin-right: 15px;
+    }
+	code{font-size: 325%;}
+    .code-block {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+	.variabel {
+      color: blue;
+	}
+</style>
+<script>
+    
+</script>
+</head>
+<body>
+<div class="container-fluid">
+
+<h1>Fisika Fase F - Termodinamika</h1>
+<p>Latihan pra Sumatif TP  Kalor <br>
+silahkan dipelajari dengan baik. Semoga sukses.<br><br>*Pak Ikhwan Fisika.
+</p>
+
+
+
+
+<div id="accordion">
+
+<div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse1">
+<h2>Topik 1 Suhu dan Kalor <kbd></kbd></h2></a></div><div id="collapse1" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+<h5 style="color:Tomato">Materi 1: Suhu dan Pemuaian <kbd></kbd> </h5> 
+<hr><p><span class="soal" id="sk1_01">Soal 1-01</span>[Contoh IF 5.1_01]<br>
+Sebuah batang logam pada suhu <span>20,0</span> &deg;C panjangnya <span>80,0</span> cm, jika pada suhu <span id="sk101t2"></span> &deg;C panjangnya <span id="sk101l2"></span> cm. Berapa panjang logam itu pada suhu <span id="sk101t3"></span>&deg;C?
+</p>
+<details><summary><strong>Kunci:</strong></summary>1-01) <span id="sk101l3"></span> cm</details>
+<!--separator soal-->
+
+<hr><p><span class="soal" id="sk1_02">Soal 1-02</span>[Contoh IF 5.1_02]<br>
+Sebuah drum besi (koefisien muai panjang besi <span>12 x 10<sup>-6</sup></span>/&deg;C) volumenya <span id="sk102v"></span> liter diisi minyak sampai penuh (koefisien muai volume minyak <span>950 x 10<sup>-6</sup></span> /&deg;C) diletakkan di halaman toko pengecer minyak pada pagi hari saat suhunya <span>20,0</span>&deg;C. Pada Siang hari suhu naik menjadi <span id="sk102t"></span> &deg;C, bila drum tidak ditutup dan minyak tidak menguap maka volume minyak yang tumpah akibat pemuaian adalah sekitar...
+</p>
+<details><summary><strong>Kunci:</strong></summary>1-02) <span id="sk102dv"></span> liter</details>
+<!--separator soal-->
+<h5 style="color:Tomato">Materi 2: Kalor <kbd></kbd> </h5> 
+<hr><p><span class="soal" id="sk1_01">Soal 1-01</span>[Contoh IF 5.1_01]<br>
+Sebuah batang logam pada suhu <span>20,0</span> &deg;C panjangnya <span>80,0</span> cm, jika pada suhu <span id="sk101t2"></span> &deg;C panjangnya <span id="sk101l2"></span> cm. Berapa panjang logam itu pada suhu <span id="sk101t3"></span>&deg;C?
+</p>
+<details><summary><strong>Kunci:</strong></summary>1-01) <span id="sk101l3"></span> cm</details>
+<!--separator soal-->
+
+
+<!--    <div id="question-container" class="my-4"></div>
+<details><summary><strong>Kunci:</strong></summary><div id="key-container" class="my-4"></div> </details>   -->
+<!--separator soal-->
+</div>
+</div>
+</div> 
+<br>
+<script>
+
+//sk102
+let sk102v=Math.floor(Math.random() * 8)*5+40; //random antara 40-80 kelipatan 5
+let sk102t=Math.floor(Math.random() * 50)*0.2+30; //random antara 30-40 kelipatan 0.2
+
+let sk102dv= sk102v * (950e-6 - 3*12e-6) * (sk102t-20); // 
+
+document.getElementById("sk102v").innerHTML = sk102v.toFixed(1);
+document.getElementById("sk102t").innerHTML = sk102t.toFixed(1);
+document.getElementById("sk102dv").innerHTML = sk102dv.toFixed(1);
+
+	
+//sk101
+let sk101t2=Math.floor(Math.random() * 100)*0.2+50; //random antara 50-70 kelipatan 0.2
+let sk101t3=Math.floor(Math.random() * 100)*0.2+80; //random antara 80-100 kelipatan 0.2
+let sk101l2=Math.floor(Math.random() * 20)*0.1+80; //random antara 80-82 kelipatan 0.1
+
+
+let sk101l3=80.0 + (sk101l2-80)/(sk101t2-20) * (sk101t3-20); // DL2 = DL1/DT1 * DT2 ; L3=L0+DL2
+
+document.getElementById("sk101t2").innerHTML = sk101t2.toFixed(1);
+document.getElementById("sk101t3").innerHTML = sk101t3.toFixed(1);
+document.getElementById("sk101l2").innerHTML = sk101l2.toFixed(1);
+document.getElementById("sk101l3").innerHTML = sk101l3.toFixed(1);
+	
+
+</script>
+
+
+<!--separator CARD -->
+
+
+<div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse2">
+<h2>Topik 2 Teori Kinetik Gas</h2></a></div><div id="collapse2" class="collapse" data-bs-parent="#accordion">
+<div class="card-body">
+<h5 style="color:Tomato">1. Gas Ideal</h5>
+<p>
+<!--separator soal-->
+<hr><p><span class="soal" id="tkg1_01">Soal 1-01</span>[Contoh IF 1]<br>
+Pada tekanan <span id="tkg101p1"></span> atm, suatu wadah tertutup gas ideal memiliki volume <span id="tkg101v1"></span>cc. Jika tekanannya dinaikkan jadi <span id="tkg101p2"></span> atm pada suhu tetap.<br>
+a. Berapa volume gas saat ini?<br>
+b. Berapa persen perubahan volumenya?<br>
+</p>
+<details><summary><strong>Kunci:</strong></summary>1-01) a. <span id="tkg101v2"></span>cc; b. <span id="tkg101pv"></span>%</details>
+<!--separator soal-->
+
+<hr><p><span class="soal" id="tkg2_01">Soal 2-01</span>[Aip11_SPM8.1_01]<br>
+Berapakah volume yang ditempati <span id="tkg201n"></span> mol gas pada temperatur <span id="tkg201t"></span> &deg;C dan tekanan <span id="tkg201p"></span> atm?
+</p>
+<details><summary><strong>Kunci:</strong></summary>2-01) <span id="tkg201v"></span> L</details>
+<!--separator soal-->
+
+<hr><p><span class="soal" id="tkg2_02">Soal 2-02</span>[Aip11_SPM8.1_02]<br>
+Suatu gas memiliki volume <span id="tkg202v1"></span> L, temperatur <span id="tkg202t1"></span> &deg;C, dan tekanan <span id="tkg202p1"></span> atm. Gas tersebut dipanaskan sampai <span id="tkg202t2"></span> &deg;C dan ditekan sampai volume <span id="tkg202v2"></span> L. Hitunglah besar tekanan akhir gas tersebut.
+
+</p>
+<details><summary><strong>Kunci:</strong></summary>2-02) <span id="tkg202p2"></span> atm</details>
+<!--separator soal-->
+
+<hr><p><span class="soal" id="tkg2_03">Soal 2-03</span>[Aip11_SPM8.1_03]<br>
+a. <span id="tkg203m"></span> gram CO<sub>2</sub> menempati volume <span id="tkg203v1"></span> L pada tekanan <span id="tkg203p1"></span> atm. Berapakah temperatur gas CO<sub>2</sub> tersebut?<br>
+b. Jika volume gas ditambah menjadi <span id="tkg203v2"></span> L dan temperatur dijaga konstan, berapakah tekanan akhir gas?<br>
+(Mr CO<sub>2</sub> = 44)
+</p>
+<details><summary><strong>Kunci:</strong></summary>2-03) a. <span id="tkg203t"></span> &deg;C ; b. <span id="tkg203p2"></span> atm</details>
+<!--separator soal-->
+
+<hr><p><span class="soal" id="tkg2_04">Soal 2-04</span>[Aip11_SPM8.1_04]<br>
+Oksigen dengan massa <span id="tkg204m"></span> gram oksigen (Mr = 32) menempati ruang bervolume <span id="tkg204v"></span> liter pada tekanan <span id="tkg204p"></span> atm. Jika gas oksigen dianggap gas ideal dan 1 atm = 10<sup>5</sup> Pa, berapakah temperatur gas tersebut?
+</p>
+<details><summary><strong>Kunci:</strong></summary>2-04) <span id="tkg204t"></span> &deg;C</details>
+<!--separator soal-->
+
+<hr><p><span class="soal" id="tkg2_05">Soal 2-05</span>[Aip11_SPM8.1_05]<br>
+Sebuah tabung yang volumenya <span id="tkg205v"></span> liter memiliki lubang yang memungkinkan udara keluar dari tabung. Mula-mula suhu udara dalam tabung <span id="tkg205t1"></span> &deg;C. Tabung dipanaskan hingga suhunya <span id="tkg205t2"></span> &deg;C. Berapa persen massa gas yang keluar dari tabung?
+</p>
+<details><summary><strong>Kunci:</strong></summary>2-05) <span id="tkg205mp"></span>% </details>
+<!--separator soal-->
+<h5 style="color:Tomato">2. Teori Kinetik Gas</h5>
+
+<!--separator soal-->
+
+<hr><p><span class="soal" id="tkg3_01">Soal 3-01</span>[Aip11_SPM8.2_05]<br>
+Suatu gas ideal berada dalam ruang tertutup sehingga kecepatannya menjadi <span id="tkg301k"></span> kali kecepatan mula-mula. Jika suhu mula-mula <span id="tkg301t1"></span>&deg;C, tentukanlah suhu akhir gas tersebut.
+
+</p>
+<details><summary><strong>Kunci:</strong></summary>3-01) <span id="tkg301t2"></span> &deg;C </details>
+<!--separator soal-->
+
+<hr>
+<p><span class="soal" id="tkg3_02">Soal 3-02</span>[Aip11_SPM8.2_06]<br>
+Sejumlah contoh gas oksigen (Mr = 32) memiliki suhu mutlak <span id="tkg302k"></span> kali dari sejumlah contoh gas hidrogen (Mr = 2). Tentukanlah nilai perbandingan kelajuan efektif molekul oksigen dan molekul hidrogen.
+
+</p>
+<details><summary><strong>Kunci:</strong></summary>3-02) <span id="tkg302p"></span>  </details>
+<!--separator soal-->
+
+
+<hr>
+<p><span class="soal" id="tkg3_03">Soal 3-03</span>[Aip11_SPM8.2_07]<br>
+Massa sebuah molekul nitrogen adalah empat belas kali massa sebuah molekul hidrogen. Pada suhu berapakah (dalam &deg;C) molekul-molekul hidrogen memiliki laju rata rata yang sama dengan molekul-molekul nitrogen pada suhu <span id="tkg303tn"></span> &deg;C.
+
+</p>
+<details><summary><strong>Kunci:</strong></summary>3-03) <span id="tkg303th"></span>&deg;C  </details>
+<!--separator soal-->
+
+
+
+</div>
+</div>
+</div>
+
+<br>
+<div class="card">
+	<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse4">
+<h2>Topik 3 Termodinamika <kbd>BLANK</kbd></h2></a></div><div id="collapse4" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+<!--<h5 style="color:Tomato">Gelombang Stasioner</h5>-->
+<!--separator soal-->
+
+<!--separator soal-->
+
+<!--<hr><h5 style="color:Tomato">Gelombang Stasioner pada Tali</h5>-->
+<hr>
+</div>
+</div>
+</div>
+<br>
+<!--<div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse5">
+<h2>Materi 4 Gerak dalam Pengaruh Medan Magnet</h2></a></div><div id="collapse5" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+
+<h5 style="color:Tomato">Intensitas dan Taraf Intensitas Bunyi</h5>
+
+
+</div>
+</div>
+</div> -->
+
+</div> 
+</div> 
+<script>
+
+//tkg303
+let tkg303tn=Math.floor(Math.random() * 300)*1+127; //random antara 127-427 kelipatan 1
+
+let tkg303th=(tkg303tn+273)/14 - 273;
+
+document.getElementById("tkg303tn").innerHTML = tkg303tn.toFixed(0);
+document.getElementById("tkg303th").innerHTML = tkg303th.toFixed(0);
+
+//tkg302
+let tkg302k=Math.floor(Math.random() * 27)*0.1+1.1; //random antara 1.1--3.8 kelipatan 0.1
+
+let tkg302p=(tkg302k*2/32)**0.5;
+
+document.getElementById("tkg302k").innerHTML = tkg302k.toFixed(1);
+document.getElementById("tkg302p").innerHTML = tkg302p.toPrecision(3);
+
+//tkg301
+let tkg301k=Math.floor(Math.random() * 16)*0.1+1.2; //random antara 1.2--2.8 kelipatan 0.1
+let tkg301t1=Math.floor(Math.random() * 10)*1+20; //random antara 20--30 kelipatan 1
+
+let tkg301t2=(tkg301t1+273)*tkg301k**2 - 273;
+
+document.getElementById("tkg301k").innerHTML = tkg301k.toFixed(1);
+document.getElementById("tkg301t1").innerHTML = tkg301t1.toFixed(0);
+document.getElementById("tkg301t2").innerHTML = tkg301t2.toFixed(0);
+
+//tkg205
+let tkg205v=Math.floor(Math.random() * 5)*1+1; //random antara 1--6 kelipatan 1
+let tkg205t1=Math.floor(Math.random() * 10)*1+20; //random antara 20--30 kelipatan 1
+let tkg205t2=Math.floor(Math.random() * 40)*2+40; //random antara 40--120 kelipatan 2
+
+let tkg205mp=(1-(tkg205t1+273)/(tkg205t2+273))*100;
+
+document.getElementById("tkg205v").innerHTML = tkg205v.toFixed(0);
+document.getElementById("tkg205t1").innerHTML = tkg205t1.toFixed(0);
+document.getElementById("tkg205t2").innerHTML = tkg205t2.toFixed(0);
+document.getElementById("tkg205mp").innerHTML = tkg205mp.toPrecision(3);
+
+//tkg204
+let tkg204p=Math.floor(Math.random() * 20)*0.1+2; //random antara 2--4 kelipatan 0.1
+let tkg204v=Math.floor(Math.random() * 10)*1+20; //random antara 20--30 kelipatan 1
+let tkg204m=Math.floor(Math.random() * 20)*4+16; //random antara 16--96 kelipatan 4
+
+let tkg204t=(tkg204p*tkg204v/(0.082*tkg204m/32))-273;
+
+document.getElementById("tkg204p").innerHTML = tkg204p.toFixed(1);
+document.getElementById("tkg204v").innerHTML = tkg204v.toFixed(0);
+document.getElementById("tkg204m").innerHTML = tkg204m.toFixed(0);
+document.getElementById("tkg204t").innerHTML = tkg204t.toFixed(0);
+
+//tkg203
+let tkg203p1=Math.floor(Math.random() * 20)*0.1+2; //random antara 2--4 kelipatan 0.1
+let tkg203v1=Math.floor(Math.random() * 10)*1+10; //random antara 10--20 kelipatan 1
+let tkg203v2=Math.floor(Math.random() * 50)*1+30; //random antara 30--80 kelipatan 1
+let tkg203m=Math.floor(Math.random() * 5)*11+11; //random antara 11--66 kelipatan 11
+
+let tkg203t=(tkg203p1*tkg203v1/(0.082*tkg203m/44))-273;
+let tkg203p2=tkg203p1*tkg203v1/tkg203v2;
+
+document.getElementById("tkg203p1").innerHTML = tkg203p1.toFixed(1);
+document.getElementById("tkg203v1").innerHTML = tkg203v1.toFixed(0);
+document.getElementById("tkg203p2").innerHTML = tkg203p2.toPrecision(3);
+document.getElementById("tkg203v2").innerHTML = tkg203v2.toFixed(0);
+document.getElementById("tkg203m").innerHTML = tkg203m.toFixed(0);
+document.getElementById("tkg203t").innerHTML = tkg203t.toFixed(0);
+
+//tkg202
+let tkg202p1=Math.floor(Math.random() * 10)*0.1+1; //random antara 1--2 kelipatan 0.1
+let tkg202t1=Math.floor(Math.random() * 35)*2+10; //random antara 10-80 kelipatan 2
+let tkg202v1=Math.floor(Math.random() * 40)*0.2+2; //random antara 2--10 kelipatan 0.2
+let tkg202k1=Math.floor(Math.random() * 10)*0.2+2; //random antara 2--4 kelipatan 0.2
+let tkg202k2=Math.floor(Math.random() * 30)*0.2+2; //random antara 2--8 kelipatan 0.2
+
+let tkg202v2=tkg202v1/tkg202k1;
+let tkg202t2=tkg202t1*tkg202k2;
+let tkg202p2=tkg202p1 * (tkg202t2+273)/(tkg202t1+273) *tkg202k1;
+
+
+
+document.getElementById("tkg202p1").innerHTML = tkg202p1.toFixed(1);
+document.getElementById("tkg202t1").innerHTML = tkg202t1.toFixed(0);
+document.getElementById("tkg202v1").innerHTML = tkg202v1.toFixed(2);
+document.getElementById("tkg202p2").innerHTML = tkg202p2.toPrecision(3);
+document.getElementById("tkg202t2").innerHTML = tkg202t2.toFixed(0);
+document.getElementById("tkg202v2").innerHTML = tkg202v2.toFixed(2);
+
+//tkg201
+let tkg201n=Math.floor(Math.random() * 40)*0.1+1; //random antara 1--5 kelipatan 0.1
+let tkg201t=Math.floor(Math.random() * 190)*1+10; //random antara 10-200 kelipatan 1
+let tkg201p=Math.floor(Math.random() * 15)*0.2+1; //random antara 1--4 kelipatan 0.2
+
+let tkg201v=tkg201n*0.082*(tkg201t+273)/tkg201p;
+
+
+document.getElementById("tkg201n").innerHTML = tkg201n.toFixed(1);
+document.getElementById("tkg201t").innerHTML = tkg201t.toFixed(0);
+document.getElementById("tkg201p").innerHTML = tkg201p.toFixed(1);
+document.getElementById("tkg201v").innerHTML = tkg201v.toPrecision(3);
+
+//tkg101
+let tkg101p1=Math.floor(Math.random() * 30)*0.2+2; //random antara 2--8 kelipatan 0.2
+let tkg101v1=Math.floor(Math.random() * 30)*10+400; //random antara 400-1000 kelipatan 10
+let tkg101k =Math.floor(Math.random() * 10)*0.2+2; //random antara 2--4 kelipatan 0.2
+
+let tkg101p2=tkg101k*tkg101p1;
+let tkg101v2=tkg101v1/tkg101k;
+let tkg101pv=(tkg101v2-tkg101v1)*100/tkg101v1;
+
+document.getElementById("tkg101p1").innerHTML = tkg101p1.toFixed(1);
+document.getElementById("tkg101v1").innerHTML = tkg101v1.toFixed(0);
+document.getElementById("tkg101p2").innerHTML = tkg101p2.toFixed(1);
+document.getElementById("tkg101v2").innerHTML = tkg101v2.toFixed(0);
+document.getElementById("tkg101pv").innerHTML = tkg101pv.toPrecision(3);
+
+
+
+</script>
+
+
+</body>
+</html>
