@@ -186,6 +186,29 @@ Massa sebuah molekul nitrogen adalah empat belas kali massa sebuah molekul hidro
 
 </p>
 <details><summary><strong>Kunci:</strong></summary>3-03) <span id="tkg303th"></span>&deg;C  </details>
+<hr><h5 style="color:Tomato">3. Energi Dalam</h5>
+<!--separator soal-->
+<hr>
+<p><span class="soal" id="tkg4_01">Soal 4-01</span>[9702_s24_41_3]<br>
+(b) Sampel gas ideal dengan volume <span id="tkg401v"></span> m³ berada pada tekanan <span id="tkg401p"></span><span> × 10<sup>5</sup></span> Pa dan suhu <span id="tkg401t"></span> &deg;C.
+<br>Tentukan:
+<br>&emsp;(i) Jumlah molekul gas N
+<br>&emsp;(ii) Energi kinetik translasi rata-rata dari satu molekul gas.
+<br>&emsp;(iii) Energi dalam gas. Jelaskan alasan Anda.
+<br>(c) Volume V dari gas pada bagian (b) sekarang diubah, dengan tekanan tetap konstan. Gambarkan grafik variasi energi dalam U gas terhadap V.
+</p>
+<details><summary><strong>Kunci:</strong></summary>4-01) i) N=<span id="tkg401n"></span> ; ii) Ek=<span id="tkg401ek"></span> Joule ; iii) <span id="tkg401u"></span> Joule, <span>karena gas ideal, tidak ada gaya antar partikel sehingga Ep=0 dan U=N.Ek</span> </details>
+<!--separator soal-->
+
+<hr>
+<p><span class="soal" id="tkg4_02">Soal 4-02</span>[9702_s24_42_2]
+<br>(b) Dua silinder X dan Y masing-masing berisi sampel gas ideal. Kedua sampel berada dalam <b>kesetimbangan termal</b> satu sama lain.
+<br>Silinder X memiliki volume <span id="tkg402vx"></span> m³ dan berisi <span id="tkg402nx"></span> mol gas pada tekanan <span id="tkg402px"></span><span>× 10<sup>5</sup></span> Pa. Silinder Y memiliki volume <span id="tkg402vy"></span> m³ dan berisi gas pada tekanan <span id="tkg402py"></span><span> × 10<sup>5</sup></span> Pa.
+<br>(i) Tentukan suhu gas di silinder X dalam &deg;C.
+<br>(ii) Tentukan jumlah molekul gas N di silinder Y. Jelaskan alasan Anda.
+<br>(iii) Gas di silinder X terdiri dari molekul yang masing-masing memiliki massa empat kali lebih besar dari massa molekul gas di silinder Y. Jelaskan bagaimana kecepatan rata-rata kuadrat (root-mean-square, r.m.s.) molekul di X dibandingkan dengan kecepatan r.m.s. molekul di Y.
+</p>
+<details><summary><strong>Kunci:</strong></summary>4-02) i) T<sub>X</sub>=<span id="tkg402tx"></span> &deg;C ; ii) N<sub>Y</sub>=<span id="tkg402ny"></span> mole <span>(karena kesetimbangan termal, maka suhunya sama dengan silinder X)</span>; iii) <span>-</span> </details>
 <!--separator soal-->
 
 
@@ -223,6 +246,43 @@ Massa sebuah molekul nitrogen adalah empat belas kali massa sebuah molekul hidro
 </div> 
 </div> 
 <script>
+
+//tkg402
+let tkg402vx=Math.floor(Math.random() * 100)*0.0001+0.0100; //random antara 0.0100-0.0200 kelipatan 0.0001
+let tkg402nx=Math.floor(Math.random() * 100)*0.001+0.800; //random antara 0.800-0.900 kelipatan 0.001
+let tkg402px=Math.floor(Math.random() * 80)*0.01+1.10; //random antara 1.10-1.90 kelipatan 0.01
+let tkg402py=Math.floor(Math.random() * 80)*0.01+2.10; //random antara 2.10-2.90 kelipatan 0.01
+let tkg402vy=Math.floor(Math.random() * 100)*0.0001+0.0200; //random antara 0.0200-0.0300 kelipatan 0.0001
+
+let tkg402tx=(tkg402px*1e5*tkg402vx)/(8.31 * tkg402nx) + 273;
+let tkg402ny=(tkg402py*1e5*tkg402vy)/(8.31 * (tkg402tx - 273));
+
+
+document.getElementById("tkg402vx").innerHTML = tkg402vx.toFixed(4);
+document.getElementById("tkg402vy").innerHTML = tkg402vy.toFixed(4);
+document.getElementById("tkg402px").innerHTML = tkg402px.toFixed(3);
+document.getElementById("tkg402py").innerHTML = tkg402py.toFixed(3);
+document.getElementById("tkg402tx").innerHTML = tkg402tx.toFixed(0);
+document.getElementById("tkg402nx").innerHTML = tkg402nx.toPrecision(3);
+document.getElementById("tkg402ny").innerHTML = tkg402ny.toPrecision(3);
+
+
+//tkg401
+let tkg401v=Math.floor(Math.random() * 70)*0.001+0.02; //random antara 0.020-0.090 kelipatan 0.001
+let tkg401p=Math.floor(Math.random() * 30)*0.1+1.1; //random antara 1.1-4.1 kelipatan 0.1
+let tkg401t=Math.floor(Math.random() * 100)*1+10; //random antara 10-110 kelipatan 1
+
+let tkg401n=(tkg401p*1e5*tkg401v)/(1.38e-23 * (tkg401t+273));
+let tkg401ek=3/2 * (1.38e-23 * (tkg401t+273));
+let tkg401u=3/2 * (tkg401n * 1.38e-23 * (tkg401t+273));
+
+
+document.getElementById("tkg401v").innerHTML = tkg401v.toFixed(3);
+document.getElementById("tkg401p").innerHTML = tkg401p.toFixed(1);
+document.getElementById("tkg401t").innerHTML = tkg401t.toFixed(0);
+document.getElementById("tkg401n").innerHTML = tkg401n.toPrecision(3);
+document.getElementById("tkg401ek").innerHTML = tkg401ek.toPrecision(3);
+document.getElementById("tkg401u").innerHTML = tkg401u.toPrecision(3);
 
 //tkg303
 let tkg303tn=Math.floor(Math.random() * 300)*1+127; //random antara 127-427 kelipatan 1
