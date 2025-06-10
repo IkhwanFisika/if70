@@ -214,7 +214,7 @@ document.getElementById("sk304kp").innerHTML  = sk304kp.toFixed(0);
 let sk305tp=Math.floor(Math.random() * 35)*2+80; //random antara 80-150 kelipatan 2
 let sk305kk=Math.floor(Math.random() * 30)*0.01+1.20; //random antara 1.20-1.50 kelipatan 0.1
 
-let sk305tc = sk305tp / (1 + sk305kk); // 
+let sk305tc = sk305kk*sk305tp / (1 + sk305kk); // 
 
 document.getElementById("sk305tp").innerHTML  = sk305tp.toFixed(0);
 document.getElementById("sk305kk").innerHTML  = sk305kk.toFixed(2);
