@@ -434,7 +434,7 @@ let tkg402px=Math.floor(Math.random() * 80)*0.01+1.10; //random antara 1.10-1.90
 let tkg402py=Math.floor(Math.random() * 80)*0.01+2.10; //random antara 2.10-2.90 kelipatan 0.01
 let tkg402vy=Math.floor(Math.random() * 100)*0.0001+0.0200; //random antara 0.0200-0.0300 kelipatan 0.0001
 
-let tkg402tx=(tkg402px*1e5*tkg402vx)/(8.31 * tkg402nx) + 273;
+let tkg402tx=(tkg402px*1e5*tkg402vx)/(8.31 * tkg402nx) - 273;
 let tkg402ny=(tkg402py*1e5*tkg402vy)/(8.31 * (tkg402tx - 273));
 
 
