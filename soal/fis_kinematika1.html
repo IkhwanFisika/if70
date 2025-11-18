@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BocoranSumatifKinematika</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/4.0.0/startup.js" integrity="sha512-bTOpOLAF7Z74dLZ3Z3jfQE7SH0mFuuneuOQR+/3EP811prUfVzgtQLPAnIFGlAXc5fs9b1dIjfi8zd4Px1xrAQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+	span {color:blue;}
+	h4 {color:blue}
+    .soal {
+        font-size: 150%;
+		color:blue;
+		margin-right: 15px;
+    }
+	code{font-size: 125%;}
+    .code-block {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+</style>
+<script>
+    function rand(min, max, step = 1) {
+        const range = Math.floor((max - min) / step) + 1;
+        return min + Math.floor(Math.random() * range) * step;
+    }
+	
+    function setFixed(id, value, fixed = 0) {
+        document.getElementById(id).textContent = value.toFixed(fixed);
+    }
+
+	function setPrec(id, value, precision = 3) {
+        document.getElementById(id).textContent = value.toPrecision(precision);
+    }
+	// Konstanta
+	let g = 10;
+	let pi = Math.PI;
+</script>
+</head>
+<body>
+<div class="container-fluid">
+
+<h1>Fisika Fase F - Kinematika</h1>
+<p>Latihan pra Sumatif TP Kinematika dari LKPD Kinematika (BELUM LENGKAP) <br>
+silahkan dipelajari dengan baik. Semoga sukses.<br><br>*Pak Ikhwan Fisika.
+</p>
+<div id="accordion">
+
+<div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse1">
+<h2>Materi 1 Kinematika Gerak Lurus</h2></a></div><div id="collapse1" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+ <span id="glb01"></span> 
+    <p><b>1. BSE10Aip_Bab03_01.</b><br> Sebuah mobil bergerak ke arah timur sejauh <span id="glb01t"></span> km, kemudian berbalik arah sejauh <span id="glb01b"></span> km ke arah barat. Jarak yang ditempuh mobil adalah ....</p>
+    
+    <span id="glb02"></span> 
+    <p><b>2. BSE10Aip_Bab03_02.</b><br> Sebuah pesawat bergerak ke arah timur sejauh <span id="glb02t"></span> km, kemudian berbalik arah sejauh <span id="glb02b"></span> km ke arah barat. Perpindahan yang ditempuh pesawat adalah ....</p>
+    
+    <span id="glb03"></span> 
+    <p><b>3. BSE10Aip_Bab03_03.</b><br> Seseorang berjalan sejauh <span id="glb03t"></span> m ke timur dalam waktu <span id="glb03tt"></span> s, kemudian <span id="glb03b"></span> m ke barat dalam waktu <span id="glb03bt"></span> s. Laju rata–rata dan kecepatan rata–rata orang tersebut adalah ....</p>
+    
+    <span id="glb04"></span> 
+    <p><b>4. BSE10Aip_Bab03_05.</b><br> Mobil bergerak dengan kecepatan awal <span id="glb04vo"></span> m/s. Setelah <span id="glb04t"></span> sekon, kecepatannya berubah menjadi <span id="glb04vt"></span> m/s maka percepatan benda adalah ....</p>
+    
+    <span id="glb05"></span> 
+    <p><b>5. BSE10Aip_Bab03_06.</b><br> Mobil bergerak diperlambat dengan kecepatan berubah dari <span id="glb05vo"></span> m/s menjadi <span id="glb05vt"></span> m/s selama <span id="glb05t"></span> sekon maka perlambatannya adalah....</p>
+    
+    <span id="glb06"></span> 
+    <p><b>6. BSE10Aip_Bab03_07.</b><br> Sebuah benda bergerak lurus beraturan dalam waktu <span id="glb06t"></span> sekon dan menempuh jarak <span id="glb06s"></span> meter, kecepatan benda tersebut adalah ....</p>
+    
+    <span id="glb07"></span> 
+    <p><b>7. BSE10Aip_Bab03_10.</b><br> Sebuah mobil yang mula–mula diam, kemudian bergerak. Setelah <span id="glb07s"></span> km, kecepatannya berubah menjadi <span id="glb07vt"></span> km/jam. Waktu yang diperlukan untuk menempuh jarak tersebut adalah....</p>
+    
+    <span id="glb08"></span> 
+    <p><b>8. BSE10Aip_Bab03_13.</b><br> Sebuah pesawat terbang memerlukan waktu <span id="glb08t"></span> s dan jarak <span id="glb08s"></span> m untuk lepas landas. Kecepatan pesawat tersebut ketika lepas landas adalah ....</p>
+    
+    <span id="glb09"></span> 
+    <p><b>9. BSE10Aip_Bab03_14.</b><br> Sebuah mobil bergerak dengan kecepatan awal <span id="glb09vo"></span> m/s dan mengalami perlambatan <span id="glb09a"></span> m/s<sup>2</sup>. Dalam <span id="glb09t"></span> sekon, mobil tersebut menempuh jarak sejauh ....</p>
+    
+    <span id="glb10"></span> 
+    <p><b>10. BSE10Aip_Bab03_16.</b><br> Waktu yang diperlukan sebuah mobil yang bergerak dengan percepatan <span id="glb10a"></span> m/s<sup>2</sup>, untuk mengubah kecepatannya dari <span id="glb10vo"></span> m/s menjadi <span id="glb10vt"></span> m/s adalah ....</p>
+    
+    <span id="glb11"></span> 
+    <p><b>11. (5) UN Fisika 2010 P04 No.2.</b><br> Seorang anak berjalan lurus <span id="glb11b"></span> meter ke barat kemudian belok ke selatan sejauh <span id="glb11s"></span> meter, dan belok lagi ke timur sejauh <span id="glb11t"></span> meter. Perpindahan yang dilakukan anak tersebut dari posisi awal adalah ....</p>
+    
+    <span id="glb12"></span> 
+    <p><b>12. BSE10Aip_Bab03_03esai.</b><br> Mobil A bergerak dengan laju <span id="glb12a"></span> km/jam dan berada <span id="glb12s"></span> m dibelakang mobil B yang sedang bergerak dengan kelajuan <span id="glb12b"></span> km/jam. Kapan mobil A menyusul mobil B?</p>
+    
+    <span id="glb13"></span> 
+    <p><b>13. BSE10Aip_Bab03_05esai.</b><br> Mobil yang sedang bergerak dengan kecepatan <span id="glb13v"></span> km/jam, pada jarak <span id="glb13s"></span> m tiba–tiba mengalami perlambatan <span id="glb13a"></span> m/s<sup>2</sup> karena tepat di depan mobil tersebut ada seorang nenek yang sedang melintas. Apakah mobil tersebut akan menabrak nenek yang sedang melintas di jalan?</p>
+    
+    <span id="glb14"></span> 
+    <p><b>14. BSE10Dudi_Bab03_05.</b><br> Jarak kota J dan P adalah <span id="glb14s"></span> km. Mobil A bergerak dari kota J dengan laju tetap <span id="glb14va"></span> km/jam menuju kota R Dalam waktu yang sama, dari kota R mobil B bergerak menuju kota J dan berpapasan <span id="glb14t"></span> jam kemudian, maka laju mobil B adalah....</p>
+    
+    <span id="glb15"></span> 
+    <p><b>15. BSE10Dudi_Bab03_07.</b><br> Pada pukul 09.00 sebuah sepeda motor dengan kecepatan <span id="glb15v1"></span> km/jam berangkat dari kota A menuju kota B. Setelah <span id="glb15t2"></span> jam kemudian, dari tempat yang sama sebuah mobil berangkat menuju kota B dengan kecepatan <span id="glb15v2"></span> km/jam. Mobil menyusul sepeda motor pada pukul....</p>
+    
+    <span id="glb16"></span> 
+    <p><b>16. BSE10Dudi_Bab03_03esai.</b><br> Dua benda A dan B berangkat dari titik yang sama. A bergerak dengan percepatan <span id="glb16a1"></span> m/s<sup>2</sup>. <span id="glb16t"></span> detik kemudian B bergerak dengan percepatan <span id="glb16a2"></span> m/s<sup>2</sup>. Kapan dan di manakah benda A mengejar benda B?</p>
+    
+    <span id="glb17"></span> 
+    <p><b>17. BSE10Dudi_Bab03_04esai.</b><br> Dua benda terletak sebidang dan segaris, masing–masing terpisah sejauh <span id="glb17s"></span> m. Kemudian, kedua benda bergerak saling mendekati dengan kecepatan tetap <span id="glb17va"></span> m/s dan <span id="glb17vb"></span> m/s.<br>
+    Tentukanlah:<br>
+    a. setelah berjalan berapa sekon A bertemu dengan B;<br>
+    b. jarak yang ditempuh A untuk bertemu dengan B.<br>
+    
+    <span id="glb18"></span> 
+    <p><b>18. BSE10Dudi_Bab03_05esai.</b><br> Kecepatan kereta api Lodaya berkurang dari <span id="glb18vo"></span> m/s menjadi <span id="glb18vt"></span> m/s, sepanjang jarak <span id="glb18s"></span> m. Berapa jauh lagi kereta api bergerak sampai berhenti dan berapa lama waktu yang diperlukan untuk menghentikannya?
+      
+    <span id="glb19"></span> 
+    <p><b>19. </b><br> Sebuah mobil bergerak dari keadaan diam dengan percepatan <span id="glb19a1"></span> m/s<sup>2</sup> dalam waktu <span id="glb19t1"></span> menit. Lalu bergerak dengan kecepatan konstan selama <span id="glb19t2"></span> menit. Sesudah itu mobil itu direm dengan perlambatan <span id="glb19a2"></span> m/s<sup>2</sup> sampai berhenti. Hitung kecepatan maksimum dan jarak total yang ditempuh!
+    
+    <span id="glb20"></span> 
+    <p><b>20. </b><br> Sebuah pesawat jet mendarat di landasan dengan kecepatan <span id="glb20v"></span> m/s, dan dapat diperlambat <span id="glb20a"></span> m/s<sup>2</sup>. Hitung waktu minimum yang diperlukan untuk mengentikan pesawat jet! Dapatkah pesawat ini mendarat di bandara kecil yang landasanya hanya <span id="glb20s2"></span> km!
+    
+	<span id="glb21"></span>
+	<p><b>21. </b><br>Sebuah mobil dapat dihentikan dari kelajuan <span id="glb21v0"></span> m/s dalam waktu <span id="glb21trem"></span> s sejak pengereman. Jika waktu reaksi pengemudi <span id="glb21treak"></span> s dan pengereman menghasilkan perlambatan tetap, maka jarak terpendek untuk menghindari tabrakan dengan mobil didepannya adalah</p>
+	
+	<span id="glb23"></span>
+	<p><b>23. SPMB 2005, Kode Soal: 181</b><br>Sebuah mobil dengan kecepatan <span id="glb23v0km"></span> km/jam direm mendadak sehingga terbentuk bekas di jalan sepanjang <span id="glb23s"></span> m. Waktu pengereman yang dibutuhkan sampai mobil berhenti adalah sebesar ....</p>
+	
+	<span id="glb24"></span>
+	<p><b>24. UM–UGM 2003, Kode Soal: 322</b><br>Sebuah mobil balap direm dengan perlambatan konstan dari kelajuan <span id="glb24v1"></span> m/s menjadi <span id="glb24v2"></span> m/s dalam jarak <span id="glb24s1"></span> m. Jarak total (dalam meter) yang telah ditempuh oleh mobil tersebut sampai akhirnya berhenti adalah ....</p>
+	
+	<span id="glb25"></span>
+	<p><b>25. SPMB 2003, Kode Soal: 120</b><br>Besar kecepatan suatu partikel yang mengalami perlambatan konstan ternyata berubah dari <span id="glb25v1"></span> m/s menjadi <span id="glb25v2"></span> m/s setelah menempuh jarak sejauh <span id="glb25s1"></span> m. Partikel tersebut akan berhenti setelah menempuh lagi jarak sejauh ....</p>
+	
+	<span id="glb26"></span>
+	<p><b>26. SPMB 2002, Regional I–II–III</b><br>Sebuah mobil mula–mula diam. Kemudian mobil dihidupkan dan mobil bergerak dengan percepatan tetap <span id="glb26aacc"></span> m/s<sup>2</sup>. Setelah mobil bergerak selama <span id="glb26tacc"></span> s mesinnya dimatikan, mobil mengalami perlambatan tetap dan mobil berhenti <span id="glb26tdec"></span> s kemudian. Jarak yang masih ditempuh mobil mulai dari saat mesin dimatikan sampai berhenti adalah ....</p>
+	
+	<span id="glb27"></span>
+	<p><b>27. SNMPTN 2008, Kode Soal: 212 </b><br>Sebuah sedan melaju pada jarak <span id="glb27d0"></span> m di depan sebuah bis di satu jalur jalan tol dengan kelajuan yang sama. Secara tiba–tiba sedan direm dengan perlambatan sebesar <span id="glb27as"></span> m/s<sup>2</sup>. Pada saat yang sama, bis juga direm dengan perlambatan sebesar <span id="glb27ab"></span> m/s<sup>2</sup>, sampai akhirnya sedan berhenti dan pada saat itu bis masih bergerak dengan kelajuan v<sub>B</sub> dengan hidung bis tepat menyentuh bagian belakang sedan. Maka besarnya v<sub>B</sub> adalah ....</p>
+    <b><hr></b>
+	
+    <h2>Kunci Jawaban</h2>
+    <p><b>1. </b><span id="glb01s"></span> km</p>
+    <p><b>2. </b><span id="glb02s"></span> km</p>
+    <p><b>3. </b><span id="glb03v1"></span> m/s dan <span id="glb03v2"></span> m/s</p>
+    <p><b>4. </b><span id="glb04a"></span> m/s<sup>2</sup></p>
+    <p><b>5. </b><span id="glb05a"></span> m/s<sup>2</sup></p>
+    <p><b>6. </b><span id="glb06v"></span> m/s</p>
+    <p><b>7. </b><span id="glb07t"></span> jam</p>
+    <p><b>8. </b><span id="glb08v"></span> m/s</p>
+    <p><b>9. </b><span id="glb09s"></span> m</p>
+    <p><b>10. </b><span id="glb10t"></span> s</p>
+    <p><b>11. </b><span id="glb11p"></span> meter arah tenggara</p>
+    <p><b>12. </b>dalam <span id="glb12t"></span> detik</p>
+    <p><b>13. </b><span id="glb13n"></span>. jarak berhenti = <span id="glb13x"></span> m</p>
+    <p><b>14. </b><span id="glb14vb"></span> km/jam</p>
+    <p><b>15. </b>pukul <span id="glb15t3"></span></p>
+    <p><b>16. </b>untuk bertemu, mereka butuh waktu <span id="glb16tx"></span> detik di jarak <span id="glb16sx"></span> km</p>
+    <p><b>17. </b>a. <span id="glb17ta"></span> sekon, b. <span id="glb17sa"></span> m</p>
+    <p><b>18. </b><span id="glb18sx"></span> m, dan dibutuhkan <span id="glb18tx"></span> detik untuk berhenti</p>
+    <p><b>19. </b><span id="glb19v"></span> m/s dan <span id="glb19s"></span> km </p>
+    <p><b>20. </b><span id="glb20x"></span>, jarak yang dibutuhkan = <span id="glb20sb"></span> m</p>
+	<p><b>21. </b> Jarak total = <span id="glb21sa"></span> m</p>
+	<p><b>23. </b> Waktu hingga berhenti = <span id="glb23ta"></span> s</p>
+	<p><b>24. </b> Jarak total = <span id="glb24sa"></span> m</p>
+	<p><b>25. </b> sisa jarak hingga berhenti = <span id="glb25sa"></span> m</p>
+	<p><b>26. </b> sisa jarak hingga berhenti  = <span id="glb26sa"></span> m</p>
+	<p><b>27. </b> v_B = <span id="glb27va"></span> m/s</p>
+
+</div>
+</div>
+</div> 
+<br>
+
+<script>
+    // --- Block GLB (Gerak Lurus Beraturan / Berubah Beraturan) ---
+
+    //glb01
+    let glb01t = rand(80, 150);
+    let glb01b = rand(20, 50);
+    let glb01s = glb01t + glb01b;
+    setFixed("glb01t", glb01t);
+    setFixed("glb01b", glb01b);
+    setFixed("glb01s", glb01s);
+
+    //glb02
+    let glb02t = rand(80, 145, 5);
+    let glb02b = rand(20, 45, 5);
+    let glb02s = glb02t - glb02b;
+    setFixed("glb02t", glb02t);
+    setFixed("glb02b", glb02b);
+    setFixed("glb02s", glb02s);
+
+    //glb03
+    let glb03t = rand(30, 55, 5);
+    let glb03tt = rand(10, 15);
+    let glb03b = rand(6, 12, 2);
+    let glb03bt = rand(5, 9);
+    let glb03s = glb03t + glb03b;
+    let glb03v1 = glb03s / (glb03tt + glb03bt);
+    let glb03v2 = (glb03t - glb03b) / (glb03tt + glb03bt);
+    setFixed("glb03t", glb03t);
+    setFixed("glb03tt", glb03tt);
+    setFixed("glb03b", glb03b);
+    setFixed("glb03bt", glb03bt);
+    setFixed("glb03v1", glb03v1, 2); // Respecting original .toFixed(2)
+    setFixed("glb03v2", glb03v2, 2); // Respecting original .toFixed(2)
+
+    //glb04
+    let glb04vo = rand(5, 20, 5);
+    let glb04t = rand(2, 4);
+    let glb04vt = rand(20, 40, 5);
+    let glb04a = (glb04vt - glb04vo) / glb04t;
+    setFixed("glb04vo", glb04vo);
+    setFixed("glb04t", glb04t);
+    setFixed("glb04vt", glb04vt);
+    setFixed("glb04a", glb04a, 2); // Respecting original .toFixed(2)
+
+    //glb05
+    let glb05vo = rand(20, 40, 5);
+    let glb05vt = rand(5, 20, 5);
+    let glb05t = rand(2, 5);
+    let glb05a = (glb05vo - glb05vt) / glb05t;
+    setFixed("glb05vo", glb05vo);
+    setFixed("glb05vt", glb05vt);
+    setFixed("glb05t", glb05t);
+    setFixed("glb05a", glb05a, 2); // Respecting original .toFixed(2)
+
+    //glb06
+    let glb06t = rand(2, 5);
+    let glb06s = rand(100, 200, 20);
+    let glb06v = glb06s / glb06t;
+    setFixed("glb06t", glb06t);
+    setFixed("glb06s", glb06s);
+    setFixed("glb06v", glb06v, 2); // Respecting original .toFixed(2)
+
+    //glb07
+    let glb07s = rand(10, 20, 2);
+    let glb07vt = rand(10, 25, 5);
+    let glb07t = 2*glb07s / glb07vt;
+    setFixed("glb07s", glb07s);
+    setFixed("glb07vt", glb07vt);
+    setFixed("glb07t", glb07t, 2); // Respecting original .toFixed(2)
+
+    //glb08
+    let glb08t = rand(25, 30);
+    let glb08s = rand(500, 700, 20);
+    let glb08v = 2*glb08s / glb08t;
+    setFixed("glb08t", glb08t);
+    setFixed("glb08s", glb08s);
+    setFixed("glb08v", glb08v, 2); // Respecting original .toFixed(2)
+
+    //glb09
+    let glb09vo = rand(5, 25, 5);
+    let glb09a = rand(1, 5);
+    let glb09t = rand(2, 5);
+    let glb09s = glb09vo * glb09t + 0.5 * -glb09a * Math.pow(glb09t, 2);
+    setFixed("glb09vo", glb09vo);
+    setFixed("glb09a", glb09a);
+    setFixed("glb09t", glb09t);
+    setFixed("glb09s", glb09s, 2); // Respecting original .toFixed(2)
+
+    //glb10
+    let glb10vo = rand(5, 20, 5);
+    let glb10vt = rand(20, 45, 5);
+    let glb10a = rand(1, 5);
+    let glb10t = (glb10vt - glb10vo) / glb10a;
+    setFixed("glb10vo", glb10vo);
+    setFixed("glb10vt", glb10vt);
+    setFixed("glb10a", glb10a);
+    setFixed("glb10t", glb10t, 2); // Respecting original .toFixed(2)
+    
+    //glb11
+    let glb11b = rand(50, 90, 10);
+    let glb11s = rand(20, 50, 10);
+    let glb11t = rand(10, 35, 5);
+    let glb11p = Math.sqrt(Math.pow((glb11t - glb11b), 2) + Math.pow(glb11s, 2));
+    setFixed("glb11b", glb11b);
+    setFixed("glb11s", glb11s);
+    setFixed("glb11t", glb11t);
+    setFixed("glb11p", glb11p, 2); // Respecting original .toFixed(2)
+
+    //glb12
+    let glb12a = rand(72, 144, 18);
+    let glb12b = rand(27, 63, 9);
+    let glb12s = rand(50, 300, 25);
+    let glb12t = glb12s / (((glb12a * 1000) / 3600) - ((glb12b * 1000) / 3600));
+    setFixed("glb12a", glb12a);
+    setFixed("glb12b", glb12b);
+    setFixed("glb12s", glb12s);
+    setFixed("glb12t", glb12t, 2); // Respecting original .toFixed(2)
+
+    //glb13
+    let glb13v = rand(36, 144, 18);
+    let glb13a = rand(1, 9);
+    let glb13s = rand(50, 300, 50);
+    let glb13x = Math.pow(glb13v, 2) / (2 * glb13a); // Deceleration is positive, so no negative needed
+    let result13 = (glb13x <= glb13s) ? "Nenek tidak tertabrak" : "Nenek tertabrak";
+    setFixed("glb13v", glb13v);
+    setFixed("glb13s", glb13s);
+    setFixed("glb13a", glb13a);
+    setFixed("glb13x", glb13x);
+    document.getElementById("glb13n").textContent = result13;
+
+    //glb14
+    let glb14s = rand(500, 800, 100);
+    let glb14t = rand(3, 7, 0.5);
+    let glb14va = rand(50, 90, 5);
+    let glb14vb = (glb14s - (glb14va * glb14t)) / glb14t; // Simplified formula
+    setFixed("glb14s", glb14s);
+    setFixed("glb14t", glb14t, 1);
+    setFixed("glb14va", glb14va);
+    setFixed("glb14vb", glb14vb, 1); // Respecting original .toFixed(1)
+
+    //glb15
+    function glb15hitungWaktuMenyusul() {
+        const glb15v1 = rand(40, 70);
+        const glb15v2 = rand(80, 120);
+        const glb15t_selisih = rand(0.5, 1.5, 0.1); // Time difference in hours
+        const glb15jarakAwal = glb15v1 * glb15t_selisih;
+        const glb15waktuMenyusul_jam = glb15jarakAwal / (glb15v2 - glb15v1);
+        const glb15jamTotal = 9 + glb15waktuMenyusul_jam; // Start time is 09:00
+        const jam = Math.floor(glb15jamTotal);
+        const menit = Math.round((glb15jamTotal - jam) * 60);
+        const glb15waktuFinal = `${jam.toString().padStart(2, '0')}:${menit.toString().padStart(2, '0')}`;
+
+        setFixed("glb15v1", glb15v1);
+        setFixed("glb15v2", glb15v2);
+        setFixed("glb15t2", glb15t_selisih, 1);
+        document.getElementById("glb15t3").textContent = glb15waktuFinal;
+    }
+    glb15hitungWaktuMenyusul();
+
+    //glb16
+    function glb16hitungWaktuDanPosisi() {
+        const glb16a1 = rand(1, 2.5, 0.2);
+        const glb16a2 = rand(2.6, 4, 0.2);
+        const glb16t_selisih = rand(5, 15);
+
+        // Equation: 0.5*a1*t^2 = 0.5*a2*(t-t_selisih)^2
+        // sqrt(a1)*t = sqrt(a2)*(t-t_selisih)
+        // (sqrt(a1) - sqrt(a2))*t = -sqrt(a2)*t_selisih
+        const t_bertemu = (-Math.sqrt(glb16a2) * glb16t_selisih) / (Math.sqrt(glb16a1) - Math.sqrt(glb16a2));
+        const s_bertemu_km = (0.5 * glb16a1 * Math.pow(t_bertemu, 2)) / 1000;
+
+        setFixed("glb16a1", glb16a1,1);
+        setFixed("glb16a2", glb16a2,1);
+        setFixed("glb16t", glb16t_selisih);
+        setFixed("glb16tx", t_bertemu);
+        setFixed("glb16sx", s_bertemu_km, 3); 
+    }
+    glb16hitungWaktuDanPosisi();
+
+    //glb17
+    let glb17va = rand(6, 15, 0.5);
+    let glb17vb = rand(6, 15, 0.5);
+    let glb17s = rand(300, 700, 50);
+    let glb17ta = glb17s / (glb17va + glb17vb);
+    let glb17sa = glb17va * glb17ta;
+    setFixed("glb17s", glb17s);
+    setFixed("glb17va", glb17va, 1);
+    setFixed("glb17vb", glb17vb, 1);
+    setFixed("glb17ta", glb17ta); // Respecting original .toFixed(0)
+    setFixed("glb17sa", glb17sa); // Respecting original .toFixed(0)
+
+    //glb18
+    let glb18vo = rand(20, 25);
+    let glb18vt = rand(5, 10);
+    let glb18s = rand(500, 1000, 50);
+    let glb18a = (Math.pow(glb18vt, 2) - Math.pow(glb18vo, 2)) / (2 * glb18s); // This is acceleration (will be negative)
+    let glb18sx = -Math.pow(glb18vt, 2) / (2 * glb18a); // stopping distance from vt
+    let glb18tx = -glb18vt / glb18a; // stopping time from vt
+    setFixed("glb18vo", glb18vo);
+    setFixed("glb18vt", glb18vt);
+    setFixed("glb18s", glb18s);
+    setFixed("glb18tx", glb18tx); // Respecting original .toFixed(0)
+    setFixed("glb18sx", glb18sx, 1); // Respecting original .toFixed(1)
+
+    //glb19
+    let glb19t1_min = rand(1, 3);
+    let glb19t2_min = rand(4, 6);
+    let glb19a1 = rand(0.2, 0.8, 0.2);
+    let glb19a2 = rand(1.5, 3.0, 0.5);
+    let t1_sec = glb19t1_min * 60;
+    let t2_sec = glb19t2_min * 60;
+    let v_max = glb19a1 * t1_sec;
+    let s1 = 0.5 * glb19a1 * Math.pow(t1_sec, 2);
+    let s2 = v_max * t2_sec;
+    let s3 = Math.pow(v_max, 2) / (2 * glb19a2);
+    let s_total_km = (s1 + s2 + s3) / 1000;
+    setFixed("glb19t1", glb19t1_min);
+    setFixed("glb19t2", glb19t2_min);
+    setFixed("glb19a1", glb19a1, 1);
+    setFixed("glb19a2", glb19a2, 1);
+    setFixed("glb19v", v_max, 1);
+    setFixed("glb19s", s_total_km, 2);
+
+    //glb20
+    let glb20a = rand(3, 8, 0.5);
+    let glb20v = rand(50, 140, 10);
+    let glb20s2_km = rand(0.8, 1.5, 0.1);
+    let glb20s_mesti = Math.pow(glb20v, 2) / (2 * glb20a);
+    let glb20s_mesti_km = glb20s_mesti / 1000;
+    let result20 = (glb20s_mesti_km <= glb20s2_km) ? "Pesawat dapat mendarat dengan lancar" : "Pesawat tidak dapat mendarat karena tidak memenuhi syarat";
+    setFixed("glb20a", glb20a, 1);
+    setFixed("glb20v", glb20v);
+    setFixed("glb20s2", glb20s2_km, 1);
+    setFixed("glb20sb", glb20s_mesti);
+    document.getElementById("glb20x").textContent = result20;
+
+	// glb21: Jarak total = v0 * treak + (v0^2)/(2 * |a|), a = -v0 / trem
+	let glb21v0 = rand(15, 25, 5);
+	let glb21trem = rand(1.2, 2.0, 0.2);
+	let glb21treak = rand(0.1, 0.2, 0.05);
+	let glb21a = -glb21v0 / glb21trem;
+	let glb21sreak = glb21v0 * glb21treak;
+	let glb21srem = Math.pow(glb21v0, 2) / (2 * Math.abs(glb21a));
+	let glb21stotal = glb21sreak + glb21srem;
+	setFixed("glb21v0", glb21v0);
+	setFixed("glb21trem", glb21trem, 1);
+	setFixed("glb21treak", glb21treak, 2);
+	setFixed("glb21sa", glb21stotal, 1); // Jawaban tersembunyi untuk jarak total
+
+	// glb23: v0 m/s = v0km/3.6, t = 2 s / v0 (karena a = -v0^2/(2s), t = v0 / |a| = 2s / v0)
+	let glb23v0km = rand(30, 50, 6);
+	let glb23v0 = glb23v0km / 3.6;
+	let glb23s = rand(15, 25, 5);
+	let glb23t = 2 * glb23s / glb23v0;
+	setFixed("glb23v0km", glb23v0km);
+	setFixed("glb23s", glb23s);
+	setFixed("glb23ta", glb23t, 2); // Jawaban tersembunyi untuk t
+
+	// glb24: a = (v2^2 - v1^2)/(2 s1), s2 = v2^2 / (2 |a|), total = s1 + s2
+	let glb24v1 = rand(20, 30, 5);
+	let glb24v2 = rand(10, 20, 5);
+	let glb24s1 = rand(30, 50, 5);
+	let glb24a = (Math.pow(glb24v2, 2) - Math.pow(glb24v1, 2)) / (2 * glb24s1);
+	let glb24s2 = Math.pow(glb24v2, 2) / (2 * Math.abs(glb24a));
+	let glb24stotal = glb24s1 + glb24s2;
+	setFixed("glb24v1", glb24v1);
+	setFixed("glb24v2", glb24v2);
+	setFixed("glb24s1", glb24s1);
+	setFixed("glb24sa", glb24stotal, 0); // Jawaban tersembunyi untuk total
+
+	// glb25: a = (v2^2 - v1^2)/(2 s1), s2 = v2^2 / (2 |a|)
+	let glb25v1 = rand(25, 35, 5);
+	let glb25v2 = rand(10, 20, 5);
+	let glb25s1 = rand(60, 90, 15);
+	let glb25a = (Math.pow(glb25v2, 2) - Math.pow(glb25v1, 2)) / (2 * glb25s1);
+	let glb25s2 = Math.pow(glb25v2, 2) / (2 * Math.abs(glb25a));
+	setFixed("glb25v1", glb25v1);
+	setFixed("glb25v2", glb25v2);
+	setFixed("glb25s1", glb25s1);
+	setFixed("glb25sa", glb25s2, 0); // Jawaban tersembunyi untuk s2
+
+	// glb26: v_max = aacc * tacc, s_dec = v_max * tdec + 0.5 * a_dec * tdec^2, a_dec = -v_max / tdec
+	let glb26aacc = rand(1.5, 2.5, 0.5);
+	let glb26tacc = rand(8, 12, 1);
+	let glb26tdec = rand(8, 12, 1);
+	let glb26vmax = glb26aacc * glb26tacc;
+	let glb26adec = -glb26vmax / glb26tdec;
+	let glb26sdec = glb26vmax * glb26tdec + 0.5 * glb26adec * Math.pow(glb26tdec, 2);
+	setFixed("glb26aacc", glb26aacc, 1);
+	setFixed("glb26tacc", glb26tacc);
+	setFixed("glb26tdec", glb26tdec);
+	setFixed("glb26sa", glb26sdec, 0); // Jawaban tersembunyi untuk s_dec
+
+	// glb27: Perbaikan rumus: t = v0 / a_s, s_s = 0.5 v0^2 / a_s (tidak digunakan langsung), s_b = v0 t - 0.5 a_b t^2 = d0
+	// v0^2 (1/a_s - 0.5 a_b / a_s^2) = d0, B = 1/a_s - 0.5 a_b / a_s^2, v0 = sqrt(d0 / B)
+	// vB = v0 - a_b t, dengan loop untuk memastikan 1 <= vB <= 10
+	let glb27d0, glb27as, glb27ab, glb27v0, glb27t, glb27vB;
+	do {
+		glb27d0 = rand(40, 60, 5);
+		glb27as = rand(2.5, 3.5, 0.5);
+		glb27ab = rand(1.5, 2.5, 0.5);
+		let a_s = glb27as;
+		let a_b = glb27ab;
+		let B = 1 / a_s - 0.5 * a_b / (a_s * a_s);
+		if (B <= 0) continue;
+		let v0_sq = glb27d0 / B;
+		if (v0_sq <= 0) continue;
+		glb27v0 = Math.sqrt(v0_sq);
+		glb27t = glb27v0 / a_s;
+		glb27vB = glb27v0 - a_b * glb27t;
+	} while (glb27vB < 1 || glb27vB > 10 || glb27v0 < 10 || glb27v0 > 30); // Tambah batas v0 masuk akal
+	setFixed("glb27d0", glb27d0);
+	setFixed("glb27as", glb27as, 1);
+	setFixed("glb27ab", glb27ab, 1);
+	setFixed("glb27va", glb27vB, 1);
+</script>
+
+<div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse2">
+<h2>Materi 2 Gerak Vertikal</h2></a></div><div id="collapse2" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+  <h2>Gerak Vertikal</h2>
+ <span id="gv41"></span>
+<p><b>41. </b><br>Sebuah benda jatuh bebas dari ketinggian <span id="gv41h"></span> m, waktu yang dibutuhkan saat menyentuh tanah adalah ....</p>
+
+<span id="gv42"></span>
+<p><b>42. </b><br>Bola tenis jatuh dari ketinggian <span id="gv42h"></span> m. Kecepatan benda saat menyentuh tanah adalah ... (g = 10 m/s<sup>2</sup>).</p>
+
+<span id="gv43"></span>
+<p><b>43. </b><br>Sebuah benda dilempar ke atas dengan kecepatan awal <span id="gv43v0"></span> m/s. Waktu yang dibutuhkan untuk kembali ke tanah adalah ....</p>
+
+<span id="gv44"></span>
+<p><b>44. </b><br>Sebuah batu dilepaskan dari menara dan tiba di tanah dalam waktu <span id="gv44t"></span> sekon. Ketinggian menara adalah ....</p>
+
+<span id="gv45"></span>
+<p><b>45. </b><br>Sebuah kelapa jatuh bebas dari ketinggian <span id="gv45h"></span> m. Berapakah waktu dan kecepatan saat tiba di tanah?</p>
+
+<span id="gv46"></span>
+<p><b>46. </b><br>Sebuah benda dilemparkan ke atas dan mencapai ketinggian maksimum <span id="gv46hmax"></span> m. Hitunglah:<br>
+a. kecepatan awal benda,<br>
+b. waktu untuk mencapai tinggi maksimum,<br>
+c. kecepatan setelah <span id="gv46tt"></span> sekon, dan<br>
+d. ketinggian setelah <span id="gv46tt"></span> sekon.</p>
+
+<span id="gv47"></span>
+<p><b>47. </b><br>Terdapat dua buah batu yang akan dilempar. Batu pertama dilemparkan ke atas dari permukaan tanah dengan kecepatan awal <span id="gv47v1"></span> m/s. Batu kedua dilemparkan ke bawah dari sebuah gedung dengan kecepatan awal <span id="gv47v2"></span> m/s. Jika jarak kedua batu <span id="gv47d"></span> m, kedua batu tersebut akan bertemu setelah bergerak selama ....</p>
+
+<span id="gv48"></span>
+<p><b>48. </b><br>Terdapat dua buah bola yang berjarak <span id="gv48d0"></span> m. Bola pertama bergerak jatuh bebas dan pada saat bersamaan bola kedua dilemparkan ke atas dengan kecepatan awal <span id="gv48v0"></span> m/s. Jarak kedua bola setelah <span id="gv48tt"></span> sekon adalah ....</p>
+
+<span id="gv49"></span>
+<p><b>49. </b><br>Dua buah benda terpisah sejauh <span id="gv49d"></span> m dalam arah vertikal. Benda pertama mula–mula di tanah, kemudian ditembakkan dengan kecepatan awal <span id="gv49v0"></span> m/s ke atas. Pada saat yang bersamaan, benda kedua jatuh bebas. Kapan dan di mana kedua benda berpapasan?</p>
+
+<span id="gv50"></span>
+<p><b>50. </b><br>Dari puncak menara setinggi <span id="gv50h"></span> m, sebuah benda dilemparkan ke atas dengan kecepatan <span id="gv50v0"></span> m/s. Hitunglah kecepatan dan waktu benda ketika tiba di tanah.</p>
+    <b><hr></b>
+    <h2>Kunci Jawaban</h2>
+<p><b>41. </b><span id="gv41x"></span> = <span id="gv41ta"></span> s</p>
+
+<p><b>42. </b><span id="gv42x"></span> = <span id="gv42va"></span> m/s</p>
+
+<p><b>43. </b><span id="gv43x"></span> = <span id="gv43tta"></span> s</p>
+
+<p><b>44. </b><span id="gv44x"></span> = <span id="gv44ha"></span> m</p>
+
+<p><b>45. </b><span id="gv45x"></span> = <span id="gv45ta"></span> s dan <span id="gv45va"></span> m/s</p>
+
+<p><b>46. </b><span id="gv46x"></span>:<br>
+a. <span id="gv46vaa"></span> m/s<br>
+b. <span id="gv46vab"></span> s<br>
+c. <span id="gv46vac"></span> m/s<br>
+d. <span id="gv46vad"></span> m</p>
+
+<p><b>47. </b><span id="gv47x"></span> = <span id="gv47ta"></span> s</p>
+
+<p><b>48. </b><span id="gv48x"></span> = <span id="gv48ja"></span> m</p>
+
+<p><b>49. </b><span id="gv49x"></span> setelah <span id="gv49ta"></span> s di ketinggian <span id="gv49ha"></span> m</p>
+
+<p><b>50. </b><span id="gv50x"></span> = <span id="gv50va"></span> m/s setelah <span id="gv50ta"></span> s</p>
+
+</div>
+</div>
+</div>
+<script>
+
+// gv41: Waktu jatuh bebas t = sqrt(2h/g)
+let gv41h = rand(20, 80, 5);
+let gv41g = 10;
+let gv41t = Math.sqrt(2 * gv41h / gv41g);
+setFixed("gv41h", gv41h);
+setFixed("gv41ta", gv41t, 2); // Jawaban tersembunyi untuk t
+
+// gv42: Kecepatan akhir v = sqrt(2gh)
+let gv42h = rand(2, 10, 1);
+let gv42g = 10;
+let gv42v = Math.sqrt(2 * gv42g * gv42h);
+setFixed("gv42h", gv42h);
+setFixed("gv42va", gv42v, 1); // Jawaban tersembunyi untuk v
+
+// gv43: Waktu total kembali 2v0/g
+let gv43v0 = rand(10, 30, 5);
+let gv43g = 10;
+let gv43ttotal = 2 * gv43v0 / gv43g;
+setFixed("gv43v0", gv43v0);
+setFixed("gv43tta", gv43ttotal, 1); // Jawaban tersembunyi untuk t total
+
+// gv44: Ketinggian h = 0.5 g t^2
+let gv44t = rand(2, 6, 0.5);
+let gv44g = 10;
+let gv44h = 0.5 * gv44g * Math.pow(gv44t, 2);
+setFixed("gv44t", gv44t, 1);
+setFixed("gv44ha", gv44h, 0); // Jawaban tersembunyi untuk h
+
+// gv45: t = sqrt(2h/g), v = sqrt(2gh)
+let gv45h = rand(10, 30, 5);
+let gv45g = 10;
+let gv45t = Math.sqrt(2 * gv45h / gv45g);
+let gv45v = Math.sqrt(2 * gv45g * gv45h);
+setFixed("gv45h", gv45h);
+setFixed("gv45ta", gv45t, 2); // Jawaban tersembunyi untuk t
+setFixed("gv45va", gv45v, 1); // Jawaban tersembunyi untuk v
+
+// gv46: hmax, v0 = sqrt(2 g hmax), t_up = v0/g, v( t ) = v0 - g t, h(t) = v0 t - 0.5 g t^2
+let gv46hmax = rand(20, 60, 10);
+let gv46g = 10;
+let gv46tt = rand(1, 4, 1); // Waktu untuk c dan d
+let gv46v0 = Math.sqrt(2 * gv46g * gv46hmax);
+let gv46tup = gv46v0 / gv46g;
+let gv46v_t = gv46v0 - gv46g * gv46tt;
+let gv46h_t = gv46v0 * gv46tt - 0.5 * gv46g * Math.pow(gv46tt, 2);
+setFixed("gv46hmax", gv46hmax);
+setFixed("gv46tt", gv46tt);
+setFixed("gv46vaa", gv46v0, 1); // a. v0
+setFixed("gv46vab", gv46tup, 2); // b. t_up
+setFixed("gv46vac", gv46v_t, 1); // c. v after t
+setFixed("gv46vad", gv46h_t, 1); // d. h after t
+
+// gv47: Dua batu bertemu. Asumsi up positive. h1 = v1 t - 0.5 g t^2, h2 = d + (-v2) t - 0.5 g t^2 (v2 down sebagai negative)
+// Set h1 = h2: v1 t = d - v2 t => t = d / (v1 + v2)
+let gv47v1 = rand(40, 80, 10);
+let gv47v2 = rand(20, 50, 10);
+let gv47d = rand(300, 500, 50);
+let gv47g = 10;
+let gv47t = gv47d / (gv47v1 + gv47v2);
+setFixed("gv47v1", gv47v1);
+setFixed("gv47v2", gv47v2);
+setFixed("gv47d", gv47d);
+setFixed("gv47ta", gv47t, 2); // Jawaban tersembunyi untuk t
+
+// gv48: Jarak awal d0 (B1 at d0 jatuh v=0, B2 at 0 up v0). h1 = d0 - 0.5 g t^2, h2 = v0 t - 0.5 g t^2, jarak = |h1 - h2| = |d0 - v0 t|
+let gv48d0 = rand(80, 120, 10);
+let gv48v0 = rand(30, 50, 5);
+let gv48tt = rand(1, 3, 0.5);
+let gv48g = 10;
+let gv48jarak = Math.abs(gv48d0 - gv48v0 * gv48tt);
+setFixed("gv48d0", gv48d0);
+setFixed("gv48v0", gv48v0);
+setFixed("gv48tt", gv48tt, 1);
+setFixed("gv48ja", gv48jarak, 1); // Jawaban tersembunyi untuk jarak
+
+// gv49: Papasan. h1 = v0 t - 0.5 g t^2, h2 = d - 0.5 g t^2, set = : v0 t = d, t = d / v0, h = d - 0.5 g (d/v0)^2
+let gv49d = rand(80, 120, 2);
+let gv49v0 = rand(30, 50, 2);
+let gv49g = 10;
+let gv49t = gv49d / gv49v0;
+let gv49h_papas = gv49d - 0.5 * gv49g * Math.pow(gv49t, 2);
+setFixed("gv49d", gv49d);
+setFixed("gv49v0", gv49v0);
+setFixed("gv49ta", gv49t, 2); // Jawaban tersembunyi untuk t
+setFixed("gv49ha", gv49h_papas, 1); // Jawaban tersembunyi untuk posisi
+
+// gv50: Quadratic: -5 t^2 + v0 t + h = 0, t = [ -v0 + sqrt(v0^2 + 20 h) ] / -10 (positive root), v = sqrt( v0^2 + 2 g h ) (magnitude)
+let gv50h = rand(40, 80, 10);
+let gv50v0 = rand(5, 15, 5);
+let gv50g = 10;
+let gv50disc = Math.pow(gv50v0, 2) + 2 * gv50g * gv50h;
+let gv50t = (gv50v0 + Math.sqrt(gv50disc)) / gv50g; // Time to ground
+let gv50v_final = Math.sqrt(gv50disc); // Speed magnitude
+setFixed("gv50h", gv50h);
+setFixed("gv50v0", gv50v0);
+setFixed("gv50ta", gv50t, 2); // Jawaban tersembunyi untuk t
+setFixed("gv50va", gv50v_final, 1); // Jawaban tersembunyi untuk v
+</script>
+
+
+<br>
+<div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse5">
+<h2>Materi 3 Gerak Melingkar</h2></a></div><div id="collapse5" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+<span id="gm52"></span>
+	<p><b>52. </b><br>Jarum speedometer sebuah sepeda motor menunjukkan angka <span id="gm52rpm"></span> rpm. Berarti, kecepatan sudut putaran mesin motor tersebut adalah .... rad/s</p>
+
+	<span id="gm53"></span>
+	<p><b>53. </b><br>Jika sebuah compact disc berputar dengan kecepatan <span id="gm53rpm"></span> rpm (putaran per menit), frekuensi putarnya .... Hz</p>
+
+	<span id="gm54"></span>
+	<p><b>54. </b><br>Sebuah benda bergerak <span id="gm54n"></span> putaran dalam <span id="gm54t"></span> menit. Kecepatan sudut benda tersebut adalah .... rad/s</p>
+
+	<span id="gm55"></span>
+	<p><b>55. </b><br>Sebuah benda bermassa <span id="gm55m"></span> kg bergerak melingkar beraturan dengan jari–jari <span id="gm55r"></span> cm. Kecepatan sudut yang dialami benda adalah <span id="gm55omega"></span> rad/s. Periode dan frekuensi benda tersebut adalah... (dalam s dan Hz)</p>
+
+	<span id="gm56"></span>
+	<p><b>56. </b><br>Sebuah roda sepeda memiliki jari–jari <span id="gm56r"></span> cm dan diputar melingkar beraturan. Jika kelajuan sebuah titik pada roda <span id="gm56v"></span> m/s, kecepatan sudutnya adalah ....</p>
+
+	<span id="gm57"></span>
+	<p><b>57. </b><br>Sebuah piringan hitam dengan diameter <span id="gm57d"></span> cm berputar dengan kecepatan sudut <span id="gm57omega"></span> rad/s. Hal ini berarti sebuah benda titik yang berada di pinggir piringan memiliki kelajuan linear sebesar ....</p>
+
+	<span id="gm58"></span>
+	<p><b>58. </b><br>Sebuah bola yang terikat pada tali bergerak dalam lingkaran horizontal yang memiliki jari–jari <span id="gm58r"></span> m. Jika diketahui kecepatan sudut bola tersebut <span id="gm58omega"></span> rad/s, besar percepatan sentripetalnya adalah ....</p>
+
+	<span id="gm59"></span>
+	<p><b>59. </b><br>Roda A dan B bersinggungan luar. Jari–jari roda A = <span id="gm59rA"></span> cm dan setiap menit roda A berputar <span id="gm59nA"></span> kali, sedangkan roda B dapat berputar <span id="gm59nB"></span> kali. Jari–jari roda B adalah ...</p>
+
+	<span id="gm61"></span>
+	<p><b>61. </b><br>Sebuah motor listrik digunakan untuk memutar roda A yang mempunyai jari–jari <span id="gm61rA"></span> cm. Roda A dihubungkan dengan Roda B yang berjari–jari <span id="gm61rB"></span> cm. Jika kecepatan sudut roda A <span id="gm61omegaA"></span> rad/s, maka kecepatan sudut roda B adalah ...</p>
+
+	<span id="gm62"></span>
+	<p><b>62. </b><br>Dua buah roda gigi terhubung seperti gambar berikut ini. Roda A memiliki <span id="gm62gA"></span> gigi dan roda B memiliki <span id="gm62gB"></span> gigi.<br>Jika roda A berputar dengan kecepatan sudut <span id="gm62omegaA"></span> rpm, maka kecepatan sudut roda B adalah.....</p>
+
+	<span id="gm63"></span>
+	<p><b>63. </b><br>Diketahui sebuah benda melakukan gerak melingkar beraturan sebanyak <span id="gm63n"></span> kali tiap menit, hitunglah:<br>
+	a. frekuensi (dalam Hz)<br>
+	b. periode (dalam s)<br>
+	c. kecepatan sudut (dalam rad/s), dan<br>
+	d. kecepatan linear jika jari–jari <span id="gm63r"></span> m (dalam m/s).</p>
+
+	<span id="gm64"></span>
+	<p><b>64. </b><br>Seutas tali dengan panjang <span id="gm64r"></span> m, ujungnya diberi beban <span id="gm64m"></span> gram.<br>Kemudian, tali tersebut diputar dalam arah horizontal dengan kecepatan linear <span id="gm64v"></span> m/s, tentukanlah:<br>
+	a. kecepatan angulernya (dalam rad/s), dan<br>
+	b. percepatan sentripetal (dalam m/s<sup>2</sup>).</p>
+
+	<span id="gm65"></span>
+	<p><b>65. </b><br>Seutas tali dengan panjang <span id="gm65r"></span> m, ujungnya diberikan beban <span id="gm65m"></span> gram lalu diputar dalam arah vertikal dengan kecepatan <span id="gm65v"></span> m/s.<br>Tentukanlah percepatan sentripetal beban.</p>
+
+	<span id="gm66"></span>
+	<p><b>66. </b><br>Diketahui sebuah sepeda bergerak dengan kecepatan <span id="gm66v"></span> m/s.<br>Tentukanlah:<br>
+	a. periode putaran roda sepeda (r = <span id="gm66r"></span> cm), dan<br>
+	b. kecepatan sudut.</p>
+
+	<span id="gm67"></span>
+	<p><b>67. </b><br>Misalkan, Anda mengendarai sebuah mobil pada lintasan melingkar. Lintasan tersebut memiliki diameter <span id="gm67d"></span> m. Jika diketahui kelajuan mobil Anda <span id="gm67v"></span> m/s, tentukanlah percepatan maksimum yang masih diperbolehkan supaya mobil Anda tetap bergerak pada lintasannya.</p>
+
+	<span id="gm68"></span>
+	<p><b>68. </b><br>Empat buah roda A, B, C dan D yang masing–masing berjari–jari <span id="gm68rA"></span> cm, <span id="gm68rB"></span> cm, <span id="gm68rC"></span> cm dan <span id="gm68rD"></span> cm. dihubungkan dengan B dan C seporos, B dan A setali, D dan C setali. Jika periode roda A = <span id="gm68TA"></span> s, maka kecepatan sudut roda D adalah ...</p>
+
+	<span id="gm70"></span>
+	<p><b>70. </b><br>Pada permainan komidi putar, seorang anak duduk pada roda yang berputar dengan jari–jari <span id="gm70r"></span> m. Berapakah kecepatan maksimum roda agar anak tersebut tidak terlepas dari tempat duduknya? (roda berputar dalam arah vertikal)</p>
+
+    <b><hr></b>
+	
+    <h2>Kunci Jawaban</h2>
+	<p><b>52. </b>  = <span id="gm52ja"></span> rad/s</p>
+	<p><b>53. </b>  = <span id="gm53ja"></span> Hz</p>
+	<p><b>54. </b>  = <span id="gm54ja"></span> rad/s</p>
+	<p><b>55. </b>  = <span id="gm55ja"></span> s dan <span id="gm55jb"></span> Hz</p>
+	<p><b>56. </b>  = <span id="gm56ja"></span> rad/s</p>
+	<p><b>57. </b>  = <span id="gm57ja"></span> m/s</p>
+	<p><b>58. </b>  = <span id="gm58ja"></span> m/s<sup>2</sup></p>
+	<p><b>59. </b>  = <span id="gm59ja"></span> cm</p>
+	<p><b>61. </b>  = <span id="gm61ja"></span> rad/s</p>
+	<p><b>62. </b>  = <span id="gm62ja"></span> rpm</p>
+	<p><b>63. </b></span>:<br>
+	a. <span id="gm63jaa"></span> Hz<br>
+	b. <span id="gm63jab"></span> s<br>
+	c. <span id="gm63jac"></span> rad/s<br>
+	d. <span id="gm63jad"></span> m/s</p>
+
+	<p><b>64. </b></span>:<br>
+	a. <span id="gm64jaa"></span> rad/s<br>
+	b. <span id="gm64jab"></span> m/s<sup>2</sup></p>
+
+	<p><b>65. </b> = <span id="gm65ja"></span> m/s<sup>2</sup></p>
+
+	<p><b>66. </b>:<br>
+	a. <span id="gm66jaa"></span> s<br>
+	b. <span id="gm66jab"></span> rad/s</p>
+
+	<p><b>67.</b>  = <span id="gm67ja"></span> m/s<sup>2</sup></p>
+	<p><b>68.</b>  = <span id="gm68ja"></span> rad/s</p>
+	<p><b>70.</b>  = <span id="gm70ja"></span> m/s</p>
+</div>
+</div>
+</div>
+<br>
+<script>
+
+	// gm52: ω = rpm * 2π / 60
+	let gm52rpm = rand(800, 1500, 100);
+	let gm52omega = gm52rpm * 2 * Math.PI / 60;
+	setFixed("gm52rpm", gm52rpm);
+	setFixed("gm52ja", gm52omega, 1);
+
+	// gm53: f = rpm / 60
+	let gm53rpm = rand(300, 500, 30);
+	let gm53f = gm53rpm / 60;
+	setFixed("gm53rpm", gm53rpm);
+	setFixed("gm53ja", gm53f, 2);
+
+	// gm54: ω = (n / t) * 2π / 60  (t in minutes)
+	let gm54n = rand(60, 120, 10);
+	let gm54t = rand(0.5, 2, 0.5);
+	let gm54rpm = gm54n / gm54t;
+	let gm54omega = gm54rpm * 2 * Math.PI / 60;
+	setFixed("gm54n", gm54n);
+	setFixed("gm54t", gm54t, 1);
+	setFixed("gm54ja", gm54omega, 1);
+
+	// gm55: T = 2π / ω, f = ω / 2π
+	let gm55m = rand(1, 3, 0.5);
+	let gm55r = rand(10, 30, 5);
+	let gm55omega = rand(2, 6, 0.5);
+	let gm55T = 2 * Math.PI / gm55omega;
+	let gm55f = gm55omega / (2 * Math.PI);
+	setFixed("gm55m", gm55m, 1);
+	setFixed("gm55r", gm55r, 1);
+	setFixed("gm55omega", gm55omega, 1);
+	setFixed("gm55ja", gm55T, 2);
+	setFixed("gm55jb", gm55f, 2);
+
+	// gm56: ω = v / r (r in m)
+	let gm56r = rand(25, 35, 5);
+	let gm56v = rand(4, 8, 1);
+	let gm56r_m = gm56r / 100;
+	let gm56omega = gm56v / gm56r_m;
+	setFixed("gm56r", gm56r);
+	setFixed("gm56v", gm56v, 1);
+	setFixed("gm56ja", gm56omega, 1);
+
+	// gm57: r = d/2, v = ω r
+	let gm57d = rand(15, 25, 5);
+	let gm57omega = rand(3, 5, 0.5);
+	let gm57r = (gm57d / 2) / 100;
+	let gm57v = gm57omega * gm57r;
+	setFixed("gm57d", gm57d);
+	setFixed("gm57omega", gm57omega, 1);
+	setFixed("gm57ja", gm57v, 3);
+
+	// gm58: a_c = ω² r
+	let gm58r = rand(2, 4, 0.5);
+	let gm58omega = rand(4, 6, 0.5);
+	let gm58ac = Math.pow(gm58omega, 2) * gm58r;
+	setFixed("gm58r", gm58r, 1);
+	setFixed("gm58omega", gm58omega, 1);
+	setFixed("gm58ja", gm58ac, 2);
+
+	// gm59: rB = nA * rA / nB
+	let gm59rA = rand(1, 5, 1);
+	let gm59nA = rand(15, 25, 5);
+	let gm59nB = rand(10, 20, 2);
+	let gm59rB = gm59nA * gm59rA / gm59nB;
+	setFixed("gm59rA", gm59rA);
+	setFixed("gm59nA", gm59nA);
+	setFixed("gm59nB", gm59nB);
+	setFixed("gm59ja", gm59rB, 1);
+
+	// gm61: ωB = ωA * (rA / rB)
+	let gm61rA = rand(5, 15, 5);
+	let gm61rB = rand(40, 60, 10);
+	let gm61omegaA = rand(150, 250, 25);
+	let gm61omegaB = gm61omegaA * (gm61rA / gm61rB);
+	setFixed("gm61rA", gm61rA);
+	setFixed("gm61rB", gm61rB);
+	setFixed("gm61omegaA", gm61omegaA);
+	setFixed("gm61ja", gm61omegaB, 0);
+
+	// gm62: ωB = ωA * (gA / gB)
+	let gm62gA = rand(8, 16, 2);
+	let gm62gB = rand(20, 40, 4);
+	let gm62omegaA = rand(80, 160, 20);
+	let gm62omegaB = gm62omegaA * (gm62gA / gm62gB);
+	setFixed("gm62gA", gm62gA);
+	setFixed("gm62gB", gm62gB);
+	setFixed("gm62omegaA", gm62omegaA);
+	setFixed("gm62ja", gm62omegaB, 0);
+
+	// gm63: f = n/60, T=1/f, ω=2π f, v=ω r
+	let gm63n = rand(180, 300, 30);
+	let gm63r = rand(3, 5, 1);
+	let gm63f = gm63n / 60;
+	let gm63T = 1 / gm63f;
+	let gm63omega = 2 * Math.PI * gm63f;
+	let gm63v = gm63omega * gm63r;
+	setFixed("gm63n", gm63n);
+	setFixed("gm63r", gm63r);
+	setFixed("gm63jaa", gm63f, 2);
+	setFixed("gm63jab", gm63T, 2);
+	setFixed("gm63jac", gm63omega, 1);
+	setFixed("gm63jad", gm63v, 1);
+
+	// gm64: ω = v / r, a_c = v² / r
+	let gm64r = rand(0.8, 1.2, 0.1);
+	let gm64m = rand(15, 25, 5);
+	let gm64v = rand(4, 6, 0.5);
+	let gm64omega = gm64v / gm64r;
+	let gm64ac = Math.pow(gm64v, 2) / gm64r;
+	setFixed("gm64r", gm64r, 1);
+	setFixed("gm64m", gm64m);
+	setFixed("gm64v", gm64v, 1);
+	setFixed("gm64jaa", gm64omega, 2);
+	setFixed("gm64jab", gm64ac, 1);
+
+	// gm65: a_c = v² / r (massa tidak relevan untuk a_c)
+	let gm65r = rand(0.8, 1.2, 0.1);
+	let gm65m = rand(80, 120, 10);
+	let gm65v = rand(4, 6, 0.5);
+	let gm65ac = Math.pow(gm65v, 2) / gm65r;
+	setFixed("gm65r", gm65r, 1);
+	setFixed("gm65m", gm65m);
+	setFixed("gm65v", gm65v, 1);
+	setFixed("gm65ja", gm65ac, 2);
+
+	// gm66: T = 2π r / v (r in m), ω = v / r
+	let gm66v = rand(1.5, 2.5, 0.5);
+	let gm66r = rand(30, 50, 5);
+	let gm66r_m = gm66r / 100;
+	let gm66T = 2 * Math.PI * gm66r_m / gm66v;
+	let gm66omega = gm66v / gm66r_m;
+	setFixed("gm66v", gm66v, 1);
+	setFixed("gm66r", gm66r);
+	setFixed("gm66jaa", gm66T, 2);
+	setFixed("gm66jab", gm66omega, 1);
+
+	// gm67: r = d/2, a_max = v² / r
+	let gm67d = rand(15, 25, 5);
+	let gm67v = rand(8, 12, 1);
+	let gm67r = (gm67d / 2);
+	let gm67amax = Math.pow(gm67v, 2) / gm67r;
+	setFixed("gm67d", gm67d);
+	setFixed("gm67v", gm67v, 1);
+	setFixed("gm67ja", gm67amax, 1);
+
+	// gm68: ωA = 2π / TA, ωB = ωA * (rA / rB), ωC = ωB, ωD = ωC * (rC / rD)
+	let gm68rA = rand(7, 11, 1);
+	let gm68rB = rand(2, 4, 0.5);
+	let gm68rC = rand(40, 60, 5);
+	let gm68rD = rand(4, 6, 0.5);
+	let gm68TA = rand(1.5, 2.5, 0.5);
+	let gm68omegaA = 2 * Math.PI / gm68TA;
+	let gm68omegaB = gm68omegaA * (gm68rA / 100) / (gm68rB / 100); // cm to m cancel
+	let gm68omegaC = gm68omegaB;
+	let gm68omegaD = gm68omegaC * (gm68rC / 100) / (gm68rD / 100);
+	setFixed("gm68rA", gm68rA);
+	setFixed("gm68rB", gm68rB, 1);
+	setFixed("gm68rC", gm68rC);
+	setFixed("gm68rD", gm68rD, 1);
+	setFixed("gm68TA", gm68TA, 1);
+	setFixed("gm68ja", gm68omegaD, 1);
+
+	// gm70: v_max = sqrt(g r)
+	let gm70r = rand(2, 3, 0.5);
+	let gm70vmax = Math.sqrt(g * gm70r);
+	setFixed("gm70r", gm70r, 1);
+	setFixed("gm70ja", gm70vmax, 2);
+</script>
+
+<div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse6">
+<h2>Materi 4 Perpaduan Gerak</h2></a></div><div id="collapse6" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+	<span id="pg71"></span>
+	<p><b>71. </b><br>Satu peluru ditembakkan dengan kecepatan <span id="pg71v0"></span> m/s dan membentuk sudut <span id="pg71theta"></span>° terhadap arah mendatar.<br>Tentukan:<br>
+	a. waktu untuk mencapai titik tertinggi,<br>
+	b. tinggi maksimum yang dicapai peluru,<br>
+	c. jarak mendatar maksimum yang dicapai peluru, dan<br>
+	d. kecepatan peluru setelah <span id="pg71t"></span> sekon.</p>
+
+	<span id="pg72"></span>
+	<p><b>72. </b><br>Made menembakkan peluru dengan kecepatan awal <span id="pg72v0"></span> m/s dan sudut elevasi <span id="pg72theta"></span>°. Jika g = 10 m/s<sup>2</sup>, peluru mencapai titik tertinggi setelah ....</p>
+
+	<span id="pg73"></span>
+	<p><b>73. </b><br>Ajeng melemparkan sebuah bola dengan sudut elevasi <span id="pg73theta"></span>°. Agar jarak mendatar yang dicapai bola adalah sejauh <span id="pg73R"></span> m, kecepatan awal pelemparan yang harus diberikan Ajeng adalah ....</p>
+
+	<span id="pg75"></span>
+	<p><b>75. </b><br>Ucok melemparkan bola ke atas dengan kecepatan awal <span id="pg75v0"></span> m/s dan sudut elevasi <span id="pg75theta"></span>°. Bola akan melayang di udara selama.....</p>
+
+	<span id="pg76"></span>
+	<p><b>76. </b><br>Sebuah meriam menembakkan peluru dengan kelajuan awal <span id="pg76v0"></span> m/s dan sudut elevasi <span id="pg76theta"></span>°. Jika gravitasi bumi g = 10 m s<sup>-2</sup> dan pengaruh gesekan dengan udara diabaikan, maka jarak maksimum yang dicapai peluru adalah....</p>
+
+	<span id="pg80"></span>
+	<p><b>80. </b><br>Sebuah sasaran terletak pada jarak <span id="pg80x"></span> m dan pada ketinggian <span id="pg80h"></span> m. Berapa sudut elevasi peluru agar tembakannya tepat mengenai sasaran jika kecepatan awalnya <span id="pg80v0"></span> m/s?</p>
+
+	<span id="pg81"></span>
+	<p><b>81. </b><br>Sebuah sasaran terletak pada koordinat (<span id="pg81x"></span>, <span id="pg81y"></span>)m. Seseorang melemparkan batu dengan sudut <span id="pg81theta"></span>° ke arah sasaran tersebut dari pusat koordinat. Berapakah kecepatan yang harus diberikan agar batu itu tepat mengenai sasaran?</p>
+
+	<span id="pg82"></span>
+	<p><b>82. </b><br>Sebuah pesawat tempur bergerak dengan kecepatan <span id="pg82v"></span> m/s dan arahnya membentuk sudut <span id="pg82phi"></span>° dengan bidang datar. Ketika berada pada ketinggian <span id="pg82h"></span> m dari A (arah vertikal), sebuah bom dilepaskan dari pesawat tersebut. Jika bom jatuh di titik B, tentukan jarak AB.</p>
+
+	<span id="pg83"></span>
+	<p><b>83. </b><br>Sebuah benda kecil, m, dijatuhkan dari titik A yang jarak tegak lurusnya <span id="pg83hA"></span> m di atas B. Pada saat yang sama, sebuah proyektil ditembakkan dari titik O dengan laju <span id="pg83v0"></span> m/s dan diarahkan ke titik A. Titik C berada di ketinggian <span id="pg83hC"></span> m di atas B. Jika jarak OB adalah <span id="pg83dOB"></span> m. tentukan:<br>
+	1. waktu saat benda m mencapai titik C.<br>
+	2. apakah proyektil juga melewati titik C;<br>
+	3. waktu saat proyektil mencapai titik tertinggi.<br>
+	4. apakah proyektil mengenai benda m.</p>
+
+	<span id="pg84"></span>
+	<p><b>84. </b><br>Sebuah peluru ditembakkan dengan kecepatan awal <span id="pg84v0"></span> m/s dari puncak menara setinggi <span id="pg84h"></span> m dengan arah membentuk sudut <span id="pg84theta"></span>° terhadap garis mendatar. Jarak terjauh peluru tersebut tiba di tanah, apabila dihitung dari dasar menara adalah ....</p>
+
+	<span id="pg85"></span>
+	<p><b>85. </b><br>Seorang atlet lompat jauh, dapat melakukan lompatan sejauh <span id="pg85R"></span> m dengan kecepatan tolakan awal v<sub>o</sub> dan sudut tolakan sebesar <span id="pg85theta"></span><sup>o</sup> terhadap horizontal.<br>Pada saat melakukan program latihan cross country, atlet tersebut berada di tepi sungai setinggi <span id="pg85h"></span> m dari permukaan sungai dan lebar sungai <span id="pg85R2"></span> m .<br>Atlet itu harus mampu menyeberang sungai dengan cara melompat. Jika dia melakukan lompatan seperti saat latihan, apakah atlet tersebut mampu menyeberang sungai?</p>
+
+
+    <b><hr></b>
+	
+    <h2>Kunci Jawaban</h2>
+	
+	<p><b>71. </b>a. <span id="pg71a"></span> s<br>b. <span id="pg71b"></span> m<br>c. <span id="pg71c"></span> m<br>d. <span id="pg71d"></span> m/s</p>
+	<p><b>72. </b><span id="pg72a"></span> s</p>
+	<p><b>73. </b><span id="pg73a"></span> m/s</p>
+	<p><b>75. </b><span id="pg75a"></span> s</p>
+	<p><b>76. </b><span id="pg76a"></span> m</p>
+	<p><b>80. </b>sudut yang lebih besar : <span id="pg80a"></span>°</p>
+	<p><b>81. </b><span id="pg81a"></span> m/s</p>
+	<p><b>82. </b><span id="pg82ab"></span> m, vx=<span id="pg82vx"></span> , t=<span id="pg82t"></span> </p>
+	<p><b>83. </b>1. <span id="pg83a1"></span> s<br>2. <span id="pg83a2"></span><br>3. <span id="pg83a3"></span> s<br>4. <span id="pg83a4"></span></p>
+	<p><b>84. </b><span id="pg84a"></span> m</p>
+	<p><b>85. </b><span id="pg85a"></span>, dengan jarak lompatan <span id="pg85s"></span> m</p>
+</div>
+</div>
+</div>
+<br>
+<script>
+	// pg71: Gerak proyektil standar
+	let pg71v0 = rand(80, 120, 10);
+	let pg71theta_deg = rand(30, 45, 5);
+	let pg71theta = pg71theta_deg * pi / 180;
+	let pg71t = rand(1, 3, 0.5);
+	let pg71tmax = (pg71v0 * Math.sin(pg71theta)) / g;
+	let pg71hmax = (Math.pow(pg71v0 * Math.sin(pg71theta), 2)) / (2 * g);
+	let pg71R = (Math.pow(pg71v0, 2) * Math.sin(2 * pg71theta)) / g;
+	let pg71vx = pg71v0 * Math.cos(pg71theta);
+	let pg71vy = pg71v0 * Math.sin(pg71theta) - g * pg71t;
+	let pg71v = Math.sqrt(Math.pow(pg71vx, 2) + Math.pow(pg71vy, 2));
+	setFixed("pg71v0", pg71v0);
+	setFixed("pg71theta", pg71theta_deg, 0);
+	setFixed("pg71t", pg71t, 1);
+	setFixed("pg71a", pg71tmax, 2);
+	setFixed("pg71b", pg71hmax, 1);
+	setFixed("pg71c", pg71R, 1);
+	setFixed("pg71d", pg71v, 1);
+
+	// pg72: tmax = (v0 sinθ)/g
+	let pg72v0 = rand(100, 140, 10);
+	let pg72theta_deg = rand(25, 35, 5);
+	let pg72theta = pg72theta_deg * pi / 180;
+	let pg72tmax = (pg72v0 * Math.sin(pg72theta)) / g;
+	setFixed("pg72v0", pg72v0);
+	setFixed("pg72theta", pg72theta_deg, 0);
+	setFixed("pg72a", pg72tmax, 2);
+
+	// pg73: v0 = sqrt( R g / sin(2θ) )
+	let pg73theta_deg = rand(60, 80, 5);
+	let pg73theta = pg73theta_deg * pi / 180;
+	let pg73R = rand(15, 25, 5);
+	let pg73v0 = Math.sqrt( (pg73R * g) / Math.sin(2 * pg73theta) );
+	setFixed("pg73theta", pg73theta_deg, 0);
+	setFixed("pg73R", pg73R);
+	setFixed("pg73a", pg73v0, 1);
+
+	// pg75: T = 2 (v0 sinθ)/g
+	let pg75v0 = rand(30, 50, 5);
+	let pg75theta_deg = rand(20, 40, 5);
+	let pg75theta = pg75theta_deg * pi / 180;
+	let pg75T = 2 * (pg75v0 * Math.sin(pg75theta)) / g;
+	setFixed("pg75v0", pg75v0);
+	setFixed("pg75theta", pg75theta_deg, 0);
+	setFixed("pg75a", pg75T, 2);
+
+	// pg76: R = (v0^2 sin2θ)/g, random v0
+	let pg76theta_deg = rand(40, 50, 5);
+	let pg76theta = pg76theta_deg * pi / 180;
+	let pg76v0 = rand(50, 70, 5);
+	let pg76R = (Math.pow(pg76v0, 2) * Math.sin(2 * pg76theta)) / g;
+	setFixed("pg76v0", pg76v0);
+	setFixed("pg76theta", pg76theta_deg, 0);
+	setFixed("pg76a", pg76R, 1);
+
+	// pg80: θ = atan( (h + (g x^2)/(2 v0^2)) / x ) approx, but exact from tanθ = y/x + (g x)/(2 v0^2 cos^2 θ), use numerical or approx
+	// Use formula: sin(2θ) = 2 g x / (v0^2 (1 + (2 h g)/v0^2 ) ) wait, better solve quadratic
+	// For θ: let α = θ, equation: x = (v0^2 / g) (sinα cosα) / cos^2 α * something, standard: θ = atan( (v0^2 ± sqrt(v0^4 - g^2 x^2 - 2 g h v0^2)) / (g x) )
+	let pg80x = rand(80, 120, 10);
+	let pg80h = rand(5, 15, 5);
+	let pg80v0 = rand(50, 70, 5);
+	let pg80disc = Math.pow(pg80v0, 4) - Math.pow(g, 2) * Math.pow(pg80x, 2) - 2 * g * pg80h * Math.pow(pg80v0, 2);
+	if (pg80disc < 0) pg80disc = 0; // Ensure positive
+	let pg80theta_opt = Math.atan( (Math.pow(pg80v0, 2) + Math.sqrt(pg80disc)) / (g * pg80x) ) * 180 / pi; // Higher angle
+	setFixed("pg80x", pg80x);
+	setFixed("pg80h", pg80h);
+	setFixed("pg80v0", pg80v0);
+	setFixed("pg80a", pg80theta_opt, 1);
+
+	// pg81: y = x tanθ - (g x^2)/(2 v0^2 cos^2 θ), solve v0^2 = (g x^2) / (2 cos^2 θ (x tanθ - y))
+	let pg81x = rand(70, 90, 5);
+	let pg81y = rand(15, 25, 5);
+	let pg81theta_deg = rand(45, 60, 3);
+	let pg81theta = pg81theta_deg * pi / 180;
+	let pg81denom = 2 * Math.pow(Math.cos(pg81theta), 2) * (pg81x * Math.tan(pg81theta) - pg81y);
+	let pg81v0_sq = (g * Math.pow(pg81x, 2)) / pg81denom;
+	let pg81v0 = Math.sqrt(pg81v0_sq);
+	setFixed("pg81x", pg81x);
+	setFixed("pg81y", pg81y);
+	setFixed("pg81theta", pg81theta_deg, 0);
+	setFixed("pg81a", pg81v0, 1);
+
+	// pg82: Bom dilepas, vx = v cosφ, vy0 = v sinφ, t from quadratic 0 = h + vy0 t - 0.5 g t^2, then AB = vx t
+	let pg82v = rand(80, 120, 2);
+	let pg82phi_deg = rand(50, 70, 2);
+	let pg82phi = pg82phi_deg * pi / 180;
+	let pg82h = rand(600, 1000, 50);
+	let pg82c = pg82h; //quadratics at^2 + bt + c = 0 ->  -0.5 g t^2 + v_y t + h =0
+	let pg82b = pg82v * Math.sin(pg82phi);
+	let pg82a = -0.5 * g;
+	let pg82disc = Math.pow(pg82b, 2) - 4 * pg82a * pg82c;
+	let pg82t = (-pg82b - Math.sqrt(pg82disc)) / (2 * pg82a); // Positive time
+	let pg82vx = pg82v * Math.cos(pg82phi);
+	let pg82AB = pg82vx * pg82t;
+	setFixed("pg82v", pg82v);
+	setFixed("pg82phi", pg82phi_deg, 0);
+	setFixed("pg82h", pg82h);
+	setFixed("pg82ab", pg82AB, 0);
+	setFixed("pg82vx", pg82vx, 1);
+	setFixed("pg82t", pg82t, 1);
+
+
+	// pg83: Kompleks. Benda m jatuh dari hA=30m, t to C: t1 = sqrt(2 hC / g)
+	let pg83hA = rand(25, 35, 5);
+	let pg83v0 = rand(20, 30, 5);
+	let pg83hC = rand(5, 15, 5);
+	let pg83dOB = rand(35, 45, 5);
+	// Asumsi O to B horizontal dOB, A is vertical above B by hA, proyektil aimed at A, so θ = atan(hA / dOB), v0 to reach A
+	let pg83theta = Math.atan(pg83hA / pg83dOB);
+	let pg83R_toA = Math.sqrt(Math.pow(pg83dOB, 2) + Math.pow(pg83hA, 2));
+	let pg83t_toA = pg83R_toA / pg83v0; // Time to A
+	let pg83tmax_proj = (pg83v0 * Math.sin(pg83theta)) / g;
+	// t1 for m to C: sqrt(2 hC / g)
+	let pg83t1 = Math.sqrt(2 * pg83hC / g);
+	// Pos C for proj: at t= t1, x_proj = (pg83v0 cosθ) t1, y_proj = (pg83v0 sinθ) t1 - 0.5 g t1^2
+	let pg83xC = pg83dOB * (pg83hC / pg83hA); // Assuming proportional
+	let pg83yC = pg83hC;
+	let pg83x_proj_C = (pg83v0 * Math.cos(pg83theta)) * pg83t1;
+	let pg83y_proj_C = (pg83v0 * Math.sin(pg83theta)) * pg83t1 - 0.5 * g * Math.pow(pg83t1, 2);
+	let pg83lewatiC = Math.abs(pg83x_proj_C - pg83xC) < 1 && Math.abs(pg83y_proj_C - pg83yC) < 1 ? "Ya" : "Tidak";
+	// Mengena m: if t_toA == t_fall_m = sqrt(2 hA / g)
+	let pg83t_fall_m = Math.sqrt(2 * pg83hA / g);
+	let pg83mengena = Math.abs(pg83t_toA - pg83t_fall_m) < 0.1 ? "Ya" : "Tidak";
+	setFixed("pg83hA", pg83hA);
+	setFixed("pg83v0", pg83v0);
+	setFixed("pg83hC", pg83hC);
+	setFixed("pg83dOB", pg83dOB);
+	setFixed("pg83a1", pg83t1, 2);
+	document.getElementById("pg83a2").textContent = pg83lewatiC;
+	setFixed("pg83a3", pg83tmax_proj, 2);
+	document.getElementById("pg83a4").textContent = pg83mengena;
+
+	// pg84: Quadratic for t to ground: 0 = h + (v0 sinθ) t - 0.5 g t^2, R = (v0 cosθ) t
+	let pg84v0 = rand(15, 25, 5);
+	let pg84h = rand(300, 500, 50);
+	let pg84theta_deg = rand(25, 35, 5);
+	let pg84theta = pg84theta_deg * pi / 180;
+	let pg84a = -0.5 * g;
+	let pg84b = pg84v0 * Math.sin(pg84theta);
+	let pg84c = pg84h;
+	let pg84disc = Math.pow(pg84b, 2) - 4 * pg84a * pg84c;
+	let pg84t = (-pg84b - Math.sqrt(pg84disc)) / (2 * pg84a); // Longer time
+	let pg84vx = pg84v0 * Math.cos(pg84theta);
+	let pg84R = pg84vx * pg84t;
+	setFixed("pg84v0", pg84v0);
+	setFixed("pg84h", pg84h);
+	setFixed("pg84theta", pg84theta_deg, 0);
+	setFixed("pg84a", pg84R, 0);
+
+	// pg85: First, v0 from R = v0^2 sin2θ / g =8 at θ=45°, sin90=1, v0=sqrt(R g)
+	let pg85R = rand(7, 9, 0.5);
+	let pg85theta_deg = rand(30, 60, 1);
+	let pg85theta = pg85theta_deg * pi / 180;
+	let pg85v0 = Math.sqrt(pg85R * g / Math.sin(2 * pg85theta));
+	let pg85h = rand(0.2, 2, 0.1);
+	// For jump over h, effective R' from quadratic, but check if max R > width, but since same v0 θ, compute t_total for flat, but for cliff, compute horizontal distance until y=-h
+	let pg85R2 = pg85R + 1;
+	// Persamaan: 0 = h + vy0 t - 0.5 g t²  →  0.5 g t² - vy0 t - h = 0
+	let pg85a = 0.5 * g;
+	let pg85b = -pg85v0 * Math.sin(pg85theta);
+	let pg85c = -pg85h;
+	let pg85disc = Math.pow(pg85b, 2) - 4 * pg85a * pg85c;
+	let pg85t_land = (-pg85b + Math.sqrt(pg85disc)) / (2 * pg85a); // t > 0
+	let pg85vx = pg85v0 * Math.cos(pg85theta);
+	let pg85R_cliff = pg85vx * pg85t_land;
+	let pg85mampu = pg85R_cliff >= pg85R2 ? "Ya" : "Tidak";
+	setFixed("pg85R", pg85R);
+	setFixed("pg85R2", pg85R2);
+	setFixed("pg85theta", pg85theta_deg);
+	setFixed("pg85h", pg85h, 1);
+	setFixed("pg85s", pg85R_cliff, 2);
+	document.getElementById("pg85a").textContent = pg85mampu;
+</script>
+
+<div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse7">
+<h2>End</h2></a></div><div id="collapse7" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+
+
+</div>
+</div>
+</div>
+<br>
+
+</div> 
+</div> 
+
+
+
+</body>
+</html>
+
