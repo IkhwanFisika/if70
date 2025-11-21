@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BocoranSumatifDinamika</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/4.0.0/startup.js" integrity="sha512-bTOpOLAF7Z74dLZ3Z3jfQE7SH0mFuuneuOQR+/3EP811prUfVzgtQLPAnIFGlAXc5fs9b1dIjfi8zd4Px1xrAQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+	span {color:blue;}
+	h4 {color:blue}
+    .soal {
+        font-size: 150%;
+		color:blue;
+		margin-right: 15px;
+    }
+	code{font-size: 125%;}
+    .code-block {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+</style>
+<script>
+    function rand(min, max, step = 1) {
+        const range = Math.floor((max - min) / step) + 1;
+        return min + Math.floor(Math.random() * range) * step;
+    }
+	
+    function setFixed(id, value, fixed = 0) {
+        document.getElementById(id).textContent = value.toFixed(fixed);
+    }
+
+	function setPrec(id, value, precision = 3) {
+        document.getElementById(id).textContent = value.toPrecision(precision);
+    }
+	// Konstanta
+	let g = 10;
+	let pi = Math.PI;
+</script>
+</head>
+<body>
+<div class="container-fluid">
+
+<h1>Fisika Fase F - Dinamika</h1>
+<p>Latihan pra Sumatif TP Dinamika <br>
+silahkan dipelajari dengan baik. Semoga sukses.<br><br>*Pak Ikhwan Fisika.
+</p>
+<!--<h5 style="color:Tomato">Hukum Ohm</h5> -->
+<div id="accordion">
+
+<div class="card">
+<div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse1">
+<h2>Materi 1 Dinamika Gerak Lurus</h2></a></div><div id="collapse1" class="collapse" data-bs-parent="#accordion"><div class="card-body">
+    <span id="di11"></span>
+    <p><b>11. Contoh 5.1</b><br>
+    Tiga buah gaya, F1 = <span id="di11f1"></span> N dan F2 = <span id="di11f2"></span> N, dan F3 = c N bekerja pada sebuah benda, seperti ditunjukkan pada gambar berikut. Jika benda tetap diam, berapakah nilai c?<br>
+    <img src="https://ifbsatu.sirv.com/Projek/Aip10-cth5.1.png"><br></p>
+
+    <span id="di12"></span>
+    <p><b>12. Contoh 5.2</b><br>
+    Dua buah gaya masing-masing <span id="di12f"></span> N bekerja pada benda <span id="di12m"></span> kg, seperti terlihat pada gambar.<br>
+    <img src="https://ifbsatu.sirv.com/Projek/Aip10-cth5.2.png"><br>
+    a. Tentukanlah resultan gaya tersebut.<br>
+    b. Berapakah percepatannya?</p>
+
+    <span id="di13"></span>
+    <p><b>13. Contoh 5.3</b><br>
+    Tentukan resultan sebuah gaya yang diperlukan untuk menghentikan mobil <span id="di13m"></span> kg yang sedang bergerak dengan kelajuan <span id="di13vkm"></span> km/jam dalam jarak <span id="di13s"></span> m.</p>
+
+    <span id="di142"></span>
+    <p><b>14. SPM 5.1_1M</b><br>
+    Sebuah gaya F menghasilkan percepatan <span id="di142a1"></span> m/s² pada sebuah benda yang memiliki massa <span id="di142m1"></span> kg. Jika gaya yang sama dikenakan pada benda m2, gaya tersebut menghasilkan percepatan <span id="di142a2"></span> m/s². Tentukan:<br>
+    a. besarnya gaya F<br>
+    b. besarnya massa benda m2?</p>
+
+    <span id="di15"></span>
+    <p><b>15. SPM 5.1_2M</b><br>
+    Sebuah balok yang bermassa <span id="di15m"></span> kg diam pada saat t = 0. Sebuah gaya konstan dalam arah horizontal Fx bekerja pada balok. Pada saat t = <span id="di15t"></span> s, balok telah berpindah sejauh <span id="di15s"></span> m. Tentukan:<br>
+    a. Percepatan benda<br>
+    b. Gaya Fx.</p>
+
+    <span id="di16"></span>
+    <p><b>16. SPM 5.1_3M</b><br>
+    Sebuah gaya sebesar <span id="di16f"></span> N bekerja pada sebuah benda bermassa m. Benda bergerak pada lintasan lurus dengan kelajuan yang bertambah <span id="di16dv"></span> m/s setiap <span id="di16dt"></span> s. Tentukanlah besarnya massa benda tersebut.</p>
+
+    <span id="di17"></span>
+    <p><b>17. Aip12_Contoh5.4</b><br>
+    Benda bermassa <span id="di17m"></span> kg terletak diam di atas sebuah bidang. Tentukanlah gaya normal yang bekerja pada benda jika bidang tersebut<br>
+    a. datar, dan<br>
+    b. membentuk sudut <span id="di17theta"></span>° terhadap bidang datar. (g = 10 m/s²)</p>
+
+    <span id="di18"></span>
+    <p><b>18. Aip12_Contoh5.5</b><br>
+    Sebuah lift bergerak dipercepat ke atas dengan percepatan <span id="di18a"></span> m/s². Jika massa lift dan isinya <span id="di18m"></span> kg, tentukanlah tegangan tali penarik lift tersebut. Ambil percepatan gravitasi bumi g = 10 m/s².</p>
+
+    <span id="di19"></span>
+    <p><b>19. Aip12_Contoh5.5.2</b><br>
+    Sebuah lift bergerak dipercepat ke atas dengan percepatan <span id="di19a"></span> m/s². Seorang murid berdiri di atas timbangan digital di dalam lift. Jika massa murid di dalam lift <span id="di19m"></span> kg, tentukanlah berat yang terukur oleh timbangan. Ambil percepatan gravitasi bumi g = 10 m/s².</p>
+
+    <span id="di20"></span>
+    <p><b>20. ContohIF_6</b><br>
+    Sebuah kotak bermassa <span id="di20m"></span> kg terletak di bidang datar licin, ditarik dengan gaya <span id="di20f"></span> N membentuk sudut <span id="di20theta"></span>° ke atas dari horizontal.<br>
+    a. gambarkan diagram gaya<br>
+    b. tentukan besar gaya normal<br>
+    c. tentukan percepatan benda (g = 10 m/s²)</p>
+
+    <span id="di21"></span>
+    <p><b>21. ContohIF_7</b><br>
+    Pada sistem berikut, jika m1 = <span id="di21m1"></span> kg dan m2 = <span id="di21m2"></span> kg, permukaan benda dan katrol licin. Gambarkan diagram gaya dan tentukan percepatan benda serta gaya tegangan tali. (g = 10 m/s²)</p>
+
+    <span id="di22"></span>
+    <p><b>22. ContohIF_8</b><br>
+    Sebuah benda bermassa <span id="di22m"></span> kg berada di lantai kasar dengan koefisien gesek statis <span id="di22mus"></span> dan koefisien gesek kinetis <span id="di22muk"></span>. Tentukan apakah benda bergerak atau tidak, besar gaya gesek dan percepatan yang dialami benda saat benda ditarik dengan gaya:<br>
+    a) <span id="di22f1"></span> N<br>
+    b) <span id="di22f2"></span> N<br>
+    c) <span id="di22f3"></span> N<br>
+    d) <span id="di22f4"></span> N<br>
+    e) <span id="di22f5"></span> N (g = 10 m/s²)</p>
+
+    <span id="di23"></span>
+    <p><b>23. ContohIF_9</b><br>
+    Sebuah benda bermassa <span id="di23m"></span> kg ditarik oleh gaya <span id="di23f"></span> N bergerak dari keadaan diam dengan percepatan tetap hingga mencapai jarak <span id="di23s"></span> m dalam waktu <span id="di23t"></span> detik. Tentukan:<br>
+    a. Besar percepatan benda<br>
+    b. Besar gaya gesek yang bekerja<br>
+    c. Koefisien gesek kinetik (g = 10 m/s²)</p>
+
+    <span id="di31"></span>
+    <p><b>31. [9709_s13_41_05M]</b><br>
+    Sebuah tali ringan yang tidak dapat mulur memiliki partikel A bermassa <span id="di31ma"></span> kg yang diikat pada salah satu ujungnya dan partikel B bermassa <span id="di31mb"></span> kg yang diikat pada ujung lainnya. Partikel A ditahan dalam keadaan diam pada bidang kasar yang miring dengan sudut kemiringan α terhadap horizontal, di mana sin α = <span id="di31sina"></span>. Tali tersebut tegang dan sejajar dengan garis kemiringan terbesar bidang miring.<br>
+    <img src="https://ifbsatu.sirv.com/Projek/dinamika_cie01.png"><br>
+    Tali tersebut melewati sebuah katrol kecil yang licin di puncak bidang miring. Partikel B menggantung diam tepat di bawah katrol secara vertikal (lihat diagram). Koefisien gesekan antara A dan bidang miring adalah <span id="di31mu"></span>. Partikel A dilepaskan dan kedua partikel mulai bergerak.<br>
+    (i) Tentukan besar percepatan partikel-partikel tersebut dan besar tegangan pada tali.<br>
+    Partikel B mencapai lantai <span id="di31t"></span> s setelah mulai bergerak.<br>
+    (ii) Tentukan jarak yang ditempuh oleh partikel B.<br>
+    (iii) 31. Tentukan kenaikan ketinggian partikel A. (g = 10 m/s²)</p>
+
+    <span id="di32"></span>
+    <p><b>32. [9709_s13_42_01]</b> Sebuah tali diikatkan pada sebuah balok yang memiliki berat <span id="di32w"></span> N, yang bersentuhan dengan bidang datar kasar. Ketika tali berada pada posisi horizontal dan tegangannya <span id="di32th"></span> N, balok berada dalam keadaan batas keseimbangan (limiting equilibrium).<br>
+    (i) Tentukan koefisien gesekan antara balok dan bidang datar.<br>
+    Sekarang balok bergerak, dan tali membentuk sudut <span id="di32theta"></span>° ke atas terhadap bidang datar. Tegangan pada tali adalah <span id="di32t2"></span> N.<br>
+    (ii) Tentukan percepatan balok. (g = 10 m/s²)</p>
+
+	<span id="di33"></span>
+	<p><b>33. [9709_s13_42_03]</b><br>
+	<img src="https://ifbsatu.sirv.com/Projek/dinamika_cie02.png"><br>
+	Sebuah partikel P bermassa <span id="di33m"></span> kg diikatkan pada salah satu ujung dari dua tali ringan yang tidak dapat mulur. Ujung-ujung lainnya dari kedua tali tersebut diikat pada titik A dan B yang berada pada ketinggian horizontal yang sama.<br>
+	Partikel P menggantung dalam keadaan setimbang pada suatu titik yang berjarak <span id="di33p"></span> cm di bawah tingkat A dan B, dan panjang tali PA serta PB masing-masing adalah <span id="di33a"></span> cm dan <span id="di33b"></span> cm.<br>
+	a. Tentukan besar tegangan pada tali PA.<br>
+	b. Tentukan tegangan pada tali PB. (g = 10 m/s²)</p>
+
+    <span id="di34"></span>
+    <p><b>34. [9709_s13_43_01]</b><br>
+    Sebuah lintasan es lurus sepanjang <span id="di34l"></span> m miring dengan sudut <span id="di34theta"></span>° terhadap horizontal.<br>
+    Seorang pria memulai dari puncak lintasan dengan menaiki kereta luncur, dengan kecepatan awal <span id="di34u"></span> m/s. Ia meluncur pada kereta tersebut hingga mencapai dasar lintasan.<br>
+    Koefisien gesekan antara kereta luncur dan lintasan adalah <span id="di34mu"></span>.<br>
+    Tentukan kecepatan kereta luncur dan pria tersebut ketika mereka mencapai dasar lintasan. (g = 10 m/s²)</p>
+
+    <span id="di35"></span>
+    <p><b>35. [9709_s13_43_06]</b><br>
+    <img src="https://ifbsatu.sirv.com/Projek/dinamika_cie03.png"><br>
+    Sebuah kotak kecil bermassa <span id="di35m"></span> kg digerakkan di atas lantai datar kasar oleh tiga orang.<br>
+    Dua dari mereka memberikan gaya mendatar masing-masing sebesar F<sub>1</sub>=<span id="di35f1"></span> N dan F<sub>2</sub>=<span id="di35f2"></span> N, membentuk sudut <span id="di35th1"></span>° dan <span id="di35th2"></span>° terhadap arah x positif.<br>
+    Orang ketiga memberikan gaya mendatar sebesar F N, membentuk sudut α° terhadap arah x negatif (lihat diagram).<br>
+    Resultan dari ketiga gaya mendatar yang bekerja pada kotak tersebut berada pada arah x positif dan besarnya adalah <span id="di35r"></span> N.<br>
+    (i) Tentukan nilai F dan α.<br>
+    (ii) Diketahui bahwa kotak bergerak dengan kecepatan konstan, nyatakan besar gaya gesek yang bekerja pada kotak, dan kemudian tentukan koefisien gesekan antara kotak dan lantai. (g = 10 m/s²)</p>
+
+    <span id="di36"></span>
+    <p><b>36. [9709_s13_43_07]</b><br>
+    Partikel A bermassa <span id="di36ma"></span> kg dan partikel B bermassa <span id="di36mb"></span> kg diikat pada kedua ujung dari sebuah tali ringan yang tidak dapat mulur.<br>
+    <img src="https://ifbsatu.sirv.com/Projek/dinamika_cie04.png"><br>
+	Tali tersebut melewati katrol kecil licin P yang dipasang di tepi meja horizontal kasar.<br>
+    Partikel A ditahan diam pada titik <span id="di36da"></span> m dari P, dan B menggantung secara vertikal di bawah P, pada ketinggian <span id="di36hb"></span> m di atas lantai.<br>
+    Koefisien gesekan antara A dan meja adalah <span id="di36mu"></span>.<br>
+    A dilepaskan dan kedua partikel mulai bergerak.<br>
+    (i) Tentukan besar percepatan kedua partikel, dan tentukan tegangan pada tali.<br>
+    (ii) Tentukan kecepatan partikel B ketika mencapai lantai.<br>
+    (iii) Tentukan kecepatan partikel A ketika mencapai katrol. (g = 10 m/s²)</p>
+<h3>Kunci: </h3>
+    <p><b>11. Kunci:</b> Nilai c = <span id="di11c"></span> N (karena resultan gaya nol untuk keseimbangan horizontal).</p>
+    <p><b>12. Kunci:</b> a. Resultan gaya = <span id="di12r"></span> N (menggunakan teorema Pythagoras untuk vektor tegak lurus).<br>     b. Percepatan = <span id="di12a"></span> m/s² (F = ma).</p>
+    <p><b>13. Kunci:</b> Percepatan = <span id="di13a"></span> m/s² (dari v² = u² + 2as, v=0), resultan gaya = <span id="di13f"></span> N (F = ma, a negatif).</p>
+    <p><b>14. Kunci:</b> a. F = <span id="di142f"></span> N (F = m1 * a1).<br>     b. Massa m2 = <span id="di142m2"></span> kg (m2 = F / a2).</p>
+    <p><b>15. Kunci:</b> a. Percepatan = <span id="di15a"></span> m/s² (s = (1/2) a t²).<br>     b. Fx = <span id="di15f"></span> N (F = m a).</p>
+    <p><b>16. Kunci:</b> Massa m = <span id="di16m"></span> kg (a = dv/dt, m = F/a).</p>
+    <p><b>17. Kunci:</b> a. N_datar = <span id="di17nd"></span> N (N = mg).<br>     b. N_miring = <span id="di17nm"></span> N (N = mg cos θ).</p>
+    <p><b>18. Kunci:</b> Tegangan T = <span id="di18t"></span> N (T - mg = ma, T = m(g + a)).</p>
+    <p><b>19. Kunci:</b> Berat terukur = <span id="di19w"></span> N (W = m(g + a)).</p>
+    <p><b>20. Kunci:</b> b. Gaya normal N = <span id="di20n"></span> N (N = mg - F sin θ).<br>c. Percepatan a = <span id="di20a"></span> m/s² (a = (F cos θ)/m).</p>
+    <p><b>21. Kunci:</b> Percepatan a = <span id="di21a"></span> m/s² ((m2 - m1)g / (m1 + m2)).<br>     Tegangan T = <span id="di21t"></span> N (2 m1 m2 g / (m1 + m2)).</p>
+    <p><b>22. Kunci:</b> fs_max = <span id="di22fsmax"></span> N (μ_s mg). fk = <span id="di22fk"></span> N (μ_k mg).<br>
+    a) <span id="di22a1"></span><br>
+    b) <span id="di22a2"></span><br>
+    c) <span id="di22a3"></span><br>
+    d) <span id="di22a4"></span><br>
+    e) <span id="di22a5"></span> (Format: "Gerak/Tidak, fs/fk, a m/s²")</p>
+    <p><b>23. Kunci:</b> a. a = <span id="di23a"></span> m/s² (s = (1/2) a t²).<br>
+    b. fg = <span id="di23fg"></span> N (fg = F - m a).<br>
+    c. μ_k = <span id="di23muk"></span> (μ_k = fg / (m g)).</p>
+    <p><b>31. Kunci:</b> (i) a = <span id="di31a"></span> m/s², T = <span id="di31tens"></span> N (dari persamaan dinamika miring dengan gesek).<br>
+    (ii) Jarak B = <span id="di31sb"></span> m (s = (1/2) a t²).<br>
+    (iii) Kenaikan A = <span id="di31ha"></span> m (sama dengan jarak B).</p>
+    <p><b>32. Kunci:</b> (i) μ = <span id="di32mu"></span> (μ = T_h / W).<br>     (ii) a = <span id="di32a"></span> m/s² (komponen: T cos θ - μ (W - T sin θ) = m a, m = W/g).</p>
+	<p><b>33. Kunci:</b> a. Tegangan PA = <span id="di33tpa"></span> N (dari persamaan keseimbangan vertikal dan horizontal).<br> 	b. Tegangan PB = <span id="di33tpb"></span> N.</p>
+    <p><b>34. Kunci:</b> v = <span id="di34v"></span> m/s (v² = u² + 2 a s, a = g (sin θ - μ cos θ)).</p>
+    <p><b>35. Kunci:</b> (i) F = <span id="di35f"></span> N, α = <span id="di35alpha"></span>° (resolve x dan y komponen, resultan x=136, y=0).<br>
+    (ii) Gaya gesek f = <span id="di35r"></span> N, μ = <span id="di35mu"></span> (f = μ m g).</p>
+    <p><b>36. Kunci:</b> (i) a = <span id="di36a"></span> m/s², T = <span id="di36t"></span> N (Atwood dengan gesek: a = (mB g - μ mA g)/(mA + mB)).<br>
+    (ii) vB = <span id="di36vb"></span> m/s (vB² = 2 a h).<br>
+    (iii) vA = <span id="di36va"></span> m/s (vA² = vB² -  2 a (s-h)).</p>
+    <script>
+        // di11
+        let di11f1 = rand(5, 20, 1);
+        let di11f2 = rand(5, 20, 1);
+        let di11c = di11f1 + di11f2;
+        setFixed("di11f1", di11f1);
+        setFixed("di11f2", di11f2);
+        setFixed("di11c", di11c);
+
+        // di12
+        let di12f = rand(80, 120, 10);
+        let di12m = rand(40, 60, 5);
+        let di12r = Math.sqrt(2 * di12f * di12f);
+        let di12a = di12r / di12m;
+        setFixed("di12f", di12f);
+        setFixed("di12m", di12m);
+        setFixed("di12r", di12r, 1);
+        setFixed("di12a", di12a, 2);
+
+        // di13
+        let di13m = rand(1200, 1800, 100);
+        let di13vkm = rand(60, 90, 6);
+        let di13v = di13vkm * 5 / 18;
+        let di13s = rand(40, 60, 5);
+        let di13a = - (di13v * di13v) / (2 * di13s);
+        let di13f = di13m * Math.abs(di13a);
+        setFixed("di13m", di13m);
+        setFixed("di13vkm", di13vkm);
+        setFixed("di13s", di13s);
+        setFixed("di13a", Math.abs(di13a), 2);
+        setFixed("di13f", di13f, 0);
+
+        // di142
+        let di142m1 = rand(2, 5, 1);
+        let di142a1 = rand(3, 8, 1);
+        let di142a2 = rand(10, 20, 2);
+        let di142f = di142m1 * di142a1;
+        let di142m2 = di142f / di142a2;
+        setFixed("di142m1", di142m1);
+        setFixed("di142a1", di142a1);
+        setFixed("di142a2", di142a2);
+        setFixed("di142f", di142f, 0);
+        setFixed("di142m2", di142m2, 2);
+
+        // di15
+        let di15m = rand(3, 6, 1);
+        let di15t = rand(2, 4, 1);
+        let di15s = rand(1.5, 3, 0.25);
+        let di15a = 2 * di15s / (di15t * di15t);
+        let di15f = di15m * di15a;
+        setFixed("di15m", di15m);
+        setFixed("di15t", di15t);
+        setFixed("di15s", di15s, 2);
+        setFixed("di15a", di15a, 2);
+        setFixed("di15f", di15f, 2);
+
+        // di16
+        let di16f = rand(10, 20, 2);
+        let di16dv = rand(8, 12, 2);
+        let di16dt = rand(1.5, 2.5, 0.5);
+        let di16a = di16dv / di16dt;
+        let di16m = di16f / di16a;
+        setFixed("di16f", di16f);
+        setFixed("di16dv", di16dv);
+        setFixed("di16dt", di16dt, 1);
+        setFixed("di16m", di16m, 1);
+
+        // di17
+        let di17m = rand(4, 7, 1);
+        let di17theta = rand(20, 40, 5);
+        let di17nd = di17m * g;
+        let di17nm = di17m * g * Math.cos(di17theta * Math.PI / 180);
+        setFixed("di17m", di17m);
+        setFixed("di17theta", di17theta);
+        setFixed("di17nd", di17nd, 0);
+        setFixed("di17nm", di17nm, 1);
+
+        // di18
+        let di18a = rand(1, 3, 0.5);
+        let di18m = rand(150, 250, 25);
+        let di18t = di18m * (g + di18a);
+        setFixed("di18a", di18a, 1);
+        setFixed("di18m", di18m);
+        setFixed("di18t", di18t, 0);
+
+        // di19
+        let di19a = rand(1, 3, 0.5);
+        let di19m = rand(40, 60, 5);
+        let di19w = di19m * (g + di19a);
+        setFixed("di19a", di19a, 1);
+        setFixed("di19m", di19m);
+        setFixed("di19w", di19w, 0);
+
+        // di20
+        let di20m = rand(3, 6, 1);
+        let di20f = rand(15, 25, 2);
+        let di20theta = rand(20, 40, 5);
+        let di20n = di20m * g - di20f * Math.sin(di20theta * Math.PI / 180);
+        let di20a = (di20f * Math.cos(di20theta * Math.PI / 180)) / di20m;
+        setFixed("di20m", di20m);
+        setFixed("di20f", di20f);
+        setFixed("di20theta", di20theta);
+        setFixed("di20n", di20n, 1);
+        setFixed("di20a", di20a, 2);
+
+        // di21
+        let di21m1 = rand(1, 3, 1);
+        let di21m2 = rand(4, 8, 1); // Pastikan m2 > m1
+        if (di21m2 <= di21m1) di21m2 = di21m1 + 2;
+        let di21a = (di21m2 - di21m1) * g / (di21m1 + di21m2);
+        let di21t = 2 * di21m1 * di21m2 * g / (di21m1 + di21m2);
+        setFixed("di21m1", di21m1);
+        setFixed("di21m2", di21m2);
+        setFixed("di21a", di21a, 2);
+        setFixed("di21t", di21t, 1);
+
+        // di22
+        let di22m = rand(4, 6, 1);
+        let di22mus = rand(0.2,0.4,0.05); // Fixed for simplicity, or rand(0.2,0.4,0.05)
+        let di22muk = 0.1; // Fixed
+        let di22f1 = rand(3, 7, 1);
+        let di22f2 = rand(8, 12, 1);
+        let di22f3 = rand(13, 17, 1);
+        let di22f4 = rand(18, 22, 1);
+        let di22f5 = rand(23, 27, 1);
+        let di22fsmax = di22mus * di22m * g;
+        let di22fk = di22muk * di22m * g;
+        let di22a1 = (di22f1 > di22fsmax) ? ((di22f1 - di22fk)/di22m).toFixed(2) : "Tidak gerak, fs=" + di22f1.toFixed(1);
+        let di22a2 = (di22f2 > di22fsmax) ? ((di22f2 - di22fk)/di22m).toFixed(2) : "Tidak gerak, fs=" + di22f2.toFixed(1);
+        let di22a3 = (di22f3 > di22fsmax) ? ((di22f3 - di22fk)/di22m).toFixed(2) : "Tidak gerak, fs=" + di22f3.toFixed(1);
+        let di22a4 = (di22f4 > di22fsmax) ? ((di22f4 - di22fk)/di22m).toFixed(2) : "Tidak gerak, fs=" + di22fsmax.toFixed(1);
+        let di22a5 = (di22f5 > di22fsmax) ? ((di22f5 - di22fk)/di22m).toFixed(2) : "Tidak gerak, fs=" + di22fsmax.toFixed(1);
+        setFixed("di22m", di22m);
+        setFixed("di22mus", di22mus, 1);
+        setFixed("di22muk", di22muk, 1);
+        setFixed("di22f1", di22f1);
+        setFixed("di22f2", di22f2);
+        setFixed("di22f3", di22f3);
+        setFixed("di22f4", di22f4);
+        setFixed("di22f5", di22f5);
+        setFixed("di22fsmax", di22fsmax, 1);
+        setFixed("di22fk", di22fk, 1);
+        document.getElementById("di22a1").textContent = di22a1;
+        document.getElementById("di22a2").textContent = di22a2;
+        document.getElementById("di22a3").textContent = di22a3;
+        document.getElementById("di22a4").textContent = di22a4;
+        document.getElementById("di22a5").textContent = di22a5;
+
+        // di23
+        let di23m = rand(1.5, 3, 0.5);
+        let di23f = rand(4, 7, 1);
+        let di23s = rand(30, 40, 2);
+        let di23t = rand(5, 7, 1);
+        let di23a = 2 * di23s / (di23t * di23t);
+        let di23fg = di23f - di23m * di23a;
+        let di23muk = di23fg / (di23m * g);
+        setFixed("di23m", di23m, 1);
+        setFixed("di23f", di23f);
+        setFixed("di23s", di23s);
+        setFixed("di23t", di23t);
+        setFixed("di23a", di23a, 2);
+        setFixed("di23fg", di23fg, 1);
+        setFixed("di23muk", di23muk, 2);
+
+        // di31 - Simplified: Assume cos α = sqrt(1 - sin² α)
+        let di31ma = rand(0.2, 0.3, 0.02);
+        let di31mb = rand(0.5, 0.6, 0.02);
+        let di31sina = 5/13; // Fixed for simplicity
+        let di31cosa = Math.sqrt(1 - di31sina * di31sina);
+        let di31mu = 0.2; // Fixed
+        let di31t = 0.4; // Fixed
+        let num = di31mb * g - di31ma * g * (di31sina + di31mu * di31cosa);
+        let den = di31ma + di31mb;
+        let di31a = num / den;
+        let di31tens = di31mb * g - di31mb * di31a;
+        let di31sb = 0.5 * di31a * di31t * di31t;
+        let di31ha = di31sb;
+        setFixed("di31ma", di31ma, 2);
+        setFixed("di31mb", di31mb, 2);
+        setFixed("di31sina", di31sina);
+        setFixed("di31mu", di31mu, 1);
+        setFixed("di31t", di31t, 1);
+        setFixed("di31a", di31a, 2);
+        setFixed("di31tens", di31tens, 2);
+        setFixed("di31sb", di31sb, 2);
+        setFixed("di31ha", di31ha, 2);
+
+        // di32
+        let di32w = rand(25, 35, 5);
+        let di32th = rand(20, 28, 2);
+        let di32theta = 30; // Fixed
+        let di32t2 = rand(23, 27, 1);
+        let di32mu = di32th / di32w;
+        let di32m = di32w / g;
+        let di32a = (di32t2 * Math.cos(di32theta * Math.PI / 180) - di32mu * (di32w - di32t2 * Math.sin(di32theta * Math.PI / 180))) / di32m;
+        setFixed("di32w", di32w);
+        setFixed("di32th", di32th);
+        setFixed("di32theta", di32theta);
+        setFixed("di32t2", di32t2);
+        setFixed("di32mu", di32mu, 2);
+        setFixed("di32a", di32a, 2);
+
+		// di33
+		let di33m = rand(1.5, 3, 0.1);
+		let di33p_cm = rand(20, 50, 5);
+		let di33a_cm = rand(di33p_cm + 10, di33p_cm + 30, 5);
+		let di33b_cm = rand(di33p_cm + 50, di33p_cm + 100, 10);
+		let di33p = di33p_cm / 100;
+		let di33aa = di33a_cm / 100;
+		let di33bb = di33b_cm / 100;
+		let sin1 = di33p / di33aa;
+		let cos1 = Math.sqrt(1 - sin1 * sin1);
+		let sin2 = di33p / di33bb;
+		let cos2 = Math.sqrt(1 - sin2 * sin2);
+		let di33mg = di33m * g;
+		let di33denom = sin1 + cos1 * (sin2 / cos2);
+		let di33tpa = (di33mg / di33denom).toFixed(0);
+		let di33tpb = (di33tpa * cos1 / cos2).toFixed(0);
+		setFixed("di33m", di33m, 1);
+		setFixed("di33p", di33p_cm);
+		setFixed("di33a", di33a_cm);
+		setFixed("di33b", di33b_cm);
+		document.getElementById("di33tpa").textContent = di33tpa;
+		document.getElementById("di33tpb").textContent = di33tpb;
+
+        // di34
+        let di34l = rand(30, 80, 2); 
+        let di34theta = rand(14, 28, 1); 
+        let di34u = rand(1, 3, 0.2); 
+        let di34mu = rand(0.1, 0.3, 0.01); 
+        let di34sins = Math.sin(di34theta * Math.PI / 180);
+        let di34coss = Math.cos(di34theta * Math.PI / 180);
+        let di34a = g * (di34sins - di34mu * di34coss);
+        let di34v = Math.sqrt(di34u**2 + 2 * di34a * di34l);
+        setFixed("di34l", di34l);
+        setFixed("di34theta", di34theta);
+        setFixed("di34u", di34u, 1);
+        setFixed("di34mu", di34mu, 2);
+        setFixed("di34v", di34v, 1);
+
+        // di35 - Fixed angles for simplicity
+        let di35m = rand(30, 50, 2);
+        let di35f1 = rand(100, 140, 2);;
+        let di35f2 = rand(140, 180, 2);
+        let di35th1 = 30;
+        let di35th2 = 60; // CW so - for y
+        let di35r = 136;
+        // Resolve: Rx = F1 cos30 + F2 cos(-60) + F cos(180 - alpha) = F1 cos30 + F2 cos60 - F cos alpha = 136
+        // Ry = F1 sin30 - F2 sin60 + F sin(180 - alpha) = F1 sin30 - F2 sin60 + F sin alpha = 0
+        // Solve for F and alpha numerically approx
+        let fx1 = di35f1 * Math.cos(di35th1 * Math.PI / 180);
+        let fy1 = di35f1 * Math.sin(di35th1 * Math.PI / 180);
+        let fx2 = di35f2 * Math.cos(-di35th2 * Math.PI / 180);
+        let fy2 = di35f2 * Math.sin(-di35th2 * Math.PI / 180);
+        // From Ry: fy1 + fy2 + F sin alpha = 0 => F sin alpha = - (fy1 + fy2)
+        // Rx: fx1 + fx2 - F cos alpha = 136
+        let sumfy = fy1 + fy2;
+        let sumfx = fx1 + fx2;
+        let fsin = - sumfy;
+        let fcos = sumfx - 136;
+        let di35f = Math.sqrt(fsin**2 + fcos**2);
+        let di35alpha = Math.atan2(fsin, -fcos) * 180 / Math.PI; // Adjust for direction
+        let di35mu = di35r / (di35m * g);
+        setFixed("di35m", di35m);
+        setFixed("di35f1", di35f1);
+        setFixed("di35f2", di35f2);
+        setFixed("di35th1", di35th1);
+        setFixed("di35th2", di35th2);
+        setFixed("di35r", di35r);
+        setFixed("di35f", di35f, 0);
+        setFixed("di35alpha", di35alpha, 0);
+        setFixed("di35mu", di35mu, 2);
+
+        // di36
+        let di36ma = rand(1.10, 1.80, 0.01);
+        let di36mb = rand(0.80, 1.0, 0.01);
+        let di36da = rand(0.50, 0.70, 0.02);
+        let di36hb = rand(0.40, 0.49, 0.01);
+        let di36mu = rand(0.20, 0.40, 0.01);
+        let di36sf = di36mb * g - di36mu * di36ma * g;
+        let di36mt = di36ma + di36mb;
+        let di36a = di36sf / di36mt;
+        let di36t = di36mb * (g-di36a); // tension
+        let di36vb = Math.sqrt(2 * di36a * di36hb);
+        let di36a2 = di36mu * g ;
+		let di36va = Math.sqrt(di36vb**2 - 2 * di36a2 * (di36da-di36hb));
+		
+        setFixed("di36ma", di36ma, 2);
+        setFixed("di36mb", di36mb, 1);
+        setFixed("di36da", di36da, 2);
+        setFixed("di36hb", di36hb, 2);
+        setFixed("di36mu", di36mu,2);
+        setFixed("di36a", di36a, 2);
+        setFixed("di36t", di36t, 2);
+        setFixed("di36vb", di36vb, 2);
+        setFixed("di36va", di36va, 2);
+    </script>
+
+</div>
+</div>
+</div>
+<br>
+
+</div> 
+</div> 
+
+
+
+</body>
+</html>
+
