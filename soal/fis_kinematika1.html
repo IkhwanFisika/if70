@@ -50,9 +50,10 @@
 <div class="container-fluid">
 
 <h1>Fisika Fase F - Kinematika</h1>
-<p>Latihan pra Sumatif TP Kinematika dari LKPD Kinematika (BELUM LENGKAP) <br>
+<p>Latihan pra Sumatif TP Kinematika <br>
 silahkan dipelajari dengan baik. Semoga sukses.<br><br>*Pak Ikhwan Fisika.
 </p>
+<!--<h5 style="color:Tomato">Hukum Ohm</h5> -->
 <div id="accordion">
 
 <div class="card">
@@ -293,9 +294,9 @@ silahkan dipelajari dengan baik. Semoga sukses.<br><br>*Pak Ikhwan Fisika.
 
     //glb13
     let glb13v = rand(36, 144, 18);
-    let glb13a = rand(1, 9);
-    let glb13s = rand(50, 300, 50);
-    let glb13x = Math.pow(glb13v, 2) / (2 * glb13a); // Deceleration is positive, so no negative needed
+    let glb13a = rand(4, 6, 0.1);
+    let glb13s = rand(30, 120, 2);
+    let glb13x = Math.pow(glb13v/3.6, 2) / (2 * glb13a); // Deceleration is positive, so no negative needed
     let result13 = (glb13x <= glb13s) ? "Nenek tidak tertabrak" : "Nenek tertabrak";
     setFixed("glb13v", glb13v);
     setFixed("glb13s", glb13s);
@@ -1170,7 +1171,7 @@ setFixed("gv50va", gv50v_final, 1); // Jawaban tersembunyi untuk v
 <div class="card">
 <div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse7">
 <h2>End</h2></a></div><div id="collapse7" class="collapse" data-bs-parent="#accordion"><div class="card-body">
-
+<h5 style="color:Tomato">Gelombang Stasioner</h5>
 
 </div>
 </div>
