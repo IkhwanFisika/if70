@@ -384,7 +384,7 @@ a $\frac{4}{\sqrt{x}}$
 b $\frac{1}{3} x^{3} + 2x$  
 c $\frac{1 - 2x}{x^{3}}$  
   
-5 Find:  
+5. Find:  
 a $\int (-3x^{4} + 6x^{2})dx$  
 b $\int \frac{3x^{3} - x^{2} - 1}{x^{2}} dx$  
 c $\int (2x - \sqrt{x})^{2}dx$  
@@ -392,28 +392,28 @@ d $\int \left(4e^{x} - \frac{3}{x}\right)dx$
 e $\int \sin (4x - 5)dx$  
 f $\int e^{4 - 3x}dx$  
   
-6 Find $y$ if:  
+6. Find $y$ if:  
 a $\frac{d y}{d x} = 3e^{-x} - 2\sin \left(\frac{\pi}{2} -x\right)$  
 b $\frac{d y}{d x} = \cos 4x - \frac{1}{2} x^{2}$  
   
-7 Given that $f^{\prime}(x) = 3x^{2} - 4x + 1$ and $f(0) = 2$ , find $f(x)$ .  
+7. Given that $f^{\prime}(x) = 3x^{2} - 4x + 1$ and $f(0) = 2$ , find $f(x)$ .  
   
-8 The curve $y = f(x)$ shown alongside has gradient function $f^{\prime}(x) = ax + 3$ . Find the equation of the curve.  
+8. The curve $y = f(x)$ shown alongside has gradient function $f^{\prime}(x) = ax + 3$ . Find the equation of the curve.  
   
-9 Given that $f^{\prime}(x) = 3e^{2x}$ and $f(0) = 2$ , find $f(x)$ .  
+9. Given that $f^{\prime}(x) = 3e^{2x}$ and $f(0) = 2$ , find $f(x)$ .  
   
-10 Find:  
+10. Find:  
 a $\int \frac{x^{2} - 7}{x} dx$  
 b $\int \left(e^{2x - 3} - \frac{2}{3x - 1}\right)dx$  
 c $\int \left((4 - 3x)^{3} + \sin (-2x)\right)dx$  
   
-11 A curve has gradient function $f^{\prime}(x) = a\cos 3x$ where $a$ is a constant. $f(0) = - 1$ and $f(\frac{\pi}{4}) = 1$ . Find $a$ and hence $f(x)$ .  
+11. A curve has gradient function $f^{\prime}(x) = a\cos 3x$ where $a$ is a constant. $f(0) = - 1$ and $f(\frac{\pi}{4}) = 1$ . Find $a$ and hence $f(x)$ .  
   
-12 Find the derivative of $\sqrt{x^{2} - 4}$ , and hence find $\int \frac{x}{\sqrt{x^{2} - 4}} dx$ .  
+12. Find the derivative of $\sqrt{x^{2} - 4}$ , and hence find $\int \frac{x}{\sqrt{x^{2} - 4}} dx$ .  
   
-13 Find $\int x\sin \left(x^{2} + \frac{\pi}{3}\right)dx$ using $u = x^{2} + \frac{\pi}{3}$ .  
+13. Find $\int x\sin \left(x^{2} + \frac{\pi}{3}\right)dx$ using $u = x^{2} + \frac{\pi}{3}$ .  
   
-14 Integrate by substitution:  
+14. Integrate by substitution:  
 a $\int \frac{2x}{\sqrt{x^2 - 5}} dx$  
 b $\int 4xe^{-x^2} dx$  
   
@@ -541,7 +541,7 @@ d. $\int_{-4}^{0}\frac{4}{5 - 2x} dx$
   
 13. Show that $\frac{4x + 1}{x - 1}$ may be written in the form $4 + \frac{5}{x - 1}$ .  
 Hence show that $\int_{3}^{5}\frac{4x + 1}{x - 1} dx = 8 + 5\ln 2.$  
-  
+
 **14. Evaluate using technology:**  
 a. $\int_{1}^{3}\ln x dx$  
 b. $\int_{-1}^{1}e^{-x^{2}}dx$  
@@ -549,6 +549,7 @@ c. $\int_{\frac{\pi}{4}}^{\frac{\pi}{6}}\sin (\sqrt{x})dx$
 d. $\int_{2}^{3}\frac{1 + \sqrt{x}}{x^{2} + 1} dx$   
 e. $\int_{-1}^{1}\tan (x^{2})dx$  
 f. $\int_{-2}^{1}(2^{x} - x^{3})dx$  
+
 ---  
 #### IB AI Haese **EXERCISE 23B** : Definite Integral 2  
 **1. Evaluate:**  
@@ -558,10 +559,13 @@ c. $\int_{0}^{1} x^2 e^{x^3 + 1} \, dx$
 d. $\int_{0}^{3} x \sqrt{x^2 + 16} \, dx$  
 e. $\int_{1}^{2} xe^{-2x^2} \, dx$  
 f. $\int_{2}^{3} \frac{x}{2 - x^2} \, dx$  
+
 ---  
-**2. Evaluate:**  
+
+**2. Evaluate:**   
 a. $\int_{0}^{\frac{\pi}{3}} \frac{\sin x}{\sqrt{\cos x}} \, dx$  
-b. $\int_{0}^{\frac{\pi}{6}} \sin^2 x \cos x \, dx$  
+b. $\int_{0}^{\frac{\pi}{6}} \sin^2 x \cos x \, dx$ 
+
 ---  
 
 #### IB AI Haese **EXERCISE 23C** : Area Under The Graph  
@@ -947,54 +951,75 @@ a. $\int_{5}^{12}E(t)dt$
 b. $\int_{12}^{20}E(t)dt$  
 c. $\int_{5}^{20}E(t)dt$  
 
-
 ## Hodder PM1  
+
 **Example 7.1**  
 Given that $\frac{\mathrm{d}y}{\mathrm{d}x} = 3x^{2} + 4x + 3$  
 (i) find the general solution of this differential equation  
 (ii) find the equation of the curve with this gradient function which passes through $(1,10)$.  
+
 **Example 7.2**  
 A curve is such that $\frac{\mathrm{d}y}{\mathrm{d}x} = 3\sqrt{x} +\frac{8}{x^2}$ . Given that the point (4, 20) lies on the curve, find the equation of the curve.  
+
 **Example 7.3**  
 The gradient function of a curve is $\frac{\mathrm{d}y}{\mathrm{d}x} = 4x - 12$ .  
 (i) The minimum $y$ value is 16. By considering the gradient function, find the corresponding $x$ value.  
 (ii) Use the gradient function and your answer from part   
 (i) to find the equation of the curve.  
+
 **Example 7.4**  
 Find the area under the curve $y = 6x^{5} + 6$ between $x = - 1$ and $x = 2$ .  
+
 **Example 7.5**  
 Find the area between the curve $y = 20 - 3x^{2}$ , the $x$ - axis and the lines $x = 1$ and $x = 2$ .  
+
 **Example 7.6**  
 Find the area under the curve $y = 4x^3 + 4$ between $x = - 1$ and $x = 2$ .  
+
 **Example 7.7**  
 Evaluate the definite integral $\int_{4}^{9}x^{\frac{3}{2}}\mathrm{d}x$ .  
+
 **Example 7.8**  
 Evaluate $\int_{1}^{2}\left(\frac{3}{x^{4}} -\frac{1}{x^{2}} +4\right)\mathrm{d}x.$  
+
 **Example 7.9**  
 Find $\int (2x^{3} - 3x + 4)\mathrm{d}x$ .  
+
 **Example 7.10**  
 Find the indefinite integral $\int \left(x^{\frac{3}{2}} + \sqrt{x}\right)\mathrm{d}x$ .  
+
 **Example 7.11**  
 Find the area of the region bounded by the curve with equation $y = \frac{2}{x^2} - 3$ , the lines $x = 2$ and $x = 4$ , and the $x$ - axis.  
+
 **Example 7.12**  
 Find the area between the curve and the $x$ - axis for the function $y = x^2 + 3x$ between $x = - 1$ and $x = 2$ .  
+
 **Example 7.13**  
 Find the area enclosed by the line $y = x + 1$ and the curve $y = x^{2} - 2x + 1$ .  
+
 **Example 7.14**  
 Find the area between the curve $y = x - 1$ and the $y$ - axis between $y = 0$ and $y = 4$ .  
+
 **Example 7.15**  
 Find $\int \frac{3}{\sqrt{5 - 2x}} \mathrm{~d} x$ .  
+
 **Example 7.16**  
 Find $\int \frac{3}{\sqrt{5 - 2x}} \mathrm{~d} x$ . [Duplicated numbering in original; text as shown]  
+
 **Example 7.17**  
 Evaluate $\int_{0}^{9}\frac{1}{\sqrt{x}}\mathrm{d}x$ .  
+
 **Example 7.18**  
 The region between the curve $y = x^{2}$ , the $x$ - axis and the lines $x = 1$ and $x = 3$ is rotated through $360^{\circ}$ about the $x$ - axis. Find the volume of revolution which is formed.  
+
 **Example 7.19**  
 The region between the curve $y = x^{2}$ , the $y$ - axis and the lines $y = 2$ and $y = 5$ is rotated through $360^{\circ}$ about the $y$ - axis. Find the volume of revolution which is formed.  
+
 **Example 7.20**  
 Figure 7.34 shows the shaded region bounded by the curve $y = 16 - x^{2}$ and the line $y = 7$ . [image]  
+
 Find the volume of the solid obtained when the shaded region is rotated completely about the $x$ - axis.  
+
 ---  
 #### Hodder PM1 **Exercise 7A**  
 1. Given that $\frac{\mathrm{d}y}{\mathrm{d}x} = 6x^2 + 5$   
