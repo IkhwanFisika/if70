@@ -1626,7 +1626,7 @@ c) $\int (6 - x)^2dx$
 d) $\int 2\sqrt{x}\left(1 + \sqrt{x}\right)^2dx$   
 e) $\int \frac{x + 5x^7}{x^3}dx$   
 f) $\int \left(\frac{2}{\sqrt[3]{x}} -14\sqrt{x^5}\right)dx$   
-2. Find the equation of the curve, given $\frac{\mathrm{d}y}{dx$  }$ and a point on the curve.  
+2. Find the equation of the curve, given $\frac{dy}{dx}$ and a point on the curve.  
 a) $\frac{d}{dx} = 9x^2 -2x + 1&, point = (-3,5)  
 b) $\frac{dy}{dx} = \frac{4x^4 - 5x}{x}, point = (-1, -2)  
 c) $\frac{dy}{dx} = \left(\sqrt{x} +3\right)^2$, point = (4,2)  
@@ -1634,17 +1634,17 @@ d) $\frac{dy}{dx} = 8x - \frac{7}{x^2}$,  point = (1, -4)
 3. Given that $\mathrm{f}^{\prime}(x) = 2x^{2} - x + 3\sqrt{x}$ and $\mathrm{f}(4) = 0$ find $\mathrm{f}(x)$  
   
 **EXAM-STYLE QUESTIONS**  
-4. Find an expression for $y$ in terms of $x$ if $\frac{\mathrm{d}y}{dx$  } = (3x - 5)(x - 1)$ and $y = 0$ when $x = 5$  
+4. Find an expression for $y$ in terms of $x$ if $\frac{dy}{dx} = (3x - 5)(x - 1)$ and $y = 0$ when $x = 5$  
 5. Find  
 a) $\int \left(x + \frac{1}{x}\right)^2dx$   
 b) $\int \frac{2x^4 + 3}{x^4}dx$   
 c) $\int \frac{x^2(x - 1)^2}{x}dx$   
 d) $\int \sqrt{(7 - x)}dx$  
-6. Find $\int_{-2}^{-1}\frac{1}{(3x + 2)^5}dx$  .$  
+6. Find $\int_{-2}^{-1}\frac{1}{(3x + 2)^5}dx$  
 7. Show that only one of the following improper integrals has a finite value and find that value.  
 a) $int \frac{1}{\sqrt{x}}dx$   
 b) $\int \frac{1}{\sqrt{x}}dx$  
-8. Find in terms of $p$ and $q$ the value of the integral $\int_{p}^{q}\frac{3}{x^{4}}dx$  .$  
+8. Find in terms of $p$ and $q$ the value of the integral $\int_{p}^{q}\frac{3}{x^{4}}dx$.  
   
 9. Show that only one of the following improper integrals has a finite value and find that value.  
 a. $\int_{0}^{1}\frac{3}{x^{4}}dx$
