@@ -1360,8 +1360,8 @@ Evaluate the following improper integrals.
 (ii) you may find it useful to apply the fact that the volume, $V$ , of a cone of base radius $r$ and vertical height $h$ , is given by $V = \frac{1}{3}\pi r^2 h$ .] Cambridge International AS & A Level Mathematics 9709 Paper 11 Q11 November 2015  
 12 The diagram shows the line $y = 1$ and part of the curve $y = \frac{2}{\sqrt{x + 1}}$ . [image] Show that the equation $y = \frac{2}{\sqrt{x + 1}}$ can be written in the form $x = \frac{4}{y^2} - 1$ . Find $\int \left(\frac{4}{y^2} - 1\right)\mathrm{d}y$ . Hence find the area of the shaded region. The shaded region is rotated through $360^{\circ}$ about the $y$ - axis. Find the exact value of the volume of revolution obtained. Cambridge International AS & A Level Mathematics 9709 Paper 11 Q11 June 20
 
-
-##Complete
+---
+## Oxford Complete
 **Example 1**
 Given $\frac{\mathrm{d}y}{dx$  } = 9x^{2} - 4x + 3x^{\frac{1}{2}} - 7$ , find $y$ .
 **Example 2**
