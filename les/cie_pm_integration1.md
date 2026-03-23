@@ -1361,69 +1361,69 @@ Evaluate the following improper integrals.
 12 The diagram shows the line $y = 1$ and part of the curve $y = \frac{2}{\sqrt{x + 1}}$ . [image] Show that the equation $y = \frac{2}{\sqrt{x + 1}}$ can be written in the form $x = \frac{4}{y^2} - 1$ . Find $\int \left(\frac{4}{y^2} - 1\right)\mathrm{d}y$ . Hence find the area of the shaded region. The shaded region is rotated through $360^{\circ}$ about the $y$ - axis. Find the exact value of the volume of revolution obtained. Cambridge International AS & A Level Mathematics 9709 Paper 11 Q11 June 20
 
 ---
-## Oxford Complete
-**Example 1**
-Given $\frac{dy}{dx} = 9x^{2} - 4x + 3x^{\frac{1}{2}} - 7$ , find $y$ .
-**Example 2**
-Given $f^{\prime}(x) = x(3x - 4)^{2}$ , find $f(x)$
-[image]
-**Example 3**
-Find the equation of the curve that passes through the point $(4, - 1)$ and where
-$$\frac{dy}{dx} = \frac{5x^2 + 1}{\sqrt{x}}.$$
-**Example 4**
-A curve is such that $\mathrm{f}^{\prime}(x) = \frac{10}{x^{3}} - 4$ and the point $(- 1,2)$ lies on the curve. Find the equation of the curve.
-[image]
-**Example 5**
-A curve is such that $\frac{d^{2}y}{dx^{2}} = - 6x$ and the curve has a maximum point at $(1,2)$ Find the equation of the curve.
-**Example 6**
-Find $\int (4x - 3)^5 \mathrm{~d}x$ .
-**Example 7**
-Find $\int \frac{4}{(1 - 2x)^7} \mathrm{~d}x$ .
-**Example 8**
-$$\int \frac{6}{\sqrt{(4x + 9)}} \mathrm{~d}x$$
-**Example 9**
-Find $\int_{1}^{4} (3x^{2} + 2x) dx$   .
-**Example 10**
-Find $\int_{1}^{4} (3x - 1)(x + 2) dx$   .
-**Example 11**
-Find the area bounded by the curve with equation $y = (2 - x)(3 + x)$ , the positive $x$ - axis and the $y$ - axis.
-[image]
-**Example 12**
-Find the area bounded by the curve with equation $y = x(x - 4)$ and the $x$ - axis.
-[image]
-**Example 13**
-Find the area bounded by the curve with equation $y = x(x + 2)(x - 2)$ and the $x$ - axis.
-[image]
-**Example 14**
-Find the area bounded by the curve with equation $y = (x + 3)^{2}$ and the lines $x = -4$ and $x = -1$ .
-**Example 15**
-The diagram shows a sketch of the curve with equation $y = x(5 - x)$ and the line $y = 2x$ . Work out the shaded area.
-[image]
-**Example 16**
-The diagram shows the curve $y = x^{2} + 2x$ and the line $y = - x$ . Work out the area of the shaded region.
-[image]
-**Example 17**
-Find the area of the finite region bounded by $y = x^{2}$ and $y = x - x^{2}$ .
-[image]
-**Example 18**
-Show that the improper integral $\int_{1}^{\infty} \frac{2}{x^{3}} dx$   has a value and find that value.
-**Example 19**
-Show that only one of the following improper integrals has a finite value and find that value.
+## Oxford Complete  
+**Example 1**  
+Given $\frac{dy}{dx} = 9x^{2} - 4x + 3x^{\frac{1}{2}} - 7$ , find $y$ .  
+**Example 2**  
+Given $f^{\prime}(x) = x(3x - 4)^{2}$ , find $f(x)$  
+[image]  
+**Example 3**  
+Find the equation of the curve that passes through the point $(4, - 1)$ and where  
+$$\frac{dy}{dx} = \frac{5x^2 + 1}{\sqrt{x}}.$$  
+**Example 4**  
+A curve is such that $\mathrm{f}^{\prime}(x) = \frac{10}{x^{3}} - 4$ and the point $(- 1,2)$ lies on the curve. Find the equation of the curve.  
+[image]  
+**Example 5**  
+A curve is such that $\frac{d^{2}y}{dx^{2}} = - 6x$ and the curve has a maximum point at $(1,2)$ Find the equation of the curve.  
+**Example 6**  
+Find $\int (4x - 3)^5 \mathrm{~d}x$ .  
+**Example 7**  
+Find $\int \frac{4}{(1 - 2x)^7} \mathrm{~d}x$ .  
+**Example 8**  
+$$\int \frac{6}{\sqrt{(4x + 9)}} \mathrm{~d}x$$  
+**Example 9**  
+Find $\int_{1}^{4} (3x^{2} + 2x) dx$   .  
+**Example 10**  
+Find $\int_{1}^{4} (3x - 1)(x + 2) dx$   .  
+**Example 11**  
+Find the area bounded by the curve with equation $y = (2 - x)(3 + x)$ , the positive $x$ - axis and the $y$ - axis.  
+[image]  
+**Example 12**  
+Find the area bounded by the curve with equation $y = x(x - 4)$ and the $x$ - axis.  
+[image]  
+**Example 13**  
+Find the area bounded by the curve with equation $y = x(x + 2)(x - 2)$ and the $x$ - axis.  
+[image]  
+**Example 14**  
+Find the area bounded by the curve with equation $y = (x + 3)^{2}$ and the lines $x = -4$ and $x = -1$ .  
+**Example 15**  
+The diagram shows a sketch of the curve with equation $y = x(5 - x)$ and the line $y = 2x$ . Work out the shaded area.  
+[image]  
+**Example 16**  
+The diagram shows the curve $y = x^{2} + 2x$ and the line $y = - x$ . Work out the area of the shaded region.  
+[image]  
+**Example 17**  
+Find the area of the finite region bounded by $y = x^{2}$ and $y = x - x^{2}$ .  
+[image]  
+**Example 18**  
+Show that the improper integral $\int_{1}^{\infty} \frac{2}{x^{3}} dx$   has a value and find that value.  
+**Example 19**  
+Show that only one of the following improper integrals has a finite value and find that value.  
 $$\int_{-\infty}^{0}\frac{2}{x^{5}}dx$   
 $b)}\int_{-\infty}^{2}\frac{2}{x^{5}}dx$  
-**Example 20**
-Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ -axis.
-[image]
-**Example 21**
-Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ - axis.
-[image]
-**Example 22**
-The diagram shows the line $y = 1$ , the line $y = 4$ and part of the curve $y = 3x^2$ . The shaded region is rotated through $360^{\circ}$ about the $y$ - axis. Find the exact value of the volume of revolution obtained.
-[image]
-
----
-#### Complete PM1 **Exercise 10.1**
-1. Find $y$ given $\frac{dy}{dx}$ in each case.
+**Example 20**  
+Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ -axis.  
+[image]  
+**Example 21**  
+Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ - axis.  
+[image]  
+**Example 22**  
+The diagram shows the line $y = 1$ , the line $y = 4$ and part of the curve $y = 3x^2$ . The shaded region is rotated through $360^{\circ}$ about the $y$ - axis. Find the exact value of the volume of revolution obtained.  
+[image]  
+  
+---  
+#### Complete PM1 **Exercise 10.1**  
+1. Find $y$ given $\frac{dy}{dx}$ in each case.  
 a) $2x$  
 b) $x^{7}$  
 c) $3x^{2}$  
@@ -1435,8 +1435,8 @@ h) $x(x^{4} - 6)$
 i) $\sqrt{x}$  
 j) $(2x - 3)^{2}$  
 k) $\frac{2x^{2} + 7x}{x}$  
-l) $\frac{12}{x^{2}} - \frac{6}{x^{3}}$
-2. Find $f(x)$ given $f^{\prime}(x)$ in each case.
+l) $\frac{12}{x^{2}} - \frac{6}{x^{3}}$  
+2. Find $f(x)$ given $f^{\prime}(x)$ in each case.  
 a) $\frac{9}{8} x^{\frac{1}{2}}$  
 b) $-2x$  
 c) $\frac{\sqrt{x}}{3}$  
@@ -1448,9 +1448,9 @@ h) $\frac{24x^{3} - 8x}{x}$
 i) $(x - 4)(x + 7)$  
 j) $- \frac{5}{6}$  
 k) $x^{2} + x^{-2}$  
-l) $\frac{14x^{8} - 3}{x^{2}}$
-
-4. Find
+l) $\frac{14x^{8} - 3}{x^{2}}$  
+  
+4. Find  
 a) $\int 6xdx$    
 b) $\int 4x + 1dx$    
 c) $\int 4x^{- \frac{1}{2}}dx$    
@@ -1462,38 +1462,38 @@ h) $\int \frac{2x + 5x^{3}}{x}dx$
 i) $\int 2x(1 - x)^{2}dx$    
 j) $\int \frac{(2x + 1)^{2}}{\sqrt{x}}dx$    
 k) $\int \left(\frac{3}{\sqrt{x}} -\sqrt{x^{3}}\right)dx$    
-l) $\int \sqrt{x} -(\sqrt{x} +5)^{2}dx$
-
-#### Complete PM1 **Exercise 10.2**
-1. Find the equation of each curve, given $\frac{dy}{dx}$ and a point on the curve.
+l) $\int \sqrt{x} -(\sqrt{x} +5)^{2}dx$  
+  
+#### Complete PM1 **Exercise 10.2**  
+1. Find the equation of each curve, given $\frac{dy}{dx}$ and a point on the curve.  
 a) $\frac{dy}{dx}$ = 3x^2 - 6x + 2$ point $= (-2, -10)$  
 b) $\frac{dy}{dx}$ = (1 - 2x)^2$ point $= (1,8)$  
 c) $\frac{dy}{dx}$ = x(2x + 5)$ point $= (5, -1)$  
 d) $\frac{dy}{dx}$ = \sqrt{x}\left(\sqrt{x} - 3\right)$ point $= (9,12)$  
 e) $\frac{dy}{dx}$ = \frac{9x^3 - 3x}{x}$ point $= (-5,4)$  
-f) $\frac{dy}{dx}$ = (3x - 1)(5x + 2)$ point $= (-4, -6)$
-
-3. A curve is such that $\frac{dy}{dx} = \frac{5}{\sqrt{x}} - 10\sqrt{x^3}$ and the point $(1, -6)$ lies on the curve. Find the equation of the curve.
-4. 
-5. A curve passes through the point (7, 10) and its gradient function is $\frac{6}{x^3} + 2$ . Find the equation of the curve.
-6. 
-7. The curve $C$ , with equation $y = f(x)$ passes through the point $(-2, -1)$ and $f'(x) = x(3 - x)$ . Find the equation of $C$ in the form $y = f(x)$ .
-8. 
-9. A curve is such that $\frac{d^2 y}{dx^2} = -8x$ . The curve has a maximum point when $x = 1$ , and the point $(2, -1)$ lies on the curve. Find the equation of the curve.
-10. 
-11. $f'(x) = 8x^3 - 4 + 3x^{\frac{-1}{2}}$ and $f(4) = 3$ , find $f(x)$ .
-12. 
-13. Given that $\frac{d^2 y}{dx^2} = -3x + 2$ and that when $x = -1$ , $\frac{dy}{dx} = 5$ and $y = 0$ , find $y$ in terms of $x$ .
-14. 
-15. The curve $C$ passes through the point $(3, 10)$ and its gradient at any point is given by $\frac{dy}{dx} = 6x^2 - 4x + 3$ .
+f) $\frac{dy}{dx}$ = (3x - 1)(5x + 2)$ point $= (-4, -6)$  
+  
+3. A curve is such that $\frac{dy}{dx} = \frac{5}{\sqrt{x}} - 10\sqrt{x^3}$ and the point $(1, -6)$ lies on the curve. Find the equation of the curve.  
+4.   
+5. A curve passes through the point (7, 10) and its gradient function is $\frac{6}{x^3} + 2$ . Find the equation of the curve.  
+6.   
+7. The curve $C$ , with equation $y = f(x)$ passes through the point $(-2, -1)$ and $f'(x) = x(3 - x)$ . Find the equation of $C$ in the form $y = f(x)$ .  
+8.   
+9. A curve is such that $\frac{d^2 y}{dx^2} = -8x$ . The curve has a maximum point when $x = 1$ , and the point $(2, -1)$ lies on the curve. Find the equation of the curve.  
+10.   
+11. $f'(x) = 8x^3 - 4 + 3x^{\frac{-1}{2}}$ and $f(4) = 3$ , find $f(x)$ .  
+12.   
+13. Given that $\frac{d^2 y}{dx^2} = -3x + 2$ and that when $x = -1$ , $\frac{dy}{dx} = 5$ and $y = 0$ , find $y$ in terms of $x$ .  
+14.   
+15. The curve $C$ passes through the point $(3, 10)$ and its gradient at any point is given by $\frac{dy}{dx} = 6x^2 - 4x + 3$ .  
 a) Find the equation of the curve $C$ .  
-b) Show that the point $(2, -21)$ lies on the curve.
-17. A curve is such that $\frac{\mathrm{d}^2 y}{dx^2} = 6x$ . The curve has a maximum point when $x = -1$ , and the point $(3, -2)$ lies on the curve. Find the equation of the curve.
-18. The gradient of a curve is given by $\frac{dy}{dx} = ax + b$ . Given that the curve passes through $(0, 0)$ , $(1, 1)$ and $(- 2, 16)$ , find the equation of the curve.
-
-
-#### Complete PM1 **Exercise 10.3**
-1. Find
+b) Show that the point $(2, -21)$ lies on the curve.  
+17. A curve is such that $\frac{\mathrm{d}^2 y}{dx^2} = 6x$ . The curve has a maximum point when $x = -1$ , and the point $(3, -2)$ lies on the curve. Find the equation of the curve.  
+18. The gradient of a curve is given by $\frac{dy}{dx} = ax + b$ . Given that the curve passes through $(0, 0)$ , $(1, 1)$ and $(- 2, 16)$ , find the equation of the curve.  
+  
+  
+#### Complete PM1 **Exercise 10.3**  
+1. Find  
 a) $\int (3x - 2)^4 dx$  
 b) $\int (2x - 5)^3 dx$  
 c) $\int 3(2x + 1)^5 dx$  
@@ -1505,15 +1505,15 @@ h) $\int \frac{1}{\sqrt{2x + 3}} dx$
 i) $\int \frac{4}{(3 - 2x)^3} dx$  
 j) $\int 8(4x + 3)^7 dx$  
 k) $\int 4\sqrt[3]{3 - 2x} dx$  
-l) $\int \frac{3}{\sqrt{1 - 2x}} dx$
-2. Find
+l) $\int \frac{3}{\sqrt{1 - 2x}} dx$  
+2. Find  
 a) $\int_{1}^{3} (2x - 3)^4 dx$  
 b) $\int_{0}^{2} \sqrt{2x + 1} dx$  
 c) $\int_{-1}^{4} \frac{1}{(3x + 2)^2} dx$  
-d) $\int_{1}^{2} \frac{4}{(3 - x)^5} dx$
-
-#### Complete PM1 **Exercise 10.4**
-1. Evaluate
+d) $\int_{1}^{2} \frac{4}{(3 - x)^5} dx$  
+  
+#### Complete PM1 **Exercise 10.4**  
+1. Evaluate  
 a) $\int_{1}^{4} 4x^3 dx$  
 b) $\int_{-2}^{0} 5x^4 dx$  
 c) $\int_{1}^{3} (x^2 - 4) dx$  
@@ -1525,62 +1525,62 @@ h) $\int_{-1}^{2} (2x - 3)^2 dx$
 i) $\int_{1}^{4} \frac{4x - 3}{\sqrt{x}} dx$  
 j) $\int_{1}^{8} \frac{3x - 2}{x^{\frac{2}{3}}} dx$  
 k) $\int_{0}^{3} \sqrt{(3 - x)} dx$  
-l) $\int_{0}^{3} \frac{4x + 1}{x^{3}} dx$
-2. Find
+l) $\int_{0}^{3} \frac{4x + 1}{x^{3}} dx$  
+2. Find  
 $$\int_{-1}^{3}(6x^{2} - 2x)dx$    
 $$\int_{-3}^{2}(3x^{2} + 8x + 1)dx$  
-3. Evaluate
+3. Evaluate  
 $$\int_{0}^{3}\frac{4x + 1}{x^{3}}dx$    
-$$\int_{0}^{3}\sqrt{(3 - x)}dx$
-
+$$\int_{0}^{3}\sqrt{(3 - x)}dx$  
+  
 ---   
-
-#### Complete PM1 **Exercise 10.5**
-1. Find the area of each of the shaded regions.
-[image]
-2. For each, find the area bounded by the curve and the $x$ -axis. First, sketch the curve.
+  
+#### Complete PM1 **Exercise 10.5**  
+1. Find the area of each of the shaded regions.  
+[image]  
+2. For each, find the area bounded by the curve and the $x$ -axis. First, sketch the curve.  
 a) $y = 3x^{2} - 3$  
 b) $y = x(x + 2)(x - 1)$  
 c) $y = x^{3} - 5x^{2} - 6x$  
-d) $y = 1 - 4x^{2}$
-3. Find the area bounded by the curve $y = \sqrt{x}$ , the $y$ -axis and the lines $y = 1$ and $y = 3$ .
-4. Find the area bounded by the curve $y = x^{3}$ , the $x$ -axis and the lines $x = -1$ and $x = 2$ .
-5. Find the area bounded by the curve $x = (y + 3)(y - 1)$ and the $y$ -axis.
-6. Find the area bounded by the curve $y = 2\sqrt{x}$ , the $x$ -axis and the lines $x = 1$ and $x = 9$ .
+d) $y = 1 - 4x^{2}$  
+3. Find the area bounded by the curve $y = \sqrt{x}$ , the $y$ -axis and the lines $y = 1$ and $y = 3$ .  
+4. Find the area bounded by the curve $y = x^{3}$ , the $x$ -axis and the lines $x = -1$ and $x = 2$ .  
+5. Find the area bounded by the curve $x = (y + 3)(y - 1)$ and the $y$ -axis.  
+6. Find the area bounded by the curve $y = 2\sqrt{x}$ , the $x$ -axis and the lines $x = 1$ and $x = 9$ .  
 7. a) Draw the graph of $x + y = 5$ and find the area bounded by the line $x + y = 5$ , the $x$ -axis and the $y$ -axis.  
-b) Check this area using integration.
-8. The diagram shows part of the curve with equation $y = \frac{16}{\sqrt{x}} + \sqrt{x}$ . Find the area bounded by the curve, the lines $x = 1$ , $x = 4$ and the $x$ -axis. [image]
-9. [image] Find the area of the shaded region.
+b) Check this area using integration.  
+8. The diagram shows part of the curve with equation $y = \frac{16}{\sqrt{x}} + \sqrt{x}$ . Find the area bounded by the curve, the lines $x = 1$ , $x = 4$ and the $x$ -axis. [image]  
+9. [image] Find the area of the shaded region.  
 10. The diagram shows part of the curve with equation $y = (x - 5)(x + 2)(x - 3)$ .  
 a) Write down the coordinates of $A$ and $B$ .  
 b) Show that the equation may be written as $y = x^{3} - 6x^{2} - x + 30$ .  
-c) Find the total shaded area. [image]
-
----
-
-#### Complete PM1 **Exercise 10.6**
-1. Find the shaded areas.
-[image] [image]
-2. Find the area of the region bounded by the curve with equation $y = x^{2}$ and the curve with equation $y = 2x - x^{2}$ .
-3. [image] The diagram shows the curve $y = 9 - x^2$ and the line $y = 5$ . Find the shaded area.
-4. [image] The diagram shows parts of the curves $y = x^2$ and $y = x^4$ . Find the shaded area.
-5. Find the area between the curve with equation $y = x(x - 1)$ and the line $y = 3x$ .
+c) Find the total shaded area. [image]  
+  
+---  
+  
+#### Complete PM1 **Exercise 10.6**  
+1. Find the shaded areas.  
+[image] [image]  
+2. Find the area of the region bounded by the curve with equation $y = x^{2}$ and the curve with equation $y = 2x - x^{2}$ .  
+3. [image] The diagram shows the curve $y = 9 - x^2$ and the line $y = 5$ . Find the shaded area.  
+4. [image] The diagram shows parts of the curves $y = x^2$ and $y = x^4$ . Find the shaded area.  
+5. Find the area between the curve with equation $y = x(x - 1)$ and the line $y = 3x$ .  
 6. a) Show that the curve $y = 2x^2 + 3$ and the curve $y = 10x - x^2$ meet at the points where $x = 3$ and $x = \frac{1}{3}$ .  
-b) Find the area between these two curves.
-7. [image] Find the area bounded by the curve $y = x^2 - 3x + 8$ and the line $y = x + 5$ .
-8. [image] The diagram shows part of the curve with equation $y = \frac{1}{x^2} +x$ . At point $P$ on the curve, $x = 1$ and at point $Q$ on the curve, $x = 2$ . Find the shaded area.
-9. [image] The diagram shows the curve with equation $y = 25 + 2x - x^2$ . The straight line with equation $y = x + 5$ cuts the curve in two places. Find the exact area of the shaded region.
-10. [image] Find the area bounded by the two curves.
-
-
-#### Complete PM1 **Exercise 10.7**
-1. Show that only one of the following improper integrals has a finite value and find that value.
+b) Find the area between these two curves.  
+7. [image] Find the area bounded by the curve $y = x^2 - 3x + 8$ and the line $y = x + 5$ .  
+8. [image] The diagram shows part of the curve with equation $y = \frac{1}{x^2} +x$ . At point $P$ on the curve, $x = 1$ and at point $Q$ on the curve, $x = 2$ . Find the shaded area.  
+9. [image] The diagram shows the curve with equation $y = 25 + 2x - x^2$ . The straight line with equation $y = x + 5$ cuts the curve in two places. Find the exact area of the shaded region.  
+10. [image] Find the area bounded by the two curves.  
+  
+  
+#### Complete PM1 **Exercise 10.7**  
+1. Show that only one of the following improper integrals has a finite value and find that value.  
 a. $\int_{0}^{1}\frac{4}{\sqrt{x}}dx$   
 b) $\int_{1}^{2}\frac{4}{\sqrt{x}}dx$  
 2. Find  
 a) $\int_{2}^{3}x^{3}dx$   
 b) $\int_{2}^{3}x^{-3}dx$  
-c) Hence, find whether the following integrals exist and, if they do, find their value.
+c) Hence, find whether the following integrals exist and, if they do, find their value.  
 $\int_{2}^{3}x^{3}dx$   
 d)$\int_{2}^{3}x^{-3}dx$  
 3. a) Find, in terms of $a$ and $b$ , the value of the integral $\int_{a}^{b} \frac{6}{x^{2}} \mathrm{~d} x$ .  
@@ -1590,98 +1590,98 @@ ii)$\int_{9}^{9}\frac{6}{x^{2}}dx$
 4. For each of the following improper integrals, find the value of the integral or explain briefly why it does not have a value.  
 a) $\int_{27}^{27}\sqrt[3]{x}dx$  
 b) $\int_{27}^{27}\frac{1}{\sqrt[3]{x^{2}}}dx$  
-5. Explain briefly why $\int_{0}^{100}3x^{-\frac{1}{2}}dx$   is an improper integral.
+5. Explain briefly why $\int_{0}^{100}3x^{-\frac{1}{2}}dx$   is an improper integral.  
 6. For each of the following improper integrals, find the value of the integral or explain briefly why it does not have a value.  
 a) $\int_{0}^{100}3x^{-\frac{1}{2}}dx$  
 b) $\int_{0}^{100}3x^{-\frac{3}{2}}dx$  
-c) $\int_{100}^{100}3x^{-\frac{1}{2}}dx$
-
-#### Complete PM1 **Exercise 10.8**
-1. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ - axis.
-2. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ - axis.
-3. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $y$ -axis.
-4. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $y$ - axis.
-5. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ - axis.
-6. Find the volume obtained when region bounded by the curve $y = x(3 - x)$ and the $x$ -axis is rotated through $360^{\circ}$ about the $x$ -axis.
-7. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ - axis.
-8. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $y$ -axis.
+c) $\int_{100}^{100}3x^{-\frac{1}{2}}dx$  
+  
+#### Complete PM1 **Exercise 10.8**  
+1. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ - axis.  
+2. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ - axis.  
+3. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $y$ -axis.  
+4. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $y$ - axis.  
+5. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ - axis.  
+6. Find the volume obtained when region bounded by the curve $y = x(3 - x)$ and the $x$ -axis is rotated through $360^{\circ}$ about the $x$ -axis.  
+7. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ - axis.  
+8. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $y$ -axis.  
 9. The curve $y^{2} = x$ and the line $y = x$ meet at the points $A$ and $B$ .  
 a) Find the coordinates of the points $A$ and $B$ .  
 b) Sketch the curve $y^{2} = x$ and the line $y = x$ on one set of axes.  
-c) Find the volume obtained when the region between the line and the curve is rotated through $360^{\circ}$ about the $x$ -axis.
-10. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ -axis. Give your answer to the nearest whole number.
-11. [image] The diagram shows the lines $y = 2$ and $y = 5$ and part of the curve $y = 2x^{2} + 1$ . The shaded region is rotated through $360^{\circ}$ about the $y$ -axis. Find the exact value of the volume of revolution obtained.
-12. The area between curve $y^{2} = x(4 - x)^{2}$ and the $x$ -axis is rotated through $360^{\circ}$ about the $x$ -axis. Find the exact value of the volume of the solid of revolution formed by this rotation.
-13. The diagram shows part of the curve $y^{2} = 32x$ and part of the curve $y = x^{3}$ . The shaded region is rotated through $360^{\circ}$ about the $x$ -axis. Find the exact value of the volume of revolution obtained. [image]
-
-**Summary Exercise**
-1. Find these integrals.
+c) Find the volume obtained when the region between the line and the curve is rotated through $360^{\circ}$ about the $x$ -axis.  
+10. [image] Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ -axis. Give your answer to the nearest whole number.  
+11. [image] The diagram shows the lines $y = 2$ and $y = 5$ and part of the curve $y = 2x^{2} + 1$ . The shaded region is rotated through $360^{\circ}$ about the $y$ -axis. Find the exact value of the volume of revolution obtained.  
+12. The area between curve $y^{2} = x(4 - x)^{2}$ and the $x$ -axis is rotated through $360^{\circ}$ about the $x$ -axis. Find the exact value of the volume of the solid of revolution formed by this rotation.  
+13. The diagram shows part of the curve $y^{2} = 32x$ and part of the curve $y = x^{3}$ . The shaded region is rotated through $360^{\circ}$ about the $x$ -axis. Find the exact value of the volume of revolution obtained. [image]  
+  
+**Summary Exercise**  
+1. Find these integrals.  
 a) $\int 12x^2dx$  
 b) $\int \left(\frac{3}{x^2} -2x\right)dx$  
 c) $\int (6 - x)^2dx$   
 d) $\int 2\sqrt{x}\left(1 + \sqrt{x}\right)^2dx$   
 e) $\int \frac{x + 5x^7}{x^3}dx$   
 f) $\int \left(\frac{2}{\sqrt[3]{x}} -14\sqrt{x^5}\right)dx$   
-2. Find the equation of the curve, given $\frac{\mathrm{d}y}{dx$  }$ and a point on the curve.
-a) $\frac{d}{dx} = 9x^2 -2x + 1&, point = (-3,5)
+2. Find the equation of the curve, given $\frac{\mathrm{d}y}{dx$  }$ and a point on the curve.  
+a) $\frac{d}{dx} = 9x^2 -2x + 1&, point = (-3,5)  
 b) $\frac{dy}{dx} = \frac{4x^4 - 5x}{x}, point = (-1, -2)  
 c) $\frac{dy}{dx} = \left(\sqrt{x} +3\right)^2$, point = (4,2)  
 d) $\frac{dy}{dx} = 8x - \frac{7}{x^2}$,  point = (1, -4)  
-3. Given that $\mathrm{f}^{\prime}(x) = 2x^{2} - x + 3\sqrt{x}$ and $\mathrm{f}(4) = 0$ find $\mathrm{f}(x)$
-
-**EXAM-STYLE QUESTIONS**
-4. Find an expression for $y$ in terms of $x$ if $\frac{\mathrm{d}y}{dx$  } = (3x - 5)(x - 1)$ and $y = 0$ when $x = 5$
-5. Find
+3. Given that $\mathrm{f}^{\prime}(x) = 2x^{2} - x + 3\sqrt{x}$ and $\mathrm{f}(4) = 0$ find $\mathrm{f}(x)$  
+  
+**EXAM-STYLE QUESTIONS**  
+4. Find an expression for $y$ in terms of $x$ if $\frac{\mathrm{d}y}{dx$  } = (3x - 5)(x - 1)$ and $y = 0$ when $x = 5$  
+5. Find  
 a) $\int \left(x + \frac{1}{x}\right)^2dx$   
 b) $\int \frac{2x^4 + 3}{x^4}dx$   
 c) $\int \frac{x^2(x - 1)^2}{x}dx$   
 d) $\int \sqrt{(7 - x)}dx$  
-6. Find $\int_{-2}^{-1}\frac{1}{(3x + 2)^5}dx$  .$
-7. Show that only one of the following improper integrals has a finite value and find that value.
+6. Find $\int_{-2}^{-1}\frac{1}{(3x + 2)^5}dx$  .$  
+7. Show that only one of the following improper integrals has a finite value and find that value.  
 a) $int \frac{1}{\sqrt{x}}dx$   
 b) $\int \frac{1}{\sqrt{x}}dx$  
-8. Find in terms of $p$ and $q$ the value of the integral $\int_{p}^{q}\frac{3}{x^{4}}dx$  .$
-
-9. Show that only one of the following improper integrals has a finite value and find that value.
-$$\mathrm{a)} \int_{0}^{1}\frac{3}{x^{4}}dx$   \mathrm{b)} \int_{1}^{3}\frac{3}{x^{4}}dx$
-
-11. For each of the following integrals explain briefly why it is an improper integral.
+8. Find in terms of $p$ and $q$ the value of the integral $\int_{p}^{q}\frac{3}{x^{4}}dx$  .$  
+  
+9. Show that only one of the following improper integrals has a finite value and find that value.  
+$$\mathrm{a)} \int_{0}^{1}\frac{3}{x^{4}}dx$   \mathrm{b)} \int_{1}^{3}\frac{3}{x^{4}}dx$  
+  
+11. For each of the following integrals explain briefly why it is an improper integral.  
 a $\int_{0}^{1}\frac{1}{x}dx$   
 b)$\int_{0}^{1}\frac{1}{x^{2}}dx$   
 c) $\int_{0}^{27}\frac{1}{4x^{-3}}dx$    
-d) Find whether each of the integrals has a finite value and, where possible, find its value.
-
-13. [image] The diagram shows the curve $y = x(x - 1)$ . Find the total shaded area.
-
-15. Find the area bounded by the curve $y = 3x^{2} - 2x + 1$ , the $x$ -axis and the lines $x = 1$ and $x = 2$ . First draw a sketch.
-
-17. Find the area bounded by the curve $y = 2 + x - x^{2}$ and the line $y = x + 1$ .
-
-19. [image] The diagram shows the curve $y = x(4 - x)$ and the line $y = 3$ . Find the shaded area.
-
-21. [image] The diagram shows a sketch of the curve $y = 3x - x^{2}$ and the line $y = - 2x$ . Find the area of the shaded region.
-
-23. Find the value of $\int_{-4}^{4}x^{3}dx$   and explain the significance of the answer.
-
-25. a) Sketch the curve $y = x(x^{2} - 1)$ showing clearly where the curve crosses the $x$ -axis.
+d) Find whether each of the integrals has a finite value and, where possible, find its value.  
+  
+13. [image] The diagram shows the curve $y = x(x - 1)$ . Find the total shaded area.  
+  
+15. Find the area bounded by the curve $y = 3x^{2} - 2x + 1$ , the $x$ -axis and the lines $x = 1$ and $x = 2$ . First draw a sketch.  
+  
+17. Find the area bounded by the curve $y = 2 + x - x^{2}$ and the line $y = x + 1$ .  
+  
+19. [image] The diagram shows the curve $y = x(4 - x)$ and the line $y = 3$ . Find the shaded area.  
+  
+21. [image] The diagram shows a sketch of the curve $y = 3x - x^{2}$ and the line $y = - 2x$ . Find the area of the shaded region.  
+  
+23. Find the value of $\int_{-4}^{4}x^{3}dx$   and explain the significance of the answer.  
+  
+25. a) Sketch the curve $y = x(x^{2} - 1)$ showing clearly where the curve crosses the $x$ -axis.  
 b) Find the area between the curve and the $x$ -axis.  
-c) Find the volume obtained when the area bounded by the curve and the positive $x$ -axis is rotated $360^{\circ}$ about the $x$ -axis.
-
-27. [image] Find the volume generated when the shaded area is rotated through $360^{\circ}$ about the $x$ - axis.
-
-29. [image] The diagram shows the line $y = 1$ and part of the curve with equation $y^{2} = 4 - x$ .
+c) Find the volume obtained when the area bounded by the curve and the positive $x$ -axis is rotated $360^{\circ}$ about the $x$ -axis.  
+  
+27. [image] Find the volume generated when the shaded area is rotated through $360^{\circ}$ about the $x$ - axis.  
+  
+29. [image] The diagram shows the line $y = 1$ and part of the curve with equation $y^{2} = 4 - x$ .  
 a) Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ -axis.  
-b) Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the y-axis.
-
-31. [image] The diagram shows the region enclosed by the curve with equation $y = \frac{6}{x}$ , the $y$ - axis and the lines $y = 2$ and $y = 3$ . Find, in terms of $\pi$ , the volume obtained when this region is rotated through $360^{\circ}$ about the $y$ - axis.
+b) Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the y-axis.  
   
-33. Find the area enclosed by the curve $y = \frac{2x^3 + 3}{x^2}$ , the line $x = \frac{1}{2}$ and the line $x = 4$ .
+31. [image] The diagram shows the region enclosed by the curve with equation $y = \frac{6}{x}$ , the $y$ - axis and the lines $y = 2$ and $y = 3$ . Find, in terms of $\pi$ , the volume obtained when this region is rotated through $360^{\circ}$ about the $y$ - axis.  
   
-35. [image] The diagram shows the line $y = 4$ and part of the curve with equation $y = \sqrt{x + 4}$ .
+33. Find the area enclosed by the curve $y = \frac{2x^3 + 3}{x^2}$ , the line $x = \frac{1}{2}$ and the line $x = 4$ .  
+  
+35. [image] The diagram shows the line $y = 4$ and part of the curve with equation $y = \sqrt{x + 4}$ .  
 a) Show that the equation $y = \sqrt{x + 4}$ can be written in the form $x = y^2 - 4$ .  
 b) Find the area of the shaded region.  
-c) Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $y$ -axis.
-
-37. The region bounded by the curve $4y = x^2$ , the line $x = 4$ and the line $y = 1$ , is rotated through $360^{\circ}$ about the $x$ -axis. Find the volume of the solid formed.
-
-39. The area bounded by the curve $y = 15kx - 15x^2$ and the $x$ -axis is rotated through $360^{\circ}$ about the $x$ -axis, where $k$ is an integer. The volume of the solid formed is $240\pi$ . Find the value of $k$ .
+c) Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $y$ -axis.  
+  
+37. The region bounded by the curve $4y = x^2$ , the line $x = 4$ and the line $y = 1$ , is rotated through $360^{\circ}$ about the $x$ -axis. Find the volume of the solid formed.  
+  
+39. The area bounded by the curve $y = 15kx - 15x^2$ and the $x$ -axis is rotated through $360^{\circ}$ about the $x$ -axis, where $k$ is an integer. The volume of the solid formed is $240\pi$ . Find the value of $k$ .  
