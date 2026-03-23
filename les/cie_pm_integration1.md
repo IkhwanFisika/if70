@@ -886,11 +886,9 @@ $$
 3. Find the values of $b$ such that $\int_{0}^{b}\cos x dx = \frac{1}{\sqrt{2}}, 0< b< \pi .$  
   
 4. Evaluate correct to 4 significant figures:  
-$$  
-\int_{-2}^{0}4e^{-x^{2}}dx$  
-b}\int_{0}^{1}\frac{10x}{\sqrt{3x + 1}} dx$  
-c}\int_{0}^{\frac{\pi}{3}}\cos^{2}\left(\frac{x}{2}\right)dx  
-$$  
+a. $\int_{-2}^{0}4e^{-x^{2}}dx$  
+b. $ \int_{0}^{1}\frac{10x}{\sqrt{3x + 1}} dx$  
+c. $\int_{0}^{\frac{\pi}{3}}\cos^{2}\left(\frac{x}{2}\right)dx$    
   
 5. Find $\int_{0}^{\frac{\pi}{6}}\frac{\cos x}{(1 + \sin x)^{3}} dx$ using an appropriate substitution.  
   
