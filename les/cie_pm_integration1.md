@@ -1409,8 +1409,9 @@ Find the area of the finite region bounded by $y = x^{2}$ and $y = x - x^{2}$ .
 Show that the improper integral $\int_{1}^{\infty} \frac{2}{x^{3}} dx$   has a value and find that value.  
 **Example 19**  
 Show that only one of the following improper integrals has a finite value and find that value.  
-$$\int_{-\infty}^{0}\frac{2}{x^{5}}dx$   
-$b)}\int_{-\infty}^{2}\frac{2}{x^{5}}dx$  
+a. $\int_{-\infty}^{0}\frac{2}{x^{5}}dx$   
+b. $\int_{-\infty}^{2}\frac{2}{x^{5}}dx$  
+
 **Example 20**  
 Find the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ -axis.  
 [image]  
@@ -1474,22 +1475,24 @@ e) $\frac{dy}{dx}$ = \frac{9x^3 - 3x}{x}$ point $= (-5,4)$
 f) $\frac{dy}{dx}$ = (3x - 1)(5x + 2)$ point $= (-4, -6)$  
   
 3. A curve is such that $\frac{dy}{dx} = \frac{5}{\sqrt{x}} - 10\sqrt{x^3}$ and the point $(1, -6)$ lies on the curve. Find the equation of the curve.  
-4.   
-5. A curve passes through the point (7, 10) and its gradient function is $\frac{6}{x^3} + 2$ . Find the equation of the curve.  
-6.   
-7. The curve $C$ , with equation $y = f(x)$ passes through the point $(-2, -1)$ and $f'(x) = x(3 - x)$ . Find the equation of $C$ in the form $y = f(x)$ .  
-8.   
-9. A curve is such that $\frac{d^2 y}{dx^2} = -8x$ . The curve has a maximum point when $x = 1$ , and the point $(2, -1)$ lies on the curve. Find the equation of the curve.  
-10.   
-11. $f'(x) = 8x^3 - 4 + 3x^{\frac{-1}{2}}$ and $f(4) = 3$ , find $f(x)$ .  
-12.   
-13. Given that $\frac{d^2 y}{dx^2} = -3x + 2$ and that when $x = -1$ , $\frac{dy}{dx} = 5$ and $y = 0$ , find $y$ in terms of $x$ .  
-14.   
-15. The curve $C$ passes through the point $(3, 10)$ and its gradient at any point is given by $\frac{dy}{dx} = 6x^2 - 4x + 3$ .  
+   
+4. A curve passes through the point (7, 10) and its gradient function is $\frac{6}{x^3} + 2$ . Find the equation of the curve.  
+   
+5. The curve $C$ , with equation $y = f(x)$ passes through the point $(-2, -1)$ and $f'(x) = x(3 - x)$ . Find the equation of $C$ in the form $y = f(x)$ .  
+   
+6. A curve is such that $\frac{d^2 y}{dx^2} = -8x$ . The curve has a maximum point when $x = 1$ , and the point $(2, -1)$ lies on the curve. Find the equation of the curve.  
+   
+7. $f'(x) = 8x^3 - 4 + 3x^{\frac{-1}{2}}$ and $f(4) = 3$ , find $f(x)$ .  
+   
+8. Given that $\frac{d^2 y}{dx^2} = -3x + 2$ and that when $x = -1$ , $\frac{dy}{dx} = 5$ and $y = 0$ , find $y$ in terms of $x$ .  
+   
+9. The curve $C$ passes through the point $(3, 10)$ and its gradient at any point is given by $\frac{dy}{dx} = 6x^2 - 4x + 3$ .  
 a) Find the equation of the curve $C$ .  
 b) Show that the point $(2, -21)$ lies on the curve.  
-17. A curve is such that $\frac{\mathrm{d}^2 y}{dx^2} = 6x$ . The curve has a maximum point when $x = -1$ , and the point $(3, -2)$ lies on the curve. Find the equation of the curve.  
-18. The gradient of a curve is given by $\frac{dy}{dx} = ax + b$ . Given that the curve passes through $(0, 0)$ , $(1, 1)$ and $(- 2, 16)$ , find the equation of the curve.  
+
+10. A curve is such that $\frac{\mathrm{d}^2 y}{dx^2} = 6x$ . The curve has a maximum point when $x = -1$ , and the point $(3, -2)$ lies on the curve. Find the equation of the curve.  
+
+11. The gradient of a curve is given by $\frac{dy}{dx} = ax + b$ . Given that the curve passes through $(0, 0)$ , $(1, 1)$ and $(- 2, 16)$ , find the equation of the curve.  
   
   
 #### Complete PM1 **Exercise 10.3**  
@@ -1505,7 +1508,8 @@ h) $\int \frac{1}{\sqrt{2x + 3}} dx$
 i) $\int \frac{4}{(3 - 2x)^3} dx$  
 j) $\int 8(4x + 3)^7 dx$  
 k) $\int 4\sqrt[3]{3 - 2x} dx$  
-l) $\int \frac{3}{\sqrt{1 - 2x}} dx$  
+l) $\int \frac{3}{\sqrt{1 - 2x}} dx$
+
 2. Find  
 a) $\int_{1}^{3} (2x - 3)^4 dx$  
 b) $\int_{0}^{2} \sqrt{2x + 1} dx$  
@@ -1527,11 +1531,11 @@ j) $\int_{1}^{8} \frac{3x - 2}{x^{\frac{2}{3}}} dx$
 k) $\int_{0}^{3} \sqrt{(3 - x)} dx$  
 l) $\int_{0}^{3} \frac{4x + 1}{x^{3}} dx$  
 2. Find  
-$$\int_{-1}^{3}(6x^{2} - 2x)dx$    
-$$\int_{-3}^{2}(3x^{2} + 8x + 1)dx$  
+a. $\int_{-1}^{3}(6x^{2} - 2x)dx$    
+B. $\int_{-3}^{2}(3x^{2} + 8x + 1)dx$  
 3. Evaluate  
-$$\int_{0}^{3}\frac{4x + 1}{x^{3}}dx$    
-$$\int_{0}^{3}\sqrt{(3 - x)}dx$  
+a. $\int_{0}^{3}\frac{4x + 1}{x^{3}}dx$    
+b. $\int_{0}^{3}\sqrt{(3 - x)}dx$  
   
 ---   
   
@@ -1643,11 +1647,12 @@ b) $\int \frac{1}{\sqrt{x}}dx$
 8. Find in terms of $p$ and $q$ the value of the integral $\int_{p}^{q}\frac{3}{x^{4}}dx$  .$  
   
 9. Show that only one of the following improper integrals has a finite value and find that value.  
-$$\mathrm{a)} \int_{0}^{1}\frac{3}{x^{4}}dx$   \mathrm{b)} \int_{1}^{3}\frac{3}{x^{4}}dx$  
+a. $\int_{0}^{1}\frac{3}{x^{4}}dx$
+b. $\int_{1}^{3}\frac{3}{x^{4}}dx$  
   
 11. For each of the following integrals explain briefly why it is an improper integral.  
-a $\int_{0}^{1}\frac{1}{x}dx$   
-b)$\int_{0}^{1}\frac{1}{x^{2}}dx$   
+a) $\int_{0}^{1}\frac{1}{x}dx$   
+b) $\int_{0}^{1}\frac{1}{x^{2}}dx$   
 c) $\int_{0}^{27}\frac{1}{4x^{-3}}dx$    
 d) Find whether each of the integrals has a finite value and, where possible, find its value.  
   
