@@ -771,19 +771,21 @@ a) $\int_{0}^{\frac{\pi}{4}}\cos^{3}2x\mathrm{d}x$
 b) $\int_{0}^{\frac{\pi}{4}}\sqrt{1 + \tan^{2}2x}\mathrm{d}x$  
 c) $\int_{0}^{1}\frac{\mathrm{e}^{2x}}{1 + \mathrm{e}^{x}}\mathrm{d}x$  
 d) $\int_{0}^{\frac{\pi}{4}}\frac{\mathrm{e}^{2x}}{1 + \mathrm{e}^{x}}\mathrm{d}x$  
-e) $\int_{0}^{1}\frac{1}{1 + 9x^{2}}\mathrm{d}x$  
-2. For each of the following, use the trapezium rule with the specified number of intervals to estimate the value of the definite integral to 3 significant figures.  
+e) $\int_{0}^{1}\frac{1}{1 + 9x^{2}}\mathrm{d}x$
+
+3. For each of the following, use the trapezium rule with the specified number of intervals to estimate the value of the definite integral to 3 significant figures.  
 a) $\int_{0}^{\frac{\pi}{4}}\cos^{3}2x\mathrm{d}x$ (3 intervals)  
 b) $\int_{0}^{\frac{\pi}{4}}\sqrt{1 + \sin 3x}\mathrm{d}x$ (4 intervals)  
 c) $\int_{0}^{\frac{\pi}{4}}\sqrt{1 + \tan^{2}2x}\mathrm{d}x$ (5 intervals)  
 d) $\int_{0}^{1}\sqrt{1 + \tan^{2}2x}\mathrm{d}x$ (5 intervals)  
-e) $\int_{1}^{1}\sqrt{1 + \tan^{2}2x}\mathrm{d}x$ (4 intervals)  
-3. The diagram shows the graph of $y = \sqrt{1 + x^2}$ . The region R is bounded by the curve, the $x$ - and $y$ -axes and the line $x = 2$ .  
+e) $\int_{1}^{1}\sqrt{1 + \tan^{2}2x}\mathrm{d}x$ (4 intervals)
+
+5. The diagram shows the graph of $y = \sqrt{1 + x^2}$ . The region R is bounded by the curve, the $x$ - and $y$ -axes and the line $x = 2$ .  
 a) Use the trapezium rule with six ordinates to obtain an approximation for the area of R, giving your answer to a suitable degree of accuracy.  
 b) Explain, with the aid of a sketch, whether the approximation is an overestimate or underestimate.  
 [image]
 
-5. The diagram shows the graph of $y = x\mathrm{e}^{- x}$ . The region R is bounded by the curve, the $x$ -axis and the line $x = 2$ .  
+6. The diagram shows the graph of $y = x\mathrm{e}^{- x}$ . The region R is bounded by the curve, the $x$ -axis and the line $x = 2$ .  
 a) Use the trapezium rule with 11 ordinates to obtain an approximation for the area of R, giving your answer to 3 significant figures.  
 b) Explain, with the aid of a sketch, whether the approximation is an overestimate or underestimate.  
 [image]
@@ -850,12 +852,14 @@ a) Explain why $\int_{0}^{2}x\ln x\mathrm{d}x$ (if you were able to calculate it
 b) Calculate an estimate for the area of R using the trapezium rule and intervals of width 0.5.  
 
 16. Use the trapezium rule with five intervals to find an approximation to  
-$$\int_{-2}^{3}|x^{2} - 1|\mathrm{d}x.$$  
-17. a) Find $\int 2\cos^{2}(3\theta)\mathrm{d}\theta$ .  
+$$\int_{-2}^{3}|x^{2} - 1|\mathrm{d}x.$$
+
+18. a) Find $\int 2\cos^{2}(3\theta)\mathrm{d}\theta$ .  
 b) Find the exact value of  
 $$\int_{2}^{3}\frac{1}{2x + 5}\mathrm{d}x.$$  
 
 ---
+
 **Example 1**  
 [image]  
 **Example 2**  
