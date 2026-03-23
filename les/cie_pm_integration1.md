@@ -1363,18 +1363,18 @@ Evaluate the following improper integrals.
 ---
 ## Oxford Complete
 **Example 1**
-Given $\frac{\mathrm{d}y}{dx$  } = 9x^{2} - 4x + 3x^{\frac{1}{2}} - 7$ , find $y$ .
+Given $\frac{dy}{dx} = 9x^{2} - 4x + 3x^{\frac{1}{2}} - 7$ , find $y$ .
 **Example 2**
 Given $f^{\prime}(x) = x(3x - 4)^{2}$ , find $f(x)$
 [image]
 **Example 3**
 Find the equation of the curve that passes through the point $(4, - 1)$ and where
-$$\frac{\mathrm{d}y}{dx$  } = \frac{5x^2 + 1}{\sqrt{x}}.$$
+$$\frac{dy}{dx} = \frac{5x^2 + 1}{\sqrt{x}}.$$
 **Example 4**
 A curve is such that $\mathrm{f}^{\prime}(x) = \frac{10}{x^{3}} - 4$ and the point $(- 1,2)$ lies on the curve. Find the equation of the curve.
 [image]
 **Example 5**
-A curve is such that $\frac{\mathrm{d}^{2}y}{dx$  ^{2}} = - 6x$ and the curve has a maximum point at $(1,2)$ Find the equation of the curve.
+A curve is such that $\frac{d^{2}y}{dx^{2}} = - 6x$ and the curve has a maximum point at $(1,2)$ Find the equation of the curve.
 **Example 6**
 Find $\int (4x - 3)^5 \mathrm{~d}x$ .
 **Example 7**
@@ -1423,7 +1423,7 @@ The diagram shows the line $y = 1$ , the line $y = 4$ and part of the curve $y =
 
 ---
 #### Complete PM1 **Exercise 10.1**
-1. Find $y$ given $\frac{\mathrm{d}y}{dx$  }$ in each case.
+1. Find $y$ given $\frac{dy}{dx}$ in each case.
 a) $2x$  
 b) $x^{7}$  
 c) $3x^{2}$  
@@ -1465,7 +1465,7 @@ k) $\int \left(\frac{3}{\sqrt{x}} -\sqrt{x^{3}}\right)dx$
 l) $\int \sqrt{x} -(\sqrt{x} +5)^{2}dx$
 
 #### Complete PM1 **Exercise 10.2**
-1. Find the equation of each curve, given $\frac{\mathrm{d}y}{dx$  }$ and a point on the curve.
+1. Find the equation of each curve, given $\frac{dy}{dx}$ and a point on the curve.
 a) $\frac{dy}{dx}$ = 3x^2 - 6x + 2$ point $= (-2, -10)$  
 b) $\frac{dy}{dx}$ = (1 - 2x)^2$ point $= (1,8)$  
 c) $\frac{dy}{dx}$ = x(2x + 5)$ point $= (5, -1)$  
@@ -1473,23 +1473,23 @@ d) $\frac{dy}{dx}$ = \sqrt{x}\left(\sqrt{x} - 3\right)$ point $= (9,12)$
 e) $\frac{dy}{dx}$ = \frac{9x^3 - 3x}{x}$ point $= (-5,4)$  
 f) $\frac{dy}{dx}$ = (3x - 1)(5x + 2)$ point $= (-4, -6)$
 
-3. A curve is such that $\frac{\mathrm{d}y}{dx$  } = \frac{5}{\sqrt{x}} - 10\sqrt{x^3}$ and the point $(1, -6)$ lies on the curve. Find the equation of the curve.
+3. A curve is such that $\frac{dy}{dx} = \frac{5}{\sqrt{x}} - 10\sqrt{x^3}$ and the point $(1, -6)$ lies on the curve. Find the equation of the curve.
 4. 
 5. A curve passes through the point (7, 10) and its gradient function is $\frac{6}{x^3} + 2$ . Find the equation of the curve.
 6. 
 7. The curve $C$ , with equation $y = f(x)$ passes through the point $(-2, -1)$ and $f'(x) = x(3 - x)$ . Find the equation of $C$ in the form $y = f(x)$ .
 8. 
-9. A curve is such that $\frac{\mathrm{d}^2y}{dx$  ^2} = -8x$ . The curve has a maximum point when $x = 1$ , and the point $(2, -1)$ lies on the curve. Find the equation of the curve.
+9. A curve is such that $\frac{d^2 y}{dx^2} = -8x$ . The curve has a maximum point when $x = 1$ , and the point $(2, -1)$ lies on the curve. Find the equation of the curve.
 10. 
 11. $f'(x) = 8x^3 - 4 + 3x^{\frac{-1}{2}}$ and $f(4) = 3$ , find $f(x)$ .
 12. 
-13. Given that $\frac{\mathrm{d}^2y}{dx$  ^2} = -3x + 2$ and that when $x = -1$ , $\frac{\mathrm{d}y}{dx$  } = 5$ and $y = 0$ , find $y$ in terms of $x$ .
+13. Given that $\frac{d^2 y}{dx^2} = -3x + 2$ and that when $x = -1$ , $\frac{dy}{dx} = 5$ and $y = 0$ , find $y$ in terms of $x$ .
 14. 
-15. The curve $C$ passes through the point $(3, 10)$ and its gradient at any point is given by $\frac{\mathrm{d}y}{dx$  } = 6x^2 - 4x + 3$ .
+15. The curve $C$ passes through the point $(3, 10)$ and its gradient at any point is given by $\frac{dy}{dx} = 6x^2 - 4x + 3$ .
 a) Find the equation of the curve $C$ .  
 b) Show that the point $(2, -21)$ lies on the curve.
-17. A curve is such that $\frac{\mathrm{d}^2y}{dx$  ^2} = 6x$ . The curve has a maximum point when $x = -1$ , and the point $(3, -2)$ lies on the curve. Find the equation of the curve.
-18. The gradient of a curve is given by $\frac{\mathrm{d}y}{dx$  } = ax + b$ . Given that the curve passes through $(0, 0)$ , $(1, 1)$ and $(- 2, 16)$ , find the equation of the curve.
+17. A curve is such that $\frac{\mathrm{d}^2 y}{dx^2} = 6x$ . The curve has a maximum point when $x = -1$ , and the point $(3, -2)$ lies on the curve. Find the equation of the curve.
+18. The gradient of a curve is given by $\frac{dy}{dx} = ax + b$ . Given that the curve passes through $(0, 0)$ , $(1, 1)$ and $(- 2, 16)$ , find the equation of the curve.
 
 
 #### Complete PM1 **Exercise 10.3**
