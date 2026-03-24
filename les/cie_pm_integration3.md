@@ -247,8 +247,7 @@ b) Solve the differential equation to find an expression for $N$ in terms of $t$
 c) Calculate how long it takes for the majority of people to have heard the rumour.  
 12. a) Show that $\frac{\mathrm{d}\nu}{\mathrm{d}t} = \nu \frac{\mathrm{d}\nu}{\mathrm{d}x}$ where $\nu = \frac{\mathrm{d}x}{\mathrm{d}t}$ .  
 The rate at which a body loses speed, $\nu$ , is proportional to its displacement, $x$ , from a fixed point.  
-b) Show that the differential equation  
-$$\nu \frac{\mathrm{d}\nu}{\mathrm{d}x} = -kx\mathrm{~describes~this~situation}.$$  
+b) Show that the differential equation $$\nu \frac{\mathrm{d}\nu}{\mathrm{d}x} = -kx\mathrm{~describes~this~situation}.$$  
 The body has speed $10\mathrm{m}\mathrm{s}^{- 1}$ as it passes through the fixed point and just reaches a point 5 metres from the fixed point as it comes to rest.  
 c) Solve the differential equation to find an equation relating $\nu$ and $x$ , showing that $k = 4$ .  
 d) Find the speed of the body when it is 3 metres from the fixed point.  
@@ -256,11 +255,9 @@ d) Find the speed of the body when it is 3 metres from the fixed point.
 a) Form a differential equation which is satisfied by the mass, $m$ kg, of the mineral in the solution at time $t$ minutes.  
 b) Solve the differential equation to find an expression for $m$ in terms of $t$ . When the solution contains $8\mathrm{kg}$ of the mineral another $4\mathrm{kg}$ is added, and the process is repeated.  
 c) Find the first time at which the solution contains $8\mathrm{kg}$ of the mineral.  
-14. The variables $x$ and $y$ are related by the differential equation  
-$$\frac{dy}{dx} = \frac{4y\mathrm{e}^{2x}}{5 + \mathrm{e}^{2x}}$$  
+14. The variables $x$ and $y$ are related by the differential equation $$\frac{dy}{dx} = \frac{4y\mathrm{e}^{2x}}{5 + \mathrm{e}^{2x}}$$  
 Given that $y = 36$ when $x = 0$ , find an expression for $y$ in terms of $x$ .  
-15. The variables $x$ and $\theta$ satisfy the differential equation  
-$$\frac{\mathrm{d}x}{\mathrm{d}\theta} = (x + 4)\sin^2 3\theta ,$$  
+15. The variables $x$ and $\theta$ satisfy the differential equation $$\frac{\mathrm{d}x}{\mathrm{d}\theta} = (x + 4)\sin^2 3\theta ,$$  
 and it is given that $x = 0$ when $\theta = 0$ . Solve the differential equation and calculate the value of $x$ when $\theta = \frac{1}{4}\pi$ , giving your answer correct to 3 significant figures.  
 16. A large field of area $3\mathrm{km}^2$ is becoming infected with a soil disease. At time $t$ years the area infected is $x\mathrm{km}^2$ and the rate of growth of the infected area is given by the differential equation $\frac{\mathrm{dx}}{\mathrm{dt}} = kx(3 - x)$ , where $k$ is a positive constant. It is given that when $t = 0$ , $x = 0.5$ and that when $t = 2$ , $x = 2$ .  
 i) Solve the differential equation and show that $k = \frac{1}{6}\ln 10$  
@@ -270,8 +267,7 @@ Note: Question 17 is beyond the scope of the Cambridge International syllabus bu
 [image]  
 The path followed by the boat is called a tractrix, and has the property that the rope is always tangential to the path of the boat.  
 a) If $y = \mathrm{f}(x)$ is the path of the boat, show that $\frac{\mathrm{dy}}{\mathrm{dx}} = \frac{\sqrt{L^2 - x^2}}{x}$ .  
-b) Use the substitution $x = L\cos \theta$ to show that the solution to the differential equation is  
-$$\mathrm{f}(x) = \frac{L\ln x}{(L - \sqrt{(L^2 - x^2)})} -\sqrt{(L^2 - x^2)}$$  
+b) Use the substitution $x = L\cos \theta$ to show that the solution to the differential equation is $$\mathrm{f}(x) = \frac{L\ln x}{(L - \sqrt{(L^2 - x^2)})} -\sqrt{(L^2 - x^2)}$$  
 [You may use without derivation that $\int \cos \mathrm{ec}\theta \mathrm{d}\theta = \ln |\cos \mathrm{ec}\theta - \cot \theta |.$ ]  
 
 ----------------------------------------------------------------------  
@@ -299,8 +295,7 @@ Find the general solution of the differential equation $\frac{dy}{dx} = \mathrm{
 **Example 9.8**  
 The motion of an object is such that its acceleration is given by $a = 3$ . If the object starts from rest at the origin, find an expression for its velocity after time $t$ seconds and find the time when the velocity is $8\mathrm{ms}^{-1}$ .  
 **Example 9.9**  
-Show that $\sin y = x$ is a solution of the differential equation  
-$$\frac{dy}{dx} = \frac{1}{\sqrt{1 - x^2}}$$  
+Show that $\sin y = x$ is a solution of the differential equation $$\frac{dy}{dx} = \frac{1}{\sqrt{1 - x^2}}$$  
 given that $y = 0$ when $x = 0$  
 
 ---  
@@ -348,14 +343,12 @@ c) $\frac{dy}{dx} = x\mathrm{e}^{-y}\qquad y = 0\mathrm{~when~}x = 0$
 d) $\frac{dy}{dx} = y^2\qquad y = 1\mathrm{~when~}x = 1$  
 e) $\frac{dy}{dx} = x(y + 1)\quad y = 0\mathrm{~when~}x = 1$  
 f) $\frac{dy}{dx} = y^2\sin x\quad y = 1\mathrm{~when~}x = 0$  
-2. A cold liquid at temperature $\theta^{\circ}C$ ,where $\theta < 20$ ,is standing in a warm room.The temperature of the liquid obeys the differential equation  
-$$\frac{\mathrm{d}\theta}{\mathrm{d}t} = 2(20 - \theta)$$  
+2. A cold liquid at temperature $\theta^{\circ}C$ ,where $\theta < 20$ ,is standing in a warm room.The temperature of the liquid obeys the differential equation $$\frac{\mathrm{d}\theta}{\mathrm{d}t} = 2(20 - \theta)$$  
 where the time $t$ is measured in hours.  
 (i) Find the general solution of this differential equation.  
 (ii) Find the particular solution for which $\theta = 5$ when $t = 0$  
 (iii) In this case, how long does the liquid take to reach a temperature of $18^{\circ}C$ ?  
-3. A population of rabbits increases so that the number of rabbits $N$ (in hundreds), after $t$ years is modelled by the differential equation  
-$$\frac{\mathrm{d}N}{\mathrm{d}t} = N.$$  
+3. A population of rabbits increases so that the number of rabbits $N$ (in hundreds), after $t$ years is modelled by the differential equation $$\frac{\mathrm{d}N}{\mathrm{d}t} = N.$$  
 (i) Find the general solution for $N$ in terms of $t$ .  
 (ii) Find the particular solution for which $N = 10$ when $t = 0$ .  
 (iii) What will happen to the number of rabbits when $t$ becomes very large? Why is this not a realistic model for an actual population of rabbits?  
@@ -375,8 +368,7 @@ Cambridge International AS & A Level Mathematics 9709 Paper 32 Q7 June 2010
 8. An underground storage tank is being filled with liquid as shown in the diagram. Initially the tank is empty. At time $t$ hours after filling begins, the volume of liquid is $V\mathrm{m}^3$ and the depth of liquid is $h\mathrm{m}$ . It is given that $V = \frac{4}{3} h^3$ .  
 [image]  
 The liquid is poured in at a rate of $20\mathrm{m}^3$ per hour, but owing to leakage, liquid is lost at a rate proportional to $h^2$ . When $h = 1$ , $\frac{\mathrm{d}h}{\mathrm{d}t} = 4.95$ .  
-(i) Show that $h$ satisfies the differential equation  
-$$\frac{\mathrm{d}h}{\mathrm{d}t} = \frac{5}{h^2} -\frac{1}{20}.$$  
+(i) Show that $h$ satisfies the differential equation $$\frac{\mathrm{d}h}{\mathrm{d}t} = \frac{5}{h^2} -\frac{1}{20}.$$  
 (ii) Verify that $\frac{20h^2}{100 - h^2} \equiv -20 + \frac{2000}{(10 - h)(10 + h)}$ .  
 (iii) Hence solve the differential equation in part (i), obtaining an expression for $t$ in terms of $h$ .  
 Cambridge International AS & A Level Mathematics 9709 Paper 3 Q8 November 2008  
@@ -386,25 +378,21 @@ Cambridge International AS & A Level Mathematics 9709 Paper 3 Q8 November 2008
 (iii) The naturalists had a target of increasing the number of plants from 650 to 2000 within 15 years.  
 Will this target be met?  
 Cambridge International AS & A Level Mathematics 9709 Paper 33 Q10 November 2015  
-10. The number of birds of a certain species in a forested region is recorded over several years. At time $t$ years, the number of birds is $N$ , where $N$ is treated as a continuous variable. The variation in the number of birds is modelled by  
-$$\frac{\mathrm{d}N}{\mathrm{d}t} = \frac{N(1800 - N)}{3600}.$$  
+10. The number of birds of a certain species in a forested region is recorded over several years. At time $t$ years, the number of birds is $N$ , where $N$ is treated as a continuous variable. The variation in the number of birds is modelled by $$\frac{\mathrm{d}N}{\mathrm{d}t} = \frac{N(1800 - N)}{3600}.$$  
 It is given that $N = 300$ when $t = 0$ .  
 (i) Find an expression for $N$ in terms of $t$ .  
 (ii) According to the model, how many birds will there be after a long time?  
 Cambridge International AS & A Level Mathematics 9709 Paper 31 Q10 June 2011  
-11. The variables $x$ and $\theta$ satisfy the differential equation  
-$$2\cos^2\theta \frac{\mathrm{d}x}{\mathrm{d}\theta} = \sqrt{(2x + 1)},$$  
+11. The variables $x$ and $\theta$ satisfy the differential equation $$2\cos^2\theta \frac{\mathrm{d}x}{\mathrm{d}\theta} = \sqrt{(2x + 1)},$$  
 and $x = 0$ when $\theta = \frac{1}{4}\pi$ . Solve the differential equation and obtain an expression for $x$ in terms of $\theta$ .  
 Cambridge International AS & A Level Mathematics 9709 Paper 33 Q5 June 2014  
-12. The variables $x$ and $y$ are related by the differential equation  
-$$\frac{dy}{dx} = \frac{1}{5} xy^{\frac{1}{2}}\sin \left(\frac{1}{3} x\right).$$  
+12. The variables $x$ and $y$ are related by the differential equation $$\frac{dy}{dx} = \frac{1}{5} xy^{\frac{1}{2}}\sin \left(\frac{1}{3} x\right).$$  
 (i) Find the general solution, giving $y$ in terms of $x$ .  
 (ii) Given that $y = 100$ when $x = 0$ , find the value of $y$ when $x = 25$ .  
 Cambridge International AS & A Level Mathematics 9709 Paper 33 Q8 November 2014  
 13. A tank containing water is in the form of a cone with vertex C. The axis is vertical and the semi- vertical angle is $60^{\circ}$ , as shown in the diagram. At time $t = 0$ , the tank is full and the depth of water is $H$ . At this instant, a tap at C is opened and water begins to flow out. The volume of water in the tank decreases at a rate proportional to $\sqrt{h}$ , where $h$ is the depth of water at time $t$ . The tank becomes empty when $t = 60$ .  
 [image]  
-(i) Show that $h$ and $t$ satisfy a differential equation of the form  
-$$\frac{\mathrm{d}h}{\mathrm{d}t} = -Ah^{-\frac{3}{2}},$$  
+(i) Show that $h$ and $t$ satisfy a differential equation of the form $$\frac{\mathrm{d}h}{\mathrm{d}t} = -Ah^{-\frac{3}{2}},$$  
 where $A$ is a positive constant.  
 (ii) Solve the differential equation given in part (i) and obtain an expression for $t$ in terms of $h$ and $H$ .  
 (iii) Find the time at which the depth reaches $\frac{1}{2} H$ .  
