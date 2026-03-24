@@ -178,28 +178,25 @@ Find $\int \cos^4 x \mathrm{d}x$ .
 5. The diagram illustrates the graph of $y = \mathrm{e}^{x}$ . The point A has coordinates $(\ln 5, 0)$ , B has coordinates $(\ln 5, 5)$ and C has coordinates $(0, 5)$ . [image]  
 (i) Find the area of the region OABE enclosed by the curve $y = \mathrm{e}^{x}$ , the $x$ -axis, the $y$ -axis and the line AB. Hence find the area of the shaded region EBC.  
 (ii) The graph of $y = \mathrm{e}^{x}$ is transformed into the graph of $y = \ln x$ . Describe this transformation geometrically.  
-(iii) Using your answers to parts (i) and (ii), or otherwise, show that  
-$$\int_{1}^{5}\ln x\mathrm{d}x = 5\ln 5 - 4.$$  
+(iii) Using your answers to parts (i) and (ii), or otherwise, show that  $$\int_{1}^{5}\ln x\mathrm{d}x = 5\ln 5 - 4.$$  
 (iv) Deduce the values of  
 (a) $\int_{1}^{5}\ln (x^{3})\mathrm{d}x$  
 (b) $\int_{1}^{5}\ln (3x)\mathrm{d}x.$  
-6. (i) Differentiate $\ln (2x + 3)$ .  
-(ii) Hence, or otherwise, show that  
-$$\int_{-1}^{3}\frac{1}{2x + 3}\mathrm{d}x = \ln 3.$$  
+6. (i) Differentiate $\ln (2x + 3)$.  
+(ii) Hence, or otherwise, show that  $\int_{-1}^{3}\frac{1}{2x + 3}\mathrm{d}x = \ln 3.$  
 (iii) Find the quotient and remainder when $4x^{2} + 8x$ is divided by $2x + 3$ .  
-(iv) Hence show that  
+(iv) Hence show that
 $$\int_{-1}^{3}\frac{4x^{2} + 8x}{2x + 3}\mathrm{d}x = 12 - 3\ln 3.$$  
 Cambridge International AS & A Level Mathematics 9709 Paper 2 Q7 June 2006  
-7. A curve is such that $\frac{\mathrm{d}y}{\mathrm{d}x} = \mathrm{e}^{2x} - 2\mathrm{e}^{- x}$ . The point $(0,1)$ lies on the curve.  
+8. A curve is such that $\frac{\mathrm{d}y}{\mathrm{d}x} = \mathrm{e}^{2x} - 2\mathrm{e}^{- x}$ . The point $(0,1)$ lies on the curve.  
 (i) Find the equation of the curve.  
 (ii) The curve has one stationary point. Find the $x$ coordinate of this point and determine whether it is a maximum or a minimum point.  
 Cambridge International AS & A Level Mathematics 9709 Paper 2 Q6 November 2005  
-8. (i) Find the equation of the tangent to the curve $y = \ln (3x - 2)$ at the point where $x = 1$ .  
-(ii) (a) Find the value of the constant $A$ such that  
-$$\frac{6x}{3x - 2}\equiv 2 + \frac{A}{3x - 2}.$$  
-(b) Hence show that $\int_{2}^{6}\frac{6x}{3x - 2}\mathrm{d}x = 8 + \frac{8}{3}\ln 2$ .  
+9. (i) Find the equation of the tangent to the curve $y = \ln (3x - 2)$ at the point where $x = 1$ .  
+(ii) (a) Find the value of the constant $A$ such that  $$\frac{6x}{3x - 2}\equiv 2 + \frac{A}{3x - 2}.$$  
+(b) Hence show that $$\int_{2}^{6}\frac{6x}{3x - 2}\mathrm{d}x = 8 + \frac{8}{3}\ln 2$$.  
 Cambridge International AS & A Level Mathematics 9709 Paper 2 Q8 June 2009  
-9. Find the exact value of the constant $k$ for which $\int_{1}^{k}\frac{1}{2x - 1}\mathrm{d}x = 1$ .  
+10. Find the exact value of the constant $k$ for which $\int_{1}^{k}\frac{1}{2x - 1}\mathrm{d}x = 1$.  
 Cambridge International AS & A Level Mathematics 9709 Paper 3 Q1 November 2007
 
 ---
@@ -1034,14 +1031,13 @@ d) $\int \frac{x}{\sqrt{2x + 7}}\mathrm{d}x;\quad u = 2x + 7$
 e) $\int_{0}^{1}(1 + 6x)\sqrt{x + 3x^{2}}\mathrm{d}x;\quad u = x + 3x^{2}$  
 f) $\int_{0}^{1}\frac{\mathrm{e}^{2x} + x}{\mathrm{e}^{2x} + x^{2}}\mathrm{d}x;\quad u = \mathrm{e}^{2x} + x^{2}$  
 g) $\int_{0}^{\frac{\pi}{4}}\sec^{2}x\tan^{6}x\mathrm{d}x;\quad u = \tan x$  
-h) $\int_{0}^{\frac{\pi}{6}}4x\cos \left(x^{2} + \frac{\pi}{6}\right)\mathrm{d}x;u = \sin \left(x^{2} + \frac{\pi}{6}\right)$
-
+h) $\int_{0}^{\frac{\pi}{6}}4x\cos \left(x^{2} + \frac{\pi}{6}\right)\mathrm{d}x;u = \sin \left(x^{2} + \frac{\pi}{6}\right)$  
 **EXAM-STYLE QUESTIONS**  
-7. The diagram shows the area trapped between the graphs of $y = \frac{x}{(x - 4)^2}$ and $y = x$ . Show that the graphs intersect at $(0, 0)$ and $(3, 3)$ and that the area is $\frac{3}{2} + \ln 4$ .  
+6. The diagram shows the area trapped between the graphs of $y = \frac{x}{(x - 4)^2}$ and $y = x$ . Show that the graphs intersect at $(0, 0)$ and $(3, 3)$ and that the area is $\frac{3}{2} + \ln 4$ .  
 [image]  
-8. Calculate the exact value of $\int_{0}^{\frac{\sqrt{3}}{2}}\frac{1}{9 + 4x^{2}}\mathrm{d}x.$  
-9. Calculate the exact value of $\int_{-3}^{-1}\frac{3}{x^2 + 6x + 13}\mathrm{d}x.$  
-10. Use the substitution $u = 1 + 8\tan x$ to find the exact value of $\int_{0}^{\frac{1}{4}\pi}\frac{\sqrt{(1 + 8\tan x)}}{\cos^2x}\mathrm{d}x.$  
+7. Calculate the exact value of $$\int_{0}^{\frac{\sqrt{3}}{2}}\frac{1}{9 + 4x^{2}}\mathrm{d}x.$$  
+8. Calculate the exact value of $$\int_{-3}^{-1}\frac{3}{x^2 + 6x + 13}\mathrm{d}x.$$  
+9. Use the substitution $u = 1 + 8\tan x$ to find the exact value of $$\int_{0}^{\frac{1}{4}\pi}\frac{\sqrt{(1 + 8\tan x)}}{\cos^2x}\mathrm{d}x.$$  
 [image]  
 
 
