@@ -1196,11 +1196,9 @@ Find the volume of the solid obtained when the shaded region is rotated complete
 (iv) $y = 3x^{2} - 4x$ between $x = 0$ and $x = 1$   
 (v) $y = x^{4} - x^{2}$ between $x = -1$ and $x = 1$   
 (vi) $y = 4x^{3} - 3x^{2}$ between $x = -1$ and $x = 0.5$ (vii) $y = x^{5} - x^{3}$ between $x = -1$ and $x = 1$ (viii) $y = x^{2} - x - 2$ between $x = -2$ and $x = 3$ (ix) $y = x^{3} + x^{2} - 2x$ between $x = -3$ and $x = 2$ (x) $y = x^{3} + x^{2}$ between $x = -2$ and $x = 2$  
-2.   
-(i) (a) Find $\int_{\frac{1}{4}}^{\frac{1}{4}}\left(\frac{1}{x^{3}} - 8\right)\mathrm{d}x.$ (b) Find $\int_{\frac{1}{2}}^{1}\left(\frac{1}{x^{3}} - 8\right)\mathrm{d}x.$   
+2. (i) (a) Find $\int_{\frac{1}{4}}^{\frac{1}{4}}\left(\frac{1}{x^{3}} - 8\right)\mathrm{d}x.$ (b) Find $\int_{\frac{1}{2}}^{1}\left(\frac{1}{x^{3}} - 8\right)\mathrm{d}x.$   
 (ii) Hence find the total area of the regions bounded by the curve $y = \frac{1}{x^{3}} - 8$ , the lines $x = \frac{1}{4}$ and $x = 1$ and the $x$ - axis.  
-3.   
-(i) (a) Find $\int_{0}^{4}2x(\sqrt{x} -2)\mathrm{d}x.$ (b) Find $\int_{4}^{9}2x(\sqrt{x} -2)\mathrm{d}x.$   
+3. (i) (a) Find $\int_{0}^{4}2x(\sqrt{x} -2)\mathrm{d}x.$ (b) Find $\int_{4}^{9}2x(\sqrt{x} -2)\mathrm{d}x.$   
 (ii) Hence find the total area of the regions bounded by the curve $y = 2x(\sqrt{x} -2)$ , the line $x = 9$ and the $x$ -axis.
 
 ---  
@@ -1208,43 +1206,32 @@ Find the volume of the solid obtained when the shaded region is rotated complete
 1. The diagram shows the curve $y = x^{2}$ and the line $y = 9$ . The enclosed region has been shaded.   
 (i) Find the two points of intersection (labelled A and B).   
 (ii) Using integration, show that the area of the shaded region is 36 square units. [image]
-
-3.
-(i) Sketch the curves with equations $y = x^{2} + 3$ and $y = 5 - x^{2}$ on the same axes, and shade the enclosed region.   
+2. (i) Sketch the curves with equations $y = x^{2} + 3$ and $y = 5 - x^{2}$ on the same axes, and shade the enclosed region.   
 (ii) Find the coordinates of the points of intersection of the curves.   
 (iii) Find the area of the shaded region.
-
-5.
-(i) Sketch the curve $y = x^{3}$ and the line $y = 4x$ on the same axes.   
+3. (i) Sketch the curve $y = x^{3}$ and the line $y = 4x$ on the same axes.   
 (ii) Find the coordinates of the points of intersection of the curve $y = x^{3}$ and the line $y = 4x$ .   
 (iii) Find the total area of the region bounded by $y = x^{3}$ and $y = 4x$ .
-
-7.
-(i) Sketch the curves with equations $y = x^{2}$ and $y = 4x - x^{2}$ .   
+4. (i) Sketch the curves with equations $y = x^{2}$ and $y = 4x - x^{2}$ .   
 (ii) Find the coordinates of the points of intersection of the curves.   
 (iii) Find the area of the region enclosed by the curves.
-
-9.
-(i) Sketch the curves $y = x^{2}$ and $y = 8 - x^{2}$ and the line $y = 4$ on the same axes.   
+5. (i) Sketch the curves $y = x^{2}$ and $y = 8 - x^{2}$ and the line $y = 4$ on the same axes.   
 (ii) Find the area of the region enclosed by the line $y = 4$ and the curve $y = x^{2}$ .   
 (iii) Find the area of the region enclosed by the line $y = 4$ and the curve $y = 8 - x^{2}$ .   
 (iv) Find the area enclosed by the curves $y = x^{2}$ and $y = 8 - x^{2}$ .  
-10.
-(i) Sketch the curve $y = x^{2} - 6x$ and the line $y = -5$ .   
+6. (i) Sketch the curve $y = x^{2} - 6x$ and the line $y = -5$ .   
 (ii) Find the coordinates of the points of intersection of the line and the curve.   
 (iii) Find the area of the region enclosed by the line and the curve.  
-11.
-(i) Sketch the curve $y = x(4 - x)$ and the line $y = 2x - 3$ .   
+7. (i) Sketch the curve $y = x(4 - x)$ and the line $y = 2x - 3$ .   
 (ii) Find the coordinates of the points of intersection of the line and the curve.   
 (iii) Find the area of the region enclosed by the line and the curve.  
-12. Find the area of the region enclosed by the curves with equations $y = x^{2} - 16$ and $y = 4x - x^{2}$ .  
-13. Find the area of the region enclosed by the curves with equations $y = -x^{2} - 1$ and $y = -2x^{2}$ .  
-14.  
-(i) Sketch the curve with equation $y = x^{3} + 1$ and the line $y = 4x + 1$ .   
+8. Find the area of the region enclosed by the curves with equations $y = x^{2} - 16$ and $y = 4x - x^{2}$ .  
+9. Find the area of the region enclosed by the curves with equations $y = -x^{2} - 1$ and $y = -2x^{2}$ .  
+10. (i) Sketch the curve with equation $y = x^{3} + 1$ and the line $y = 4x + 1$ .   
 (ii) Find the areas of the two regions enclosed by the line and the curve.  
-15. The diagram shows the curve $y = 5x - x^{2}$ and the line $y = 4$ . Find the area of the shaded region. [image]  
-16. The diagram shows the curve $y = (x - 2)^2$ and the line $y + 2x = 7$ , which intersect at points A and B. [image] Find the area of the shaded region. Cambridge International AS & A Level Mathematics 9709 Paper 12 Q9 June 2010  
-17. The diagram shows the curve $y = x^{3} - 6x^{2} + 9x$ for $x\geq 0$ . The curve has a maximum point at A and a minimum point on the $x$ - axis at B. The normal to the curve at C(2, 2) meets the normal to the curve at B at the point D. [image]   
+11. The diagram shows the curve $y = 5x - x^{2}$ and the line $y = 4$ . Find the area of the shaded region. [image]  
+12. The diagram shows the curve $y = (x - 2)^2$ and the line $y + 2x = 7$ , which intersect at points A and B. [image] Find the area of the shaded region. Cambridge International AS & A Level Mathematics 9709 Paper 12 Q9 June 2010  
+13. The diagram shows the curve $y = x^{3} - 6x^{2} + 9x$ for $x\geq 0$ . The curve has a maximum point at A and a minimum point on the $x$ - axis at B. The normal to the curve at C(2, 2) meets the normal to the curve at B at the point D. [image]   
 (i) Find the coordinates of A and B.   
 (ii) Find the equation of the normal to the curve at C.   
 (iii) Find the area of the shaded region. Cambridge International AS & A Level Mathematics 9709 Paper 1 Q11 June 2009  
@@ -1325,8 +1312,7 @@ Evaluate the following improper integrals.
 (ii) a semicircle about its diameter   
 (iii) a circle about a line outside the circle.  
 2. Calculate the volume of the solid obtained in Figure 7.27, leaving your answer as a multiple of $\pi$ . [image]
-
-4. In each part of this question a region is defined in terms of the curves which form its boundaries. Draw a sketch of the region and find the volume of the solid obtained by rotating it through $360^{\circ}$ about the $x$ - axis.  
+3. In each part of this question a region is defined in terms of the curves which form its boundaries. Draw a sketch of the region and find the volume of the solid obtained by rotating it through $360^{\circ}$ about the $x$ - axis.  
 (i) $y = 2x$ , the $x$ - axis and the lines $x = 2$ and $x = 5$  
 (ii) $y = 4x^{2}$ , the $x$ - axis and the lines $x = 1$ and $x = 2$  
 (iii) $y = x^{3}$ , the $x$ - axis and the lines $x = -2$ and $x = 2$  
@@ -1334,31 +1320,22 @@ Evaluate the following improper integrals.
 (v) $y = 4x - x^{2}$ , the $x$ - axis and the lines $x = 1$ and $x = 3$  
 (vi) $y = \frac{1}{x^{2}}$ , the $x$ - axis and the lines $x = 2$ and $x = 5$  
 (vii) $y = \frac{1}{\sqrt{x}}$ , the $x$ - axis and the lines $x = 1$ and $x = 4$
-
-6. In each part of this question a region is defined in terms of the curves which form its boundaries. Draw a sketch of the region and find the volume of the solid obtained by rotating it through $360^{\circ}$ about the $y$ - axis.  
+4. In each part of this question a region is defined in terms of the curves which form its boundaries. Draw a sketch of the region and find the volume of the solid obtained by rotating it through $360^{\circ}$ about the $y$ - axis.  
 (i) $y = 3x$, the y-axis and the lines $y = 3$ and line $y = 6$  
 (ii) $y = x - 3$, the y-axis and the x-axis and line $y = 6$  
 (iii) $y = x^{2} - 2$, the y-axis and the lines $y = 4$
-
-8. A mathematical model for a large garden pot is obtained by rotating through $360^{\circ}$ about the $y$ - axis the part of the curve $y = 0.1x^{2}$ which is between $x = 10$ and $x = 25$ and then adding a flat base. Units are in centimetres.   
+5. A mathematical model for a large garden pot is obtained by rotating through $360^{\circ}$ about the $y$ - axis the part of the curve $y = 0.1x^{2}$ which is between $x = 10$ and $x = 25$ and then adding a flat base. Units are in centimetres.   
 (i) Draw a sketch of the curve and shade in the cross-section of the pot, indicating which line will form its base.   
 (ii) Garden compost is sold in litres. How many litres will be required to fill the pot to a depth of $45\mathrm{cm}$ ? (Ignore the thickness of the pot.)
-
-10.
-(i) Sketch the curve $y = 18 - 3x^{2}$ and the line $y = 6$ on the same diagram. Shade the region bounded by the curve $y = 18 - 3x^{2}$ and the line $y = 6$ .   
+6. (i) Sketch the curve $y = 18 - 3x^{2}$ and the line $y = 6$ on the same diagram. Shade the region bounded by the curve $y = 18 - 3x^{2}$ and the line $y = 6$ .   
 (ii) Calculate the volume of the solid obtained when the shaded region is rotated about (a) the $y$ - axis (b) the $x$ - axis.
-
-12. Sketch the curve $y = x^{2} + 3$ and shade the region bounded by the curve and the line $y = 4$ . Find the volume of the solid obtained when this shaded region is rotated completely about the $x$ - axis, giving your answer in terms of $\pi$ .
-
-14. The diagram shows the circle $x^{2} + y^{2} = 25$ and the line $x = 4$ . [image] Find the volume of the solid obtained when this shaded region is rotated completely about the $y$ - axis, giving your answer in terms of $\pi$ .
-
-16. The diagram shows the curve $y = 3x^{\frac{1}{4}}$ . The shaded region is bounded by the curve, the $x$ - axis and the lines $x = 1$ and $x = 4$ . [image] Find the volume of the solid obtained when this shaded region is rotated completely about the $x$ - axis, giving your answer in terms of $\pi$ . Cambridge International AS & A Level Mathematics 9709 Paper 1 Q2 June 2007
-
-18. The diagram shows part of the curve $y = \frac{a}{x}$ , where $a$ is a positive constant. [image] Given that the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ - axis is $24\pi$ , find the value of $a$ . Cambridge International AS & A Level Mathematics 9709 Paper 12 Q2 June 2010
-
-20. The diagram shows part of the curve $y = (1 + 4x)^{\frac{1}{2}}$ and a point $\mathrm{P}(6,5)$ lying on the curve. The line PQ intersects the $x$ - axis at $\mathrm{Q}(8,0)$ . [image] Show that PQ is a normal to the curve. Find, showing all necessary working, the exact volume of revolution obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ - axis. [In part
+7. Sketch the curve $y = x^{2} + 3$ and shade the region bounded by the curve and the line $y = 4$ . Find the volume of the solid obtained when this shaded region is rotated completely about the $x$ - axis, giving your answer in terms of $\pi$ .
+8. The diagram shows the circle $x^{2} + y^{2} = 25$ and the line $x = 4$ . [image] Find the volume of the solid obtained when this shaded region is rotated completely about the $y$ - axis, giving your answer in terms of $\pi$ .
+9. The diagram shows the curve $y = 3x^{\frac{1}{4}}$ . The shaded region is bounded by the curve, the $x$ - axis and the lines $x = 1$ and $x = 4$ . [image] Find the volume of the solid obtained when this shaded region is rotated completely about the $x$ - axis, giving your answer in terms of $\pi$ . Cambridge International AS & A Level Mathematics 9709 Paper 1 Q2 June 2007
+10. The diagram shows part of the curve $y = \frac{a}{x}$ , where $a$ is a positive constant. [image] Given that the volume obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ - axis is $24\pi$ , find the value of $a$ . Cambridge International AS & A Level Mathematics 9709 Paper 12 Q2 June 2010
+11. The diagram shows part of the curve $y = (1 + 4x)^{\frac{1}{2}}$ and a point $\mathrm{P}(6,5)$ lying on the curve. The line PQ intersects the $x$ - axis at $\mathrm{Q}(8,0)$ . [image] Show that PQ is a normal to the curve. Find, showing all necessary working, the exact volume of revolution obtained when the shaded region is rotated through $360^{\circ}$ about the $x$ - axis. [In part
 (ii) you may find it useful to apply the fact that the volume, $V$ , of a cone of base radius $r$ and vertical height $h$ , is given by $V = \frac{1}{3}\pi r^2 h$ .] Cambridge International AS & A Level Mathematics 9709 Paper 11 Q11 November 2015  
-12 The diagram shows the line $y = 1$ and part of the curve $y = \frac{2}{\sqrt{x + 1}}$ . [image] Show that the equation $y = \frac{2}{\sqrt{x + 1}}$ can be written in the form $x = \frac{4}{y^2} - 1$ . Find $\int \left(\frac{4}{y^2} - 1\right)\mathrm{d}y$ . Hence find the area of the shaded region. The shaded region is rotated through $360^{\circ}$ about the $y$ - axis. Find the exact value of the volume of revolution obtained. Cambridge International AS & A Level Mathematics 9709 Paper 11 Q11 June 20
+12. The diagram shows the line $y = 1$ and part of the curve $y = \frac{2}{\sqrt{x + 1}}$ . [image] Show that the equation $y = \frac{2}{\sqrt{x + 1}}$ can be written in the form $x = \frac{4}{y^2} - 1$ . Find $\int \left(\frac{4}{y^2} - 1\right)\mathrm{d}y$ . Hence find the area of the shaded region. The shaded region is rotated through $360^{\circ}$ about the $y$ - axis. Find the exact value of the volume of revolution obtained. Cambridge International AS & A Level Mathematics 9709 Paper 11 Q11 June 20
 
 ---
 ## Oxford Complete  
@@ -1627,8 +1604,8 @@ d) $\int 2\sqrt{x}\left(1 + \sqrt{x}\right)^2dx$
 e) $\int \frac{x + 5x^7}{x^3}dx$   
 f) $\int \left(\frac{2}{\sqrt[3]{x}} -14\sqrt{x^5}\right)dx$   
 2. Find the equation of the curve, given $\frac{dy}{dx}$ and a point on the curve.  
-a) $\frac{d}{dx} = 9x^2 -2x + 1&, point = (-3,5)  
-b) $\frac{dy}{dx} = \frac{4x^4 - 5x}{x}, point = (-1, -2)  
+a) $\frac{d}{dx} = 9x^2 -2x + 1$, point = (-3,5)  
+b) $\frac{dy}{dx} = \frac{4x^4 - 5x}{x}$, point = (-1, -2)  
 c) $\frac{dy}{dx} = \left(\sqrt{x} +3\right)^2$, point = (4,2)  
 d) $\frac{dy}{dx} = 8x - \frac{7}{x^2}$,  point = (1, -4)  
 3. Given that $\mathrm{f}^{\prime}(x) = 2x^{2} - x + 3\sqrt{x}$ and $\mathrm{f}(4) = 0$ find $\mathrm{f}(x)$  
