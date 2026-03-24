@@ -300,8 +300,7 @@ given that $y = 0$ when $x = 0$
 
 ---  
 #### Hodder **Exercise 9A**  
-1. The differential equation  
-$$\frac{\mathrm{d}\nu}{\mathrm{d}t} = 5\nu^2$$  
+1. The differential equation $$\frac{\mathrm{d}\nu}{\mathrm{d}t} = 5\nu^2$$  
 models the motion of a particle, where $\nu$ is the velocity of the particle in $\mathrm{m} \mathrm{s}^{- 1}$ and $t$ is the time in seconds. Explain the meaning of $\frac{\mathrm{d}\nu}{\mathrm{d}t}$ and what the differential equation tells you about the motion of the particle.  
 2. A spark from a firework is moving in a straight line at a speed which is inversely proportional to the square of the distance which the spark has travelled from the firework. Find an expression for the speed (i.e. the rate of change of distance travelled) of the spark.  
 3. The rate at which a sunflower increases in height is proportional to the natural logarithm of the difference between its final height $H$ and its height $h$ at a particular time. Find a differential equation to model this situation.  
