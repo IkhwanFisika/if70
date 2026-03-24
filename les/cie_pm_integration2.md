@@ -417,17 +417,15 @@ Cambridge International AS & A Level Mathematics 9709 Paper 33 Q9 June 2014
 8. (i) Prove that cot $\theta +\tan \theta \equiv 2\cos \mathrm{c}2\theta$  
 (ii) Hence show that $\int_{\frac{1}{6}\pi}^{\frac{1}{3}\pi}\mathrm{cosec}2\theta \mathrm{d}\theta = \frac{1}{2}\ln 3$  
 Cambridge International AS & A Level Mathematics 9709 Paper 31 Q5 November 2013  
-9. (i) Use the substitution $x = \sin^{2}\theta$ to show that  
-$$\int \sqrt{\left(\frac{x}{1 - x}\right)}\mathrm{d}x = \int 2\sin^{2}\theta \mathrm{d}\theta$$  
-(ii) Hence find the exact value of  
-$$\int_{0}^{\frac{1}{4}}\sqrt{\left(\frac{x}{1 - x}\right)}\mathrm{d}x.$$  
+9. (i) Use the substitution $x = \sin^{2}\theta$ to show that $$\int \sqrt{\left(\frac{x}{1 - x}\right)}\mathrm{d}x = \int 2\sin^{2}\theta \mathrm{d}\theta$$  
+(ii) Hence find the exact value of $$\int_{0}^{\frac{1}{4}}\sqrt{\left(\frac{x}{1 - x}\right)}\mathrm{d}x.$$  
 Cambridge International AS & A Level Mathematics 9709 Paper 31 Q6 November 2005  
 10. (a) Find $\int (4 + \tan^{2}2x)\mathrm{d}x$  
-(b) Find the exact value of $\int_{\frac{1}{4}\pi}^{\frac{1}{2}\pi}\frac{\sin(x + \frac{1}{6}\pi)}{\sin x}\mathrm{d}x$  
+(b) Find the exact value of $$\int_{\frac{1}{4}\pi}^{\frac{1}{2}\pi}\frac{\sin(x + \frac{1}{6}\pi)}{\sin x}\mathrm{d}x$$  
 Cambridge International AS & A Level Mathematics 9709 Paper 31 Q5 June 2015  
 11. The diagram shows part of the curve $y = \sin^{3}2x\cos^{3}2x$ . The shaded region shown is bounded by the curve and the $x$ - axis and its exact area is denoted by $A$ . [image]  
 (i) Use the substitution $u = \sin 2x$ in a suitable integral to find the value of $A$ .  
-(ii) Given that $\int_{0}^{k\pi}\left|\sin^{3}2x\cos^{3}2x\right|\mathrm{d}x = 40A$ , find the value of the constant $k$ .  
+(ii) Given that $\int_{0}^{k\pi}\left|\sin^{3}2x\cos^{3}2x\right|\mathrm{d}x = 40A$ , find the value of the constant $k$.  
 Cambridge International AS & A Level Mathematics 9709 Paper 33 Q7 November 2012
 
 ---
@@ -813,47 +811,35 @@ e) $\int_{0}^{\frac{1}{4}x}\sin \left(\frac{\pi}{4} -\frac{1}{2}x\right)\mathrm{
 f) $\int_{\ln 2}^{\ln 3}\mathrm{e}^{2x}\mathrm{d}x$  
 g) $\int_{0}^{\frac{1}{6}\pi}(\sin^{2}x - \cos^{2}x)\mathrm{d}x$  
 h) $\int_{- 1}^{2} - \mathrm{e}^{2x}\mathrm{d}x$  
-i) $\int_{- 1}^{1}\frac{5}{3x - 5}\mathrm{d}x$
-
+i) $\int_{- 1}^{1}\frac{5}{3x - 5}\mathrm{d}x$  
 **EXAM-STYLE QUESTIONS**  
-4. Find the area bounded by the graph of $y = \mathrm{e}^{- 2x + 1}$ , the $x$ - and $y$ -axes, and the line $x = 2$ .  
-5. Find the area bounded by the graph of $y = \frac{1}{2 + x}$ , the $x$ - and $y$ -axes, and the line $x = 1$ .  
-6. A curve passes through the point $\left(\frac{\pi}{4}, 0\right)$ and its gradient function is $\sin^{2}x$ . Find the equation of the curve.  
-7. Find the area bounded by the graphs of $y = \frac{1}{x - 5}, y = \frac{1}{2x + 1}$ , the $y$ -axis, and the line $x = 3$ .  
-8. Find the area bounded by the graphs of $y = \frac{1}{2x - 7}, y = 2 + \mathrm{e}^{-x}$ , the $y$ -axis, and the line $x = 2$ .  
-9. Calculate the following improper integrals, leaving your answers in terms of e where appropriate.  
+3. Find the area bounded by the graph of $y = \mathrm{e}^{- 2x + 1}$ , the $x$ - and $y$ -axes, and the line $x = 2$ .  
+4. Find the area bounded by the graph of $y = \frac{1}{2 + x}$ , the $x$ - and $y$ -axes, and the line $x = 1$ .  
+5. A curve passes through the point $\left(\frac{\pi}{4}, 0\right)$ and its gradient function is $\sin^{2}x$ . Find the equation of the curve.  
+6. Find the area bounded by the graphs of $y = \frac{1}{x - 5}, y = \frac{1}{2x + 1}$ , the $y$ -axis, and the line $x = 3$ .  
+7. Find the area bounded by the graphs of $y = \frac{1}{2x - 7}, y = 2 + \mathrm{e}^{-x}$ , the $y$ -axis, and the line $x = 2$ .  
+8. Calculate the following improper integrals, leaving your answers in terms of e where appropriate.  
 a) $\int_{0}^{\infty}\mathrm{e}^{-2x}\mathrm{d}x$  
 b) $\int_{1}^{\infty}\mathrm{e}^{-0.5x}\mathrm{d}x$  
 c) $\int_{-\infty}^{-1}\sqrt{\mathrm{e}^{x}}\mathrm{d}x$  
-
 **EXAM-STYLE QUESTIONS**  
-10. The line $y = 4\mathrm{e}^{-2x}$ between $x = 1$ and $x = 2$ is rotated through $360^{\circ}$ about the $x$ -axis. Find the volume of the solid obtained.  
-11. a) By writing $x = 4x - 3x$ and $7x = 4x + 3x$ , show that $\sin 3x \sin 4x = \frac{1}{2} (\cos x - \cos 7x)$ .  
-b) Hence calculate $\int_{0}^{\frac{1}{2}\pi} \sin 3x \sin 4x \mathrm{d}x$ .  
-12. a) Show that $(\sin 2x - 3\cos 2x)^2 = 5 - 3\sin 4x + 4\cos 4x$ .  
-b) Hence calculate $\int_{0}^{\frac{1}{2}\pi}(\sin 2x - 3\cos 2x)^2 \mathrm{d}x$ .  
-13. a) Show that $\frac{1 + \tan^{2}\theta}{1 - \tan^{2}\theta} = \sec 2\theta$ .  
-b) Hence calculate $\int_{0}^{\frac{\pi}{6}}\left(\frac{1 + \tan^{2}\theta}{1 - \tan^{2}\theta}\right)^{2}\mathrm{d}\theta$ .
-
----
-
+9. The line $y = 4\mathrm{e}^{-2x}$ between $x = 1$ and $x = 2$ is rotated through $360^{\circ}$ about the $x$ -axis. Find the volume of the solid obtained.  
+10. a) By writing $x = 4x - 3x$ and $7x = 4x + 3x$ , show that $$\sin 3x \sin 4x = \frac{1}{2} (\cos x - \cos 7x)$$.  
+b) Hence calculate $$\int_{0}^{\frac{1}{2}\pi} \sin 3x \sin 4x \mathrm{d}x$$.  
+11. a) Show that $$(\sin 2x - 3\cos 2x)^2 = 5 - 3\sin 4x + 4\cos 4x$$.  
+b) Hence calculate $$\int_{0}^{\frac{1}{2}\pi}(\sin 2x - 3\cos 2x)^2 \mathrm{d}x$$.  
+12. a) Show that $$\frac{1 + \tan^{2}\theta}{1 - \tan^{2}\theta} = \sec 2\theta$$.  
+b) Hence calculate $\int_{0}^{\frac{\pi}{6}}\left(\frac{1 + \tan^{2}\theta}{1 - \tan^{2}\theta}\right)^{2}\mathrm{d}\theta$.  
 **EXAM-STYLE QUESTIONS -PURE 2**  
-14. The diagram shows the graph of $y = \sqrt{1 - \sin x}$ . The region R is bounded by the curve, the $x$ - and $y$ -axes and the line $x = \frac{3\pi}{2}$ . (R is in two sections).  
+13. The diagram shows the graph of $y = \sqrt{1 - \sin x}$ . The region R is bounded by the curve, the $x$ - and $y$ -axes and the line $x = \frac{3\pi}{2}$ . (R is in two sections).  
 a) Use the trapezium rule with 7 ordinates to obtain an approximation for the total area of R, giving your answer correct to 2 decimal places.  
-b) Explain, with the aid of a sketch, whether the approximation is an overestimate or underestimate.  
-[image]  
-
-15. The diagram shows the graph of $y = x\ln x$ . The region R is bounded by the curve, the $x$ -axis, and the line $x = 2$ .  
-[image]  
+b) Explain, with the aid of a sketch, whether the approximation is an overestimate or underestimate.  [image]  
+14. The diagram shows the graph of $y = x\ln x$ . The region R is bounded by the curve, the $x$ -axis, and the line $x = 2$ .  [image]  
 a) Explain why $\int_{0}^{2}x\ln x\mathrm{d}x$ (if you were able to calculate it) would not give the area of R.  
 b) Calculate an estimate for the area of R using the trapezium rule and intervals of width 0.5.  
-
-16. Use the trapezium rule with five intervals to find an approximation to  
-$$\int_{-2}^{3}|x^{2} - 1|\mathrm{d}x.$$
-
-18. a) Find $\int 2\cos^{2}(3\theta)\mathrm{d}\theta$ .  
-b) Find the exact value of  
-$$\int_{2}^{3}\frac{1}{2x + 5}\mathrm{d}x.$$  
+15. Use the trapezium rule with five intervals to find an approximation to $$\int_{-2}^{3}|x^{2} - 1|\mathrm{d}x$$
+16. a) Find $\int 2\cos^{2}(3\theta)\mathrm{d}\theta$ .  
+b) Find the exact value of $$\int_{2}^{3}\frac{1}{2x + 5}\mathrm{d}x.$$  
 
 ---
 
@@ -930,6 +916,24 @@ d) $\int_{3}^{4}\left(\frac{10x^2 - 26x + 10}{(2x^2 - 5x)}\right)\mathrm{d}x.$
 
 ---  
 #### Oxford Complete **Exercise 8.2**  
+1. Find the following integrals.  
+* a) $\int \frac{1}{4+x^2} dx$  
+* b) $\int \frac{5}{25+x^2} dx$  
+* c) $\int \frac{9}{x^2+81} dx$  
+2. Find the following integrals.  
+* a) $\int \frac{1}{1+9x^2} dx$  
+* b) $\int \frac{1}{1+16x^2} dx$  
+* c) $\int \frac{1}{49x^2+1} dx$  
+------------------------------  
+3. Find the following integrals.  
+* a) $\int \frac{1}{1+3x^2} dx$  
+* b) $\int \frac{1}{1+8x^2} dx$  
+* c) $\int \frac{1}{6x^2+1} dx$  
+------------------------------  
+4. Find the following integrals.  
+* a) $\int \frac{1}{4+9x^2} dx$  
+* b) $\int \frac{12}{9+16x^2} dx$  
+* c) $\int \frac{1}{49x^2+81} dx$  
 5. Calculate the exact value of the following definite integrals.  
 a) $\int_{-3}^{3}\frac{1}{9 + x^{2}}\mathrm{d}x$  
 b) $\int_{3}^{3}\frac{\sqrt{3}}{3 + x^{2}}\mathrm{d}x$  
@@ -966,6 +970,35 @@ b) Hence find $\int_{1}^{2}\frac{1}{1 + \mathrm{e}^{x}}\mathrm{d}x,$ giving your
 
 ---
 #### Oxford Complete **Exercise 8.4**  
+Here are the questions extracted from the provided text, formatted as requested.
+
+**Exercise 8.4**
+1. Find the following integrals using integration by parts.  
+a) $\int 4x \, e^{2x} \, dx$  
+b) $\int 3x \sin 2x \, dx$  
+c) $\int (2x + 1)e^x \, dx$  
+d) $\int (x + 3)\cos 3x \, dx$  
+e) $\int x e^{3x-1} \, dx$  
+f) $\int (x \ln 5x) \, dx$  
+g) $\int x \tan^{-1} x \, dx$  
+2. Evaluate the following definite integrals. Note that the first three are integrating the same function as parts **(a)** to **(c)** of question 1.  
+a) $\int_0^1 4x \, e^{2x} \, dx$  
+b) $\int_0^{\frac{\pi}{2}} 3x \sin 2x \, dx$  
+c) $\int_0^2 (2x + 1)e^x \, dx$  
+d) $\int_0^{\frac{\pi}{2}} x \cos\left(\frac{1}{2}x\right) \, dx$  
+e) $\int_1^e x^4 \ln x \, dx$  
+f) $\int_0^{\frac{\pi}{2}} x \sin x \, dx$  
+3. Find the following integrals using integration by parts twice.  
+a) $\int 18x^2 e^{3x} \, dx$  
+b) $\int 3x^2 \cos 2x \, dx$  
+c) $\int_0^2 (2x^2 + 1)e^x \, dx$  
+d) $\int_1^e x^2 e^x \, dx$  
+e) $\int_0^{\frac{\pi}{2}} x^2 \sin x \, dx$  
+f) $\int_{\frac{\pi}{6}}^{\frac{\pi}{3}} x^2 \sin 2x \, dx$  
+g) $\int_{-\infty}^0 x^2 e^{3x} \, dx$  
+h) $\int_0^{\frac{\pi}{4}} e^{3x} \cos 2x \, dx$  
+4. Find the area bounded by the graph of $y = x \sin x$, the $x$-axis, and the line $x = \frac{\pi}{2}$ (as shown in the diagram).  
+[image]  
 5. Find the area bounded by the graphs of $y = x\mathrm{e}^{- 2x}$ , the $x$ -axis, and the line $x = 2$ (as shown in the diagram).  
 [image]  
 6. a) Find the area bounded by the graph of $y = x\cos 2x$ the $x$ -axis, and the lines $x = 0$ and $x = \frac{\pi}{6}$  
