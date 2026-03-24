@@ -263,7 +263,7 @@ a) meet twice?
 b) touch?   
 c) never meet?   
 ------------------------------   
-REVIEW SET 14A   
+#### REVIEW SET 14A   
 1. Use the vertex, axis of symmetry, and $y$-intercept to graph:   
 a) $y = (x - 2)^2 - 9$   
 b) $y = -\frac{1}{2}(x + 4)^2 + 2$   
@@ -294,7 +294,7 @@ b) touches the $x$-axis
 c) misses the $x$-axis.   
    
 ------------------------------   
-REVIEW SET 14B   
+#### REVIEW SET 14B   
 1. Consider the quadratic $y = 7(x - 2)^2 - 5$.   
 a) State the equation of the axis of symmetry.   
 b) Find the coordinates of the vertex.   
