@@ -298,14 +298,14 @@ d. $90$
 e. $90\sqrt{3}$   
    
 **42.** Seorang pengamat dari sebuah mercusuar yang tingginya $75 \mathrm{~m}$ di atas permukaan laut sedang mengamati sebuah kapal dengan sudut depresi $45^{\circ}$. Jarak kapal tersebut terhadap garis pantai adalah .... m.  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_42.png" width="400"><br>   
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_42.png" width="400"><br>   
 a. $25\sqrt{3}$     
 b. $75$     
 c. $75\sqrt{2}$     
 d. $75\sqrt{3}$     
 e. $150$   
    
-**43.** Perhatikan gambar berikut. 
+**43.** Perhatikan gambar berikut. <br>
 <img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_43.png" width="400"><br>   
 Seekor kelinci yang berada di lubang tanah tempat persembunyiannya melihat seekor elang yang sedang terbang dengan sudut $60^{\circ}$ (lihat gambar). Jika jarak antara kelinci dan elang adalah 18 meter, maka tinggi elang dari atas tanah adalah ... meter.     
 
