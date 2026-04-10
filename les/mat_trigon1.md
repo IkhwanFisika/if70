@@ -1322,51 +1322,54 @@ b. Jika saya mendaki hingga ke titik setinggi $80$ m di atas permukaan laut, seb
 b. Berapakah sudut depresi dari puncak gedung ke titik A?      
 5. Sudut depresi dari puncak tebing vertikal setinggi $20$ m ke sebuah perahu B adalah $8^\circ$.
 Seberapa jauh jarak perahu tersebut dari dasar tebing?
-[gambar]   
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d05.png"><br>
 6. Cari $\theta$, kemiringan atap tersebut.
-[gambar]      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d06.png"><br>      
 7. Kemiringan atap yang diberikan adalah $23^\circ$. Cari panjang balok kayu $[AB]$.
-[gambar]      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d07.png"><br>      
 8. Sebuah lapangan persegi panjang memiliki panjang $20$ meter lebih panjang daripada lebarnya. Ketika Patrick berjalan dari satu sudut ke sudut yang berlawanan, ia membentuk sudut $55^\circ$ dengan sisi lapangan yang lebih pendek. Cari panjang sisi yang lebih pendek ini.      
 9. Sebuah saluran air hujan memiliki bentuk seperti yang diilustrasikan. Tentukan sudut $\beta$ di mana sisi sebelah kiri bertemu dengan dasar saluran tersebut.
-[gambar]      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d09.png"><br>      
 10. Dari seorang pengamat $O$ yang berjarak $200$ m dari sebuah gedung, sudut elevasi ke bagian bawah dan bagian atas tiang bendera masing-masing adalah $36^\circ$ dan $38^\circ$. Cari tinggi tiang bendera tersebut.      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d10.png"><br>
 11. Sudut depresi dari puncak tebing setinggi $15$ m ke sebuah perahu di laut adalah $2,7^\circ$. Seberapa jauh perahu tersebut harus bergerak mendekati tebing agar sudut depresinya menjadi $4^\circ$?      
 12. Sebuah helikopter terbang secara horizontal dengan kecepatan $100\text{ km h}^{-1}$. Seorang pengamat memperhatikan bahwa dibutuhkan waktu $20$ detik bagi helikopter untuk terbang dari posisi tepat di atas kepala hingga mencapai sudut elevasi $60^\circ$. Cari tinggi helikopter di atas permukaan tanah.      
 13. $[AC]$ adalah garis pantai lurus sepanjang $5$ km. $B$ adalah sebuah perahu di laut. Cari jarak terpendek dari perahu ke pantai.
-[gambar]      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d13.png"><br>      
 14. Sebuah fitur baru di kebun raya akan berupa taman bunga berbentuk heptagon (segi tujuh) beraturan dengan panjang sisi $20$ m. Cari lebar lahan $d\text{ m}$ yang dibutuhkan untuk taman bunga tersebut.
-[gambar]      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d14.png"><br>
 15. Kubus yang ditunjukkan memiliki panjang sisi $13$ cm. Cari:   
 a. $BD$   
 b. $F\hat{D}B$   
-[gambar]      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d15.png"><br>
 16. Dalam prisma persegi panjang yang ditunjukkan, $Z$ adalah titik tengah $[WX]$. Cari:
 a. $VX$   
 b. $R\hat{X}V$   
 c. $YZ$   
 d. $Y\hat{Z}U$   
-[gambar]      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d16.png"><br>
 17. Sebuah kerucut terbuka memiliki sudut vertikal berukuran $40^\circ$ dan jari-jari alas $30$ cm. Cari:   
 a. tinggi kerucut   
 b. kapasitas kerucut dalam liter      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d17.png"><br>
 18. Sebuah tanjakan dibangun seperti prisma segitiga yang ditunjukkan.
 a. Cari panjang:   
 i. $CE$   
 ii. $CD$   
 b. Cari $D\hat{C}E$   
-[gambar]      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d18.png"><br>    
 19. Elizabeth sangat takut pada laba-laba. Saat dia berjalan masuk ke sebuah ruangan, dia melihat seekor laba-laba di sudut yang berlawanan $S$.   
 a. Jika tinggi Elizabeth $1,6$ m, seberapa jauh laba-laba tersebut dari kepalanya?    
 b. Laba-laba tersebut dapat melihat hingga sudut $42^\circ$ dari arah yang dihadapinya. Laba-laba ini sedang menghadap seekor lalat di $F$. Dapatkah ia melihat Elizabeth?   
-[gambar]      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d19.png"><br> 
 20. Rico sedang menerbangkan layang-layangnya dengan bantuan angin selatan. Dia telah mengulur benang sepanjang $34$ m, dan layang-layang tersebut berada pada sudut elevasi $37^\circ$. Temannya Edward berdiri di sebelah barat, berjarak $65$ m.   
 a. Seberapa jauh Edward dari layang-layang?   
 b. Berapakah sudut elevasi dari Edward ke layang-layang?         
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d20.png"><br>
 21. Cari sudut antara rusuk miring $[AX]$ dan diagonal alas $[AC]$.   
-[gambar]      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d21.png"><br>      
 22. Cari volume dari setiap bangun ruang berikut:
-[gambar]   
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d22.png"><br>
 
 
 
@@ -1399,7 +1402,7 @@ b. $\cos(-\pi)$ dan $\sin(-\pi)$
 8. Tentukan nilai eksak untuk $\sin \theta$, $\cos \theta$, dan $\tan \theta$ untuk $\theta$ sama dengan:   
 a. $\frac{2\pi}{3}$   
 b. $\frac{5\pi}{4}$   
-9. [gambar]   
+9. <img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_rs8a17.png" ><br>
 a. Nyatakan nilai $\theta$ dalam:   
 i. derajat   
 ii. radian   
@@ -1421,6 +1424,7 @@ a. $\cos \theta = \frac{2}{3}$
 b. $\sin \theta = -\frac{1}{4}$   
 c. $\tan \theta = 3$   
 17. Tentukan persamaan dari setiap garis:   
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_rs8a17.png" ><br>
 --------------------------   
 ### IBMath_Haese_REVIEW SET 8B   
 1. Ubah ke derajat, hingga 2 tempat desimal:   
@@ -1464,6 +1468,6 @@ c. $\cos \frac{5\pi}{3} - \tan \frac{5\pi}{4}$
 d. $\tan^2(\frac{2\pi}{3})$   
 15. Gunakan diagram lingkaran satuan untuk menunjukkan bahwa $\cos(\frac{\pi}{2} + \theta) = -\sin \theta$ untuk $\frac{\pi}{2} < \theta < \pi$.   
 16. Tiga lingkaran dengan jari-jari $r$ digambar seperti yang ditunjukkan, masing-masing dengan pusatnya berada di keliling dua lingkaran lainnya. $A, B$, dan $C$ adalah pusat dari ketiga lingkaran tersebut. Buktikan bahwa ekspresi untuk luas daerah yang diarsir adalah $A = \frac{r^2}{2}(\pi - \sqrt{3})$.   
-[gambar]   
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_rs8b16.png" ><br> 
 17. Tentukan, dalam radian, ukuran dari $\theta$:   
-   
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_rs8b17.png" ><br>
