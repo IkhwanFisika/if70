@@ -350,7 +350,7 @@ c. $3\sqrt{3} \mathrm{~m}$
 d. $4\sqrt{3} \mathrm{~m}$     
 e. $8\sqrt{3} \mathrm{~m}$   
    
-**49.** Perhatikan gambar berikut. 
+**49.** Perhatikan gambar berikut. <br>
 <img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_49.png" width="400"><br>   
 Seorang anak diminta untuk mengukur tinggi tiang listrik yang ada di depan sekolahnya dengan menggunakan klinometer. Pada posisi berdiri pertama dengan melihat ujung atas tiang listrik, terlihat klinometer menunjukkan sudut $30^{\circ}$. Kemudian, dia bergerak mendekati tiang listrik sejauh $18 \mathrm{~m}$ dan terlihat klinometer menunjukkan sudut $45^{\circ}$. Tinggi tiang listrik tersebut adalah ... m.     
 a. $(18\sqrt{3} - 18)$     
@@ -1101,7 +1101,7 @@ D. $8$
 E. $9$
 
 **Soal 9**  
-Sebuah heksagon (segi enam) diposisikan di dalam segitiga siku-siku seperti gambar berikut.  
+Sebuah heksagon (segi enam) diposisikan di dalam segitiga siku-siku seperti gambar berikut. <br> 
 <img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_09.png" width="400"><br>    
 Luas heksagon tersebut adalah $\cdots$.  
 A. $60$  
@@ -1111,7 +1111,7 @@ D. $120$
 E. $180$
 
 **Soal 10**  
-Pada gambar di bawah, 
+Pada gambar di bawah, <br>
 <img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_10.png" width="400"><br>     
 terdapat dua persegi dengan panjang sisi masing-masing $4$ cm dan $5$ cm, sebuah segitiga dengan luas $8~\text{cm}^2,$ dan jajaran genjang yang terarsir. Luas jajaran genjang itu adalah $\cdots~\text{cm}^2.$  
 A. $15$  
@@ -1121,7 +1121,7 @@ D. $20$
 E. $22$
 
 **Soal Uraian 1**  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_11.png" width="400"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_11.jpg" width="400"><br>    
 An artist is going to create a decorative design for a triangular glass panel, as shown in the figure below. After measuring it, the glass is found to have side lengths of $18$ cm and $10$ cm, with an included angle of $45^\circ.$ What is the area of the triangular glass?
 
 **Soal Uraian 2**  
@@ -1132,16 +1132,16 @@ Sekawanan burung terbang di atas langit biru secara bersama-sama. Pada saat tert
 Diketahui segi empat $PQRS$ dengan $PS = 3$ cm, $PQ = 4$ cm, $QR = 6$ cm, $\angle SPQ = 90^\circ,$ dan $\angle SQR = 120^\circ.$ Tentukan luas segi empat $PQRS.$
 
 **Soal Uraian 4**  
-Suatu wadah berbentuk prisma segitiga berisi sejumlah air seperti yang terlihat pada gambar berikut. 
+Suatu wadah berbentuk prisma segitiga berisi sejumlah air seperti yang terlihat pada gambar berikut.<br>
 <img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_14.png" width="400"><br>    
 Jika penuangan sebanyak $80$ liter air ke dalam wadah tersebut akan membuatnya terisi penuh, tentukan volume air mula-mula.
 
 **Soal Uraian 5**  
-Buktikan bahwa luas segi empat tali busur $ABCD$ pada gambar di bawah adalah $L = \dfrac{1}{2}(ab + cd) \sin \theta.$
+Buktikan bahwa luas segi empat tali busur $ABCD$ pada gambar di bawah adalah $L = \dfrac{1}{2}(ab + cd) \sin \theta.$<br>
 <img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_15.png" width="400"><br>    
 
 **Soal Uraian 6**  
-Buktikan bahwa luas segi empat $ABCD$ sembarang pada gambar di bawah adalah $L = \dfrac{1}{2} \cdot AC \cdot BD \cdot \sin \theta.$
+Buktikan bahwa luas segi empat $ABCD$ sembarang pada gambar di bawah adalah $L = \dfrac{1}{2} \cdot AC \cdot BD \cdot \sin \theta.$<br>
 <img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_16.png" width="400"><br>    
 
 ## LKPD Matematika X SMAN 70
