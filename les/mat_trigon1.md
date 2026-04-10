@@ -59,7 +59,7 @@ d. $450^\circ$
 e. $490^\circ$   
    
 **9.** Diketahui $\Delta ABC$ siku-siku sebagai berikut.   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_09.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_09.png" width="100"><br>   
 Nilai $\sin \alpha$ adalah ....   
 a. $\frac{3}{5}$   
 b. $\frac{4}{5}$   
@@ -68,7 +68,7 @@ d. $\frac{5}{4}$
 e. $\frac{4}{3}$   
    
 **10.**  Diketahui $KLM$ siku-siku sebagai berikut.   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_10.png" max-width="200"><br>      
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_10.png" width="100"><br>      
 Nilai $\cos \beta$ adalah ....   
 a. $\sqrt{3}$   
 b. $1$   
@@ -147,7 +147,7 @@ d. $5\sqrt{6}$
 e. $\frac{3}{7}\sqrt{7}$   
    
 **21.** Diketahui segitiga siku-siku sebagai berikut. Nilai $\sec^2\alpha - \tan^2\alpha$ adalah ....    
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_21.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_21.png" width="60"><br>   
 a. $p^2 + r^2$     
 b. $1$     
 c. $0$     
@@ -155,7 +155,7 @@ d. $-1$
 e. $p^2 - r^2$   
    
 **22.** Pada gambar segiempat berikut ini, panjang $CD$ sama dengan ....    
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_22.png" max-width="200"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_22.png" width="100"><br>    
 a. $p \sin \beta$     
 b. $p \cos \alpha$     
 c. $p \sin \alpha$     
@@ -177,7 +177,7 @@ d. $\frac{6}{5}\sqrt{2} \mathrm{~cm}$
 e. $\frac{5}{4}\sqrt{2} \mathrm{~cm}$   
    
 **25.** Jika $BE = 16 \mathrm{~cm}$ dan $CD = 8 \mathrm{~cm}$, maka panjang $AE = \ldots$    
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_25.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_25.png" width="100"><br>   
 a. 2 cm     
 b. 4 cm     
 c. 6 cm     
@@ -185,7 +185,7 @@ d. 8 cm
 e. 16 cm   
    
 **26.** Jika $BC = 12 \mathrm{~cm}$, maka nilai dari $AE = \ldots$   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_26.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_26.png" width="100"><br>   
 a. 3 cm     
 b. $3\sqrt{3} \mathrm{~cm}$     
 c. 6 cm     
@@ -298,7 +298,7 @@ d. $90$
 e. $90\sqrt{3}$   
    
 **42.** Seorang pengamat dari sebuah mercusuar yang tingginya $75 \mathrm{~m}$ di atas permukaan laut sedang mengamati sebuah kapal dengan sudut depresi $45^{\circ}$. Jarak kapal tersebut terhadap garis pantai adalah .... m.  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_42.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_42.png" width="200"><br>   
 a. $25\sqrt{3}$     
 b. $75$     
 c. $75\sqrt{2}$     
@@ -306,7 +306,7 @@ d. $75\sqrt{3}$
 e. $150$   
    
 **43.** Perhatikan gambar berikut. 
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_43.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_43.png" width="200"><br>   
 Seekor kelinci yang berada di lubang tanah tempat persembunyiannya melihat seekor elang yang sedang terbang dengan sudut $60^{\circ}$ (lihat gambar). Jika jarak antara kelinci dan elang adalah 18 meter, maka tinggi elang dari atas tanah adalah ... meter.     
 
 a. $\sqrt{3}$     
@@ -351,7 +351,7 @@ d. $4\sqrt{3} \mathrm{~m}$
 e. $8\sqrt{3} \mathrm{~m}$   
    
 **49.** Perhatikan gambar berikut. 
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_49.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_49.png" width="200"><br>   
 Seorang anak diminta untuk mengukur tinggi tiang listrik yang ada di depan sekolahnya dengan menggunakan klinometer. Pada posisi berdiri pertama dengan melihat ujung atas tiang listrik, terlihat klinometer menunjukkan sudut $30^{\circ}$. Kemudian, dia bergerak mendekati tiang listrik sejauh $18 \mathrm{~m}$ dan terlihat klinometer menunjukkan sudut $45^{\circ}$. Tinggi tiang listrik tersebut adalah ... m.     
 a. $(18\sqrt{3} - 18)$     
 b. $(9\sqrt{3} + 9)$     
@@ -539,15 +539,15 @@ a. $\frac{\tan 235^{\circ} - \tan 305^{\circ}}{\cot 235^{\circ} \cot 305^{\circ}
 b. $\frac{\tan 215^{\circ} + \tan 125^{\circ}}{\cot 125^{\circ} + \cot 235^{\circ}}$   
    
 4. Pada gambar tersebut, garis $CD$ tegak lurus terhadap $AB$. Jika $\angle CAD = 45^{\circ}$, $\angle CBD = 30^{\circ}$, dan panjang $AD = \frac{2}{3}\sqrt{3}$ dm, tentukanlah panjang garis $AB$.      
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_B04.png" max-width="200"><br>      
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_B04.png" width="200"><br>      
 
 5. Aldi memandangi puncak sebuah gedung. Dia berdiri 30 meter dari gedung tersebut. Jika Aldi memandang puncak gedung dengan sudut elevasi $60^{\circ}$ dan tinggi Aldi adalah 1,5 meter, berapakah tinggi gedung itu?   
    
 6. Perhatikan gambar berikut.   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_B06.png" max-width="200"><br>      
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_B06.png" width="200"><br>      
 
 7. Perhatikan gambar berikut. Gambar tersebut menunjukkan lahan tanah yang harus ditanami rumput. Berapa meter persegi rumput yang dibutuhkan untuk menutupi seluruh tanah tersebut? Jarak 32 meter dari kaki sebuah gedung. Ia mengamati puncak gedung dan helikopter yang tepat berada di atas gedung dengan sudut elevasi masing-masing $30^{\circ}$ dan $45^{\circ}$. Hitunglah tinggi helikopter tersebut dari puncak gedung.   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_B07.png" max-width="200"><br>      
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_B07.png" width="200"><br>      
 
 8. Seorang wanita sedang berada di rooftop suatu gedung dengan ketinggian tertentu. Wanita tersebut mengamati sebuah mobil dengan sudut depresi $\alpha$. Ketika nilai $\tan \alpha = 1$, terlihat bahwa mobil bergerak maju menuju dasar gedung. Sepuluh menit kemudian, sudut depresi berubah menjadi $\beta$ dengan nilai $\tan \beta = 5$. Jika mobil bergerak dengan kecepatan tetap, maka berapakah waktu yang dibutuhkan mobil untuk mencapai dasar gedung tersebut?   
    
@@ -561,7 +561,7 @@ c. $\tan A + \frac{\cos A}{1 + \sin A} = \sec A$
 **HOTS:**   
    
 1. Seorang pengamat dengan tinggi $b$ berdiri di atas tanjakan yang berjarak $d$ dari dasar suatu gedung dengan tinggi $T$, seperti tampak pada gambar. Besar sudut elevasi pengamat terhadap puncak gedung adalah $\theta$, dan tanjakan membentuk sudut sebesar $\alpha$ terhadap garis horizontal.     
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_C01.png" max-width="200"><br>      
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_C01.png" width="200"><br>      
 a. Tuliskan $T$ dalam $b, d, \alpha$, dan $\theta$.     
 b. Jika $b = 6$ kaki, $d = 50$ kaki, $\alpha = 15^{\circ}$, dan $\theta = 31.4^{\circ}$, tentukanlah tinggi gedung tersebut.   
    
@@ -570,7 +570,7 @@ a. Taksirlah jarak antara kaki tangga dan gedung.
 b. Jika jarak antara kaki tangga dan gedung berkurang 1,5 kaki, taksirlah seberapa jauh ujung tangga bergeser ke atas?   
    
 3. Jika puncak suatu gunung dilihat dari titik $P$ seperti tampak pada gambar, besar sudut elevasinya adalah $\alpha$. Adapun jika dilihat dari titik $Q$ yang berjarak $d$ mil lebih dekat ke gunung, besar sudut elevasinya meningkat menjadi $\beta$. [gambar]     
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_C03.png" max-width="200"><br>      
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_C03.png" width="200"><br>      
 a. Buktikan bahwa tinggi gunung $b$ adalah $b = \frac{d}{\cot \alpha - \cot \beta}$.     
 b. Jika $d = 2$ mil, $\alpha = 15^{\circ}$, dan $\beta = 20^{\circ}$, taksirlah tinggi gunung tersebut.   
    
@@ -596,7 +596,7 @@ c. $\tan x - \frac{\sec^{2}x}{\tan x}$
 ## Trigon 1 MathCyber
 
 **Soal 1**  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc2_01.png" max-width="200"><br>
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc2_01.png" width="200"><br>
 Nilai $\cos \alpha$ adalah $\cdots$.  
 A. $\dfrac{4}{5}$  
 B. $\dfrac{3}{5}$  
@@ -718,7 +718,7 @@ E. $-\dfrac{4}{5}\sqrt{5}$
 
 **Soal 16**  
 Perhatikan gambar berikut.   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc2_16.png" max-width="200"><br>
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc2_16.png" width="200"><br>
 Diketahui panjang $AC = p$ dan $\angle BAC = \theta$. Panjang $DE = \cdots$.  
 A. $p \sin \theta \cos \theta$  
 B. $p \sin^2 \theta \cos \theta$  
@@ -787,7 +787,7 @@ E. $150^\circ$
 
 **Soal 5**  
 Perhatikan gambar $\triangle ABC$ di bawah ini.    
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc3_05.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc3_05.png" width="200"><br>   
 Perbandingan panjang $BC$ dan $AC$ adalah $\cdots$.  
 A. $3 : 4$  
 B. $4 : 3$  
@@ -797,7 +797,7 @@ E. $\sqrt{3} : \sqrt{2}$
 
 **Soal 6**  
 Perhatikan gambar berikut.   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc3_06.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc3_06.png" width="200"><br>   
 Nilai dari $\sin D$ adalah $\cdots$.  
 A. $\dfrac{1}{2}\sqrt{6}$  
 B. $\dfrac{1}{4}\sqrt{6}$  
@@ -850,7 +850,7 @@ Diketahui segitiga $PQR$ dengan $PR=3$ cm dan $QR=\dfrac{3\sqrt{6}}{2}$ cm, sert
 Pada segitiga $ABC,$ diketahui $\angle A = 45^\circ,$ $AC = 2$ cm, dan $BC = 2\sqrt{2}$ cm. Tentukan nilai dari $\cos B.$
 
 **Soal Uraian 5**  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc3_25.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc3_25.png" width="200"><br>   
 Sigma Boy mula-mula berada di titik A. Pada denah berskala $1 : 100,$ ia terlihat berjalan sejauh $6$ cm menuju titik $B.$ Sebesar $30^\circ$ searah jarum jam, ia melihat suatu perosotan anak-anak, tepatnya di titik $C.$ Bantulah Sigma Boy menentukan jarak sebenarnya (bukan jarak pada denah) dari posisi mula-mula (titik $A$) ke perosotan tersebut (titik $C$) jika $\angle ACB=120^\circ.$
 
 **Soal Uraian 6**  
@@ -867,7 +867,7 @@ $$c(\sin^2 A + \sin^2 B) = \sin C(a \cdot \sin A + b \cdot \sin B).$$
 Berikut adalah ekstrak semua soal dan pilihan ganda dari halaman tersebut (16 soal pilihan ganda dan 6 soal uraian):
 
 **Soal 1**   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_01.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_01.png" width="200"><br>   
 Diketahui segitiga ABC seperti yang tampak pada gambar berikut. Panjang AC adalah ... cm.  
 A. $\sqrt{33}$  
 B. $\sqrt{37}$  
@@ -901,7 +901,7 @@ E. $8\sqrt{3 + \sqrt{2}}$
 
 **Soal 5**  
 Nilai $\cos \theta$ pada gambar di bawah adalah ... .  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_05.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_05.png" width="200"><br>   
 A. $-1$  
 B. $-\dfrac{5}{7}$  
 C. $-\dfrac{2}{3}$  
@@ -910,7 +910,7 @@ E. $\dfrac{2}{3}$
 
 **Soal 6**  
 Perhatikan gambar segi empat PQRS berikut. 
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_06.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_06.png" width="200"><br>   
 Panjang RS = ... cm.  
 A. $6\sqrt{2}$  
 B. $6\sqrt{3}$  
@@ -920,7 +920,7 @@ E. $9\sqrt{3}$
 
 **Soal 7**  
 Perhatikan segi empat ABCD berikut. 
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_07.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_07.png" width="200"><br>   
 Panjang AD adalah ... cm.  
 A. $2\sqrt{7}$  
 B. $4\sqrt{6}$  
@@ -930,7 +930,7 @@ E. $8$
 
 **Soal 8**  
 Perhatikan segi empat ABCD berikut. 
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_08.png" max-width="200"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_08.png" width="200"><br>   
 Panjang CD adalah ... cm.  
 A. $4\sqrt{2}$  
 B. $4\sqrt{3}$  
@@ -995,7 +995,7 @@ D. 7
 E. 8
 
 **Soal 16**  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_16.png" max-width="200"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_16.png" width="200"><br>    
 Diketahui segitiga ABC dengan $a = 7$, $b = 8$, dan $c = 9$. Nilai $\cos A + \cos B + \cos C = \cdots$.  
 A. $\dfrac{1}{2}$  
 B. $\dfrac{3}{4}$  
@@ -1005,12 +1005,12 @@ E. $\dfrac{3}{2}$
 
 **Soal Uraian 1**  
 Diketahui segi empat ABCD seperti yang terlihat pada gambar.   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_21.png" max-width="200"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_21.png" width="200"><br>    
 Tentukan panjang BC.
 
 **Soal Uraian 2**  
 Perhatikan segitiga PQR berikut. 
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_22.png" max-width="200"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_22.png" width="200"><br>    
 Tentukan nilai x yang memenuhi kondisi yang diberikan pada gambar.
 
 **Soal Uraian 3**  
@@ -1018,11 +1018,11 @@ Diketahui $\triangle ABC$ dengan $a+c = 12$ cm dan $b + c = 13$ cm, serta $\angl
 
 **Soal Uraian 4**  
 Pada gambar di bawah,   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_24.png" max-width="200"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_24.png" width="200"><br>    
 ABCD adalah segi empat tali busur lingkaran (besar sudut yang berhadapan jumlahnya 180°). Buktikan bahwa $\cos \theta = \dfrac{c^2+d^2-a^2-b^2}{2(ab+cd)}$.
 
 **Soal Uraian 5**  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_25.png" max-width="200"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_25.png" width="200"><br>    
 Diketahui $\triangle ABC$ dengan CD adalah garis berat, yaitu garis yang membagi dua sama panjang sisi AB. Dengan menggunakan aturan kosinus, buktikan bahwa:  
 a. $CD^2 = \dfrac{1}{2}a^2 + \dfrac{1}{2}b^2 - \dfrac{1}{4}c^2$  
 b. $4CD^2 = a^2 + b^2 + 2ab \cos C$
@@ -1035,7 +1035,7 @@ Berikut adalah ekstrak semua soal dari halaman tersebut (10 soal pilihan ganda d
 
 **Soal 1**  
 Perhatikan segitiga $KLM$ berikut.  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_01.png" max-width="200"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_01.png" width="200"><br>    
 Luas segitiga tersebut adalah $\cdots~\text{cm}^2.$  
 A. $12$  
 B. $6\sqrt{3}$  
@@ -1069,7 +1069,7 @@ E. $10\sqrt{3}$
 
 **Soal 5**  
 Luas segi empat $ABCD$ pada gambar di bawah adalah $\cdots~\text{cm}^2.$  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_05.png" max-width="200"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_05.png" width="200"><br>    
 A. $(72 + 50\sqrt{3})$  
 B. $(72 + 25\sqrt{3})$  
 C. $74$  
@@ -1102,7 +1102,7 @@ E. $9$
 
 **Soal 9**  
 Sebuah heksagon (segi enam) diposisikan di dalam segitiga siku-siku seperti gambar berikut.  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_09.png" max-width="200"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_09.png" width="200"><br>    
 Luas heksagon tersebut adalah $\cdots$.  
 A. $60$  
 B. $80$  
@@ -1112,7 +1112,7 @@ E. $180$
 
 **Soal 10**  
 Pada gambar di bawah, 
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_10.png" max-width="200"><br>     
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_10.png" width="200"><br>     
 terdapat dua persegi dengan panjang sisi masing-masing $4$ cm dan $5$ cm, sebuah segitiga dengan luas $8~\text{cm}^2,$ dan jajaran genjang yang terarsir. Luas jajaran genjang itu adalah $\cdots~\text{cm}^2.$  
 A. $15$  
 B. $16$  
@@ -1121,11 +1121,11 @@ D. $20$
 E. $22$
 
 **Soal Uraian 1**  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_11.png" max-width="200"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_11.png" width="200"><br>    
 An artist is going to create a decorative design for a triangular glass panel, as shown in the figure below. After measuring it, the glass is found to have side lengths of $18$ cm and $10$ cm, with an included angle of $45^\circ.$ What is the area of the triangular glass?
 
 **Soal Uraian 2**  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_12.png" max-width="200"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_12.png" width="200"><br>    
 Sekawanan burung terbang di atas langit biru secara bersama-sama. Pada saat tertentu, posisi mereka membentuk formasi berupa bangun datar segitiga yang titik sudutnya diberi nama $A,B,$ dan $C.$ Jarak burung $A$ ke burung $B$ adalah $30$ m, sedangkan jaraknya ke burung $C$ adalah $40$ m. Sudut yang terbentuk di titik $A$ adalah $45^\circ.$ Tentukan luas segitiga yang terbentuk atas formasi burung tersebut.
 
 **Soal Uraian 3**  
@@ -1133,16 +1133,16 @@ Diketahui segi empat $PQRS$ dengan $PS = 3$ cm, $PQ = 4$ cm, $QR = 6$ cm, $\angl
 
 **Soal Uraian 4**  
 Suatu wadah berbentuk prisma segitiga berisi sejumlah air seperti yang terlihat pada gambar berikut. 
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_14.png" max-width="200"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_14.png" width="200"><br>    
 Jika penuangan sebanyak $80$ liter air ke dalam wadah tersebut akan membuatnya terisi penuh, tentukan volume air mula-mula.
 
 **Soal Uraian 5**  
 Buktikan bahwa luas segi empat tali busur $ABCD$ pada gambar di bawah adalah $L = \dfrac{1}{2}(ab + cd) \sin \theta.$
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_15.png" max-width="200"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_15.png" width="200"><br>    
 
 **Soal Uraian 6**  
 Buktikan bahwa luas segi empat $ABCD$ sembarang pada gambar di bawah adalah $L = \dfrac{1}{2} \cdot AC \cdot BD \cdot \sin \theta.$
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_16.png" max-width="200"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_16.png" width="200"><br>    
 
 ## LKPD Matematika X SMAN 70
 **Halaman 4**
