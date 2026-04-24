@@ -603,6 +603,593 @@ a. $(\tan x + \sec x)(\tan x - \sec x)$
 b. $\frac{1}{1 + \cos x} + \frac{1}{1 - \cos x}$     
 c. $\tan x - \frac{\sec^{2}x}{\tan x}$   
 
+-----
+## Defantri Trigonometri X
+### Defantri 04-Latihan 03-Perbandingan-perbandingan trigonometri
+
+**01.** Jika koordinat A(6,3) dan α adalah sudut antara OA dan sumbu X, maka nilai sin α adalah …  
+A. $\frac{1}{2}$  
+B. $\frac{1}{5}$  
+C. $\frac{1}{3}$  
+D. $\frac{2}{3}$  
+E. $\frac{2}{5}$
+
+**02.** Diketahui segitiga PQR siku-siku di Q, dimana PQ = 5 cm dan QR = 12 cm. Nilai dari cos P adalah ….  
+A. $\frac{5}{12}$  
+B. $\frac{5}{13}$  
+C. $\frac{12}{13}$  
+D. $\frac{1}{5}$  
+E. $\frac{3}{5}$
+
+**03.** Diketahui segitiga PQR siku-siku di Q dimana PQ = 12 cm dan $\sin R = \frac{1}{3}$. Panjang sisi PR + QR = …. cm  
+A. $12\sqrt{3}$  
+B. $8\sqrt{3}$  
+C. $6\sqrt{3}$  
+D. $12\sqrt{2}$  
+E. $8$
+
+**04.** Jika $0^\circ \leq \alpha \leq 90^\circ$ dan $\cos \alpha = \frac{1}{3}\sqrt{5}$ maka nilai $\tan \alpha = $ …  
+A. $\frac{2}{3}$  
+B. $\frac{1}{3}$  
+C. $\frac{1}{2}$  
+D. $\frac{2}{5}$  
+E. $\frac{5}{2}$
+
+**05.** Jika $\cos \alpha = 0,6$ dan α sudut lancip maka nilai $\cot \alpha = $ ….  
+A. $2,4$  
+B. $1,3$  
+C. $1,25$  
+D. $0,75$  
+E. $0,25$
+
+
+---
+
+### Defantri 06-Latihan 05-Perbandingan Trigonometri Sudut Istimewa 
+
+**01.** Nilai $\cos 45^\circ + \sin 45^\circ + \tan 45^\circ = \ldots$  
+a. $2 + \sqrt{2}$  
+b. $3 + 1$  
+c. $\sqrt{2} + 1$  
+d. $\frac{1}{2} + \sqrt{2}$  
+e. $\frac{1}{2} + \frac{3}{2}$
+
+**02.** Nilai $\sin 60^\circ \cdot \cos 30^\circ \cdot \tan 60^\circ = \ldots$  
+a. $\frac{1}{6}$  
+b. $\frac{3}{4}$  
+c. $\frac{1}{6}\sqrt{2}$  
+d. $\frac{3}{4}$  
+e. $\frac{1}{3}\sqrt{4}$
+
+**03.** Diketahui segitiga ABC siku-siku di B dan besar sudut A adalah $45^\circ$. Jika panjang AC = 8 cm, maka panjang AB = …. cm  
+a. $4\sqrt{3}$  
+b. $6\sqrt{2}$  
+c. $4\sqrt{2}$  
+d. $6\sqrt{3}$  
+e. $4$
+
+**04.** Pada gambar di samping panjang BD = …. cm [gambar]  
+a. $4\sqrt{6}$  
+b. $2\sqrt{6}$  
+c. $6\sqrt{2}$  
+d. $4\sqrt{3}$  
+e. $6\sqrt{3}$
+
+**05.** Nilai $\frac{\cot 60^\circ}{\sec 45^\circ} = \ldots$  
+a. $\frac{1}{6}$  
+b. $\frac{2}{3}$  
+c. $\frac{1}{6}\sqrt{2}$  
+d. $\frac{1}{6}$  
+e. $\frac{1}{3}\sqrt{6}$
+
+**06.** Pada segitiga ABC siku-siku di B, diketahui nilai $\sin A = \frac{1}{5}$. Nilai $\tan C = \ldots$  
+a. $\frac{1}{2}$  
+b. $\frac{1}{3}\sqrt{5}$  
+c. $\frac{1}{5}\sqrt{3}$  
+d. $\frac{1}{2}\sqrt{5}$  
+e. $2$
+
+**07.** Nilai $\sin 60^\circ \cdot \tan 60^\circ - \cos 45^\circ \cdot \sin 45^\circ = \ldots$  
+a. $\frac{1}{2}$  
+b. $1$  
+c. $\frac{2}{3}$  
+d. $\frac{1}{2}$  
+e. $1 + \frac{1}{2}\sqrt{2}$
+
+**08.** $\frac{\sin^2 30^\circ - \cos^2 30^\circ + 2\sin 45^\circ \sin 45^\circ}{4\cos^2 30^\circ - 2} = \ldots$  
+a. $-\frac{1}{2}$  
+b. $1$  
+c. $\frac{1}{2}$  
+d. $\frac{3}{2}$  
+e. $2$
+
+**09.** Sebuah segitiga ABC siku-siku di A diketahui $\angle B = 60^\circ$, jika sisi AB = 6 cm maka nilai $\cos C = \ldots$  
+a. $\frac{1}{2}$  
+b. $\frac{1}{3}$  
+c. $\frac{1}{2}\sqrt{3}$  
+d. $\frac{1}{3}$  
+e. $\frac{1}{2}\sqrt{3}$
+
+**10.** Pada gambar di samping nilai p adalah …. [gambar]  
+a. $2\sqrt{6}$  
+b. $3\sqrt{6}$  
+c. $2\sqrt{7}$  
+d. $3\sqrt{2}$  
+e. $6$
+
+**11.** Sebuah segitiga ABC siku-siku di B. Diketahui $\angle A = 30^\circ$ dan sisi BC = 12 cm. Panjang AC adalah …. cm  
+a. $48$  
+b. $32$  
+c. $45$  
+d. $24$  
+e. $6$
+
+**12.** Pada gambar di samping panjang AB = 12 cm, maka panjang CD = … [gambar]  
+a. $4\sqrt{2}$  
+b. $5$  
+c. $3\sqrt{2}$  
+d. $4\sqrt{3}$  
+e. $3\sqrt{3}$
+
+**13.** Dari gambar trapesium di atas diketahui bahwa DA = 6 cm dan AB = $10\sqrt{3}$ cm. Maka panjang DC = ….. [gambar]  
+a. $8\sqrt{3}$  
+b. $6\sqrt{3}$  
+c. $8\sqrt{6}$  
+d. $6\sqrt{6}$  
+e. $8\sqrt{2}$
+
+**14.** Seorang anak menaikkan layang-layang dengan benang sepanjang 250 m. Bila sudut yang dibentuk oleh benang tadi dengan arah mendatar adalah $60^\circ$ maka tinggi layang-layang adalah …  
+a. $125$ m  
+b. $125\sqrt{2}$ m  
+c. $84\sqrt{3}$ m  
+d. $84\sqrt{2}$ m  
+e. $125\sqrt{3}$ m
+
+**15.** Suatu menara terlihat dengan sudut elevasi $45^\circ$. Jika jarak orang tadi ke kaki menara 60 m maka tinggi menara tersebut adalah … (tinggi orang diabaikan)  
+a. $60$ m  
+b. $60\sqrt{2}$ m  
+c. $60\sqrt{3}$ m  
+d. $40$ m  
+e. $40\sqrt{3}$ m
+
+**16.** Suatu gedung tingginya 120 m dilihat dari suatu tempat dengan sudut elevasi $60^\circ$. Maka jarak orang dengan gedung tempat orang melihat itu adalah … (tinggi orang diabaikan)  
+a. $30\sqrt{3}$ m  
+b. $20\sqrt{3}$ m  
+c. $40\sqrt{3}$ m  
+d. $20$ m  
+e. $20\sqrt{2}$ m
+
+**17.** Dari suatu puncak bukit seseorang melihat benda yang berada di kaki bukit dengan sudut depresi $60^\circ$. Apabila tinggi bukit itu 600 m maka jarak orang ke benda itu adalah … m  
+a. $300\sqrt{3}$  
+b. $600\sqrt{3}$  
+c. $400\sqrt{3}$  
+d. $1200$  
+e. $600\sqrt{2}$
+
+**18.** Pada segitiga ABC dan ABD di atas jika sisi AC = $8\sqrt{3}$ cm dan DC = 8 cm maka besar $\angle \beta$ adalah … [gambar]  
+a. $150^\circ$  
+b. $200^\circ$  
+c. $300^\circ$  
+d. $350^\circ$
+
+**19.** Diketahui segitiga ABC dengan $\angle B = 45^\circ$ dan CT garis tinggi dari titik C. Jika BC = a dan $AT = \frac{3}{2}a\sqrt{2}$, maka AC = ….  
+a. $a\sqrt{2}$  
+b. $a\sqrt{7}$  
+c. $a\sqrt{3}$  
+d. $a\sqrt{11}$  
+e. $a\sqrt{5}$
+
+**20.** Seberkas sinar datang dengan sudut datang $45^\circ$, menembus plat kaca setebal 12 cm membentuk sudut bias $25^\circ$. Lebar penyimpangan cahaya (t) adalah ….. cm [gambar]  
+a. $5(\sqrt{3} - 1)$  
+b. $4\sqrt{3} - 2$  
+c. $\frac{1}{2}\sqrt{3}$  
+d. $6\sqrt{2} - 2\sqrt{6}$  
+e. $4 - 3\sqrt{3}$
+
+---
+
+### Defantri 08-Latihan 07-Rumus Perbandingan Trigonometri di Semua Kuadran 
+
+**01.** Nilai dari $\sin 210^\circ - \cos 210^\circ - \sin 120^\circ = \ldots$  
+a. $\frac{1}{2}$  
+b. $1 - \frac{1}{2}\sqrt{3}$  
+c. $\frac{1}{2} + \sqrt{3}$  
+d. $1 - \sqrt{3}$  
+e. $\frac{1}{2}$
+
+**02.** Nilai dari $\sec 300^\circ + \cot 210^\circ = \ldots$  
+a. $2 - \sqrt{3}$  
+b. $2 + \sqrt{3}$  
+c. $1$  
+d. $\frac{1}{2} + \frac{1}{3}\sqrt{3}$  
+e. $2 - \frac{1}{3}\sqrt{3}$
+
+**03.** Diketahui titik P(-8, 6). Jika α adalah sudut yang dibentuk oleh OP dan sumbu X positif, maka nilai $\cos \alpha = \ldots$  
+a. $\frac{4}{5}$  
+b. $-\frac{4}{5}$  
+c. $\frac{3}{5}$  
+d. $-\frac{3}{4}$  
+e. $\frac{3}{4}$
+
+**04.** Jika $\sin \alpha = \frac{2}{5}$ dan α pada kuadran II maka nilai $\tan \alpha = \ldots$  
+a. $\frac{2}{5}$  
+b. $-\frac{2}{5}$  
+c. $\frac{2}{3}\sqrt{5}$  
+d. $-\frac{2}{3}$  
+e. $\frac{1}{5}$
+
+**05.** Jika $\cos \alpha = -\frac{2}{5}$ dan α pada kuadran III maka nilai $\tan \alpha = \ldots$  
+a. $\frac{1}{5}$  
+b. $-\frac{1}{5}$  
+c. $\frac{2}{5}$  
+d. $-\frac{2}{5}$  
+e. $\frac{2}{5}$
+
+**06.** Jika diketahui $\sin \alpha = -\frac{1}{2}$ dan $\tan \alpha = -\frac{1}{3}\sqrt{3}$, maka nilai $\cos \alpha = \ldots$  
+a. $-\frac{1}{2}\sqrt{3}$  
+b. $\frac{1}{2}\sqrt{3}$  
+c. $-\frac{1}{2}$  
+d. $\frac{1}{2}$  
+e. $-\frac{1}{3}\sqrt{3}$
+
+**07.** Jika $\cos \alpha = -\frac{1}{2}$ dan $\tan \alpha = -1$ maka nilai $\sin \alpha = \ldots$  
+a. $-\frac{1}{2}\sqrt{2}$  
+b. $\frac{1}{2}\sqrt{3}$  
+c. $-\frac{1}{2}\sqrt{3}$  
+d. $-\frac{1}{2}$  
+e. $\frac{1}{2}\sqrt{2}$
+
+**08.** Nilai $\cos (-60^\circ) + \sin (-330^\circ) = \ldots$  
+a. $\sqrt{3}$  
+b. $-\sqrt{3}$  
+c. $0$  
+d. $1$  
+e. $-1$
+
+**09.** Nilai $\cos 1020^\circ = \ldots$  
+a. $-\frac{1}{2}$  
+b. $-\frac{1}{2}\sqrt{3}$  
+c. $\frac{1}{2}$  
+d. $\frac{1}{2}\sqrt{3}$  
+e. $\frac{1}{2}\sqrt{2}$
+
+**10.** Nilai $2\sin^2 \frac{\pi}{2} + 2\sin \frac{7\pi}{6} + 4\sin \frac{5\pi}{4} = \ldots$  
+a. $\sqrt{2} - 1$  
+b. $2 - 2\sqrt{2}$  
+c. $2 - \sqrt{3}$  
+d. $3$  
+e. $\frac{1}{2} - \sqrt{3}$
+
+**11.** Nilai $\tan \frac{4\pi}{4} + \sin \frac{3\pi}{3} + \cos \frac{4\pi}{3} = \ldots$  
+a. $\frac{1}{2} + \frac{1}{2}\sqrt{3}$  
+b. $\frac{1}{2}\sqrt{3}$  
+c. $\frac{3}{2} + \frac{1}{2}\sqrt{3}$  
+d. $1$  
+e. $1 + \frac{1}{2}\sqrt{3}$
+
+**12.** Jika $\tan A = -\frac{P}{\sqrt{1-p^2}}$ dan $90^\circ < A < 180^\circ$, maka nilai dari $\sin A = \ldots$  
+a. $p$  
+b. $-p$  
+c. $1/p$  
+d. $-1/p$  
+e. $2p$
+
+**13.** Nilai $\frac{\cos(90+\alpha)^\circ}{\sin(360-\alpha)^\circ} = \ldots$  
+a. $-1$  
+b. $1$  
+c. $\tan \alpha$  
+d. $-\tan \alpha$  
+e. $-\cot \alpha$
+
+**14.** Diketahui nilai $\tan 25^\circ = p$, maka nilai $\tan 20.5^\circ - \tan 11.5^\circ = \ldots$  
+a. $\frac{p^2 - 1}{p^2 + 1}$  
+b. $\frac{p^2 + 1}{p^2 - 1}$  
+c. $\frac{p^2 + 1}{2p}$  
+d. $\frac{p^2 + 1}{1 - p^2}$  
+e. $3p - 2$
+
+**15.** Nilai dari $\sin \frac{7}{6}\pi + \cos \frac{11}{3}\pi - \tan \frac{15}{4}\pi = \ldots$  
+a. $1$  
+b. $-1$  
+c. $1/2$  
+d. $-1/2$  
+e. $\sqrt{3}$
+
+**16.** Diketahui $\tan \alpha = 2/3$ dan $180^\circ < \alpha < 270^\circ$, maka nilai $\frac{\cos \alpha + 6\sin \alpha}{3\sin \alpha - \cos \alpha} = \ldots$  
+a. $-3$  
+b. $3$  
+c. $5$  
+d. $-5$  
+e. $2$
+
+**17.** $\cos 330^\circ \sin(-210^\circ) - \tan(-315^\circ) \cot(-330^\circ) = \ldots$  
+a. $-\frac{5}{4}\sqrt{3}$  
+b. $\frac{5}{4}\sqrt{3}$  
+c. $-\frac{3}{4}\sqrt{3}$  
+d. $\frac{3}{4}\sqrt{3}$  
+e. $\frac{3}{4}$
+
+**18.** Nilai dari $\sin \frac{13}{3}\pi + \cos \frac{11}{6}\pi = \ldots$  
+a. $\sqrt{3}$  
+b. $1$  
+c. $-1$  
+d. $-\sqrt{3}$  
+e. $0$
+
+**19.** Jika $\tan (x + 90^\circ) = -0,75$ dan x sudut lancip maka $\cos (90 - x) = \ldots$  
+a. $-3/5$  
+b. $-3/4$  
+c. $3/5$  
+d. $4/5$  
+e. $-4/5$
+
+**20.** Sudut-sudut segitiga ABC adalah α, β dan γ. Jika $\sin \alpha = p$ dengan α lancip, maka nilai $\tan (\beta + \gamma) = \ldots$  
+a. $\frac{\sqrt{1-p^2}}{p}$  
+b. $-\frac{\sqrt{1-p^2}}{p}$  
+c. $\frac{p}{\sqrt{1-p^2}}$  
+d. $-\frac{p}{\sqrt{1-p^2}}$  
+e. $\frac{p}{1-p}$
+
+---
+
+### Defantri 10-Latihan 09-Identitas Trigonometri 
+
+**01.** $5\cos^2 x - 4 = \ldots$  
+a. $2 - 5\sin^2 x$  
+b. $3 + 5\sin^2 x$  
+c. $5 - 2\sin^2 x$  
+d. $1 - 5\sin^2 x$  
+e. $1 + 5\sin^2 x$
+
+**02.** $\cos^2 x (1 - \tan^2 x) = \ldots$  
+a. $1 - 2\sin^2 x$  
+b. $3\cos^2 x + \sin x$  
+c. $2\cos^2 x - 3$  
+d. $\tan^2 x - 1$  
+e. $\tan x - \sin^2 x$
+
+**03.** $\frac{1}{1 + \tan^2 x} = \ldots$  
+a. $\sin^2 x$  
+b. $\cos^2 x$  
+c. $1 - \tan^2 x$  
+d. $\sin^2 x - 2$  
+e. $\sin^2 x - \cos^2 x$
+
+**04.** $\frac{\sin^2 x}{1 - \cos x} = \ldots$  
+a. $\sin x + \cos x$  
+b. $\sin^2 x$  
+c. $\sin x + 1$  
+d. $\cos x + 1$  
+e. $1 - \sin^2 x$
+
+**05.** $\frac{1 - \cos x}{\sin x} + \frac{\sin x}{1 - \cos x} = \ldots$  
+a. $2\csc x$  
+b. $\sec^2 x + 3$  
+c. $\tan^2 x - 3$  
+d. $\sin^2 x + 2\cos x$  
+e. $3\sec x$
+
+**06.** $\frac{1 - \cos^2 A}{1 - \sin A} = \ldots$  
+a. $\cos A$  
+b. $\sin A$  
+c. $\tan A$  
+d. $\sin^2 A$  
+e. $-\sin A$
+
+**07.** $\frac{\cos A}{1 - \sin A} = \ldots$  
+a. $2\sin A$  
+b. $\sin^2 A$  
+c. $2\tan A$  
+d. $\tan^2 A$  
+e. $\cot^2 A$
+
+**08.** $\sin x + \cos x \cdot \cot x = \ldots$  
+a. $1$  
+b. $\frac{1}{\tan x}$  
+c. $\frac{1}{\cos x}$  
+d. $\frac{1}{\sin x}$  
+e. $\tan x$
+
+**09.** $\cos x \tan x + \sec x = \ldots$  
+a. $\sin x$  
+b. $2\cos x$  
+c. $2$  
+d. $\sin x - 1$  
+e. $\tan x$
+
+**10.** Bentuk $\frac{\sin A}{1 + \cos A}$ senilai dengan :  
+a. $\sec A - \cot A$  
+b. $\sec A - \tan A$  
+c. $\csc A - \tan A$  
+d. $\csc A - \cot A$  
+e. $\sec A + \tan A$
+
+**11.** Bentuk sederhana dari $(1 - \sin^2 A)(1 + \tan^2 A)$ adalah …  
+a. $0$  
+b. $1/2$  
+c. $\sin^2 A$  
+d. $\cos^2 A$  
+e. $1$
+
+**12.** Bentuk $\csc x - \cos x \cot x$ ekivalen dengan …  
+a. $\cos x$  
+b. $\sin x$  
+c. $\sec x$  
+d. $\csc x$  
+e. $\tan x$
+
+**13.** Bentuk $\sec^4 x - \sec^2 x$ sama nilainya dengan …  
+a. $\tan^2 x + \tan x$  
+b. $\tan^4 x + \tan^2 x$  
+c. $\tan^2 x$  
+d. $\tan^2 x + \sin x$  
+e. $\sin^2 x + \cos x$
+
+**14.** Bentuk yang sama nilainya dengan $\tan x - \sin x$ adalah …  
+a. $\sin x + 1$  
+b. $\frac{1 + \sin x}{\cos x}$  
+c. $1 + \cos x$  
+d. $\sec x$  
+e. $\frac{\cos x}{1 + \cos x}$
+
+**15.** Bentuk yang sama nilainya dengan $\frac{\sin x - \cos x + 1}{\sin x + \cos x - 1}$ adalah …  
+a. $\sin x + 1$  
+b. $\frac{1 + \sin x}{\cos x}$  
+c. $1 + \cos x$  
+d. $\sec x$  
+e. $\frac{\cos x}{1 + \cos x} \cdot \frac{1 - \sin x}{1 - \sin x}$
+
+**16.** Bentuk yang sama nilainya dengan $\frac{\tan x + \sec x - 1}{\tan x - \sec x + 1}$ adalah ...  
+a. $\sin x - \tan x$  
+b. $\frac{1 + \sin x}{\cos x}$  
+c. $\tan x + \sec x$  
+d. $\frac{\cos x}{1 - \sin x}$  
+e. $\sin x \cos x - 1$
+
+**17.** Bentuk yang sama nilainya dengan $\frac{\cos A \cot A - \sin A \tan A}{\csc A - \sec A}$ adalah ...  
+a. $\sin A - \cos A + 1$  
+b. $1 + \sin A \cos A$  
+c. $2\sin A \cos A$  
+d. $\sin^2 A (1 - 2\cos A)$  
+e. $\sin A \cos A - 1$
+
+**18.** Bentuk yang sama nilainya dengan $1 - \frac{1}{2}\sin 2x$ adalah ...  
+a. $\frac{\sin^3 x + \cos^3 x}{\sin x + \cos x}$  
+b. $\frac{\sin^2 x - \cos^2 x}{\sin x + \cos x}$  
+c. $\frac{\sin^2 x - \cos^2 x}{\sin x + \cos x}$  
+d. $\frac{\sin^2 x + \cos^2 x}{\sin^3 x + \cos^3 x}$  
+e. $\frac{\sin^3 x + \cos^3 x}{\sin^3 x + \cos^3 x}$
+
+**19.** Jika $\sin \alpha + \cos \alpha = 1/3$ dan $0 < \alpha < \pi$, maka nilai $\sin^3 \alpha + \cos^3 \alpha = \ldots$  
+a. $12/37$  
+b. $13/27$  
+c. $12/33$  
+d. $13/33$  
+e. $15/22$
+
+**20.** Buktikan bahwa $\frac{\sin \alpha - \cos \alpha + 1}{\sin \alpha + \cos \alpha - 1} = \frac{\sin \alpha + 1}{\cos \alpha}$ (soal bukti, tanpa pilihan ganda)
+
+---
+
+### Defantri 12-Latihan 11-Fungsi Trigonometri 
+
+**01.** Nilai maksimum dari fungsi $y = 2\sin x + 5$ adalah …  
+a. $-3$  
+b. $2$  
+c. $3$  
+d. $5$  
+e. $7$
+
+**02.** Nilai minimum dari fungsi $f(x) = 6 - 2\cos x$ adalah …  
+a. $8$  
+b. $4$  
+c. $-2$  
+d. $-4$  
+e. $-8$
+
+**03.** Nilai maksimum dari fungsi $y = \frac{24}{6 - 2\sin x}$ adalah …  
+a. $-6$  
+b. $-3$  
+c. $3$  
+d. $6$  
+e. $8$
+
+**04.** Periode fungsi trigonometri $y = 4\sin 3x$ adalah …  
+a. $60^\circ$  
+b. $120^\circ$  
+c. $240^\circ$  
+d. $540^\circ$  
+e. $1080^\circ$
+
+**05.** Periode fungsi trigonometri $y = 5\tan \frac{1}{2}x$ adalah …  
+a. $60^\circ$  
+b. $90^\circ$  
+c. $240^\circ$  
+d. $360^\circ$  
+e. $540^\circ$
+
+**06.** Periode fungsi trigonometri $y = 3\cos 2x + 4$ adalah …  
+a. $60^\circ$  
+b. $120^\circ$  
+c. $124^\circ$  
+d. $180^\circ$  
+e. $184^\circ$
+
+**07.** Lukislah grafik fungsi $f(x) = 2\sin x$ dalam interval $0 < x \leq 360^\circ$
+
+**08.** Lukislah grafik fungsi $f(x) = \cos 3x$ dalam interval $0 < x \leq 360^\circ$
+
+**09.** Lukislah grafik fungsi $f(x) = \tan(x - 30^\circ)$ dalam interval $0^\circ < x \leq 360^\circ$
+
+**10.** Lukislah grafik fungsi $f(x) = 2\sin 2x$ dalam interval $0^\circ < x \leq 360^\circ$
+
+**11.** Lukislah grafik fungsi $f(x) = \sin (2x + 30^\circ)$ dalam interval $0^\circ < x \leq 360^\circ$
+
+**12.** Lukislah grafik fungsi $f(x) = \tan 2(x - 30^\circ)$ dalam interval $0^\circ < x \leq 360^\circ$
+
+**13.** Persamaan grafik untuk gambar berikut ini adalah [gambar]  
+a. $y = 2\sin 2x$  
+b. $y = 2\sin 3x$  
+c. $y = 2\sin \frac{1}{2}x$  
+d. $y = 2\sin \frac{1}{3}x$  
+e. $y = 2\sin \frac{2}{3}x$
+
+**14.** Persamaan grafik untuk gambar berikut ini adalah [gambar]  
+a. $y = 2\cos (2x + 30^\circ)$  
+b. $y = 2\cos (2x - 30^\circ)$  
+c. $y = 2\cos (3x + 30^\circ)$  
+d. $y = 2\cos (3x - 30^\circ)$  
+e. $y = 2\cos (2x - 15^\circ)$
+
+**15.** Persamaan grafik untuk gambar berikut ini adalah ….. [gambar]  
+a. $y = 3\sin 3(x - 30^\circ)$  
+b. $y = 3\sin 3(x + 30^\circ)$  
+c. $y = 3\sin 3(x - 60^\circ)$  
+d. $y = 3\sin 3(x + 60^\circ)$  
+e. $y = 3\sin 3(x - 15^\circ)$
+
+**16.** Persamaan grafik untuk gambar berikut ini adalah ….. [gambar]  
+a. $y = \sin (2x - 60^\circ)$  
+b. $y = \sin (3x - 60^\circ)$  
+c. $y = \sin (2x + 45^\circ)$  
+d. $y = \sin (3x + 45^\circ)$  
+e. $y = \sin (3x - 45^\circ)$
+
+**17.** Persamaan grafik untuk gambar berikut ini adalah ..... [gambar]  
+a. $y = 2\cos (3x + 30^\circ)$  
+b. $y = 2\cos (3x - 30^\circ)$  
+c. $y = 2\cos (2x + 30^\circ)$  
+d. $y = 2\cos (2x - 30^\circ)$  
+e. $y = 2\cos (2x + 15^\circ)$
+
+**18.** Persamaan grafik untuk gambar berikut ini adalah ..... [gambar]  
+a. $y = \tan (2x + 45^\circ)$  
+b. $y = 2\tan (2x + 45^\circ)$  
+c. $y = \tan (2x - 45^\circ)$  
+d. $y = 2\tan (2x - 45^\circ)$  
+e. $y = 3\tan (2x + 45^\circ)$
+
+**19.** Persamaan grafik untuk gambar di atas adalah... [gambar]  
+a. $y = 2\cos (x - 90^\circ)$  
+b. $y = 2\cos (2x + 90^\circ)$  
+c. $y = 2\cos (2x - 90^\circ)$  
+d. $y = 2\cos (x + 90^\circ)$  
+e. $y = 2\cos (x - 180^\circ)$
+
+**20.** Persamaan fungsi trigonometri pada gambar grafik adalah [gambar]  
+a. $y = 2\sin (2x + \frac{5\pi}{4})$  
+b. $y = 2\sin (x + \frac{5\pi}{4})$  
+c. $y = 2\sin (x + \frac{4\pi}{4})$  
+d. $y = 2\sin (x - \frac{4\pi}{4})$  
+e. $y = 2\cos (x - \frac{4\pi}{4})$
+
+**21.** Perhatikan grafik $y = k \sin ax$ di bawah ini. Nilai k dan a berturut-turut adalah .... [gambar]  
+a. $2$ dan $4$  
+b. $-2$ dan $4$  
+c. $2$ dan $1/4$  
+d. $-2$ dan $1/4$  
+e. $2$ dan $2$
+
 ## Trigon 1 MathCyber
 
 **Soal 1**  
