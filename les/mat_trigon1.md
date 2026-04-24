@@ -366,17 +366,17 @@ c. $-\frac{1}{3}\sqrt{6}$
 d. $\frac{1}{3}\sqrt{6}$     
 e. $\sqrt{2}$   
    
-**51.** $\sin 570^{\circ} \cdot \tan 510^{\circ} = \ldots$ [gambar persamaan]   
+**51.** $\sin 570^{\circ} \cdot \tan 510^{\circ} = \ldots$    
    
-**52.** Nilai dari $\cos 120^{\circ} + \cos 315^{\circ} + \cos 135^{\circ} = \ldots$ [gambar persamaan]   
+**52.** Nilai dari $\cos 120^{\circ} + \cos 315^{\circ} + \cos 135^{\circ} = \ldots$    
    
-**53.** Nilai $\sin 1110^{\circ} \cdot \tan 2220^{\circ} = \ldots$ [gambar persamaan]   
+**53.** Nilai $\sin 1110^{\circ} \cdot \tan 2220^{\circ} = \ldots$    
    
-**54.** Nilai dari $\frac{\sin 270^{\circ} \cdot \cos 135^{\circ} \cdot \tan 135^{\circ}}{\sin 210^{\circ} \cdot \cos 225^{\circ}} = \ldots$ [gambar persamaan]   
+**54.** Nilai dari $\frac{\sin 270^{\circ} \cdot \cos 135^{\circ} \cdot \tan 135^{\circ}}{\sin 210^{\circ} \cdot \cos 225^{\circ}} = \ldots$    
    
-**55.** $\left(\cos^{2}\frac{3\pi}{4} + \sin^{2}\frac{3\pi}{4}\right) \sin \frac{2\pi}{3} \cos \frac{3\pi}{4} = \ldots$ [gambar persamaan]   
+**55.** $\left(\cos^{2}\frac{3\pi}{4} + \sin^{2}\frac{3\pi}{4}\right) \sin \frac{2\pi}{3} \cos \frac{3\pi}{4} = \ldots$    
    
-**56.** Nilai dari $\frac{\sin 225^{\circ} \cdot \sin 35^{\circ}}{\cos 135^{\circ} \cdot \cos 125^{\circ}} = \ldots$ [gambar persamaan]   
+**56.** Nilai dari $\frac{\sin 225^{\circ} \cdot \sin 35^{\circ}}{\cos 135^{\circ} \cdot \cos 125^{\circ}} = \ldots$    
    
 **57.** Nilai dari $\frac{\sin 45^{\circ} \cdot \sin 15^{\circ}}{\sin 30^{\circ} \cdot \cos 75^{\circ}} = \ldots$     
 a. $\sqrt{6}$     
@@ -407,7 +407,7 @@ a. $-\frac{2a}{\sqrt{a^{2}+1}}$
 b. $-\frac{\sqrt{1-a^{2}}}{2a}$     
 c. $-\sqrt{1-a^{2}}$     
    
-**62.** Jika $\sin x = \frac{3}{5}$, maka $\sin \left(x + \frac{\pi}{2}\right) + \cos (\pi - x) = \ldots$ [gambar persamaan]   
+**62.** Jika $\sin x = \frac{3}{5}$, maka $\sin \left(x + \frac{\pi}{2}\right) + \cos (\pi - x) = \ldots$    
    
 **63.** Jika $\cot x = \frac{3}{5}$, maka $\cos \left(\frac{\pi}{2} - x\right) = \ldots$     
 a. $-\frac{7}{34}\sqrt{34}$     
@@ -521,9 +521,19 @@ c. $1 - \cos^{2} A$
 d. $1 - \sin^{2} A$     
 e. $\cos^{2} A + 2$   
    
-**79.** $\frac{\tan x + 1}{\tan x - 1} = \ldots$ [gambar pilihan]   
+**79.** $\frac{\tan x + 1}{\tan x - 1} = \ldots$    
+a. $\frac{1 + \sin x \cos x}{1 - \sin x \cos x}$     
+b. $\frac{1 - \sin x \cos x}{1 + \sin x \cos x}$     
+c. $\frac{1 + \sin^2 x }{1 + \cos^2 x}$     
+d. $\frac{\cosec x + \sec x}{\cosec x - \sec x}$     
+e. $\frac{cosec x + \sec x}{\sec x - \cosec x}$   
    
-**80.** $\frac{\cos A \cot A - \cos A}{\csc A} = \ldots$ [gambar pilihan]   
+**80.** $\frac{\cos A \cot A - \cos A}{\csc A} = \ldots$   
+a. ${\cosec A}{1 + \sin A}$     
+b. ${1 + \cos A}{\sec A}$     
+c. ${1 + \sin A}{\cosec A}$     
+d. ${\cos A}{1 + \cos A}$     
+e. ${1 + \cos A}{\cosec A}$     
    
 **Soal Uraian (B):**   
    
@@ -596,7 +606,7 @@ c. $\tan x - \frac{\sec^{2}x}{\tan x}$
 ## Trigon 1 MathCyber
 
 **Soal 1**  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc2_01.png" width="400"><br>
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc2_01.png" width="300"><br>
 Nilai $\cos \alpha$ adalah $\cdots$.  
 A. $\dfrac{4}{5}$  
 B. $\dfrac{3}{5}$  
@@ -867,7 +877,7 @@ $$c(\sin^2 A + \sin^2 B) = \sin C(a \cdot \sin A + b \cdot \sin B).$$
 Berikut adalah ekstrak semua soal dan pilihan ganda dari halaman tersebut (16 soal pilihan ganda dan 6 soal uraian):
 
 **Soal 1**   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_01.png" width="400"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_01.png" width="300"><br>   
 Diketahui segitiga ABC seperti yang tampak pada gambar berikut. Panjang AC adalah ... cm.  
 A. $\sqrt{33}$  
 B. $\sqrt{37}$  
@@ -901,7 +911,7 @@ E. $8\sqrt{3 + \sqrt{2}}$
 
 **Soal 5**  
 Nilai $\cos \theta$ pada gambar di bawah adalah ... .  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_05.png" width="400"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_05.png" width="300"><br>   
 A. $-1$  
 B. $-\dfrac{5}{7}$  
 C. $-\dfrac{2}{3}$  
@@ -910,7 +920,7 @@ E. $\dfrac{2}{3}$
 
 **Soal 6**  
 Perhatikan gambar segi empat PQRS berikut. 
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_06.png" width="400"><br>   
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_06.png" width="400"><br>   
 Panjang RS = ... cm.  
 A. $6\sqrt{2}$  
 B. $6\sqrt{3}$  
@@ -920,7 +930,7 @@ E. $9\sqrt{3}$
 
 **Soal 7**  
 Perhatikan segi empat ABCD berikut. 
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_07.png" width="400"><br>   
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_07.png" width="400"><br>   
 Panjang AD adalah ... cm.  
 A. $2\sqrt{7}$  
 B. $4\sqrt{6}$  
@@ -930,7 +940,7 @@ E. $8$
 
 **Soal 8**  
 Perhatikan segi empat ABCD berikut. 
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_08.png" width="400"><br>   
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_08.png" width="400"><br>   
 Panjang CD adalah ... cm.  
 A. $4\sqrt{2}$  
 B. $4\sqrt{3}$  
@@ -1018,11 +1028,11 @@ Diketahui $\triangle ABC$ dengan $a+c = 12$ cm dan $b + c = 13$ cm, serta $\angl
 
 **Soal Uraian 4**  
 Pada gambar di bawah,   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_24.png" width="400"><br>    
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_24.png" width="300"><br>    
 ABCD adalah segi empat tali busur lingkaran (besar sudut yang berhadapan jumlahnya 180°). Buktikan bahwa $\cos \theta = \dfrac{c^2+d^2-a^2-b^2}{2(ab+cd)}$.
 
 **Soal Uraian 5**  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_25.png" width="400"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_25.png" width="300"><br>    
 Diketahui $\triangle ABC$ dengan CD adalah garis berat, yaitu garis yang membagi dua sama panjang sisi AB. Dengan menggunakan aturan kosinus, buktikan bahwa:  
 a. $CD^2 = \dfrac{1}{2}a^2 + \dfrac{1}{2}b^2 - \dfrac{1}{4}c^2$  
 b. $4CD^2 = a^2 + b^2 + 2ab \cos C$
@@ -1121,11 +1131,11 @@ D. $20$
 E. $22$
 
 **Soal Uraian 1**  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_11.jpg" width="400"><br>    
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_11.jpg" width="400"><br>    
 An artist is going to create a decorative design for a triangular glass panel, as shown in the figure below. After measuring it, the glass is found to have side lengths of $18$ cm and $10$ cm, with an included angle of $45^\circ.$ What is the area of the triangular glass?
 
 **Soal Uraian 2**  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_12.png" width="400"><br>    
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_12.png" width="400"><br>    
 Sekawanan burung terbang di atas langit biru secara bersama-sama. Pada saat tertentu, posisi mereka membentuk formasi berupa bangun datar segitiga yang titik sudutnya diberi nama $A,B,$ dan $C.$ Jarak burung $A$ ke burung $B$ adalah $30$ m, sedangkan jaraknya ke burung $C$ adalah $40$ m. Sudut yang terbentuk di titik $A$ adalah $45^\circ.$ Tentukan luas segitiga yang terbentuk atas formasi burung tersebut.
 
 **Soal Uraian 3**  
@@ -1133,16 +1143,16 @@ Diketahui segi empat $PQRS$ dengan $PS = 3$ cm, $PQ = 4$ cm, $QR = 6$ cm, $\angl
 
 **Soal Uraian 4**  
 Suatu wadah berbentuk prisma segitiga berisi sejumlah air seperti yang terlihat pada gambar berikut.<br>
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_14.png" width="400"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_14.png" width="300"><br>    
 Jika penuangan sebanyak $80$ liter air ke dalam wadah tersebut akan membuatnya terisi penuh, tentukan volume air mula-mula.
 
 **Soal Uraian 5**  
 Buktikan bahwa luas segi empat tali busur $ABCD$ pada gambar di bawah adalah $L = \dfrac{1}{2}(ab + cd) \sin \theta.$<br>
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_15.png" width="400"><br>    
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_15.png" width="300"><br>    
 
 **Soal Uraian 6**  
 Buktikan bahwa luas segi empat $ABCD$ sembarang pada gambar di bawah adalah $L = \dfrac{1}{2} \cdot AC \cdot BD \cdot \sin \theta.$<br>
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_16.png" width="400"><br>    
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_16.png" width="300"><br>    
 
 ## LKPD Matematika X SMAN 70
 **Halaman 4**
