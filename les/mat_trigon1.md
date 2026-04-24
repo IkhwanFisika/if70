@@ -1190,6 +1190,347 @@ c. $2$ dan $1/4$
 d. $-2$ dan $1/4$  
 e. $2$ dan $2$
 
+### Defantri 03-Latihan 01-Aturan Sinus dan 02-Aturan Cosinus [www.defantri.com].pdf
+
+**01.** Sebuah segitiga ABC diketahui panjang sisi AB = 12 cm, \(\angle B = 75^\circ\) dan \(\angle A = 60^\circ\), maka panjang sisi BC = …. cm  
+a. $4\sqrt{6}$  
+b. $6\sqrt{6}$  
+c. $6\sqrt{2}$  
+d. $8\sqrt{2}$  
+e. $8\sqrt{3}$
+
+**02.** Sebuah segitiga PQR diketahui panjang sisi PQ = $4\sqrt{3}$ cm, PR = 4 cm dan $\angle R = 60^\circ$ maka besar $\angle Q = \ldots$  
+a. $30^\circ$  
+b. $60^\circ$  
+c. $90^\circ$  
+d. $120^\circ$  
+e. $150^\circ$
+
+**03.** Sebuah segitiga ABC diketahui sisi a = 3 cm, b = $3\sqrt{3}$ cm dan $\angle A = 30^\circ$, maka panjang sisi c = …. cm  
+a. 4  
+b. $4\sqrt{3}$  
+c. 5  
+d. 3  
+e. $3\sqrt{2}$
+
+**04.** Dari segitiga ABC diketahui sisi AB = 6 cm, AC = 4 cm dan $\angle A = 60^\circ$, maka panjang sisi BC = … cm  
+a. $2\sqrt{7}$  
+b. $4\sqrt{3}$  
+c. $4\sqrt{2}$  
+d. 5  
+e. 4
+
+**05.** Suatu segitiga PQR diketahui sisi PQ = 4 cm dan QR = $2\sqrt{3}$ cm serta PR = 2 cm. Maka besar $\angle Q = \ldots$  
+a. $30^\circ$  
+b. $60^\circ$  
+c. $90^\circ$  
+d. $120^\circ$  
+e. $330^\circ$
+
+**06.** Suatu segitiga ABC diketahui sisi AB = 2 cm dan AC = $2\sqrt{7}$ cm serta BC = 4 cm. Maka besar $\angle B = \ldots$  
+a. $30^\circ$  
+b. $45^\circ$  
+c. $60^\circ$  
+d. $90^\circ$  
+e. $120^\circ$
+
+**07.** Pada segitiga PQR diketahui panjang sisi QR = 8 cm, PQ = 5 cm dan besar $\angle Q = 60^\circ$. Panjang PR = … cm  
+a. $6\sqrt{3}$  
+b. 6  
+c. 7  
+d. 8  
+e. $8\sqrt{2}$
+
+**08.** Suatu segitiga ABC diketahui sisi BC = 6 cm dan AC = $3\sqrt{3}$ cm serta $\angle B = 60^\circ$. Maka panjang sisi AB = … cm  
+a. $2\sqrt{3}$  
+b. 4  
+c. $4\sqrt{2}$  
+d. $3\sqrt{2}$  
+e. 3
+
+**09.** Pada segitiga PQR disamping panjang PR = …. cm [gambar]  
+a. 2 cm  
+b. 6 cm  
+c. 8 cm  
+d. $5\sqrt{3}$ cm  
+e. $6\sqrt{3}$ cm
+
+**10.** Sebuah kapal berlayar dengan arah $240^\circ$ dari suatu pelabuhan dengan kecepatan 5 km/jam. Dua jam kemudian terdapat kapal lain yang berlayar dengan arah $180^\circ$ dari pelabuhan yang sama dengan kecepatan 15 km/jam. Berapa jarak kedua kapal tersebut setelah kapal pertama berlayar selama 4 jam?  
+a. $8\sqrt{6}$ km  
+b. $10\sqrt{7}$ km  
+c. $8\sqrt{7}$ km  
+d. $9\sqrt{6}$ km  
+e. 8 km
+
+**11.** Sebuah segitiga ABC dimana sudut $\angle A = 60^\circ$, $\angle C = 75^\circ$ dan panjang sisi b = 6 cm, maka panjang sisi a = … cm  
+a. $3\sqrt{6}$  
+b. $6\sqrt{6}$  
+c. $2\sqrt{6}$  
+d. $6\sqrt{3}$  
+e. $6\sqrt{2}$
+
+**12.** Sebuah segitiga KLM dimana $\angle L = 45^\circ$. Jika sisi KM = 8 cm dan ML = $4\sqrt{2}$ cm maka besar $\angle K = \ldots$  
+a. $30^\circ$  
+b. $45^\circ$  
+c. $60^\circ$  
+d. $120^\circ$  
+e. $150^\circ$
+
+**13.** Dari segitiga ABC diketahui sisi a = $\sqrt{27}$ cm, b = $3\sqrt{2}$ cm dan $\angle A = 60^\circ$. Besar $\angle C = \ldots$  
+a. $30^\circ$  
+b. $45^\circ$  
+c. $60^\circ$  
+d. $75^\circ$  
+e. $120^\circ$
+
+**14.** Jika dalam segitiga ABC berlaku hubungan $a^2(1 + \cos A) = 2bc \sin^2 A$. Maka segitiga ABC berbentuk …  
+a. sama sisi  
+b. sama kaki  
+c. siku-siku  
+d. sembarang  
+e. bukan segitiga
+
+**15.** Dari segitiga PQR diketahui sisi r = 2 cm, sisi p = $\sqrt{12}$ cm dan $\angle R = 30^\circ$ maka panjang sisi q = … cm  
+a. $2\sqrt{3}$  
+b. 3  
+c. $3\sqrt{3}$  
+d. 4  
+e. $4\sqrt{2}$
+
+**16.** Sebuah segitiga ABC dimana panjang sisi AB = $\sqrt{27}$ cm, AC = 3 cm dan BC = 6 cm. Besar $\angle B = \ldots$  
+a. $30^\circ$  
+b. $45^\circ$  
+c. $60^\circ$  
+d. $90^\circ$  
+e. $120^\circ$
+
+**17.** Pada segitiga ABC dimana sisi AB = $6\sqrt{3}$ cm, BC = 6 cm dan $\angle B = 30^\circ$. Maka nilai $\cos C = \ldots$  
+a. $\frac{1}{2}$  
+b. $\frac{1}{2}\sqrt{3}$  
+c. $\frac{1}{2}\sqrt{2}$  
+d. $\frac{1}{2}$  
+e. $\frac{1}{2}\sqrt{3}$
+
+**18.** Sebuah segitiga ABC dimana sisi a = $\sqrt{3}$ cm, b = $\sqrt{15}$ cm dan c = $2\sqrt{3}$ cm. Nilai $\sin C = \ldots$  
+a. $\frac{1}{5}$  
+b. $\frac{2}{5}$  
+c. $\frac{1}{3}\sqrt{5}$  
+d. $\frac{2}{3}\sqrt{5}$  
+e. $\frac{2}{5}\sqrt{3}$
+
+**19.** Dua buah kapal P dan Q berjarak 12 km. Kapal Q letaknya pada arah $100^\circ$ dari P dan kapal R pada arah $130^\circ$ dari P. Jika kapal R letaknya $250^\circ$ dari kapal Q maka jarak kapal R ke kapal Q adalah … km  
+a. $6\sqrt{3}$  
+b. 6  
+c. $4\sqrt{3}$  
+d. 4  
+e. $4\sqrt{2}$
+
+**20.** Suatu jajaran genjang ABCD dengan panjang AB = 7 cm, AD = 6 cm dan BD = 8 cm. Nilai cosinus sudut ADC adalah …  
+a. $\frac{1}{3}$  
+b. $\frac{1}{2}$  
+c. $\frac{1}{2}$  
+d. $\frac{1}{4}$  
+e. $\frac{1}{4}$
+
+**21.** Perhatikan gambar berikut: Cosinus sudut BCD adalah…. [gambar]  
+a. $\frac{3}{8}$  
+b. $\frac{13}{81}$  
+c. $\frac{4}{27}$  
+d. $\frac{14}{81}$  
+e. $\frac{43}{81}$
+
+**22.** Diketahui segitiga ABC dengan panjang AC = 3 cm, AB = 2 cm dan $\angle A = 60^\circ$. Maka nilai $\cos C = \ldots$  
+a. $\frac{2}{3}\sqrt{7}$  
+b. $\frac{3}{2}\sqrt{7}$  
+c. $\frac{2}{7}\sqrt{7}$  
+d. $\frac{1}{3}\sqrt{6}$  
+e. $\frac{1}{2}\sqrt{6}$
+
+**23.** Pada segitiga ABC diketahui AB = 6 cm, sudut A = $30^\circ$ dan sudut B = $45^\circ$, maka panjang sisi AC = …  
+a. $4(1 + \sqrt{3})$  
+b. $4(1 - \sqrt{3})$  
+c. $6(\sqrt{3} + 1)$  
+d. $6(\sqrt{3} - 1)$  
+e. $5(\sqrt{2} + 1)$
+
+**24.** Sebuah kapal berlayar dari pelabuhan A ke pelabuhan B sejauh 60 mil dengan arah $40^\circ$ dari A, kemudian berputar haluan dilanjutkan ke pelabuhan C sejauh 90 mil, dengan arah $160^\circ$ dari B. Jarak terdekat dari pelabuhan A ke C adalah … mil.  
+a. $30\sqrt{2}$  
+b. $30\sqrt{5}$  
+c. $30\sqrt{7}$  
+d. $30\sqrt{10}$  
+e. $30\sqrt{30}$
+
+**25.** Pada sebarang segitiga ABC berlaku $\frac{a + b}{b} = \ldots$  
+a. $\frac{\sin A + \sin B}{\sin B}$  
+b. $\frac{1 + \sin A \sin B}{\sin A \sin B}$  
+c. $\frac{\sin A + \sin B}{\sin A}$  
+d. $\frac{\sin A + 1}{\sin B}$  
+e. $1 + \tan A \tan B$
+
+**26.** Diberikan segitiga ABC dengan $\angle ACB = 105^\circ$, $\angle ABC = 45^\circ$, dan AB = $(\sqrt{2} + \sqrt{6})$ cm. Panjang sisi BC sama dengan …  
+a. $\sqrt{3}$ cm  
+b. $\sqrt{6}$ cm  
+c. 2 cm  
+d. 3 cm  
+e. $2\sqrt{2}$ cm
+
+---
+
+### Defantri 05-Latihan 04-Luas Segitiga [www.defantri.com].pdf
+
+**01.** Sebuah segitiga ABC dimana sisi AB = 6 cm, AC = 8 cm dan $\angle A = 45^\circ$. Maka luas segitiga ABC adalah …. cm²  
+a. $6\sqrt{2}$  
+b. $8\sqrt{2}$  
+c. $12\sqrt{2}$  
+d. $6\sqrt{3}$  
+e. $8\sqrt{3}$
+
+**02.** Luas suatu segitiga ABC jika diketahui panjang sisi AB = 8 cm, $\angle A = 30^\circ$ dan $\angle B = 120^\circ$ adalah …. cm²  
+a. $16\sqrt{3}$  
+b. $12\sqrt{3}$  
+c. $15\sqrt{3}$  
+d. $9\sqrt{3}$  
+e. 16
+
+**03.** Luas suatu segitiga PQR jika diketahui panjang sisi PR = 6 cm, QR = $2\sqrt{3}$ cm dan $\angle P = 30^\circ$ adalah …. cm²  
+a. $4\sqrt{3}$  
+b. $6\sqrt{3}$  
+c. $8\sqrt{3}$  
+d. 6  
+e. 8
+
+**04.** Sebuah segitiga PQR dengan luas 30 cm². Jika panjang sisi PQ = 10 cm dan QR = 12 cm, maka besar $\angle Q = \ldots$  
+a. $45^\circ$  
+b. $60^\circ$  
+c. $90^\circ$  
+d. $120^\circ$  
+e. $150^\circ$
+
+**05.** Sebuah segitiga ABC dengan luas $6\sqrt{3}$ cm². Jika diketahui panjang sisi AB = 4 cm dan sisi AC = 6 cm, maka panjang sisi BC = …. cm  
+a. $3\sqrt{2}$  
+b. 5  
+c. $6\sqrt{2}$  
+d. $2\sqrt{7}$  
+e. $\sqrt{10}$
+
+**06.** Jika sisi-sisi suatu segitiga ABC adalah AB = 12 cm, BC = 5 cm dan AC = 13 cm maka luas segitiga tersebut adalah …. cm²  
+a. 45  
+b. 30  
+c. 35  
+d. 50  
+e. 60
+
+**07.** Diketahui segitiga PQR dimana panjang sisi PQ = 6 cm, PR = 11 cm dan QR = 5 cm. Luas segitiga tersebut adalah …. cm²  
+a. 4  
+b. $4\sqrt{3}$  
+c. 2  
+d. $\sqrt{3}$  
+e. 0
+
+**08.** Sebuah jajaran genjang ABCD dengan panjang sisi AB = 6 cm dan AD = 4 cm. Jika luas jajaran genjang itu $12\sqrt{3}$ cm² maka panjang diagonal AC adalah …. cm  
+a. $3\sqrt{7}$  
+b. $2\sqrt{19}$  
+c. $6\sqrt{2}$  
+d. $\sqrt{61}$  
+e. $5\sqrt{7}$
+
+**09.** Diketahui segitiga ABC dimana sisi c = 4 cm dan sisi a = $\sqrt{32}$ cm. Jika luas segitiga tersebut 8 cm² maka besar $\angle C = \ldots$  
+a. $30^\circ$  
+b. $45^\circ$  
+c. $60^\circ$  
+d. $120^\circ$  
+e. $150^\circ$
+
+**10.** Jika sisi-sisi suatu segitiga adalah $4\sqrt{5}$ cm, 6 cm dan 10 cm maka luas segitiga tersebut adalah …  
+a. $6\sqrt{10}$ cm²  
+b. $8\sqrt{11}$ cm²  
+c. $4\sqrt{11}$ cm²  
+d. $3\sqrt{10}$ cm²  
+e. $6\sqrt{22}$ cm²
+
+**11.** Jika suatu segitiga ABC mempunyai sisi-sisi AB = 6 cm, BC = 5 cm dan AC = 5 cm maka luas segitiga ABC tersebut adalah… cm²  
+a. 8  
+b. $8\sqrt{3}$  
+c. 12  
+d. $12\sqrt{3}$  
+e. 15
+
+**12.** Pada segiempat ABCD diketahui $\angle A = 90^\circ$, sisi AB = 4 cm, BC = 6 cm, CD = 5 cm serta DA = 3 cm, maka luas segiempat tersebut adalah …. cm²  
+a. 12  
+b. 14  
+c. 15  
+d. 16  
+e. 18
+
+**13.** Luas segiempat ABCD pada gambar disamping adalah …. cm² [gambar]  
+a. $72 + 40\sqrt{3}$  
+b. $36 + 20\sqrt{3}$  
+c. $72 + 20\sqrt{3}$  
+d. $36 + 40\sqrt{3}$  
+e. 74
+
+**14.** ABCD adalah suatu belah ketupat. Jika panjang diagonal BD = 8 cm maka luas belah ketupat itu adalah ….. cm² [gambar]  
+a. $30\sqrt{3}$  
+b. $32\sqrt{3}$  
+c. 30  
+d. 32
+
+**15.** Pada suatu jajaran genjang, dua sisi yang berdekatan panjangnya 8 cm dan 12 cm. Jika besar sudut apit kedua sisi tersebut $30^\circ$ maka luas jajaran genjang itu adalah … cm²  
+a. 24  
+b. 28  
+c. 36  
+d. 48  
+e. 64
+
+**16.** Suatu segienam beraturan luasnya $6\sqrt{3}$ cm². Keliling segi enam tersebut adalah …  
+a. 8 cm  
+b. 12 cm  
+c. 16 cm  
+d. 18 cm  
+e. 20 cm
+
+**17.** Suatu karpet berbentuk segi duabelas beraturan. Setelah diukur, didapat jari-jari lingkaran luarnya 6 meter. Jika harga karpet adalah Rp. 10.000 per meter persegi, maka harga karpet tersebut adalah …  
+a. Rp. 840.000  
+b. Rp. 960.000  
+c. Rp. 1.080.000  
+d. Rp. 1.200.000  
+e. Rp. 1.600.000
+
+**18.** Pada gambar berikut, bangun ABCD dengan panjang AB = 3 cm, AD = 5 cm dan CD = 4 cm. Luas segiempat ABCD adalah ... [gambar]  
+a. $14\sqrt{3} + 34\sqrt{21}$ cm²  
+b. $14(20 + \sqrt{21})$ cm²  
+c. $14\sqrt{2}(20 + \sqrt{21})$ cm²  
+d. $14\sqrt{3}(20 + 3\sqrt{7})$ cm²  
+e. $14\sqrt{3}(20 + 3\sqrt{21})$ cm²
+
+**19.** Sebuah kapal berlayar sejauh 50 km dari pelabuhan A dengan arah $030^\circ$ menuju pelabuhan B lalu kapal berputar ke arah $150^\circ$ menuju pelabuhan C yang jaraknya 40 km dari pelabuhan B. Jarak antara posisi terakhir kapal dengan pelabuhan A adalah….  
+a. $10\sqrt{21}$ km  
+b. $8\sqrt{21}$ km  
+c. $6\sqrt{21}$ km  
+d. $30\sqrt{7}$ km  
+e. $15\sqrt{7}$ km
+
+**20.** Suatu lahan berbentuk segitiga dibatasi oleh tonggak A, B dan C. Jika jarak tonggak A dan C = 12 m, jarak tonggak B dan C = 16 m dan besar sudut ACB = $60^\circ$ maka jarak tonggak A dan B adalah….  
+a. $4\sqrt{13}$ m  
+b. $4\sqrt{15}$ m  
+c. $4\sqrt{19}$ m  
+d. $4\sqrt{31}$ m  
+e. $4\sqrt{37}$ m
+
+**21.** Luas segitiga PQR jika diketahui panjang sisi-sisinya $4\sqrt{5}$ cm, 6 cm dan 10 cm adalah …  
+a. $6\sqrt{10}$ cm²  
+b. $8\sqrt{11}$ cm²  
+c. $4\sqrt{11}$ cm²  
+d. $3\sqrt{10}$ cm²  
+e. $16\sqrt{10}$ cm²
+
+**22.** Perhatikan gambar di samping. Luas segiempat ABCD = .... [gambar]  
+a. $(24\sqrt{2} - 8\sqrt{3})$ cm²  
+b. $(48\sqrt{2} - 16\sqrt{3})$ cm²  
+c. $(24\sqrt{2} + 8\sqrt{3})$ cm²  
+d. $(48\sqrt{2} + 16\sqrt{3})$ cm²  
+e. $(48\sqrt{2} + 8\sqrt{3})$ cm²
+
 ## Trigon 1 MathCyber
 
 **Soal 1**  
@@ -2068,3 +2409,7 @@ d. $\tan^2(\frac{2\pi}{3})$
 <br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_rs8b16.png" ><br> 
 17. Tentukan, dalam radian, ukuran dari $\theta$:   
 <br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_rs8b17.png" ><br>
+
+
+---
+
