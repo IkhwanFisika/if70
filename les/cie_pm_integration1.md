@@ -154,9 +154,9 @@ b. $\int (2x^{2} - 3x + 1)dx$
 c. $\int (- x^{3} + 4x^{2} - 3)dx$  
 d. $\int (\frac{1}{2} x + x^{2} + x^{3})dx$  
 e. $\int (x^{4} - x^{2} - x + 2)dx$  
-f. $\int (4x^{2} + \frac{1}{x})dx$  
+f. $\int (4x^{2} + \frac{1}{x \sqrt{x}})dx$  
 g. $\int (2\sqrt{x} -\frac{3}{\sqrt{x}})dx$  
-h. $\int (\frac{1}{3x} -\frac{2}{x^{2}})dx$  
+h. $\int (\frac{1}{3x^2 \sqrt{x}} -\frac{2}{x^{2}})dx$  
 i. $\int (x\sqrt{x} - 9)dx$  
 j. $\int (3x^{-\frac{3}{2}} + x^{\frac{1}{4}})dx$  
   
@@ -195,10 +195,10 @@ a. $\int(2x+1)^{2}dx$
 b. $\int\left(x+\frac{1}{x}\right)^{2}dx$  
 c. $\int\frac{1-4x}{x\sqrt{x}}dx$  
 d. $\int\frac{2x-1}{\sqrt{x}}dx$  
-e. $\int\left(\sqrt{x}-\frac{1}{\sqrt{x}}\right)^{2}dx$  
-f. $\int\frac{1-x^{2}}{x}dx$  
-g. $\int\left(\frac{2}{x}+1\right)^{2}dx$  
-h. $\int\frac{x^{2}-4x+10}{x}dx$  
+e. $\int\left(\sqrt{x}-\frac{1}{x\sqrt{x}}\right)^{2}dx$  
+f. $\int\frac{1-x^{2}}{x \sqrt{x}}dx$  
+g. $\int\left(\frac{2}{x \sqrt{x}}+1\right)^{2}dx$  
+h. $\int\frac{x^{2}-4x+10}{x^2 \sqrt{x}}dx$  
 i. $\int\frac{3x^{3}-2x^{2}+5}{x^{2}}dx$  
   
 6. Find $f(x)$ if:  
