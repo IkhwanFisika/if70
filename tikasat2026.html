@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ASAT TIK</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-slate-900 to-slate-800 min-h-screen flex items-center justify-center p-4">
+
+  <div class="max-w-md w-full">
+    <!-- Login Card -->
+    <div id="login-card" class="card bg-white rounded-3xl shadow-2xl p-8">
+      <div class="text-center mb-8">
+        <div class="inline-flex items-center justify-center w-16 h-16 bg-emerald-100 rounded-2xl mb-4">
+          <i class="fas fa-graduation-cap text-3xl text-emerald-600"></i>
+        </div>
+        <h1 class="text-2xl font-semibold text-slate-800">Nilai ASAT TIK 2026</h1>
+        <p class="text-slate-500 mt-1">Username: NIK <br>Password: 3 huruf terakir nama lengkap anda KAPITAL</p>
+      </div>
+
+      <div class="space-y-5">
+        <div>
+          <label class="block text-sm font-medium text-slate-600 mb-1">Username</label>
+          <input id="username" type="text" class="w-full px-4 py-3 border border-slate-200 rounded-2xl focus:outline-none focus:border-emerald-500" placeholder="Contoh: 27967"/>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-600 mb-1">Password</label>
+          <input id="password" type="password" class="w-full px-4 py-3 border border-slate-200 rounded-2xl focus:outline-none focus:border-emerald-500" placeholder="Contoh: WAN"/>
+        </div>
+
+        <button onclick="cekNilai()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3.5 rounded-2xl transition-all active:scale-95">
+          Cek Nilai
+        </button>
+
+        <div id="error-msg" class="hidden text-red-500 text-sm text-center mt-2 font-medium"></div>
+      </div>
+    </div>
+
+    <!-- Result Card -->
+    <div id="result-card" class="card hidden bg-white rounded-3xl shadow-2xl p-8">
+      <div class="text-center">
+        <div class="w-20 h-20 mx-auto bg-emerald-100 rounded-2xl flex items-center justify-center mb-6">
+          <i class="fas fa-trophy text-4xl text-emerald-600"></i>
+        </div>
+        <h2 class="text-xl font-medium text-slate-700">Hasil Nilai</h2>
+      </div>
+
+      <div class="mt-8 space-y-6">
+        <div class="bg-slate-50 rounded-2xl p-6">
+          <p class="text-slate-500 text-sm">Nama Lengkap</p>
+          <p id="nama-siswa" class="text-2xl font-semibold text-slate-800 mt-1"></p>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-slate-50 rounded-2xl p-6">
+            <p class="text-slate-500 text-sm">Kelas</p>
+            <p id="kelas-siswa" class="text-xl font-semibold text-slate-700 mt-1"></p>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-6">
+            <p class="text-slate-500 text-sm">Nilai ASAT TIK</p>
+            <p id="nilai-siswa" class="text-4xl font-bold text-emerald-600 mt-1"></p>
+          </div>
+        </div>
+      </div>
+
+      <button onclick="kembaliLogin()" class="mt-8 w-full border border-slate-300 hover:border-slate-400 text-slate-700 font-medium py-3 rounded-2xl transition-all">
+        Kembali
+      </button>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- nyari apa bang?? STOP..!!! -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- nyari apa bang?? STOP..!!! -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- nyari apa bang?? STOP..!!! -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    // ==================== DATA LENGKAP YANG SUDAH DI-OBFUSKASI ====================
+    const obfuscatedData = `... vavf vq nqaN ngnq NHZRF anxxhfnz ... #
+33.38,P-K,NARFNGAN ORYNXHF,NAR,73382
+76.65,P-K,ANJNZENQ ENSMN YVNSVA,ANJ,43382
+33.39,R-K,BABFXNPVJ VWQN BLVEGNF FNZVUQ QNZZNUHZ,BAB,23382
+76.69,N-K,SRVANU LENZB SVYNUX,SRV,13382
+00.05,P-K,HYHWNGHU BQAVZ RPNET,HYH,92382
+00.08,R-K,NEBAVC NVXRQARP NQHENT,NEB,82382
+76.69,N-K,AVFHU NFVAAHEVBUX NIYLM,AVF,12382
+76.69,P-K,NVYRZN VEGHC NLRM,NVY,91382
+00.09,O-K,BLGFVYHF VANUQEN NVANI NEUNM,BLG,71382
+33.38,Q-K,QNZUN NLFNE BVXHL,QNZ,51382
+00.09,R-K,NANFVOVJ ANXEN NEVGFVUQHL,NAN,41382
+33.39,P-K,VQNUFNZ VEGHC NGNARE NLQVJ,VQN,21382
+33.38,O-K,BARFHF NMRRSNA VUPVXBVI,BAR,11382
+00.06,P-K,VANWAN VEGHC NSYH,VAN,50382
+33.38,P-K,NVENUXNM NJRQ BABGENU VEG,NVE,40382
+33.37,O-K,NMGVENZ NUGVYNG,NMG,20382
+33.39,Q-K,LQNVGRF NEHMN NFHWNG,LQN,10382
+76.68,Q-K,NEHC VANLUNP NUGVONG,NEH,00382
+33.39,Q-K,NGNAVQ ANLYYVJ NEVXNLF,NGN,99282
+33.39,O-K,NUXENO NIVENUFBL NAVEUNLF,NUX,79282
+33.39,P-K,NVU YYRHANZV RINQ ARIRGF,NVU,29282
+33.39,O-K,VENGFRY HLN UNZUNE VGVF,VEN,19282
+76.64,N-K,NXVGANF NEVUF,NXV,78282
+00.001,Q-K,AVZMNAYN NLNNAV NMRUF,AVZ,68282
+33.34,Q-K,NQAVQN NLENUF LYERUF,NQA,48282
+33.37,P-K,NGVUMNX NYNLNA VDNUF,NGV,38282
+33.39,O-K,VEGHC NANVEFRQ NVYRZN NSNUF,VEG,08282
+33.36,N-K,BABFXNPVJ ENOXN ANENGART NVEGNF,BAB,77282
+00.07,P-K,NEGHCNF ANFUV SHFHL LZZNF,NEG,67282
+00.09,P-K,NGANZN VJQ NYUNF,NGA,47282
+33.39,Q-K,NENZFNP VAHERF NANIV NQUNF,NEN,37282
+33.38,N-K,ANYQN VANXRQ HGNE NAVEONF,ANY,17282
+33.38,N-K,NYVONA NFBE,NYV,86282
+00.09,Q-K,NEGHC NTEVZ LXMVE,NEG,76282
+33.39,R-K,NVANQNZUNE NEHN LXFVE,NVA,66282
+00.08,N-K,UNLFANLQYN VJQ VQARE,UNL,26282
+76.68,R-K,ANJNAHT VZYLU NLFNE,ANJ,85282
+33.39,N-K,ENTREVF HEBO NZUNE NFFVNE NVANE,ENT,75282
+76.68,O-K,VGANAVX NLVUQNANE,VGA,65282
+76.68,O-K,RVWGANQ NGANWEN NLQNZNE,RVW,45282
+00.09,R-K,NLNUGN ZNFVGOV ANSNE,NLN,34282
+00.08,Q-K,NYNZNXER YNSHNA NSNE,NYN,24282
+76.69,N-K,ANESNUM NENJFRUNZ NSNE,ANE,14282
+33.39,O-K,NVENMN VANVX NSNE,NVE,04282
+33.39,O-K,NTTAVYHAVF LREQHN NUFAVHD,NTT,63282
+33.39,P-K,NELQYNS LZVX ANVO NGAAVHD,NEL,53282
+00.08,R-K,NIRM ARRHD,NIR,13282
+33.36,N-K,ANVUQNZNE NEVQNA VEGHC,ANV,92282
+33.38,O-K,NEUNMMN NYVNX VEGHC,NEU,82282
+76.69,Q-K,NAVEORS NYVONFYNF VGHC,NAV,72282
+33.37,P-K,UBGABC RANVYERO NSVQ NYVDFVEC,UBG,62282
+33.37,O-K,NJNOVJ NAAVT FFRPAVEC,NJN,42282
+33.38,R-K,NGNENUO NUFYVNON BYVGFIBANEC,NGN,32282
+00.08,R-K,UNOVONU EHA,UNO,02282
+33.39,Q-K,VANUQNZNE NGVT NAVEFVA,VAN,61282
+76.69,Q-K,NLQVYHNZ NENQANVA,NLQ,51282
+76.67,N-K,VENJFRENA NSVYNVZNUQ NLLNA,VEN,21282
+76.67,P-K,ANZUPNE OVUNZ YNSHNA,ANZ,01282
+76.69,N-K,NYVYNUX NVAQNEC NSNLFNA,NYV,90282
+76.69,O-K,NEUNMMN VPHF UNYVNA,NEU,60282
+00.08,P-K,ABVGHFNA NENFFNLHZ NFVYNUX NYVNA,ABV,50282
+33.39,N-K,NFVAAHEVNUX RAVQNA,NFV,10282
+00.09,N-K,ZVXNU NGRRANW NVQNA,ZVX,00282
+33.37,R-K,BLVGFVYRBF NTEN NVQNA,BLV,99182
+00.08,O-K,BAGVLNEC NNLLNE NSVVUQNA,BAG,89182
+00.08,P-K,HGFRTANC HAARI YVONA,HGF,39182
+76.67,Q-K,NEVUNP ARRENA NUFLZ,NEV,19182
+00.09,O-K,NZHFHX NEQANP NLEHF QNZZNUHZ,NZH,98182
+76.69,N-K,UNLLNUGN ANUVNE QNZZNUHZ,UNL,78182
+33.33,R-K,VANONE QNZZNUHZ,VAN,58182
+33.39,R-K,BANVXNYNS YNSHNA QNZZNUHZ,BAN,48182
+76.64,Q-K,UNYNS YHGNSVYNUX QNZZNUHZ,UNY,28182
+33.39,R-K,FVOHY ANUQNZNE QMVSNU QNZZNUHZ,FVO,18182
+00.001,Q-K,ANLLNE EN AVUGNS QNZZNUHZ,ANL,08182
+33.37,O-K,YRENS QNZZNUHZ,YRE,87182
+76.69,P-K,ZBEENUHZ ENWNS QNZZNUHZ,ZBE,77182
+00.09,N-K,NMER QNZZNUHZ,NME,67182
+00.06,O-K,NANUQENJNZHFHX NSEN QNZZNUHZ,NAN,37182
+00.08,Q-K,NEGHCNF BGVQAN QNZZNUHZ,NEG,27182
+00.001,N-K,NQVNJHU UNSVSN NLUFVZ,NQV,76182
+00.09,R-K,UNVGSVD YHGNLENZ,UNV,16182
+33.39,P-K,NENJFVANQ DVYNZ,NEN,06182
+00.08,R-K,NJLR NQANZN VNZ,NJL,85182
+33.39,N-K,NERRVMNA LZNUXSN MNAUNZ,NER,75182
+00.08,P-K,UNLFANLE ANTSN .Z,UNL,65182
+33.39,Q-K,BABJHL UNSVGNY LYSNY,BAB,15182
+33.39,Q-K,SVEBUM VUGNS VANMUNG NY,SVE,05182
+76.69,P-K,NFANUX NLEHF NGVQHZNEC NANEVX,NFA,94182
+33.39,R-K,VANJRQ NVYRQN VGANAVX,VAN,74182
+76.68,N-K,FNLGTAVA HLNUNQVRZ VZZVX,FNL,64182
+00.09,N-K,BLUNP VEGHC NVYYREHN NEENVX,BLU,54182
+76.69,N-K,VEGHCNLVANZNE NEBQRS NYLNUX,VEG,14182
+76.67,Q-K,BZBGENU VEGHC NAVONG NFANUX,BZB,04182
+76.66,R-K,BXENANWVJ NLVEVNJHW NFANUX,BXE,93182
+33.38,R-K,ANYBTTAVNA NYRHANZ NVTRE NVMRX,ANY,53182
+00.09,P-K,NGANLNAVX NFVXNG NYLRX,NGA,33182
+33.38,P-K,NENXFNTNO YRENSSNQ RVMARX,NEN,13182
+76.69,N-K,VQNVGCRF NLQN RVMARX,VQN,92182
+76.67,Q-K,VQNLYHZ VEGHC NYLNX,VQN,72182
+33.39,O-K,NTNAVF NMVNS NYLNX,NTN,62182
+00.09,R-K,VANENUNZ NLENENA NVANX,VAN,42182
+33.37,O-K,VUGANAVX VEGHC NYYVZNX,VUG,32182
+76.66,P-K,UNYVQN 'EHA UNYVYNX,UNY,22182
+00.07,O-K,NFVSNA NXSNX,NFV,81182
+00.09,P-K,NMVYNUEHA AVERUF GRVYHW,NMV,71182
+33.39,Q-K,XNGAHWANZVF NGNAVJ ZNEO CRFBW,XNG,61182
+00.09,O-K,ARUNE EVTZNYN FNINW,ARU,51182
+33.39,Q-K,AVYNU ANXNE ENUHNW,AVY,41182
+00.001,R-K,NSVLFN RAVZFNW,NSV,31182
+00.09,N-K,ZVUNEOV LRX ANTEV,ZVU,21182
+00.06,R-K,NLNUGN UNQVZZNU UNOEV,NLN,11182
+33.36,N-K,NWQNA NVSGHY UNLFNAV,NWQ,90182
+76.68,P-K,ANZVQHO NGVQHZNEC NANU,ANZ,30182
+76.69,P-K,NEUNM NVYHN NANU,NEU,20182
+00.09,O-K,NUHAAN FNLVT,NUH,89082
+76.66,R-K,ERXRAVY LEENT,ERX,69082
+33.38,R-K,AVNAENXYHM NFVAN EHA VGANEVS,AVN,39082
+76.69,Q-K,NLGVQN QNZUN LXVS,NLG,29082
+33.37,N-K,BJBOVJ NQAVEGHC NELGFRS,BJB,09082
+33.39,Q-K,NEUNM VZHEN NVPVYRS,NEU,98082
+00.09,O-K,VEGHC NSVLFFN NAVEORS,VEG,88082
+00.07,N-K,VXNUVNO NZNEBUQVE ANVEORS,VXN,78082
+76.69,Q-K,XVYNUP NEVRAN NANMENS,XVY,68082
+76.62,O-K,QVLFNE YN QVENS,QVL,28082
+76.67,P-K,ANUVNE NYVQN YVEUNS,ANU,97082
+33.37,Q-K,TAVOZBUVF NANVPNET NYYRO NYYRHANZZR,TAV,87082
+76.66,P-K,VEQN UNLVEGVS NIYRO NANIYR,VEQ,77082
+76.67,O-K,NLGVQ NQANAEN AVYRSSR,NLG,57082
+76.68,R-K,BEBGAHX VYVXXNZ VXNMQ,BEB,47082
+00.06,R-K,ANYBTTAVNA RAVYNGFVEUP RYYRVEONT JREQ,ANY,27082
+76.69,N-K,ZNQN NLQAVAN VEGFNANQ,ZNQ,96082
+76.66,O-K,NNOONG YN NYYLP,NNO,66082
+76.66,P-K,ANHOVENTANC .B NVYRNSNE YRONGFVEUP,ANH,26082
+00.09,P-K,NVSNLF NENVUP,NVS,16082
+00.001,R-K,NOEHC GNSNFBL NYBFANES BYENP,NOE,85082
+00.07,Q-K,NUFLRX VEGHC NXVGANP,NUF,75082
+76.69,R-K,BGVQHZNEC NLYNUT NGFLYNP,BGV,65082
+76.67,N-K,NRYNMN NGFLYYNP,NRY,55082
+00.09,Q-K,NUFVAHSNUGYN NVXFNM NTAHO,NUF,15082
+00.08,N-K,AVGFVEN NLQVYHBZ NTAHO,AVG,05082
+33.37,O-K,BYVRZ RQ YRNSNE FHGPVQRARO,BYV,64082
+00.08,R-K,UNOVONY UNLVSGHY FVDYNO,UNO,34082
+33.39,R-K,BQRJRBF NVFRANU LREQHN,BQR,53082
+00.07,Q-K,NLANIVEQN NLYNUGN,NLA,43082
+00.09,N-K,OVDNFGG ANQYN UNYYNUGN,OVD,33082
+00.08,O-K,NLNWANF ENUXSN UNYYVNUGN,NLN,13082
+33.36,P-K,VANVYRQN VGFN,VAN,92082
+76.65,Q-K,VUXNF NYYLUFN,VUX,82082
+33.39,N-K,YNMVE UNEVSNUM LYEN,YNM,52082
+76.69,Q-K,VUQHOZNC ANUQNZNE YRVEN,VUQ,22082
+00.09,R-K,UNQVMNZ NSYHM FVAN,UNQ,81082
+00.09,P-K,NLFNU UNYVUQNA NGVQAVAN,NLF,51082
+76.68,Q-K,JBVY NVPVYRS UNAANU NREQAN,JBV,41082
+33.39,R-K,NFGVENZ NAVUT NQANAN,NFG,11082
+33.39,O-K,NVYHN NUFLRX VPNAN,NVY,01082
+00.08,N-K,NEUNM NSVGNY NEVZN,NEU,80082
+33.39,P-K,NAVDNUF NMLNS NEVZN,NAV,60082
+00.09,O-K,HLANZVON AVZN,HLA,50082
+76.67,O-K,NAVANZV VENLFRUFNEC NERRZN,NAV,30082
+33.39,Q-K,FZNVYYVJ NVEBGPVI NVQLY NQANZN,FZN,20082
+76.68,R-K,YBFVSAVEQN NENVUX NFFLYN,YBF,10082
+76.69,R-K,UNEVSNUM NLYN,UNE,00082
+00.001,N-K,NAVEONF NFFVENYP NLYN,NAV,89972
+76.66,N-K,AVMVNS EHA AVIYN,AVM,79972
+33.38,Q-K,NAFNU NEVZYN,NAF,49972
+00.08,N-K,NLNWVJ NVANANX NGVQAVAN NVEQANKRYN,NLN,29972
+76.68,O-K,BXVUPVZ NEQANFFRYN,BXV,09972
+33.38,R-K,NYVERIB NUGN NRYN,NYV,98972
+33.39,Q-K,ANSEN NEGHC NLGNF BERQYN,ANS,88972
+00.08,P-K,NUGNANEC VEGHC NANYN,NUG,68972
+33.35,Q-K,VANVINGXB UNLFVN,VAN,48972
+76.69,P-K,NEVZYN NQVA NUFVN,NEV,38972
+00.001,O-K,NEBEHN BXVN,NEB,97972
+76.69,N-K,NANEVX VANMAN NLUN,NAN,87972
+00.09,O-K,ANZUNE NVYHN ZNMZNM QNZUN,ANZ,77972
+76.67,P-K,AVQQHUNYNS QNZUN,AVQ,67972
+76.68,O-K,NYVSNA NLFVD NEMQN,NYV,37972
+76.69,O-K,BGANLVENU ANQVMNUYN ANVEQN,BGA,27972
+33.39,R-K,NLANIRUF NYYVQN,NLA,07972
+00.09,R-K,VWN BLGRF FNXTAHZNC ENEON,VWN,76972
+11.93,3nk,3nzna,3ffnc,3erfh
+01.93,2nk,2nzna,2ffnc,2erfh
+9.93,1nk,1nzna,1ffnc,1erfh
+vnyva,fnyrx,nzna,qebjffnc,erfh`;
+
+    function rot13(str) {
+      return str.replace(/[a-zA-Z0-9]/g, function(c) {
+        if (c.match(/[a-z]/i)) {
+          const start = c <= 'Z' ? 65 : 97;
+          return String.fromCharCode(((c.charCodeAt(0) - start + 13) % 26) + start);
+        }
+        return c;
+      });
+    }
+
+    function decodeData() {
+      let decoded = obfuscatedData.split('').reverse().join('');
+      decoded = rot13(decoded);
+      const lines = decoded.trim().split('\n');
+      return lines.slice(1).map(line => {
+        const parts = line.split(',');
+        return {
+          user: parts[0],
+          password: parts[1],
+          nama: parts[2],
+          kelas: parts[3],
+          nilai: parts[4]
+        };
+      });
+    }
+
+    let students = [];
+
+    function cekNilai() {
+      const username = document.getElementById('username').value.trim();
+      const password = document.getElementById('password').value.trim();
+      const errorMsg = document.getElementById('error-msg');
+
+      errorMsg.classList.add('hidden');
+
+      if (!username || !password) {
+        errorMsg.textContent = "Username dan password harus diisi!";
+        errorMsg.classList.remove('hidden');
+        return;
+      }
+
+      if (students.length === 0) {
+        students = decodeData();
+      }
+
+      const found = students.find(s => s.user === username && s.password === password);
+
+      if (found) {
+        document.getElementById('login-card').classList.add('hidden');
+        const result = document.getElementById('result-card');
+        result.classList.remove('hidden');
+
+        document.getElementById('nama-siswa').textContent = found.nama;
+        document.getElementById('kelas-siswa').textContent = found.kelas;
+        document.getElementById('nilai-siswa').textContent = parseFloat(found.nilai).toFixed(2);
+      } else {
+        errorMsg.textContent = "Username atau password salah!";
+        errorMsg.classList.remove('hidden');
+      }
+    }
+
+    function kembaliLogin() {
+      document.getElementById('result-card').classList.add('hidden');
+      document.getElementById('login-card').classList.remove('hidden');
+      document.getElementById('username').value = '';
+      document.getElementById('password').value = '';
+      document.getElementById('error-msg').classList.add('hidden');
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- nyari apa bang?? STOP..!!! -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- nyari apa bang?? STOP..!!! -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- nyari apa bang?? STOP..!!! -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- nyari apa bang?? STOP..!!! -->
