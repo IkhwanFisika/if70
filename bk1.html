@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html lang="id" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber CT Lab - Berpikir Komputasional SMA Kelas X</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        cyber: {
+                            bg: '#0f172a',
+                            card: '#1e293b',
+                            border: '#334155',
+                            primary: '#06b6d4',
+                            secondary: '#6366f1',
+                            accent: '#10b981',
+                            warning: '#f59e0b',
+                            danger: '#ef4444'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['Fira Code', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            overflow-x: hidden;
+        }
+        .glow-cyan { box-shadow: 0 0 15px rgba(6, 182, 212, 0.4); }
+        .glow-indigo { box-shadow: 0 0 15px rgba(99, 102, 241, 0.4); }
+        .glow-emerald { box-shadow: 0 0 15px rgba(16, 185, 129, 0.4); }
+        .drag-over {
+            border-style: dashed !important;
+            border-color: #06b6d4 !important;
+            background-color: rgba(6, 182, 212, 0.15) !important;
+            transform: scale(1.01);
+        }
+        .dragging {
+            opacity: 0.5;
+            cursor: grabbing;
+        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #06b6d4; }
+        
+        @media print {
+            body { background-color: #ffffff !important; color: #000000 !important; }
+            header, footer, button, .no-print { display: none !important; }
+            .print-only { display: block !important; }
+            #screen-results { display: block !important; border: none !important; box-shadow: none !important; }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-cyan-500 selection:text-slate-900">
+
+    <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur-md sticky top-0 z-50 px-4 py-3">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3 cursor-pointer" onclick="switchScreen('screen-dashboard')">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center shadow-lg shadow-cyan-500/20">
+                    <i class="fa-solid fa-brain text-white text-xl"></i>
+                </div>
+                <div>
+                    <h1 class="font-extrabold text-lg tracking-wide bg-gradient-to-r from-cyan-400 via-indigo-300 to-emerald-400 bg-clip-text text-transparent">
+                        Cyber CT Lab
+                    </h1>
+                    <p class="text-xs text-slate-400 font-mono">Informatika SMA Kelas X • Berpikir Komputasional</p>
+                </div>
+            </div>
+
+            <!-- Stats & Controls Header Toolbar -->
+            <div class="flex items-center gap-3">
+                <div class="hidden sm:flex items-center gap-4 text-xs font-mono bg-slate-800/80 px-3.5 py-2 rounded-xl border border-slate-700">
+                    <div class="flex items-center gap-1.5">
+                        <i class="fa-solid fa-star text-amber-400"></i>
+                        <span>XP: <strong id="user-xp" class="text-amber-400 font-bold">0</strong></span>
+                    </div>
+                    <div class="w-px h-4 bg-slate-700"></div>
+                    <div class="flex items-center gap-1.5">
+                        <i class="fa-solid fa-shield-halved text-cyan-400"></i>
+                        <span>Pangkat: <strong id="user-rank" class="text-cyan-400 font-bold">Detektif Pemula</strong></span>
+                    </div>
+                </div>
+
+                <!-- Badges Button -->
+                <button onclick="toggleBadgesModal()" class="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-amber-400 text-xs font-bold transition flex items-center gap-1.5" title="Lihat Lencana Prestasi">
+                    <i class="fa-solid fa-award"></i>
+                    <span class="hidden md:inline">Lencana</span>
+                </button>
+
+                <!-- Ambient Audio Synth Toggle -->
+                <button id="bgm-toggle" onclick="toggleBGM()" class="w-9 h-9 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-400 hover:text-indigo-400 transition" title="Musik Latar Cyber">
+                    <i class="fa-solid fa-music" id="bgm-icon"></i>
+                </button>
+
+                <!-- Sound FX Toggle -->
+                <button id="sound-toggle" onclick="toggleAudio()" class="w-9 h-9 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-300 hover:text-cyan-400 transition" title="Efek Suara">
+                    <i class="fa-solid fa-volume-high" id="sound-icon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-7xl w-full mx-auto p-4 md:p-6">
+        
+        <!-- Modal Dialog for Notifications & Explanations -->
+        <div id="modal-container" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+            <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-lg w-full p-6 shadow-2xl relative transform transition-all">
+                <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-lg">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div id="modal-icon" class="w-12 h-12 rounded-full flex items-center justify-center text-2xl mb-4"></div>
+                <h3 id="modal-title" class="text-xl font-bold mb-2 text-white"></h3>
+                <div id="modal-body" class="text-slate-300 text-sm space-y-3 mb-6"></div>
+                <button id="modal-action" onclick="closeModal()" class="w-full py-2.5 rounded-xl font-semibold bg-cyan-500 hover:bg-cyan-400 text-slate-950 transition">
+                    Lanjutkan
+                </button>
+            </div>
+        </div>
+
+        <!-- Badges Drawer Modal -->
+        <div id="badges-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+            <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full p-6 shadow-2xl relative">
+                <button onclick="toggleBadgesModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-lg">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <h3 class="text-xl font-bold mb-1 text-white flex items-center gap-2">
+                    <i class="fa-solid fa-trophy text-amber-400"></i> Galeri Lencana Prestasi CT Agen
+                </h3>
+                <p class="text-xs text-slate-400 mb-6">Selesaikan setiap misi untuk membuka seluruh lencana Berpikir Komputasional.</p>
+                <div id="badges-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <!-- Badges injected by JS -->
+                </div>
+            </div>
+        </div>
+
+        <!-- SCREEN 0: DASHBOARD / LANDING -->
+        <section id="screen-dashboard" class="space-y-8 animate-fadeIn">
+            <!-- Hero Banner -->
+            <div class="relative overflow-hidden rounded-3xl bg-gradient-to-r from-slate-900 via-indigo-950/70 to-slate-900 border border-indigo-500/30 p-6 md:p-10">
+                <div class="absolute -right-10 -bottom-10 w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+                <div class="absolute right-1/3 -top-10 w-60 h-60 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+                
+                <div class="relative z-10 max-w-2xl space-y-4">
+                    <div class="flex flex-wrap items-center gap-2">
+                        <span class="px-3 py-1 text-xs font-mono font-semibold rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">
+                            <i class="fa-solid fa-code-branch mr-1"></i> Informatika Kelas X SMA
+                        </span>
+                        <span class="px-3 py-1 text-xs font-mono font-semibold rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/30">
+                            Kurikulum Merdeka
+                        </span>
+                    </div>
+                    <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
+                        Kuasai Seni <span class="bg-gradient-to-r from-cyan-400 via-indigo-300 to-emerald-400 bg-clip-text text-transparent">Berpikir Komputasional</span>
+                    </h2>
+                    <p class="text-slate-300 text-sm md:text-base leading-relaxed">
+                        Selamat datang di Laboratorium Siber! Berpikir Komputasional (BK) adalah kerangka berpikir (*mindset*) pemecahan masalah secara efektif, efisien, dan optimal. Pelajari 4 fondasi utama melalui simulasi kasus nyata!
+                    </p>
+                    <div class="pt-2 flex flex-wrap gap-3">
+                        <button onclick="switchScreen('screen-intro')" class="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-indigo-600 text-white font-bold text-sm hover:opacity-90 shadow-lg shadow-cyan-500/25 transition flex items-center gap-2">
+                            <i class="fa-solid fa-play"></i> Mulai Pembelajaran & Game
+                        </button>
+                        <button onclick="showConceptOverview()" class="px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold text-sm transition flex items-center gap-2">
+                            <i class="fa-solid fa-book-open"></i> Ringkasan 4 Fondasi
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mission Selection Grid -->
+            <div>
+                <h3 class="text-xl font-bold mb-4 flex items-center gap-2 text-white">
+                    <i class="fa-solid fa-map-location-dot text-cyan-400"></i> Modul & Misi Simulasi
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    
+                    <!-- Card Concept -->
+                    <div class="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 hover:border-cyan-500/50 transition group flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-lightbulb"></i>
+                            </div>
+                            <h4 class="font-bold text-lg text-white mb-1">1. Pengertian BK</h4>
+                            <p class="text-xs text-slate-400 mb-4">Pahami kerangka pikir BK, mitos vs fakta, serta perbandingannya dengan pemikiran manusia biasa.</p>
+                        </div>
+                        <button onclick="switchScreen('screen-intro')" class="w-full py-2.5 rounded-xl bg-slate-800 group-hover:bg-cyan-500 group-hover:text-slate-950 font-semibold text-xs text-cyan-400 transition">
+                            Pelajari Konsep
+                        </button>
+                    </div>
+
+                    <!-- Card Dekomposisi -->
+                    <div class="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 hover:border-indigo-500/50 transition group flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-sitemap"></i>
+                            </div>
+                            <h4 class="font-bold text-lg text-white mb-1">2. Dekomposisi</h4>
+                            <p class="text-xs text-slate-400 mb-4">Misi Drag & Drop: Memecah proyek kompleks Pensi SMA menjadi bagian terstruktur.</p>
+                        </div>
+                        <button onclick="switchScreen('screen-dekomposisi')" class="w-full py-2.5 rounded-xl bg-slate-800 group-hover:bg-indigo-500 group-hover:text-white font-semibold text-xs text-indigo-400 transition">
+                            Misi Drag & Drop
+                        </button>
+                    </div>
+
+                    <!-- Card Pengenalan Pola -->
+                    <div class="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 hover:border-emerald-500/50 transition group flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-shapes"></i>
+                            </div>
+                            <h4 class="font-bold text-lg text-white mb-1">3. Pengenalan Pola</h4>
+                            <p class="text-xs text-slate-400 mb-4">Misi Deteksi Pola: Mengenali tren, pengulangan, dan anomali pada log data siber.</p>
+                        </div>
+                        <button onclick="switchScreen('screen-pola')" class="w-full py-2.5 rounded-xl bg-slate-800 group-hover:bg-emerald-500 group-hover:text-slate-950 font-semibold text-xs text-emerald-400 transition">
+                            Misi Analisis Pola
+                        </button>
+                    </div>
+
+                    <!-- Card Abstraksi -->
+                    <div class="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 hover:border-amber-500/50 transition group flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-filter"></i>
+                            </div>
+                            <h4 class="font-bold text-lg text-white mb-1">4. Abstraksi</h4>
+                            <p class="text-xs text-slate-400 mb-4">Misi Generator Peta SVG: Membuang detail distraksi dan mempertahankan data relevan.</p>
+                        </div>
+                        <button onclick="switchScreen('screen-abstraksi')" class="w-full py-2.5 rounded-xl bg-slate-800 group-hover:bg-amber-500 group-hover:text-slate-950 font-semibold text-xs text-amber-400 transition">
+                            Misi Designer Peta
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Final Evaluation Link Banner -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-amber-500 to-red-500 text-white flex items-center justify-center text-2xl flex-shrink-0">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-white">Evaluasi & Studi Kasus Integratif</h4>
+                        <p class="text-xs text-slate-400">Uji kemampuan komprehensif Anda dalam menyelesaikan studi kasus siber nyata menggunakan kombinasi seluruh fondasi BK.</p>
+                    </div>
+                </div>
+                <button onclick="switchScreen('screen-quiz')" class="px-6 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm whitespace-nowrap transition">
+                    Ujian Detektif Utama
+                </button>
+            </div>
+        </section>
+
+        <!-- SCREEN 1: MODUL PENGERTIAN BK -->
+        <section id="screen-intro" class="hidden space-y-6 animate-fadeIn">
+            <button onclick="switchScreen('screen-dashboard')" class="text-xs font-mono text-slate-400 hover:text-cyan-400 flex items-center gap-2">
+                <i class="fa-solid fa-arrow-left"></i> Kembali ke Dashboard
+            </button>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-6">
+                <div class="border-b border-slate-800 pb-4">
+                    <span class="text-xs font-mono text-cyan-400 font-semibold">MODUL 1: KONSEPTUAL</span>
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-white mt-1">Apa itu Berpikir Komputasional (BK)?</h2>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <div class="lg:col-span-2 space-y-4 text-slate-300 text-sm leading-relaxed">
+                        <p>
+                            <strong class="text-cyan-400">Berpikir Komputasional (Computational Thinking / CT)</strong> adalah metode pemecahan masalah yang dirancang untuk mengidentifikasi solusi yang efisien, efektif, dan optimal. BK bukan berarti berpikir seperti komputer, melainkan <strong>berpikir tentang bagaimana manusia memecahkan masalah kompleks</strong> dengan cara yang terstruktur.
+                        </p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 my-4">
+                            <div class="p-3.5 bg-slate-950 rounded-xl border border-slate-800">
+                                <h5 class="text-xs font-bold text-red-400 uppercase font-mono mb-1"><i class="fa-solid fa-xmark"></i> Mitos BK</h5>
+                                <p class="text-xs text-slate-400">"Berpikir Komputasional hanya berguna untuk mereka yang belajar pemrograman/coding komputer."</p>
+                            </div>
+                            <div class="p-3.5 bg-slate-950 rounded-xl border border-slate-800">
+                                <h5 class="text-xs font-bold text-emerald-400 uppercase font-mono mb-1"><i class="fa-solid fa-check"></i> Fakta BK</h5>
+                                <p class="text-xs text-slate-400">"BK adalah kemampuan melatih pemikiran analitis manusia di semua bidang kehidupan nyata!"</p>
+                            </div>
+                        </div>
+
+                        <p>
+                            Empat fondasi kunci Berpikir Komputasional yang wajib dikuasai oleh siswa kelas X meliputi:
+                        </p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 font-mono text-xs">
+                            <div class="p-3 bg-indigo-950/40 border border-indigo-500/30 rounded-xl">
+                                <span class="text-indigo-400 font-bold block mb-1">1. Dekomposisi</span>
+                                Memecah masalah besar menjadi sub-masalah kecil yang lebih mudah dikelola.
+                            </div>
+                            <div class="p-3 bg-emerald-950/40 border border-emerald-500/30 rounded-xl">
+                                <span class="text-emerald-400 font-bold block mb-1">2. Pengenalan Pola</span>
+                                Menemukan kesamaan, tren pengulangan, atau keteraturan dalam data.
+                            </div>
+                            <div class="p-3 bg-amber-950/40 border border-amber-500/30 rounded-xl">
+                                <span class="text-amber-400 font-bold block mb-1">3. Abstraksi</span>
+                                Memfokuskan diri pada data penting dan mengabaikan detail yang tidak relevan.
+                            </div>
+                            <div class="p-3 bg-slate-800/60 border border-slate-700 rounded-xl">
+                                <span class="text-slate-300 font-bold block mb-1">4. Algoritma</span>
+                                Langkah-langkah logis dan terurut untuk menyelesaikan masalah *(materi bab berikutnya)*.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Flashcard Module -->
+                    <div class="bg-slate-950 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between text-center space-y-4">
+                        <h4 class="font-bold text-white text-sm flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-vial text-cyan-400"></i> Tes Pemahaman Cepat BK
+                        </h4>
+                        <div id="intro-quiz-card" class="bg-slate-900 border border-cyan-500/30 p-4 rounded-xl min-h-[180px] flex flex-col justify-center items-center space-y-3">
+                            <p id="intro-q-text" class="text-xs text-slate-200 font-medium">
+                                Manakah dari tindakan berikut yang menunjukkan kemampuan Berpikir Komputasional saat mempersiapkan ujian SMA?
+                            </p>
+                            <div id="intro-q-options" class="w-full space-y-2">
+                                <button onclick="checkIntroAnswer(false)" class="w-full text-xs py-2 px-3 bg-slate-800 hover:bg-slate-700 rounded-lg text-slate-300 text-left">A. Menghafal seluruh buku teks halaman demi halaman tanpa membuat rangkuman</button>
+                                <button onclick="checkIntroAnswer(true)" class="w-full text-xs py-2 px-3 bg-slate-800 hover:bg-slate-700 rounded-lg text-slate-300 text-left">B. Membuat peta konsep (Abstraksi) & membagi jadwal belajar per bab (Dekomposisi)</button>
+                                <button onclick="checkIntroAnswer(false)" class="w-full text-xs py-2 px-3 bg-slate-800 hover:bg-slate-700 rounded-lg text-slate-300 text-left">C. Pasrah dan belajar beberapa menit sebelum bel ujian berbunyi</button>
+                            </div>
+                        </div>
+                        <p class="text-[11px] text-slate-500 font-mono">Bonus +30 XP jika menjawab benar pada percobaan pertama!</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-end pt-4 border-t border-slate-800">
+                    <button onclick="switchScreen('screen-dekomposisi')" class="px-6 py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-sm transition flex items-center gap-2">
+                        Lanjut ke Misi 1: Dekomposisi <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SCREEN 2: MINI-GAME DEKOMPOSISI -->
+        <section id="screen-dekomposisi" class="hidden space-y-6 animate-fadeIn">
+            <button onclick="switchScreen('screen-dashboard')" class="text-xs font-mono text-slate-400 hover:text-cyan-400 flex items-center gap-2">
+                <i class="fa-solid fa-arrow-left"></i> Kembali ke Dashboard
+            </button>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-6">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800 pb-4">
+                    <div>
+                        <span class="text-xs font-mono text-indigo-400 font-bold">MISI 1 • DEKOMPOSISI (DECOMPOSITION)</span>
+                        <h2 class="text-2xl font-extrabold text-white">Studi Kasus: Perancangan Event Pensi SMA</h2>
+                        <p class="text-xs text-slate-400 mt-1">Gunakan fitur <strong>Drag & Drop</strong> (tarik dan lepas) atau <strong>klik kartu</strong> untuk membagi 6 tugas besar ke divisi yang tepat!</p>
+                    </div>
+                    <div class="bg-indigo-950/60 border border-indigo-500/30 px-4 py-2 rounded-xl text-right">
+                        <span class="text-[10px] uppercase font-mono text-indigo-300">Progress Pengelompokan</span>
+                        <div class="text-lg font-bold text-indigo-400" id="decomp-progress">0 / 6 Ditempatkan</div>
+                    </div>
+                </div>
+
+                <!-- Game Board Drag & Drop Container -->
+                <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                    
+                    <!-- Task Pool Container -->
+                    <div class="lg:col-span-1 bg-slate-950 border border-slate-800 rounded-2xl p-4 drop-zone" data-category="pool" id="zone-pool-container">
+                        <h4 class="font-bold text-sm text-slate-200 mb-3 flex items-center gap-2">
+                            <i class="fa-solid fa-list-check text-indigo-400"></i> Pool Sub-Tugas:
+                        </h4>
+                        <div id="decomp-pool" class="space-y-2 min-h-[260px]">
+                            <!-- Draggable items rendered by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Drop Zones (3 Divisions) -->
+                    <div class="lg:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-4">
+                        
+                        <!-- Zone 1: Acara & Rundown -->
+                        <div class="bg-slate-950/70 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between drop-zone" data-category="acara" id="zone-acara-container">
+                            <div>
+                                <div class="flex items-center gap-2 mb-3 pb-2 border-b border-slate-800">
+                                    <i class="fa-solid fa-microphone text-cyan-400"></i>
+                                    <h5 class="font-bold text-xs text-cyan-400 uppercase tracking-wider">1. Divisi Acara & Talent</h5>
+                                </div>
+                                <div id="zone-acara" class="space-y-2 min-h-[190px]">
+                                    <!-- Placed cards -->
+                                </div>
+                            </div>
+                            <span class="text-[10px] text-slate-500 text-center mt-2">Area Susunan Acara & Artis</span>
+                        </div>
+
+                        <!-- Zone 2: Logistik & Peralatan -->
+                        <div class="bg-slate-950/70 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between drop-zone" data-category="logistik" id="zone-logistik-container">
+                            <div>
+                                <div class="flex items-center gap-2 mb-3 pb-2 border-b border-slate-800">
+                                    <i class="fa-solid fa-truck-ramps text-amber-400"></i>
+                                    <h5 class="font-bold text-xs text-amber-400 uppercase tracking-wider">2. Divisi Logistik & Sound</h5>
+                                </div>
+                                <div id="zone-logistik" class="space-y-2 min-h-[190px]">
+                                    <!-- Placed cards -->
+                                </div>
+                            </div>
+                            <span class="text-[10px] text-slate-500 text-center mt-2">Area Sound System & Genset</span>
+                        </div>
+
+                        <!-- Zone 3: Konsumsi & Keamanan -->
+                        <div class="bg-slate-950/70 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between drop-zone" data-category="konsumsi" id="zone-konsumsi-container">
+                            <div>
+                                <div class="flex items-center gap-2 mb-3 pb-2 border-b border-slate-800">
+                                    <i class="fa-solid fa-utensils text-emerald-400"></i>
+                                    <h5 class="font-bold text-xs text-emerald-400 uppercase tracking-wider">3. Divisi Konsumsi & Izin</h5>
+                                </div>
+                                <div id="zone-konsumsi" class="space-y-2 min-h-[190px]">
+                                    <!-- Placed cards -->
+                                </div>
+                            </div>
+                            <span class="text-[10px] text-slate-500 text-center mt-2">Area Konsumsi & Perizinan</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-center pt-4 border-t border-slate-800">
+                    <button onclick="resetDekomposisi()" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-semibold text-xs transition">
+                        <i class="fa-solid fa-rotate-left mr-1"></i> Reset Pilihan
+                    </button>
+                    <button onclick="validateDekomposisi()" class="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm shadow-lg shadow-indigo-600/30 transition flex items-center gap-2">
+                        <i class="fa-solid fa-check-circle"></i> Verifikasi Dekomposisi
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SCREEN 3: MINI-GAME PENGENALAN POLA -->
+        <section id="screen-pola" class="hidden space-y-6 animate-fadeIn">
+            <button onclick="switchScreen('screen-dashboard')" class="text-xs font-mono text-slate-400 hover:text-cyan-400 flex items-center gap-2">
+                <i class="fa-solid fa-arrow-left"></i> Kembali ke Dashboard
+            </button>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-6">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800 pb-4">
+                    <div>
+                        <span class="text-xs font-mono text-emerald-400 font-bold">MISI 2 • PENGENALAN POLA (PATTERN RECOGNITION)</span>
+                        <h2 class="text-2xl font-extrabold text-white">Analisis Pola Data Siber & Tren Berulang</h2>
+                        <p class="text-xs text-slate-400 mt-1">Temukan urutan logis atau siklus pengulangan pada deret data siber berikut untuk mengisi elemen kosong `[ ? ]`!</p>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="bg-emerald-950/60 border border-emerald-500/30 px-4 py-2 rounded-xl text-right">
+                            <span class="text-[10px] uppercase font-mono text-emerald-300">Pola Terpecahkan</span>
+                            <div class="text-lg font-bold text-emerald-400" id="pattern-score-display">0 / 4 Pola</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Pattern Puzzle Cards Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="pattern-puzzles-container">
+                    <!-- Dynamic Puzzle Cards injected by JS -->
+                </div>
+
+                <div class="flex justify-between items-center pt-4 border-t border-slate-800">
+                    <div class="text-xs text-slate-400 font-mono">
+                        <i class="fa-solid fa-circle-info text-emerald-400"></i> Tips: Pola bisa berupa deret ukur eksponensial, siklus berulang, atau lompatan simbol.
+                    </div>
+                    <button onclick="switchScreen('screen-abstraksi')" class="px-6 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-sm transition flex items-center gap-2">
+                        Lanjut ke Misi 3: Abstraksi <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SCREEN 4: MINI-GAME ABSTRAKSI -->
+        <section id="screen-abstraksi" class="hidden space-y-6 animate-fadeIn">
+            <button onclick="switchScreen('screen-dashboard')" class="text-xs font-mono text-slate-400 hover:text-cyan-400 flex items-center gap-2">
+                <i class="fa-solid fa-arrow-left"></i> Kembali ke Dashboard
+            </button>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-6">
+                <div class="border-b border-slate-800 pb-4">
+                    <span class="text-xs font-mono text-amber-400 font-bold">MISI 3 • ABSTRAKSI (ABSTRACTION)</span>
+                    <h2 class="text-2xl font-extrabold text-white">Merancang Peta Navigasi Busway "TransKota"</h2>
+                    <p class="text-xs text-slate-400 mt-1">Abstraksi adalah membuang informasi yang <strong>TIDAK RELEVAN (Distraksi)</strong> dan mempertahankan data <strong>VITAL (Penting)</strong>!</p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+                    <!-- Controls Filter Column -->
+                    <div class="lg:col-span-5 bg-slate-950 border border-slate-800 rounded-2xl p-5 space-y-4">
+                        <div class="flex justify-between items-center">
+                            <h4 class="font-bold text-sm text-white flex items-center gap-2">
+                                <i class="fa-solid fa-layer-group text-amber-400"></i> Data Terdeteksi:
+                            </h4>
+                            <span class="text-[10px] font-mono text-slate-400">Klik untuk menyaring</span>
+                        </div>
+
+                        <p class="text-xs text-slate-300">
+                            Pilihlah informasi mana yang wajib ditampilkan pada Peta Navigasi Skematik Busway, lalu perhatikan hasilnya pada layar visualizer di samping!
+                        </p>
+
+                        <div id="abstraction-items-list" class="space-y-2">
+                            <!-- Injected by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Dynamic SVG Canvas Visualizer Column -->
+                    <div class="lg:col-span-7 bg-slate-950 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-center mb-3">
+                                <h4 class="font-bold text-sm text-white flex items-center gap-2">
+                                    <i class="fa-solid fa-map text-cyan-400"></i> Visualisasi Peta Skematik (SVG)
+                                </h4>
+                                <span id="map-efficiency-tag" class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400 border border-slate-700">
+                                    Status: Belum Dievaluasi
+                                </span>
+                            </div>
+
+                            <!-- Interactive SVG Diagram Container -->
+                            <div id="map-preview-box" class="w-full h-72 bg-slate-900 border border-slate-800 rounded-xl flex items-center justify-center relative overflow-hidden transition-all p-2">
+                                <svg id="map-svg" class="w-full h-full" viewBox="0 0 500 250">
+                                    <!-- Dynamic SVG elements rendered by JS -->
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="mt-4 p-3 bg-slate-900/80 rounded-xl border border-slate-800 text-xs text-slate-400 space-y-1">
+                            <span class="text-amber-400 font-bold"><i class="fa-solid fa-lightbulb"></i> Prinsip Abstraksi:</span>
+                            <p>Peta busway yang efektif tidak menggambar setiap rumah, pohon, atau kelokan jalan secara mendetail, melainkan menyajikan hubungan antar-stasiun secara jelas dan mudah dibaca secara cepat!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-center pt-4 border-t border-slate-800">
+                    <button onclick="resetAbstraksi()" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-semibold text-xs transition">
+                        Reset Filter
+                    </button>
+                    <button onclick="validateAbstraksi()" class="px-6 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm transition flex items-center gap-2">
+                        <i class="fa-solid fa-sliders"></i> Uji Efisiensi Abstraksi
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SCREEN 5: FINAL QUIZ / EVALUASI SIBER -->
+        <section id="screen-quiz" class="hidden space-y-6 animate-fadeIn">
+            <button onclick="switchScreen('screen-dashboard')" class="text-xs font-mono text-slate-400 hover:text-cyan-400 flex items-center gap-2">
+                <i class="fa-solid fa-arrow-left"></i> Kembali ke Dashboard
+            </button>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-6">
+                <div class="flex justify-between items-center border-b border-slate-800 pb-4">
+                    <div>
+                        <span class="text-xs font-mono text-amber-400 font-bold">EVALUASI UTAMA</span>
+                        <h2 class="text-2xl font-extrabold text-white">Ujian Sertifikasi Agen Berpikir Komputasional</h2>
+                    </div>
+                    <div class="text-sm font-mono bg-slate-800 px-3.5 py-1 rounded-xl border border-slate-700 text-cyan-400 font-bold">
+                        Soal <span id="current-q-num">1</span> dari 5
+                    </div>
+                </div>
+
+                <!-- Quiz Container -->
+                <div id="quiz-card-container" class="space-y-6">
+                    <div class="bg-slate-950 border border-slate-800 rounded-2xl p-6 space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span id="quiz-category-tag" class="text-[10px] font-mono px-2.5 py-1 rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 uppercase font-bold">
+                                Category
+                            </span>
+                        </div>
+                        <h3 id="quiz-question" class="text-lg font-bold text-white leading-snug">
+                            Question text goes here...
+                        </h3>
+                        <p id="quiz-context" class="text-xs text-slate-300 leading-relaxed bg-slate-900/90 p-3 rounded-xl border border-slate-800 font-mono">
+                            Context explanation...
+                        </p>
+
+                        <!-- Options Grid -->
+                        <div id="quiz-options" class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+                            <!-- Options injected by JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SCREEN 6: CERTIFICATE & RESULTS REPORT -->
+        <section id="screen-results" class="hidden space-y-6 animate-fadeIn">
+            <div class="max-w-3xl mx-auto bg-slate-900 border border-slate-800 rounded-3xl p-8 text-center space-y-6 relative overflow-hidden shadow-2xl">
+                <div class="absolute -top-12 -right-12 w-40 h-40 bg-cyan-500/10 rounded-full blur-2xl pointer-events-none"></div>
+                <div class="absolute -bottom-12 -left-12 w-40 h-40 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none"></div>
+
+                <div class="w-20 h-20 rounded-3xl bg-gradient-to-tr from-amber-400 to-amber-600 mx-auto flex items-center justify-center text-slate-950 text-4xl shadow-xl shadow-amber-500/20">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+
+                <div>
+                    <span class="text-xs font-mono text-cyan-400 uppercase tracking-widest font-semibold">Laporan Hasil Belajar</span>
+                    <h2 class="text-3xl font-extrabold text-white mt-1">Rapor Digital Berpikir Komputasional</h2>
+                    <p class="text-xs text-slate-400 mt-1">Materi Informatika SMA Kelas X • Kurikulum Merdeka</p>
+                </div>
+
+                <!-- Stats Summary Grid -->
+                <div class="grid grid-cols-3 gap-4 bg-slate-950 p-5 rounded-2xl border border-slate-800">
+                    <div>
+                        <span class="text-[10px] text-slate-500 uppercase font-mono block">Total Skor XP</span>
+                        <span id="final-xp-score" class="text-2xl font-extrabold text-amber-400">0</span>
+                    </div>
+                    <div>
+                        <span class="text-[10px] text-slate-500 uppercase font-mono block">Akurasi Soal</span>
+                        <span id="final-accuracy" class="text-2xl font-extrabold text-emerald-400">0%</span>
+                    </div>
+                    <div>
+                        <span class="text-[10px] text-slate-500 uppercase font-mono block">Gelar Agen</span>
+                        <span id="final-badge-title" class="text-xs font-bold text-cyan-400 mt-1 block">Detektif Pemula</span>
+                    </div>
+                </div>
+
+                <!-- Topic Breakdown Diagnostic -->
+                <div class="text-left bg-slate-950/90 p-5 rounded-2xl border border-slate-800 space-y-3">
+                    <h4 class="font-bold text-xs text-cyan-400 uppercase tracking-wider flex items-center gap-2">
+                        <i class="fa-solid fa-chart-pie"></i> Evaluation Breakdown Per Fondasi BK
+                    </h4>
+                    <div class="space-y-2 text-xs">
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-300">1. Konsep Dasar & Mindset BK</span>
+                            <span id="breakdown-intro" class="font-mono text-cyan-400 font-bold">Selesai</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-300">2. Dekomposisi (Studi Kasus Pensi)</span>
+                            <span id="breakdown-decomp" class="font-mono text-indigo-400 font-bold">100%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-300">3. Pengenalan Pola Data Siber</span>
+                            <span id="breakdown-pola" class="font-mono text-emerald-400 font-bold">100%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-300">4. Abstraksi Visual Peta</span>
+                            <span id="breakdown-abstraksi" class="font-mono text-amber-400 font-bold">100%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pedagogy Diagnostic Feedback -->
+                <div id="pedagogy-feedback" class="text-left bg-slate-950/80 p-5 rounded-2xl border border-slate-800 text-xs text-slate-300 space-y-2">
+                    <p class="font-bold text-cyan-400 flex items-center gap-2">
+                        <i class="fa-solid fa-graduation-cap"></i> Catatan Rekomendasi Guru:
+                    </p>
+                    <p id="feedback-text" class="leading-relaxed">
+                        Anda telah menyelesaikan seluruh aktivitas dengan sangat baik dan menunjukkan pemahaman utuh mengenai Berpikir Komputasional!
+                    </p>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-3 pt-2 no-print">
+                    <button onclick="switchScreen('screen-dashboard')" class="flex-1 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs transition">
+                        <i class="fa-solid fa-house mr-1"></i> Dashboard Utama
+                    </button>
+                    <button onclick="printReport()" class="flex-1 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-indigo-600 text-white font-bold text-xs transition shadow-lg shadow-cyan-500/20">
+                        <i class="fa-solid fa-print mr-1"></i> Cetak / Simpan PDF Rapor
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-slate-800 bg-slate-950 py-4 px-6 text-center text-xs text-slate-500 font-mono">
+        <p>Cyber CT Lab • Media Pembelajaran Interaktif Informatika SMA Kelas X • Berpikir Komputasional</p>
+    </footer>
+
+    <script>
+        const gameState = {
+            xp: 0,
+            rank: "Detektif Pemula",
+            introCompleted: false,
+            dekomposisiDone: false,
+            polaSolvedCount: 0,
+            abstraksiDone: false,
+            quizScore: 0,
+            currentQuizIndex: 0,
+            quizAnswers: [],
+            badges: {
+                decomp: false,
+                pola: false,
+                abstraksi: false,
+                master: false
+            }
+        };
+
+        // Web Audio Synthesizer Engine (No external sound files required)
+        let audioCtx = null;
+        let isMuted = false;
+        let isBGMPlaying = false;
+        let bgmInterval = null;
+
+        function initAudio() {
+            if (!audioCtx) {
+                audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            }
+            if (audioCtx.state === 'suspended') {
+                audioCtx.resume();
+            }
+        }
+
+        function playSound(type) {
+            if (isMuted) return;
+            try {
+                initAudio();
+                const now = audioCtx.currentTime;
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
+
+                if (type === 'click') {
+                    osc.type = 'sine';
+                    osc.frequency.setValueAtTime(440, now);
+                    gain.gain.setValueAtTime(0.04, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.06);
+                    osc.start(now);
+                    osc.stop(now + 0.06);
+                } else if (type === 'drop') {
+                    osc.type = 'triangle';
+                    osc.frequency.setValueAtTime(300, now);
+                    osc.frequency.exponentialRampToValueAtTime(600, now + 0.08);
+                    gain.gain.setValueAtTime(0.06, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.1);
+                    osc.start(now);
+                    osc.stop(now + 0.1);
+                } else if (type === 'success') {
+                    osc.type = 'triangle';
+                    osc.frequency.setValueAtTime(523.25, now); // C5
+                    osc.frequency.setValueAtTime(659.25, now + 0.08); // E5
+                    osc.frequency.setValueAtTime(783.99, now + 0.16); // G5
+                    gain.gain.setValueAtTime(0.08, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+                    osc.start(now);
+                    osc.stop(now + 0.3);
+                } else if (type === 'error') {
+                    osc.type = 'sawtooth';
+                    osc.frequency.setValueAtTime(220, now);
+                    osc.frequency.setValueAtTime(160, now + 0.1);
+                    gain.gain.setValueAtTime(0.08, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+                    osc.start(now);
+                    osc.stop(now + 0.25);
+                } else if (type === 'badge') {
+                    osc.type = 'sine';
+                    osc.frequency.setValueAtTime(587.33, now); // D5
+                    osc.frequency.setValueAtTime(880.00, now + 0.1); // A5
+                    gain.gain.setValueAtTime(0.1, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+                    osc.start(now);
+                    osc.stop(now + 0.4);
+                }
+            } catch (e) {
+                // Audio context fallbacks
+            }
+        }
+
+        function toggleAudio() {
+            isMuted = !isMuted;
+            const icon = document.getElementById('sound-icon');
+            if (isMuted) {
+                icon.className = 'fa-solid fa-volume-xmark text-red-400';
+            } else {
+                icon.className = 'fa-solid fa-volume-high text-slate-300';
+                playSound('click');
+            }
+        }
+
+        function toggleBGM() {
+            initAudio();
+            isBGMPlaying = !isBGMPlaying;
+            const icon = document.getElementById('bgm-icon');
+            
+            if (isBGMPlaying) {
+                icon.className = 'fa-solid fa-music text-indigo-400 animate-pulse';
+                startSynthesizedBGM();
+            } else {
+                icon.className = 'fa-solid fa-music text-slate-400';
+                stopSynthesizedBGM();
+            }
+        }
+
+        function startSynthesizedBGM() {
+            if (bgmInterval) clearInterval(bgmInterval);
+            const notes = [261.63, 293.66, 329.63, 392.00, 440.00]; // Pentatonic C
+            let step = 0;
+            
+            bgmInterval = setInterval(() => {
+                if (!isBGMPlaying || isMuted) return;
+                try {
+                    const now = audioCtx.currentTime;
+                    const osc = audioCtx.createOscillator();
+                    const gain = audioCtx.createGain();
+                    osc.type = 'sine';
+                    osc.frequency.setValueAtTime(notes[step % notes.length], now);
+                    gain.gain.setValueAtTime(0.015, now);
+                    gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.4);
+                    osc.connect(gain);
+                    gain.connect(audioCtx.destination);
+                    osc.start(now);
+                    osc.stop(now + 0.4);
+                    step++;
+                } catch (e) {}
+            }, 600);
+        }
+
+        function stopSynthesizedBGM() {
+            if (bgmInterval) clearInterval(bgmInterval);
+        }
+
+        function switchScreen(screenId) {
+            playSound('click');
+            const screens = ['screen-dashboard', 'screen-intro', 'screen-dekomposisi', 'screen-pola', 'screen-abstraksi', 'screen-quiz', 'screen-results'];
+            screens.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.classList.add('hidden');
+            });
+            const target = document.getElementById(screenId);
+            if (target) {
+                target.classList.remove('hidden');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+
+            // Screen initializers
+            if (screenId === 'screen-dekomposisi' && decompItems.length === 0) initDekomposisi();
+            if (screenId === 'screen-pola' && patternPuzzles.length === 0) initPatternGame();
+            if (screenId === 'screen-abstraksi' && abstractionItemsData.length > 0) initAbstraksiGame();
+            if (screenId === 'screen-quiz') initQuiz();
+        }
+
+        function addXP(amount) {
+            gameState.xp += amount;
+            document.getElementById('user-xp').textContent = gameState.xp;
+
+            if (gameState.xp >= 220) gameState.rank = "Suhu BK (Master Agen)";
+            else if (gameState.xp >= 120) gameState.rank = "Analis Siber Senior";
+            else if (gameState.xp >= 40) gameState.rank = "Detektif Muda";
+            document.getElementById('user-rank').textContent = gameState.rank;
+
+            checkBadges();
+        }
+
+        function checkBadges() {
+            let newlyUnlocked = false;
+
+            if (gameState.dekomposisiDone && !gameState.badges.decomp) {
+                gameState.badges.decomp = true;
+                newlyUnlocked = true;
+            }
+            if (gameState.polaSolvedCount >= 4 && !gameState.badges.pola) {
+                gameState.badges.pola = true;
+                newlyUnlocked = true;
+            }
+            if (gameState.abstraksiDone && !gameState.badges.abstraksi) {
+                gameState.badges.abstraksi = true;
+                newlyUnlocked = true;
+            }
+            if (gameState.xp >= 200 && !gameState.badges.master) {
+                gameState.badges.master = true;
+                newlyUnlocked = true;
+            }
+
+            if (newlyUnlocked) {
+                playSound('badge');
+                renderBadges();
+            }
+        }
+
+        function renderBadges() {
+            const grid = document.getElementById('badges-grid');
+            const badgeData = [
+                { id: 'decomp', title: 'Master Dekomposisi', desc: 'Berhasil menguraikan kepanitiaan Pensi SMA dengan sempurna.', icon: 'fa-sitemap', color: 'indigo', unlocked: gameState.badges.decomp },
+                { id: 'pola', title: 'Detektif Pola Data', desc: 'Berhasil memecahkan seluruh 4 pola tren siber.', icon: 'fa-shapes', color: 'emerald', unlocked: gameState.badges.pola },
+                { id: 'abstraksi', title: 'Pakar Abstraksi', desc: 'Merancang peta rute busway yang efisien tanpa distraksi.', icon: 'fa-filter', color: 'amber', unlocked: gameState.badges.abstraksi },
+                { id: 'master', title: 'Agen Utama BK', desc: 'Mencapai total skor di atas 200 XP.', icon: 'fa-crown', color: 'cyan', unlocked: gameState.badges.master }
+            ];
+
+            grid.innerHTML = badgeData.map(b => `
+                <div class="p-4 rounded-xl border flex items-center gap-3 transition ${b.unlocked ? 'bg-slate-900 border-' + b.color + '-500/50 text-white' : 'bg-slate-950/50 border-slate-800 opacity-50 text-slate-500'}">
+                    <div class="w-12 h-12 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center text-xl text-${b.color}-400">
+                        <i class="fa-solid ${b.icon}"></i>
+                    </div>
+                    <div>
+                        <h5 class="font-bold text-xs ${b.unlocked ? 'text-white' : 'text-slate-400'}">${b.title} ${b.unlocked ? '<i class="fa-solid fa-circle-check text-emerald-400 ml-1"></i>' : ''}</h5>
+                        <p class="text-[11px] text-slate-400 mt-0.5">${b.desc}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function toggleBadgesModal() {
+            playSound('click');
+            renderBadges();
+            const modal = document.getElementById('badges-modal');
+            modal.classList.toggle('hidden');
+        }
+
+        function showModal(title, message, isSuccess = true, iconClass = "fa-check", actionText = "Lanjutkan") {
+            const modal = document.getElementById('modal-container');
+            const iconEl = document.getElementById('modal-icon');
+            
+            document.getElementById('modal-title').textContent = title;
+            document.getElementById('modal-body').innerHTML = message;
+            document.getElementById('modal-action').textContent = actionText;
+
+            if (isSuccess) {
+                iconEl.className = "w-12 h-12 rounded-full flex items-center justify-center text-2xl mb-4 bg-emerald-500/20 text-emerald-400 border border-emerald-500/40";
+                iconEl.innerHTML = `<i class="fa-solid ${iconClass}"></i>`;
+                playSound('success');
+            } else {
+                iconEl.className = "w-12 h-12 rounded-full flex items-center justify-center text-2xl mb-4 bg-red-500/20 text-red-400 border border-red-500/40";
+                iconEl.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i>`;
+                playSound('error');
+            }
+
+            modal.classList.remove('hidden');
+        }
+
+        function closeModal() {
+            playSound('click');
+            document.getElementById('modal-container').classList.add('hidden');
+        }
+
+        function showConceptOverview() {
+            showModal(
+                "4 Fondasi Berpikir Komputasional",
+                `<div class="space-y-3 text-left">
+                    <p><strong class="text-cyan-400">1. Dekomposisi:</strong> Memecah masalah kompleks menjadi komponen kecil agar lebih mudah dikelola.</p>
+                    <p><strong class="text-indigo-400">2. Pengenalan Pola:</strong> Menemukan kemiripan atau tren berulang untuk memprediksi solusi logis.</p>
+                    <p><strong class="text-emerald-400">3. Abstraksi:</strong> Memfokuskan perhatian pada data penting dan mengabaikan detail tak relevan.</p>
+                    <p><strong class="text-amber-400">4. Algoritma:</strong> Menyusun instruksi terstruktur (langkah demi langkah) untuk menyelesaikan masalah.</p>
+                </div>`,
+                true,
+                "fa-book-open"
+            );
+        }
+
+        function checkIntroAnswer(isCorrect) {
+            if (isCorrect) {
+                if (!gameState.introCompleted) {
+                    addXP(30);
+                    gameState.introCompleted = true;
+                }
+                showModal(
+                    "Jawaban Tepat! (+30 XP)",
+                    "Membuat peta konsep (Abstraksi) dan membagi waktu per bab (Dekomposisi) adalah penerapaan nyata Berpikir Komputasional dalam strategi belajar siswa SMA!",
+                    true,
+                    "fa-thumbs-up"
+                );
+            } else {
+                showModal(
+                    "Kurang Tepat",
+                    "Pilihan tersebut tidak memanfaatkan strategi BK. Menggunakan Dekomposisi dan Abstraksi membuat belajar jauh lebih efektif!",
+                    false
+                );
+            }
+        }
+
+        const decompTasksData = [
+            { id: 1, text: "Menyusun Rundown & Durasi Tampil Band", category: "acara" },
+            { id: 2, text: "Menghubungi Guest Star & Pengisi Acara", category: "acara" },
+            { id: 3, text: "Sewa Sound System 10.000 W & Lighting", category: "logistik" },
+            { id: 4, text: "Setting Panggung & Layout Genset Listrik", category: "logistik" },
+            { id: 5, text: "Pemesanan Nasi Kotak Panitia & Artis", category: "konsumsi" },
+            { id: 6, text: "Pengurusan Izin Keramaian dari Kepolisian", category: "konsumsi" }
+        ];
+
+        let decompItems = [];
+        let decompPlaced = {};
+        let draggedItemId = null;
+
+        function initDekomposisi() {
+            decompItems = [...decompTasksData].sort(() => Math.random() - 0.5);
+            decompPlaced = {};
+            setupDropZoneListeners();
+            renderDekomposisi();
+        }
+
+        function setupDropZoneListeners() {
+            const dropZones = document.querySelectorAll('.drop-zone');
+            dropZones.forEach(zone => {
+                zone.addEventListener('dragover', (e) => {
+                    e.preventDefault();
+                    zone.classList.add('drag-over');
+                });
+                zone.addEventListener('dragleave', () => {
+                    zone.classList.remove('drag-over');
+                });
+                zone.addEventListener('drop', (e) => {
+                    e.preventDefault();
+                    zone.classList.remove('drag-over');
+                    const targetCategory = zone.getAttribute('data-category');
+                    if (draggedItemId) {
+                        if (targetCategory === 'pool') {
+                            delete decompPlaced[draggedItemId];
+                        } else {
+                            decompPlaced[draggedItemId] = targetCategory;
+                        }
+                        playSound('drop');
+                        renderDekomposisi();
+                    }
+                });
+            });
+        }
+
+        function renderDekomposisi() {
+            const pool = document.getElementById('decomp-pool');
+            const zoneAcara = document.getElementById('zone-acara');
+            const zoneLogistik = document.getElementById('zone-logistik');
+            const zoneKonsumsi = document.getElementById('zone-konsumsi');
+
+            pool.innerHTML = '';
+            zoneAcara.innerHTML = '';
+            zoneLogistik.innerHTML = '';
+            zoneKonsumsi.innerHTML = '';
+
+            let placedCount = 0;
+
+            decompItems.forEach(item => {
+                const card = document.createElement('div');
+                card.draggable = true;
+                card.className = "p-3 bg-slate-900 border border-slate-700 hover:border-indigo-400 rounded-xl text-xs text-slate-200 shadow-sm cursor-grab flex justify-between items-center transition active:cursor-grabbing select-none";
+                card.innerHTML = `
+                    <span class="font-medium">${item.text}</span>
+                    <i class="fa-solid fa-grip-vertical text-slate-500 text-xs ml-2"></i>
+                `;
+
+                card.addEventListener('dragstart', () => {
+                    draggedItemId = item.id;
+                    card.classList.add('dragging');
+                });
+
+                card.addEventListener('dragend', () => {
+                    draggedItemId = null;
+                    card.classList.remove('dragging');
+                });
+
+                // Mobile/Click fallback
+                card.onclick = () => quickMoveDecomp(item.id);
+
+                const placedZone = decompPlaced[item.id];
+                if (!placedZone) {
+                    pool.appendChild(card);
+                } else {
+                    placedCount++;
+                    if (placedZone === 'acara') zoneAcara.appendChild(card);
+                    if (placedZone === 'logistik') zoneLogistik.appendChild(card);
+                    if (placedZone === 'konsumsi') zoneKonsumsi.appendChild(card);
+                }
+            });
+
+            document.getElementById('decomp-progress').textContent = `${placedCount} / 6 Ditempatkan`;
+        }
+
+        function quickMoveDecomp(itemId) {
+            playSound('click');
+            const zones = ['acara', 'logistik', 'konsumsi'];
+            const current = decompPlaced[itemId];
+            if (!current) {
+                decompPlaced[itemId] = 'acara';
+            } else {
+                const nextIdx = zones.indexOf(current) + 1;
+                if (nextIdx >= zones.length) {
+                    delete decompPlaced[itemId];
+                } else {
+                    decompPlaced[itemId] = zones[nextIdx];
+                }
+            }
+            renderDekomposisi();
+        }
+
+        function resetDekomposisi() {
+            playSound('click');
+            decompPlaced = {};
+            renderDekomposisi();
+        }
+
+        function validateDekomposisi() {
+            const keys = Object.keys(decompPlaced);
+            if (keys.length < 6) {
+                showModal("Belum Selesai", "Harap tempatkan ke-6 tugas ke dalam divisi yang sesuai terlebih dahulu!", false);
+                return;
+            }
+
+            let correct = 0;
+            decompTasksData.forEach(item => {
+                if (decompPlaced[item.id] === item.category) {
+                    correct++;
+                }
+            });
+
+            if (correct === 6) {
+                if (!gameState.dekomposisiDone) {
+                    addXP(50);
+                    gameState.dekomposisiDone = true;
+                }
+                showModal(
+                    "Sempurna! (+50 XP)",
+                    "Anda berhasil menerapkan konsep **Dekomposisi**! Memecah kepanitiaan Pensi SMA menjadi 3 divisi spesifik membuat pengerjaan proyek menjadi terstruktur dan mudah dieksekusi.",
+                    true,
+                    "fa-circle-check"
+                );
+            } else {
+                showModal(
+                    "Penempatan Kurang Tepat",
+                    `Anda berhasil menempatkan ${correct} dari 6 tugas dengan benar. Periksa kembali pembagian tugas seputar Sound System atau Perizinan!`,
+                    false
+                );
+            }
+        }
+
+        const patternPuzzles = [
+            {
+                id: 1,
+                title: "Log Sensor Kecepatan Traffic",
+                sequence: "2, 4, 8, 16, [ ? ]",
+                hint: "Pola perkalian dua (Eksponensial) dari data jaringan siber.",
+                options: ["24", "32", "64", "20"],
+                correct: "32"
+            },
+            {
+                id: 2,
+                title: "Siklus Status Server Siber",
+                sequence: "ONLINE ➔ IDLE ➔ BUSY ➔ ONLINE ➔ IDLE ➔ [ ? ]",
+                hint: "Siklus pengulangan status berurutan secara berulang.",
+                options: ["ONLINE", "OFFLINE", "BUSY", "ERROR"],
+                correct: "BUSY"
+            },
+            {
+                id: 3,
+                title: "Kode Enkripsi Karakter",
+                sequence: "A1, C3, E5, G7, [ ? ]",
+                hint: "Perpindahan 2 langkah alfabet & barisan angka ganjil.",
+                options: ["H8", "I9", "J10", "I8"],
+                correct: "I9"
+            },
+            {
+                id: 4,
+                title: "Deteksi Paket Data Biner",
+                sequence: "1, 1, 2, 3, 5, 8, [ ? ]",
+                hint: "Deret Fibonacci: Penjumlahan dua angka sebelumnya.",
+                options: ["11", "13", "15", "10"],
+                correct: "13"
+            }
+        ];
+
+        let patternSolved = {};
+
+        function initPatternGame() {
+            const container = document.getElementById('pattern-puzzles-container');
+            container.innerHTML = '';
+
+            patternPuzzles.forEach((p, idx) => {
+                const isSolved = patternSolved[p.id];
+                const card = document.createElement('div');
+                card.className = `bg-slate-950 border ${isSolved ? 'border-emerald-500/50 bg-emerald-950/10' : 'border-slate-800'} rounded-2xl p-5 space-y-4 flex flex-col justify-between`;
+                
+                card.innerHTML = `
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-[10px] font-mono text-emerald-400 font-bold">POLA #${idx + 1}</span>
+                            ${isSolved ? '<span class="text-xs text-emerald-400 font-bold"><i class="fa-solid fa-check"></i> Terpecahkan</span>' : ''}
+                        </div>
+                        <h4 class="font-bold text-sm text-white">${p.title}</h4>
+                        <div class="my-3 p-3 bg-slate-900 border border-slate-800 rounded-xl font-mono text-center text-sm md:text-base text-cyan-300 font-bold tracking-wider">
+                            ${p.sequence}
+                        </div>
+                        <p class="text-[11px] text-slate-400"><i class="fa-solid fa-lightbulb text-amber-400 mr-1"></i> ${p.hint}</p>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-2 pt-2">
+                        ${p.options.map(opt => `
+                            <button onclick="checkPatternAnswer(${p.id}, '${opt}')" ${isSolved ? 'disabled' : ''} 
+                                class="py-2 px-3 text-xs font-mono font-semibold bg-slate-900 hover:bg-emerald-500 hover:text-slate-950 border border-slate-800 rounded-xl transition text-slate-200 disabled:opacity-40">
+                                ${opt}
+                            </button>
+                        `).join('')}
+                    </div>
+                `;
+
+                container.appendChild(card);
+            });
+
+            const solvedCount = Object.keys(patternSolved).length;
+            gameState.polaSolvedCount = solvedCount;
+            document.getElementById('pattern-score-display').textContent = `${solvedCount} / 4 Pola`;
+        }
+
+        function checkPatternAnswer(puzzleId, selectedOpt) {
+            const puzzle = patternPuzzles.find(p => p.id === puzzleId);
+            if (puzzle.correct === selectedOpt) {
+                patternSolved[puzzleId] = true;
+                addXP(20);
+                playSound('success');
+                initPatternGame();
+
+                if (Object.keys(patternSolved).length === 4) {
+                    showModal(
+                        "Luar Biasa! Semua Pola Terurai (+80 XP)",
+                        "Kemampuan **Pengenalan Pola** membuat Anda dapat menemukan keteraturan dari data acak dan memprediksi tren solusi secara presisi!",
+                        true,
+                        "fa-shapes"
+                    );
+                }
+            } else {
+                showModal("Pola Tidak Sesuai", "Pilihan tersebut tidak mengikuti siklus atau urutan matematis yang terbentuk. Coba amati urutannya kembali!", false);
+            }
+        }
+
+        const abstractionItemsData = [
+            { id: 1, text: "Nama & Urutan Stasiun Utama", mandatory: true, icon: "fa-location-dot" },
+            { id: 2, text: "Warna Cat Rumah Penduduk Sekitar Jalan", mandatory: false, icon: "fa-house" },
+            { id: 3, text: "Garis Penghubung Transit Rute", mandatory: true, icon: "fa-route" },
+            { id: 4, text: "Detail Gambar Pohon & Kelokan Asli Jalan", mandatory: false, icon: "fa-tree" },
+            { id: 5, text: "Simbol Pertukaran Jalur (Transfer Hub)", mandatory: true, icon: "fa-arrow-rotate-right" },
+            { id: 6, text: "Daftar Menu Warung Makan Terdekat", mandatory: false, icon: "fa-burger" }
+        ];
+
+        let selectedAbstractions = {};
+
+        function initAbstraksiGame() {
+            selectedAbstractions = {};
+            abstractionItemsData.forEach(item => {
+                selectedAbstractions[item.id] = false;
+            });
+            renderAbstraksiGame();
+        }
+
+        function renderAbstraksiGame() {
+            const list = document.getElementById('abstraction-items-list');
+            list.innerHTML = '';
+
+            abstractionItemsData.forEach(item => {
+                const isSelected = selectedAbstractions[item.id];
+                const btn = document.createElement('button');
+                btn.onclick = () => toggleAbstractionItem(item.id);
+                btn.className = `w-full p-3 rounded-xl border text-left text-xs font-semibold flex items-center justify-between transition ${
+                    isSelected 
+                    ? 'bg-amber-500/20 border-amber-500 text-amber-300' 
+                    : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
+                }`;
+
+                btn.innerHTML = `
+                    <span class="flex items-center gap-2">
+                        <i class="fa-solid ${item.icon}"></i> ${item.text}
+                    </span>
+                    <i class="fa-solid ${isSelected ? 'fa-square-check text-amber-400' : 'fa-square text-slate-600'} text-sm"></i>
+                `;
+                list.appendChild(btn);
+            });
+
+            renderSVGMap();
+        }
+
+        function toggleAbstractionItem(id) {
+            playSound('click');
+            selectedAbstractions[id] = !selectedAbstractions[id];
+            renderAbstraksiGame();
+        }
+
+        function resetAbstraksi() {
+            playSound('click');
+            initAbstraksiGame();
+        }
+
+        function renderSVGMap() {
+            const svg = document.getElementById('map-svg');
+            const efficiencyTag = document.getElementById('map-efficiency-tag');
+            
+            const hasStations = selectedAbstractions[1];
+            const hasDistractionsHouse = selectedAbstractions[2];
+            const hasLines = selectedAbstractions[3];
+            const hasDistractionsTree = selectedAbstractions[4];
+            const hasTransfer = selectedAbstractions[5];
+            const hasDistractionsFood = selectedAbstractions[6];
+
+            let svgContent = '';
+
+            // Render Distractions first (background noise)
+            if (hasDistractionsTree) {
+                // Wavy lines and trees background
+                svgContent += `
+                    <path d="M 20 50 Q 100 200 250 80 T 480 180" stroke="#334155" stroke-width="8" fill="none" stroke-dasharray="5,5"/>
+                    <text x="60" y="140" fill="#475569" font-size="20">🌳</text>
+                    <text x="220" y="40" fill="#475569" font-size="20">🌲</text>
+                    <text x="380" y="210" fill="#475569" font-size="20">🌳</text>
+                `;
+            }
+
+            if (hasDistractionsHouse) {
+                svgContent += `
+                    <text x="140" y="180" fill="#475569" font-size="18">🏠</text>
+                    <text x="300" y="100" fill="#475569" font-size="18">🏡</text>
+                `;
+            }
+
+            if (hasDistractionsFood) {
+                svgContent += `
+                    <text x="280" y="190" fill="#475569" font-size="16">🍔 Warung Bakso</text>
+                    <text x="90" y="70" fill="#475569" font-size="16">🍜 Kantin Pak RT</text>
+                `;
+            }
+
+            // Render Vital Clean Schematic Line
+            if (hasLines) {
+                svgContent += `
+                    <line x1="80" y1="125" x2="420" y2="125" stroke="#06b6d4" stroke-width="6" stroke-linecap="round"/>
+                `;
+            }
+
+            // Render Stations
+            if (hasStations) {
+                svgContent += `
+                    <!-- Station A -->
+                    <circle cx="100" cy="125" r="10" fill="#0f172a" stroke="#06b6d4" stroke-width="4"/>
+                    <text x="100" y="95" text-anchor="middle" fill="#f8fafc" font-size="11" font-weight="bold" font-family="Inter">Stasiun Pusat A</text>
+                    
+                    <!-- Station B -->
+                    <circle cx="400" cy="125" r="10" fill="#0f172a" stroke="#06b6d4" stroke-width="4"/>
+                    <text x="400" y="95" text-anchor="middle" fill="#f8fafc" font-size="11" font-weight="bold" font-family="Inter">Terminal B</text>
+                `;
+            }
+
+            // Render Transfer Hub
+            if (hasTransfer) {
+                svgContent += `
+                    <circle cx="250" cy="125" r="14" fill="#f59e0b" stroke="#0f172a" stroke-width="3"/>
+                    <text x="250" y="129" text-anchor="middle" fill="#0f172a" font-size="10" font-weight="extrabold">⇄</text>
+                    <text x="250" y="160" text-anchor="middle" fill="#f59e0b" font-size="11" font-weight="bold">Hub Transit Utama</text>
+                `;
+            }
+
+            // Empty state placeholder
+            if (!hasStations && !hasLines && !hasTransfer && !hasDistractionsHouse && !hasDistractionsTree && !hasDistractionsFood) {
+                svgContent = `
+                    <text x="250" y="130" text-anchor="middle" fill="#64748b" font-size="13">Silakan pilih item informasi di sebelah kiri untuk menggambar peta.</text>
+                `;
+            }
+
+            svg.innerHTML = svgContent;
+
+            // Update efficiency tag status
+            const hasDistractions = hasDistractionsHouse || hasDistractionsTree || hasDistractionsFood;
+            const hasMandatory = hasStations && hasLines && hasTransfer;
+
+            if (hasMandatory && !hasDistractions) {
+                efficiencyTag.textContent = "Status: 100% Efisien (Abstraksi Ideal)";
+                efficiencyTag.className = "text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 font-bold";
+            } else if (hasDistractions) {
+                efficiencyTag.textContent = "Status: Terlalu Banyak Distraksi";
+                efficiencyTag.className = "text-[10px] font-mono px-2 py-0.5 rounded bg-red-500/20 text-red-400 border border-red-500/40 font-bold";
+            } else {
+                efficiencyTag.textContent = "Status: Informasi Vital Belum Lengkap";
+                efficiencyTag.className = "text-[10px] font-mono px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 border border-amber-500/40 font-bold";
+            }
+        }
+
+        function validateAbstraksi() {
+            const isMandatoryCorrect = selectedAbstractions[1] && selectedAbstractions[3] && selectedAbstractions[5];
+            const hasNoDistractions = !selectedAbstractions[2] && !selectedAbstractions[4] && !selectedAbstractions[6];
+
+            if (isMandatoryCorrect && hasNoDistractions) {
+                if (!gameState.abstraksiDone) {
+                    addXP(50);
+                    gameState.abstraksiDone = true;
+                }
+                showModal(
+                    "Peta Abstraksi Sempurna! (+50 XP)",
+                    "Luar biasa! Anda berhasil membuang seluruh distraksi (pohon, cat rumah, warung) dan mempertahankan hanya data vital rute. Inilah inti dari **Abstraksi**!",
+                    true,
+                    "fa-filter"
+                );
+            } else if (!isMandatoryCorrect) {
+                showModal("Informasi Vital Belum Lengkap", "Peta navigasi Anda belum menyertakan komponen penting seperti nama stasiun atau jalur transit!", false);
+            } else {
+                showModal("Terlalu Banyak Distraksi Visual", "Peta navigasi menjadi rumit dan membingungkan karena masih menyertakan detail fisik yang tidak relevan!", false);
+            }
+        }
+
+        const quizQuestions = [
+            {
+                category: "Pengertian BK",
+                question: "Seorang teknisi ponsel ingin memeriksa perangkat yang mati total. Ia mengecek baterai terlebih dahulu, lalu layar, kemudian motherboard secara bertahap. Pendekatan ini paling sesuai dengan fondasi...",
+                context: "Memecah proses pemeriksaan perangkat keras rumit menjadi tahap-tahap kecil.",
+                options: [
+                    { text: "A. Dekomposisi", correct: true, explain: "Tepat! Membagi masalah rumit menjadi langkah-langkah kecil adalah Dekomposisi." },
+                    { text: "B. Pengenalan Pola", correct: false, explain: "Pengenalan pola fokus mencari kesamaan data terdahulu." },
+                    { text: "C. Abstraksi", correct: false, explain: "Abstraksi fokus menghilangkan detail tidak relevan." },
+                    { text: "D. Menghafal Coding", correct: false, explain: "Menghafal sintaks bukan fondasi Berpikir Komputasional." }
+                ]
+            },
+            {
+                category: "Pengenalan Pola",
+                question: "Seorang analis siber melihat gejala infeksi malware yang sama pada 10 komputer sekolah dalam minggu ini. Tindakan menyimpulkan sumber serangan dari gejala berulang tersebut menggunakan...",
+                context: "Mendeteksi kesamaan pola serangan pada berbagai unit jaringan.",
+                options: [
+                    { text: "A. Abstraksi", correct: false, explain: "Abstraksi menyaring detail, bukan mendeteksi tren berulang." },
+                    { text: "B. Pengenalan Pola", correct: true, explain: "Tepat! Menemukan tren/kesamaan dari berbagai kejadian adalah Pengenalan Pola." },
+                    { text: "C. Dekomposisi", correct: false, explain: "Dekomposisi memecah komponen." },
+                    { text: "D. Trial & Error", correct: false, explain: "Trial & error adalah percoban acak tanpa analisis pola." }
+                ]
+            },
+            {
+                category: "Abstraksi",
+                question: "Aplikasi Google Maps/Gojek tidak menampilkan bentuk cat pagar rumah warga atau posisi pohon di pinggir jalan saat memandu pengemudi. Hal ini merupakan contoh dari...",
+                context: "Penyederhanaan informasi visual agar pengguna fokus pada jalur navigasi.",
+                options: [
+                    { text: "A. Dekomposisi", correct: false, explain: "Bukan memecah masalah." },
+                    { text: "B. Algoritma", correct: false, explain: "Algoritma adalah urutan langkah." },
+                    { text: "C. Abstraksi", correct: true, explain: "Tepat! Mengabaikan detail fisik tak penting agar fokus pada data vital adalah Abstraksi." },
+                    { text: "D. Pengenalan Pola", correct: false, explain: "Bukan mencari kesamaan tren." }
+                ]
+            },
+            {
+                category: "Studi Kasus Integratif",
+                question: "Sekolah ingin membangun Sistem Smart School otomatis. Langkah awal tim mendefinisikan 3 modul terpisah: Modul Absensi, Modul Perpustakaan, dan Modul Penilaian. Langkah awal ini adalah...",
+                context: "Perancangan arsitektur sistem perangkat lunak sekolah.",
+                options: [
+                    { text: "A. Abstraksi", correct: false, explain: "Abstraksi dilakukan saat menyaring field data per modul." },
+                    { text: "B. Dekomposisi", correct: true, explain: "Sangat Tepat! Membagi sistem besar menjadi 3 modul mandiri adalah Dekomposisi." },
+                    { text: "C. Pengenalan Pola", correct: false, explain: "Bukan mencari tren data." },
+                    { text: "D. Pemrograman C++", correct: false, explain: "Coding baru dilakukan setelah tahap BK selesai." }
+                ]
+            },
+            {
+                category: "Studi Kasus Integratif",
+                question: "Mengapa kemampuan Berpikir Komputasional (BK) sangat krusial dipelajari siswa SMA di era kecerdasan buatan (AI)?",
+                context: "Kecakapan abad 21 dan problem solving digital.",
+                options: [
+                    { text: "A. Hanya agar bisa merakit komputer sendiri tanpa teknisi", correct: false, explain: "BK lebih dari sekadar perakitan fisik." },
+                    { text: "B. Agar mampu memecahkan masalah kompleks secara sistematis di berbagai disiplin ilmu", correct: true, explain: "Tepat! BK melatih kerangka pikir analitis manusia yang adaptif." },
+                    { text: "C. Supaya tidak perlu belajar mata pelajaran lain", correct: false, explain: "BK mendukung seluruh mata pelajaran." },
+                    { text: "D. Untuk menggantikan fungsi otak manusia secara total", correct: false, explain: "BK justru memberdayakan pola pikir manusia." }
+                ]
+            }
+        ];
+
+        function initQuiz() {
+            gameState.currentQuizIndex = 0;
+            gameState.quizAnswers = [];
+            renderQuizQuestion();
+        }
+
+        function renderQuizQuestion() {
+            const idx = gameState.currentQuizIndex;
+            if (idx >= quizQuestions.length) {
+                finishQuiz();
+                return;
+            }
+
+            const q = quizQuestions[idx];
+            document.getElementById('current-q-num').textContent = idx + 1;
+            document.getElementById('quiz-category-tag').textContent = q.category;
+            document.getElementById('quiz-question').textContent = q.question;
+            document.getElementById('quiz-context').textContent = `💡 Konteks Kasus: ${q.context}`;
+
+            const optionsContainer = document.getElementById('quiz-options');
+            optionsContainer.innerHTML = '';
+
+            q.options.forEach(opt => {
+                const btn = document.createElement('button');
+                btn.onclick = () => answerQuiz(opt);
+                btn.className = "p-4 bg-slate-900 border border-slate-800 hover:border-cyan-400 hover:bg-slate-800/80 rounded-xl text-left text-xs text-slate-200 transition font-medium leading-relaxed";
+                btn.textContent = opt.text;
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function answerQuiz(option) {
+            if (option.correct) {
+                playSound('success');
+                gameState.quizAnswers.push(true);
+            } else {
+                playSound('error');
+                gameState.quizAnswers.push(false);
+            }
+
+            // Show explanation feedback
+            showModal(
+                option.correct ? "Jawaban Anda Benar!" : "Jawaban Kurang Tepat",
+                option.explain,
+                option.correct,
+                option.correct ? "fa-circle-check" : "fa-circle-xmark",
+                "Soal Berikutnya"
+            );
+
+            gameState.currentQuizIndex++;
+            renderQuizQuestion();
+        }
+
+        function finishQuiz() {
+            const correctCount = gameState.quizAnswers.filter(a => a === true).length;
+            const accuracy = Math.round((correctCount / quizQuestions.length) * 100);
+            const bonusXP = correctCount * 25;
+
+            addXP(bonusXP);
+
+            document.getElementById('final-xp-score').textContent = gameState.xp;
+            document.getElementById('final-accuracy').textContent = `${accuracy}%`;
+            document.getElementById('final-badge-title').textContent = gameState.rank;
+
+            document.getElementById('breakdown-intro').textContent = gameState.introCompleted ? "Selesai (+30 XP)" : "Belum Belajar";
+            document.getElementById('breakdown-decomp').textContent = gameState.dekomposisiDone ? "100% (+50 XP)" : "Belum Selesai";
+            document.getElementById('breakdown-pola').textContent = `${gameState.polaSolvedCount * 25}% (+${gameState.polaSolvedCount * 20} XP)`;
+            document.getElementById('breakdown-abstraksi').textContent = gameState.abstraksiDone ? "100% (+50 XP)" : "Belum Selesai";
+
+            const feedbackEl = document.getElementById('feedback-text');
+            if (accuracy >= 80) {
+                feedbackEl.innerHTML = "Sangat Luar Biasa! Siswa telah menguasai fondasi <strong>Dekomposisi, Pengenalan Pola, dan Abstraksi</strong> dengan tingkat kecakapan sangat baik. Siap untuk melangkah ke materi Algoritma & Pemrograman!";
+            } else {
+                feedbackEl.innerHTML = "Hasil yang cukup baik! Siswa sudah memahami dasar-dasar Berpikir Komputasional, namun direkomendasikan untuk mengulang simulasi Misi Pengenalan Pola atau Abstraksi untuk memperkuat fondasi analitis.";
+            }
+
+            switchScreen('screen-results');
+        }
+
+        function printReport() {
+            window.print();
+        }
+
+        window.onload = function() {
+            console.log("Cyber CT Lab initialized successfully.");
+            renderBadges();
+        };
+    </script>
+</body>
+</html>
