@@ -1,609 +1,1441 @@
 # Trigonometri X SMA by IkhwanFisika
 
 ## trigon buku telegram
+### Rasio dan Identitas Trigonometri
 
-**1.** Sudut $150^\circ$ jika dinyatakan ke dalam bentuk radian adalah sebesar ....   
-a. $\frac{1}{6} \pi$ radian   
-b. $\frac{1}{3} \pi$ radian   
-c. $\frac{1}{2} \pi$ radian   
-d. $\frac{2}{3} \pi$ radian   
-e. $\frac{5}{6} \pi$ radian   
-   
-**2.** Sudut $225^\circ$ jika diubah ke dalam bentuk radian sama dengan ....   
-a. $\frac{1}{6} \pi$ radian   
-b. $\frac{1}{4} \pi$ radian   
-c. $\frac{1}{2} \pi$ radian   
-d. $\frac{5}{6} \pi$ radian   
-e. $\frac{5}{4} \pi$ radian   
-   
-**3.** Sudut $300^\circ$ jika dinyatakan ke dalam bentuk radian adalah sebesar ....   
-a. $\frac{1}{3} \pi$ radian   
-b. $\frac{2}{3} \pi$ radian   
-c. $\frac{5}{6} \pi$ radian   
-d. $\frac{5}{3} \pi$ radian   
-e. $\frac{7}{3} \pi$ radian   
-   
-**4.** Sudut $315^\circ$ jika diubah ke dalam bentuk radian sama dengan ....   
-a. $\frac{7}{4} \pi$ radian   
-b. $\frac{5}{4} \pi$ radian   
-c. $\frac{7}{6} \pi$ radian   
-d. $\frac{5}{6} \pi$ radian   
-e. $\frac{1}{2} \pi$ radian   
-   
-**5.** Nilai dari $\frac{11}{6} \pi$ radian dapat diubah ke dalam bentuk sudut menjadi ....   
-a. $120^\circ$   
-b. $150^\circ$   
-c. $210^\circ$   
-d. $300^\circ$   
-e. $330^\circ$   
-   
-**6.** Nilai dari $\frac{7}{6} \pi$ radian dapat diubah ke dalam derajat menjadi ....   
-a. $120^\circ$   
-b. $150^\circ$   
-c. $210^\circ$   
-d. $300^\circ$   
-e. $330^\circ$   
-   
-**7.** Nilai dari $\frac{2}{3} \pi$ radian dapat diubah ke dalam bentuk derajat menjadi ....   
-a. $120^\circ$   
-b. $150^\circ$   
-c. $210^\circ$   
-d. $300^\circ$   
-e. $330^\circ$   
-   
-**8.** Nilai dari $\frac{9}{4} \pi$ radian dapat diubah ke dalam derajat menjadi ....   
-a. $385^\circ$   
-b. $390^\circ$   
-c. $405^\circ$   
-d. $450^\circ$   
-e. $490^\circ$   
-   
-**9.** Diketahui $\Delta ABC$ siku-siku sebagai berikut.   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_09.png" width="300"><br>   
-Nilai $\sin \alpha$ adalah ....   
-a. $\frac{3}{5}$   
-b. $\frac{4}{5}$   
-c. $\frac{6}{5}$   
-d. $\frac{5}{4}$   
-e. $\frac{4}{3}$   
-   
-**10.**  Diketahui $KLM$ siku-siku sebagai berikut.   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_10.png" width="300"><br>      
-Nilai $\cos \beta$ adalah ....   
-a. $\sqrt{3}$   
-b. $1$   
-c. $\frac{\sqrt{3}}{2}$   
-d. $\frac{1}{3} \sqrt{3}$   
-e. $\frac{1}{2}$   
-   
-**11.**  Jika $\tan x = \frac{1}{7} \sqrt{15}$ dengan $x$ sudut lancip, maka nilai $\cos x = ....$   
-a. $\frac{3}{8}$   
-b. $\frac{5}{8}$   
-c. $\frac{7}{8}$   
-d. $\frac{8}{7}$   
-e. $\frac{13}{7}$   
-   
-**12.** Diketahui $\tan A = \frac{2}{3}$, maka nilai $\sin A \cos A$ adalah ....     
-a. $-\frac{2}{13}$     
-b. $\frac{4}{13}$     
-c. $\frac{5}{13}$     
-d. $\frac{6}{13}$     
-e. $\frac{8}{13}$   
-   
-**13.** Jika $\sin x = t$ dengan $x$ sudut lancip, maka $\cos x$ adalah ....     
-a. $1 + t^2$     
-b. $\sqrt{1 - t^2}$     
-c. $\sqrt{t^2 + 1}$     
-d. $\frac{1}{\sqrt{t^2 + 1}}$     
-e. $\frac{9}{25}$   
-   
-**14.** Untuk $\theta$ sudut lancip dan $\cos \theta = \frac{3}{4}$, maka nilai dari $1 - \sin^2 \theta$ adalah ....     
-a. $-\frac{4}{25}$     
-b. $\frac{9}{25}$     
-c. $\frac{4}{9}$     
-d. $\frac{3}{5}$     
-e. $\frac{2}{3}$   
-   
-**15.** Jika $\tan x = \frac{1}{2}$ dengan $0^\circ < x < 90^\circ$, maka $\sin x \cdot \cos x = \ldots$     
-a. $-\frac{4}{5}$     
-b. $\frac{3}{4}$     
-c. $\frac{2}{3}$     
-d. $\frac{3}{5}$     
-e. $\frac{2}{3}$   
-   
-**16.** Diketahui $\tan A = 1$ dengan $A$ sudut lancip, maka nilai $\cos A = \ldots$     
-a. $\frac{1}{5}\sqrt{2}$     
-b. $\frac{2}{5}\sqrt{3}$     
-c. $\frac{1}{2}\sqrt{2}$     
-d. $\frac{1}{2}\sqrt{3}$     
-e. $\frac{1}{2}$   
-   
-**17.** Jika $\sec \theta = 2$, maka nilai $\cos^2 \theta - \sin^2 \theta$ adalah ....     
-a. $-1$     
-b. $-\frac{1}{2}$     
-c. $0$     
-d. $1$     
-e. $1$   
-   
-**18.** Apabila $\tan \alpha = \frac{x}{y}$, maka $\sin \alpha = \ldots$     
-a. $\frac{y}{\sqrt{x^2 + y^2}}$     
-b. $\frac{x}{\sqrt{x^2 + y^2}}$     
-c. $\frac{\sqrt{x^2 + y^2}}{x}$     
-d. $\frac{\sqrt{x^2 + y^2}}{y}$     
-e. $\frac{\sqrt{x^2 + y^2}}{x}$   
-   
-**19.** Apabila $\sin \theta = \frac{5}{13}$ dan $\theta$ sudut lancip, maka nilai dari $1 - 2 \cos \theta$ adalah ....     
-a. $-\frac{11}{13}$     
-b. $-\frac{12}{13}$     
-c. $-\frac{15}{13}$     
-d. $-\frac{12}{13}$     
-e. $-\frac{11}{13}$   
-   
-**20.** Diketahui segitiga siku-siku $PQR$ siku-siku di $Q$. Jika $\sin P = \frac{3}{4}$, maka nilai $\tan R$ adalah ....     
-a. $2\sqrt{6}$     
-b. $\frac{1}{3}\sqrt{7}$     
-c. $\frac{1}{6}\sqrt{6}$     
-d. $5\sqrt{6}$     
-e. $\frac{3}{7}\sqrt{7}$   
-   
-**21.** Diketahui segitiga siku-siku sebagai berikut. Nilai $\sec^2\alpha - \tan^2\alpha$ adalah ....    
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_21.png" width="300"><br>   
-a. $p^2 + r^2$     
-b. $1$     
-c. $0$     
-d. $-1$     
-e. $p^2 - r^2$   
-   
-**22.** Pada gambar segiempat berikut ini, panjang $CD$ sama dengan ....    
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_22.png" width="300"><br>    
-a. $p \sin \beta$     
-b. $p \cos \alpha$     
-c. $p \sin \alpha$     
-d. $p \cos \beta$     
-e. $p \cos \alpha \sin \beta$   
-   
-**23.** Diketahui segitiga ABC siku-siku di B dan $\tan A = \frac{12}{5}$. Nilai $(1 - \sin A)(\cos A + \sin C)$ adalah ....     
-a. $\frac{10}{13}$     
-b. $\frac{25}{169}$     
-c. $\frac{1}{13}$     
-d. $\frac{11}{169}$     
-e. $\frac{10}{169}$   
-   
-**24.** Diketahui $\triangle ABC$ dengan $AB = 3 \mathrm{~cm}$, $BC = 2 \mathrm{~cm}$, dan $\angle ABC = 90^{\circ}$. Jika $BD$ garis bagi $\angle ABC$, maka $BD = \ldots$     
-a. $\frac{4}{5}\sqrt{2} \mathrm{~cm}$     
-b. $\frac{5}{6}\sqrt{2} \mathrm{~cm}$     
-c. $\sqrt{2} \mathrm{~cm}$     
-d. $\frac{6}{5}\sqrt{2} \mathrm{~cm}$     
-e. $\frac{5}{4}\sqrt{2} \mathrm{~cm}$   
-   
-**25.** Jika $BE = 16 \mathrm{~cm}$ dan $CD = 8 \mathrm{~cm}$, maka panjang $AE = \ldots$    
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_25.png" width="300"><br>   
-a. 2 cm     
-b. 4 cm     
-c. 6 cm     
-d. 8 cm     
-e. 16 cm   
-   
-**26.** Jika $BC = 12 \mathrm{~cm}$, maka nilai dari $AE = \ldots$   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_26.png" width="300"><br>   
-a. 3 cm     
-b. $3\sqrt{3} \mathrm{~cm}$     
-c. 6 cm     
-d. 8 cm     
-e. $6\sqrt{3} \mathrm{~cm}$   
-   
-**27.** Diketahui segitiga ABC siku-siku di A. Jika $\angle BCA = 45^{\circ}$ dan panjang sisi $BC$ adalah 8, maka panjang $AB$ dan $AC$ adalah ....     
-a. $\sqrt{8}$ dan $8\sqrt{2}$     
-b. $4\sqrt{3}$ dan $8\sqrt{2}$     
-c. $8\sqrt{2}$ dan $4\sqrt{2}$     
-d. $4\sqrt{2}$ dan $4\sqrt{2}$     
-e. $3\sqrt{2}$ dan $4\sqrt{2}$   
-   
-**28.** Diketahui segitiga ABC siku-siku di B. Jika $\angle BAC = 30^{\circ}$ dan panjang sisi $AC$ adalah 10, maka panjang $BC$ dan $AB$ adalah ....     
-a. 10 dan $5\sqrt{3}$     
-b. 5 dan $5\sqrt{3}$     
-c. $5\sqrt{3}$ dan $5\sqrt{2}$     
-d. 10 dan $5\sqrt{2}$     
-e. $5\sqrt{3}$ dan $10\sqrt{3}$   
-   
-**29.** Nilai dari $(\sin 60^{\circ} \cos 30^{\circ}) + (\cos 60^{\circ} \cdot \sin 30^{\circ})$ adalah ....     
-a. $\frac{1}{3}\sqrt{3}$     
-b. $\frac{1}{2}\sqrt{2}$     
-c. $\frac{1}{2}\sqrt{3}$     
-d. 1     
-e. $\sqrt{3}$   
-   
-**30.** Nilai dari $(\sin 45^{\circ} \cos 30^{\circ}) - (\cos 45^{\circ} \cdot \sin 30^{\circ})$ adalah ....     
-a. $\frac{1}{2}(\sqrt{6} - \sqrt{2})$     
-b. $\frac{1}{4}(\sqrt{6} - \sqrt{2})$     
-c. $\frac{1}{4}(\sqrt{2} - \sqrt{6})$     
-d. $\frac{1}{2}(\sqrt{3} - \sqrt{6})$     
-e. $(\sqrt{3} - \sqrt{6})$   
-   
-**31.** Jika diketahui $90^{\circ} < \theta < 180^{\circ}$ dan $\tan \theta = -\sqrt{3}$, maka nilai $\cos \theta \cdot \sin \theta$ adalah ....     
-a. $\frac{3}{2}$     
-b. $\frac{1}{2}$     
-c. $\frac{1}{4}\sqrt{3}$     
-d. $-\frac{1}{4}\sqrt{3}$     
-e. $-\frac{1}{2}$   
-   
-**32.** Jika diketahui $\tan \theta = -1$ dan $\theta$ adalah sudut tumpul, maka nilai $\cos \theta \cdot \sin \theta$ adalah ....     
-a. $-\frac{1}{2}$     
-b. $-\frac{1}{4}\sqrt{3}$     
-c. $\frac{1}{4}\sqrt{3}$     
-d. $\frac{1}{2}$     
-e. $\frac{3}{2}$   
-   
-**33.** Jika $\cos \beta = -\frac{1}{2}\sqrt{3}$ dan $\beta$ pada kuadran III, maka $\tan \beta = \ldots$     
-a. $\sqrt{3}$     
-b. $\frac{1}{3}\sqrt{3}$     
-c. $\frac{1}{2}$     
-d. $-\frac{1}{3}\sqrt{3}$     
-e. $-\sqrt{3}$   
-   
-**34.** Diketahui persegi panjang $ABCD$ dengan $AB = \sqrt{15} \mathrm{~cm}$ dan $AD = \sqrt{5} \mathrm{~cm}$. Jika $E$ merupakan titik potong diagonal persegi panjang tersebut, maka besar $\angle BEC$ adalah ....     
-a. $30^{\circ}$     
-b. $45^{\circ}$     
-c. $60^{\circ}$     
-d. $75^{\circ}$     
-e. $90^{\circ}$   
-   
-**35.** Segitiga ABC siku-siku di B dengan panjang $BC = 12 \mathrm{~cm}$ dan $AC = 15 \mathrm{~cm}$. Nilai $\cos A$ adalah ....     
-a. $\frac{3}{5}$     
-b. $\frac{3}{4}$     
-c. $\frac{4}{5}$     
-d. $\frac{7}{8}$     
-e. $\frac{15}{16}$   
-   
-**36.** Kaila berdiri dengan jarak $80 \mathrm{~km}$ dari sebuah menara dan memandang puncak menara dengan sudut elevasi $30^{\circ}$. Jika jarak mata Kaila dengan tanah adalah $150 \mathrm{~cm}$, maka tinggi menara tersebut adalah ....     
-a. $\left(\frac{80}{3}\sqrt{3} + 1,5\right) \mathrm{~m}$     
-b. $\left(\frac{80}{3}\sqrt{3} - 1,5\right) \mathrm{~m}$     
-c. $\left(80\sqrt{3} - 1,5\right) \mathrm{~m}$     
-d. $\left(80\sqrt{3} + 1,5\right) \mathrm{~m}$     
-e. $\left(\frac{81,5}{3}\sqrt{3}\right) \mathrm{~m}$   
-   
-**37.** Sebuah tangga menyandar pada dinding dengan kemiringan $60^{\circ}$. Jika panjang tangga 5 meter, maka jarak dari kaki tangga ke dinding adalah .... meter.     
-a. $\frac{5}{2}$     
-b. $\frac{5}{2}\sqrt{2}$     
-c. $\frac{5}{2}\sqrt{3}$     
-d. $5\sqrt{2}$     
-e. $5\sqrt{3}$   
-   
-**38.** Panjang jarum pendek sebuah jam dinding 10 cm. Ketika jarum jam menunjukkan pukul 2.00, maka jarak jarum pendek ke garis horizontal yang melalui titik pusat jam dinding adalah ....     
-a. $5\sqrt{5} \mathrm{~cm}$     
-b. $10 \mathrm{~cm}$     
-c. $5\sqrt{3} \mathrm{~cm}$     
-d. $5\sqrt{2} \mathrm{~cm}$     
-e. $5 \mathrm{~cm}$   
-   
-**39.** Doni berdiri dengan jarak $24 \mathrm{~m}$ dari sebuah pohon dan melihat puncak pohon dengan sudut pandang $30^{\circ}$. Jika tinggi Doni diukur dari tanah sampai ke mata $170 \mathrm{~cm}$, tinggi pohon adalah ....     
-a. $(1,7 + 12\sqrt{3}) \mathrm{~m}$     
-b. $(1,7 + 8\sqrt{3}) \mathrm{~m}$     
-c. $13,7 \mathrm{~m}$     
-d. $(1,7 + 8\sqrt{2}) \mathrm{~m}$     
-e. $9,7 \mathrm{~m}$   
-   
-**40.** Seorang anak berdiri di suatu tempat $A$ di tepi sungai yang lurus. Ia mengamati dua pohon, $B$ dan $C$ yang berada di seberang sungai. Pohon $B$ tepat di seberang $A$. Jarak pohon $B$ dan $C$ adalah $8\sqrt{6}$ meter dan besar sudut $BAC$ adalah $30^{\circ}$. Lebar sungai adalah .... meter.     
-a. $\frac{8}{3}\sqrt{2}$     
-b. $8\sqrt{2}$     
-c. $8\sqrt{3}$     
-d. $24\sqrt{2}$     
-e. $24\sqrt{3}$   
-   
-**41.** Sebuah benda membentuk bayangan di tanah dengan panjang $90 \mathrm{~cm}$ ketika sudut elevasi sinar matahari $60^{\circ}$. Tinggi benda tersebut adalah .... cm.     
-a. $30$     
-b. $30\sqrt{2}$     
-c. $30\sqrt{3}$     
-d. $90$     
-e. $90\sqrt{3}$   
-   
+**1.** Sudut $150^\circ$ jika dinyatakan ke dalam bentuk radian adalah sebesar ....  
+a. $\frac{1}{6} \pi$ radian  
+b. $\frac{1}{3} \pi$ radian  
+c. $\frac{1}{2} \pi$ radian  
+d. $\frac{2}{3} \pi$ radian  
+e. $\frac{5}{6} \pi$ radian  
+  
+**2.** Sudut $225^\circ$ jika diubah ke dalam bentuk radian sama dengan ....  
+a. $\frac{1}{6} \pi$ radian  
+b. $\frac{1}{4} \pi$ radian  
+c. $\frac{1}{2} \pi$ radian  
+d. $\frac{5}{6} \pi$ radian  
+e. $\frac{5}{4} \pi$ radian  
+  
+**3.** Sudut $300^\circ$ jika dinyatakan ke dalam bentuk radian adalah sebesar ....  
+a. $\frac{1}{3} \pi$ radian  
+b. $\frac{2}{3} \pi$ radian  
+c. $\frac{5}{6} \pi$ radian  
+d. $\frac{5}{3} \pi$ radian  
+e. $\frac{7}{3} \pi$ radian  
+  
+**4.** Sudut $315^\circ$ jika diubah ke dalam bentuk radian sama dengan ....  
+a. $\frac{7}{4} \pi$ radian  
+b. $\frac{5}{4} \pi$ radian  
+c. $\frac{7}{6} \pi$ radian  
+d. $\frac{5}{6} \pi$ radian  
+e. $\frac{1}{2} \pi$ radian  
+  
+**5.** Nilai dari $\frac{11}{6} \pi$ radian dapat diubah ke dalam bentuk sudut menjadi ....  
+a. $120^\circ$  
+b. $150^\circ$  
+c. $210^\circ$  
+d. $300^\circ$  
+e. $330^\circ$  
+  
+**6.** Nilai dari $\frac{7}{6} \pi$ radian dapat diubah ke dalam derajat menjadi ....  
+a. $120^\circ$  
+b. $150^\circ$  
+c. $210^\circ$  
+d. $300^\circ$  
+e. $330^\circ$  
+  
+**7.** Nilai dari $\frac{2}{3} \pi$ radian dapat diubah ke dalam bentuk derajat menjadi ....  
+a. $120^\circ$  
+b. $150^\circ$  
+c. $210^\circ$  
+d. $300^\circ$  
+e. $330^\circ$  
+  
+**8.** Nilai dari $\frac{9}{4} \pi$ radian dapat diubah ke dalam derajat menjadi ....  
+a. $385^\circ$  
+b. $390^\circ$  
+c. $405^\circ$  
+d. $450^\circ$  
+e. $490^\circ$  
+  
+**9.** Diketahui $\Delta ABC$ siku-siku sebagai berikut.  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_09.png" width="300"><br>  
+Nilai $\sin \alpha$ adalah ....  
+a. $\frac{3}{5}$  
+b. $\frac{4}{5}$  
+c. $\frac{6}{5}$  
+d. $\frac{5}{4}$  
+e. $\frac{4}{3}$  
+  
+**10.**  Diketahui $KLM$ siku-siku sebagai berikut.  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_10.png" width="300"><br>  
+Nilai $\cos \beta$ adalah ....  
+a. $\sqrt{3}$  
+b. $1$  
+c. $\frac{\sqrt{3}}{2}$  
+d. $\frac{1}{3} \sqrt{3}$  
+e. $\frac{1}{2}$  
+  
+**11.**  Jika $\tan x = \frac{1}{7} \sqrt{15}$ dengan $x$ sudut lancip, maka nilai $\cos x = ....$  
+a. $\frac{3}{8}$  
+b. $\frac{5}{8}$  
+c. $\frac{7}{8}$  
+d. $\frac{8}{7}$  
+e. $\frac{13}{7}$  
+  
+**12.** Diketahui $\tan A = \frac{2}{3}$, maka nilai $\sin A \cos A$ adalah ....  
+a. $-\frac{2}{13}$  
+b. $\frac{4}{13}$  
+c. $\frac{5}{13}$  
+d. $\frac{6}{13}$  
+e. $\frac{8}{13}$  
+  
+**13.** Jika $\sin x = t$ dengan $x$ sudut lancip, maka $\cos x$ adalah ....  
+a. $1 + t^2$  
+b. $\sqrt{1 - t^2}$  
+c. $\sqrt{t^2 + 1}$  
+d. $\frac{1}{\sqrt{t^2 + 1}}$  
+e. $\frac{9}{25}$  
+  
+**14.** Untuk $\theta$ sudut lancip dan $\cos \theta = \frac{3}{4}$, maka nilai dari $1 - \sin^2 \theta$ adalah ....  
+a. $-\frac{4}{25}$  
+b. $\frac{9}{25}$  
+c. $\frac{4}{9}$  
+d. $\frac{3}{5}$  
+e. $\frac{2}{3}$  
+  
+**15.** Jika $\tan x = \frac{1}{2}$ dengan $0^\circ < x < 90^\circ$, maka $\sin x \cdot \cos x = \ldots$  
+a. $-\frac{4}{5}$  
+b. $\frac{3}{4}$  
+c. $\frac{2}{3}$  
+d. $\frac{3}{5}$  
+e. $\frac{2}{3}$  
+  
+**16.** Diketahui $\tan A = 1$ dengan $A$ sudut lancip, maka nilai $\cos A = \ldots$  
+a. $\frac{1}{5}\sqrt{2}$  
+b. $\frac{2}{5}\sqrt{3}$  
+c. $\frac{1}{2}\sqrt{2}$  
+d. $\frac{1}{2}\sqrt{3}$  
+e. $\frac{1}{2}$  
+  
+**17.** Jika $\sec \theta = 2$, maka nilai $\cos^2 \theta - \sin^2 \theta$ adalah ....  
+a. $-1$  
+b. $-\frac{1}{2}$  
+c. $0$  
+d. $1$  
+e. $1$  
+  
+**18.** Apabila $\tan \alpha = \frac{x}{y}$, maka $\sin \alpha = \ldots$  
+a. $\frac{y}{\sqrt{x^2 + y^2}}$  
+b. $\frac{x}{\sqrt{x^2 + y^2}}$  
+c. $\frac{\sqrt{x^2 + y^2}}{x}$  
+d. $\frac{\sqrt{x^2 + y^2}}{y}$  
+e. $\frac{\sqrt{x^2 + y^2}}{x}$  
+  
+**19.** Apabila $\sin \theta = \frac{5}{13}$ dan $\theta$ sudut lancip, maka nilai dari $1 - 2 \cos \theta$ adalah ....  
+a. $-\frac{11}{13}$  
+b. $-\frac{12}{13}$  
+c. $-\frac{15}{13}$  
+d. $-\frac{12}{13}$  
+e. $-\frac{11}{13}$  
+  
+**20.** Diketahui segitiga siku-siku $PQR$ siku-siku di $Q$. Jika $\sin P = \frac{3}{4}$, maka nilai $\tan R$ adalah ....  
+a. $2\sqrt{6}$  
+b. $\frac{1}{3}\sqrt{7}$  
+c. $\frac{1}{6}\sqrt{6}$  
+d. $5\sqrt{6}$  
+e. $\frac{3}{7}\sqrt{7}$  
+  
+**21.** Diketahui segitiga siku-siku sebagai berikut. Nilai $\sec^2\alpha - \tan^2\alpha$ adalah ....  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_21.png" width="300"><br>  
+a. $p^2 + r^2$  
+b. $1$  
+c. $0$  
+d. $-1$  
+e. $p^2 - r^2$  
+  
+**22.** Pada gambar segiempat berikut ini, panjang $CD$ sama dengan ....  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_22.png" width="300"><br>  
+a. $p \sin \beta$  
+b. $p \cos \alpha$  
+c. $p \sin \alpha$  
+d. $p \cos \beta$  
+e. $p \cos \alpha \sin \beta$  
+  
+**23.** Diketahui segitiga ABC siku-siku di B dan $\tan A = \frac{12}{5}$. Nilai $(1 - \sin A)(\cos A + \sin C)$ adalah ....  
+a. $\frac{10}{13}$  
+b. $\frac{25}{169}$  
+c. $\frac{1}{13}$  
+d. $\frac{11}{169}$  
+e. $\frac{10}{169}$  
+  
+**24.** Diketahui $\triangle ABC$ dengan $AB = 3 \mathrm{~cm}$, $BC = 2 \mathrm{~cm}$, dan $\angle ABC = 90^{\circ}$. Jika $BD$ garis bagi $\angle ABC$, maka $BD = \ldots$  
+a. $\frac{4}{5}\sqrt{2} \mathrm{~cm}$  
+b. $\frac{5}{6}\sqrt{2} \mathrm{~cm}$  
+c. $\sqrt{2} \mathrm{~cm}$  
+d. $\frac{6}{5}\sqrt{2} \mathrm{~cm}$  
+e. $\frac{5}{4}\sqrt{2} \mathrm{~cm}$  
+  
+**25.** Jika $BE = 16 \mathrm{~cm}$ dan $CD = 8 \mathrm{~cm}$, maka panjang $AE = \ldots$  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_25.png" width="300"><br>  
+a. 2 cm  
+b. 4 cm  
+c. 6 cm  
+d. 8 cm  
+e. 16 cm  
+  
+**26.** Jika $BC = 12 \mathrm{~cm}$, maka nilai dari $AE = \ldots$  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_26.png" width="300"><br>  
+a. 3 cm  
+b. $3\sqrt{3} \mathrm{~cm}$  
+c. 6 cm  
+d. 8 cm  
+e. $6\sqrt{3} \mathrm{~cm}$  
+  
+**27.** Diketahui segitiga ABC siku-siku di A. Jika $\angle BCA = 45^{\circ}$ dan panjang sisi $BC$ adalah 8, maka panjang $AB$ dan $AC$ adalah ....  
+a. $\sqrt{8}$ dan $8\sqrt{2}$  
+b. $4\sqrt{3}$ dan $8\sqrt{2}$  
+c. $8\sqrt{2}$ dan $4\sqrt{2}$  
+d. $4\sqrt{2}$ dan $4\sqrt{2}$  
+e. $3\sqrt{2}$ dan $4\sqrt{2}$  
+  
+**28.** Diketahui segitiga ABC siku-siku di B. Jika $\angle BAC = 30^{\circ}$ dan panjang sisi $AC$ adalah 10, maka panjang $BC$ dan $AB$ adalah ....  
+a. 10 dan $5\sqrt{3}$  
+b. 5 dan $5\sqrt{3}$  
+c. $5\sqrt{3}$ dan $5\sqrt{2}$  
+d. 10 dan $5\sqrt{2}$  
+e. $5\sqrt{3}$ dan $10\sqrt{3}$  
+  
+**29.** Nilai dari $(\sin 60^{\circ} \cos 30^{\circ}) + (\cos 60^{\circ} \cdot \sin 30^{\circ})$ adalah ....  
+a. $\frac{1}{3}\sqrt{3}$  
+b. $\frac{1}{2}\sqrt{2}$  
+c. $\frac{1}{2}\sqrt{3}$  
+d. 1  
+e. $\sqrt{3}$  
+  
+**30.** Nilai dari $(\sin 45^{\circ} \cos 30^{\circ}) - (\cos 45^{\circ} \cdot \sin 30^{\circ})$ adalah ....  
+a. $\frac{1}{2}(\sqrt{6} - \sqrt{2})$  
+b. $\frac{1}{4}(\sqrt{6} - \sqrt{2})$  
+c. $\frac{1}{4}(\sqrt{2} - \sqrt{6})$  
+d. $\frac{1}{2}(\sqrt{3} - \sqrt{6})$  
+e. $(\sqrt{3} - \sqrt{6})$  
+  
+**31.** Jika diketahui $90^{\circ} < \theta < 180^{\circ}$ dan $\tan \theta = -\sqrt{3}$, maka nilai $\cos \theta \cdot \sin \theta$ adalah ....  
+a. $\frac{3}{2}$  
+b. $\frac{1}{2}$  
+c. $\frac{1}{4}\sqrt{3}$  
+d. $-\frac{1}{4}\sqrt{3}$  
+e. $-\frac{1}{2}$  
+  
+**32.** Jika diketahui $\tan \theta = -1$ dan $\theta$ adalah sudut tumpul, maka nilai $\cos \theta \cdot \sin \theta$ adalah ....  
+a. $-\frac{1}{2}$  
+b. $-\frac{1}{4}\sqrt{3}$  
+c. $\frac{1}{4}\sqrt{3}$  
+d. $\frac{1}{2}$  
+e. $\frac{3}{2}$  
+  
+**33.** Jika $\cos \beta = -\frac{1}{2}\sqrt{3}$ dan $\beta$ pada kuadran III, maka $\tan \beta = \ldots$  
+a. $\sqrt{3}$  
+b. $\frac{1}{3}\sqrt{3}$  
+c. $\frac{1}{2}$  
+d. $-\frac{1}{3}\sqrt{3}$  
+e. $-\sqrt{3}$  
+  
+**34.** Diketahui persegi panjang $ABCD$ dengan $AB = \sqrt{15} \mathrm{~cm}$ dan $AD = \sqrt{5} \mathrm{~cm}$. Jika $E$ merupakan titik potong diagonal persegi panjang tersebut, maka besar $\angle BEC$ adalah ....  
+a. $30^{\circ}$  
+b. $45^{\circ}$  
+c. $60^{\circ}$  
+d. $75^{\circ}$  
+e. $90^{\circ}$  
+  
+**35.** Segitiga ABC siku-siku di B dengan panjang $BC = 12 \mathrm{~cm}$ dan $AC = 15 \mathrm{~cm}$. Nilai $\cos A$ adalah ....  
+a. $\frac{3}{5}$  
+b. $\frac{3}{4}$  
+c. $\frac{4}{5}$  
+d. $\frac{7}{8}$  
+e. $\frac{15}{16}$  
+  
+**36.** Kaila berdiri dengan jarak $80 \mathrm{~km}$ dari sebuah menara dan memandang puncak menara dengan sudut elevasi $30^{\circ}$. Jika jarak mata Kaila dengan tanah adalah $150 \mathrm{~cm}$, maka tinggi menara tersebut adalah ....  
+a. $\left(\frac{80}{3}\sqrt{3} + 1,5\right) \mathrm{~m}$  
+b. $\left(\frac{80}{3}\sqrt{3} - 1,5\right) \mathrm{~m}$  
+c. $\left(80\sqrt{3} - 1,5\right) \mathrm{~m}$  
+d. $\left(80\sqrt{3} + 1,5\right) \mathrm{~m}$  
+e. $\left(\frac{81,5}{3}\sqrt{3}\right) \mathrm{~m}$  
+  
+**37.** Sebuah tangga menyandar pada dinding dengan kemiringan $60^{\circ}$. Jika panjang tangga 5 meter, maka jarak dari kaki tangga ke dinding adalah .... meter.  
+a. $\frac{5}{2}$  
+b. $\frac{5}{2}\sqrt{2}$  
+c. $\frac{5}{2}\sqrt{3}$  
+d. $5\sqrt{2}$  
+e. $5\sqrt{3}$  
+  
+**38.** Panjang jarum pendek sebuah jam dinding 10 cm. Ketika jarum jam menunjukkan pukul 2.00, maka jarak jarum pendek ke garis horizontal yang melalui titik pusat jam dinding adalah ....  
+a. $5\sqrt{5} \mathrm{~cm}$  
+b. $10 \mathrm{~cm}$  
+c. $5\sqrt{3} \mathrm{~cm}$  
+d. $5\sqrt{2} \mathrm{~cm}$  
+e. $5 \mathrm{~cm}$  
+  
+**39.** Doni berdiri dengan jarak $24 \mathrm{~m}$ dari sebuah pohon dan melihat puncak pohon dengan sudut pandang $30^{\circ}$. Jika tinggi Doni diukur dari tanah sampai ke mata $170 \mathrm{~cm}$, tinggi pohon adalah ....  
+a. $(1,7 + 12\sqrt{3}) \mathrm{~m}$  
+b. $(1,7 + 8\sqrt{3}) \mathrm{~m}$  
+c. $13,7 \mathrm{~m}$  
+d. $(1,7 + 8\sqrt{2}) \mathrm{~m}$  
+e. $9,7 \mathrm{~m}$  
+  
+**40.** Seorang anak berdiri di suatu tempat $A$ di tepi sungai yang lurus. Ia mengamati dua pohon, $B$ dan $C$ yang berada di seberang sungai. Pohon $B$ tepat di seberang $A$. Jarak pohon $B$ dan $C$ adalah $8\sqrt{6}$ meter dan besar sudut $BAC$ adalah $30^{\circ}$. Lebar sungai adalah .... meter.  
+a. $\frac{8}{3}\sqrt{2}$  
+b. $8\sqrt{2}$  
+c. $8\sqrt{3}$  
+d. $24\sqrt{2}$  
+e. $24\sqrt{3}$  
+  
+**41.** Sebuah benda membentuk bayangan di tanah dengan panjang $90 \mathrm{~cm}$ ketika sudut elevasi sinar matahari $60^{\circ}$. Tinggi benda tersebut adalah .... cm.  
+a. $30$  
+b. $30\sqrt{2}$  
+c. $30\sqrt{3}$  
+d. $90$  
+e. $90\sqrt{3}$  
+  
 **42.** Seorang pengamat dari sebuah mercusuar yang tingginya $75 \mathrm{~m}$ di atas permukaan laut sedang mengamati sebuah kapal dengan sudut depresi $45^{\circ}$. Jarak kapal tersebut terhadap garis pantai adalah .... m.  
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_42.png" width="400"><br>   
-a. $25\sqrt{3}$     
-b. $75$     
-c. $75\sqrt{2}$     
-d. $75\sqrt{3}$     
-e. $150$   
-   
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_42.png" width="400"><br>  
+a. $25\sqrt{3}$  
+b. $75$  
+c. $75\sqrt{2}$  
+d. $75\sqrt{3}$  
+e. $150$  
+  
 **43.** Perhatikan gambar berikut. <br>
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_43.png" width="400"><br>   
-Seekor kelinci yang berada di lubang tanah tempat persembunyiannya melihat seekor elang yang sedang terbang dengan sudut $60^{\circ}$ (lihat gambar). Jika jarak antara kelinci dan elang adalah 18 meter, maka tinggi elang dari atas tanah adalah ... meter.     
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_43.png" width="400"><br>  
+Seekor kelinci yang berada di lubang tanah tempat persembunyiannya melihat seekor elang yang sedang terbang dengan sudut $60^{\circ}$ (lihat gambar). Jika jarak antara kelinci dan elang adalah 18 meter, maka tinggi elang dari atas tanah adalah ... meter.  
 
-a. $\sqrt{3}$     
-b. $3\sqrt{3}$     
-c. $6\sqrt{3}$     
-d. $9\sqrt{3}$     
-e. $12\sqrt{3}$   
-   
-**44.** Diketahui sudut elevasi pengamat terhadap puncak suatu menara televisi adalah $60^{\circ}$ dan jarak pengamat dari kaki menara adalah 400 m. Jika tinggi pengamat 160 cm, maka tinggi menara tersebut adalah....     
-a. $801,6 \mathrm{~m}$     
-b. $(400\sqrt{3} + 1,6) \mathrm{~m}$     
-c. $(400\sqrt{2} + 1,6) \mathrm{~m}$     
-d. $\left(\frac{400}{3}\sqrt{2} + 1,6\right) \mathrm{~m}$     
-e. $201,6 \mathrm{~m}$   
-   
-**45.** Pada saat sudut depresi sinar matahari mencapai $45^{\circ}$, panjang bayangan suatu pohon cemara adalah 7 meter. Tinggi pohon cemara tersebut adalah ... meter.     
-a. $\frac{7}{2}\sqrt{2}$     
-b. $\frac{7}{2}\sqrt{3}$     
-c. 7     
-d. $7\sqrt{2}$     
-e. $7\sqrt{3}$   
-   
-**46.** Seseorang berjalan lurus di jalan yang datar ke arah cerobong asap. Di lokasi $A$, ujung cerobong itu terlihat dengan sudut elevasi $30^{\circ}$. Kemudian, ia berjalan lagi sejauh 20 m ke lokasi $B$. Di lokasi $B$, cerobong asap terlihat dengan sudut elevasi $60^{\circ}$. Jika tinggi orang itu $160 \mathrm{~cm}$, maka tinggi cerobong asap tersebut adalah ....     
-a. $(1,6 + 10\sqrt{3}) \mathrm{~m}$     
-b. $(1,6 + 10\sqrt{2}) \mathrm{~m}$     
-c. $11,6 \mathrm{~m}$     
-d. $(1,6 + 5\sqrt{3}) \mathrm{~m}$     
-e. $6,6 \mathrm{~m}$   
-   
-**47.** Diketahui segitiga ABC dengan $\angle ABC = 45^{\circ}$. Misalkan ditarik garis tinggi dari titik sudut $C$ sehingga memotong $AB$ di titik $T$. Jika $BC = a \mathrm{~cm}$ dan $AT = \frac{3}{2} a\sqrt{2} \mathrm{~cm}$, maka $AC = \dots$     
-a. $a\sqrt{2}$     
-b. $a\sqrt{3}$     
-c. $a\sqrt{5}$     
-d. $a\sqrt{7}$     
-e. $a\sqrt{11}$   
-   
-**48.** Sebuah menara dan gedung masing-masing mempunyai tinggi $50 \mathrm{~m}$ dan $62 \mathrm{~m}$. Pada saat sudut elevasi sinar matahari mencapai $60^{\circ}$, selisih bayangan menara dan gedung adalah ....     
-a. $\sqrt{3} \mathrm{~m}$     
-b. $2\sqrt{3} \mathrm{~m}$     
-c. $3\sqrt{3} \mathrm{~m}$     
-d. $4\sqrt{3} \mathrm{~m}$     
-e. $8\sqrt{3} \mathrm{~m}$   
-   
+a. $\sqrt{3}$  
+b. $3\sqrt{3}$  
+c. $6\sqrt{3}$  
+d. $9\sqrt{3}$  
+e. $12\sqrt{3}$  
+  
+**44.** Diketahui sudut elevasi pengamat terhadap puncak suatu menara televisi adalah $60^{\circ}$ dan jarak pengamat dari kaki menara adalah 400 m. Jika tinggi pengamat 160 cm, maka tinggi menara tersebut adalah....  
+a. $801,6 \mathrm{~m}$  
+b. $(400\sqrt{3} + 1,6) \mathrm{~m}$  
+c. $(400\sqrt{2} + 1,6) \mathrm{~m}$  
+d. $\left(\frac{400}{3}\sqrt{2} + 1,6\right) \mathrm{~m}$  
+e. $201,6 \mathrm{~m}$  
+  
+**45.** Pada saat sudut depresi sinar matahari mencapai $45^{\circ}$, panjang bayangan suatu pohon cemara adalah 7 meter. Tinggi pohon cemara tersebut adalah ... meter.  
+a. $\frac{7}{2}\sqrt{2}$  
+b. $\frac{7}{2}\sqrt{3}$  
+c. 7  
+d. $7\sqrt{2}$  
+e. $7\sqrt{3}$  
+  
+**46.** Seseorang berjalan lurus di jalan yang datar ke arah cerobong asap. Di lokasi $A$, ujung cerobong itu terlihat dengan sudut elevasi $30^{\circ}$. Kemudian, ia berjalan lagi sejauh 20 m ke lokasi $B$. Di lokasi $B$, cerobong asap terlihat dengan sudut elevasi $60^{\circ}$. Jika tinggi orang itu $160 \mathrm{~cm}$, maka tinggi cerobong asap tersebut adalah ....  
+a. $(1,6 + 10\sqrt{3}) \mathrm{~m}$  
+b. $(1,6 + 10\sqrt{2}) \mathrm{~m}$  
+c. $11,6 \mathrm{~m}$  
+d. $(1,6 + 5\sqrt{3}) \mathrm{~m}$  
+e. $6,6 \mathrm{~m}$  
+  
+**47.** Diketahui segitiga ABC dengan $\angle ABC = 45^{\circ}$. Misalkan ditarik garis tinggi dari titik sudut $C$ sehingga memotong $AB$ di titik $T$. Jika $BC = a \mathrm{~cm}$ dan $AT = \frac{3}{2} a\sqrt{2} \mathrm{~cm}$, maka $AC = \dots$  
+a. $a\sqrt{2}$  
+b. $a\sqrt{3}$  
+c. $a\sqrt{5}$  
+d. $a\sqrt{7}$  
+e. $a\sqrt{11}$  
+  
+**48.** Sebuah menara dan gedung masing-masing mempunyai tinggi $50 \mathrm{~m}$ dan $62 \mathrm{~m}$. Pada saat sudut elevasi sinar matahari mencapai $60^{\circ}$, selisih bayangan menara dan gedung adalah ....  
+a. $\sqrt{3} \mathrm{~m}$  
+b. $2\sqrt{3} \mathrm{~m}$  
+c. $3\sqrt{3} \mathrm{~m}$  
+d. $4\sqrt{3} \mathrm{~m}$  
+e. $8\sqrt{3} \mathrm{~m}$  
+  
 **49.** Perhatikan gambar berikut. <br>
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_49.png" width="400"><br>   
-Seorang anak diminta untuk mengukur tinggi tiang listrik yang ada di depan sekolahnya dengan menggunakan klinometer. Pada posisi berdiri pertama dengan melihat ujung atas tiang listrik, terlihat klinometer menunjukkan sudut $30^{\circ}$. Kemudian, dia bergerak mendekati tiang listrik sejauh $18 \mathrm{~m}$ dan terlihat klinometer menunjukkan sudut $45^{\circ}$. Tinggi tiang listrik tersebut adalah ... m.     
-a. $(18\sqrt{3} - 18)$     
-b. $(9\sqrt{3} + 9)$     
-c. $18\sqrt{3}$     
-d. $(9\sqrt{3} + 18)$     
-e. $(18\sqrt{3} + 27)$   
-   
-**50.** $\sec 330^{\circ} \cdot \tan 240^{\circ} \cdot \sin 315^{\circ} = \ldots$     
-a. $-\sqrt{2}$     
-b. $-1$     
-c. $-\frac{1}{3}\sqrt{6}$     
-d. $\frac{1}{3}\sqrt{6}$     
-e. $\sqrt{2}$   
-   
-**51.** $\sin 570^{\circ} \cdot \tan 510^{\circ} = \ldots$    
-   
-**52.** Nilai dari $\cos 120^{\circ} + \cos 315^{\circ} + \cos 135^{\circ} = \ldots$    
-   
-**53.** Nilai $\sin 1110^{\circ} \cdot \tan 2220^{\circ} = \ldots$    
-   
-**54.** Nilai dari $\frac{\sin 270^{\circ} \cdot \cos 135^{\circ} \cdot \tan 135^{\circ}}{\sin 210^{\circ} \cdot \cos 225^{\circ}} = \ldots$    
-   
-**55.** $\left(\cos^{2}\frac{3\pi}{4} + \sin^{2}\frac{3\pi}{4}\right) \sin \frac{2\pi}{3} \cos \frac{3\pi}{4} = \ldots$    
-   
-**56.** Nilai dari $\frac{\sin 225^{\circ} \cdot \sin 35^{\circ}}{\cos 135^{\circ} \cdot \cos 125^{\circ}} = \ldots$    
-   
-**57.** Nilai dari $\frac{\sin 45^{\circ} \cdot \sin 15^{\circ}}{\sin 30^{\circ} \cdot \cos 75^{\circ}} = \ldots$     
-a. $\sqrt{6}$     
-b. $\sqrt{2}$     
-c. 1     
-d. $\frac{1}{3}\sqrt{6}$     
-e. $\frac{1}{4}\sqrt{2}$   
-   
-**58.** Jika $\cos 27^{\circ} = 0,89$, maka $\sin 117^{\circ} = \ldots$     
-a. 1     
-b. 0,91     
-c. 0,89     
-   
-**59.** Jika $\sin 25^{\circ} = x$, maka $\cos 65^{\circ} = \ldots$     
-a. $x$     
-b. $x^{2}$     
-c. $1 - x$     
-d. $1 - x^{-1}$     
-e. $x^{-1}$   
-   
-**60.** Jika $\cos 40^{\circ} = m$, maka $\sin 130^{\circ} = \ldots$     
-a. $-2m$     
-b. $-m$     
-c. $\sqrt{m}$     
-   
-**61.** Apabila $\sin x = a$ dengan $x$ terletak di kuadran I, maka nilai dari $\cos (180^{\circ} - x)$ adalah ....     
-a. $-\frac{2a}{\sqrt{a^{2}+1}}$     
-b. $-\frac{\sqrt{1-a^{2}}}{2a}$     
-c. $-\sqrt{1-a^{2}}$     
-   
-**62.** Jika $\sin x = \frac{3}{5}$, maka $\sin \left(x + \frac{\pi}{2}\right) + \cos (\pi - x) = \ldots$    
-   
-**63.** Jika $\cot x = \frac{3}{5}$, maka $\cos \left(\frac{\pi}{2} - x\right) = \ldots$     
-a. $-\frac{7}{34}\sqrt{34}$     
-b. $-\frac{5}{34}\sqrt{34}$     
-c. $\frac{3}{34}\sqrt{34}$     
-d. $\frac{5}{34}\sqrt{34}$     
-e. $\frac{7}{34}\sqrt{34}$   
-   
-**64.** Untuk setiap segitiga sembarang ABC, nilai $\cos \frac{1}{2} (A + C)$ adalah ....     
-a. $\sin B$     
-b. $\cos 2B$     
-c. $\cos \frac{1}{2} B$     
-d. $\cos B$     
-e. $\sin \frac{1}{2} B$   
-   
-**65.** Jika $A, B, C$ sudut-sudut pada segitiga dengan $A$ lancip dan $\cos A = \frac{1}{3}$, maka $\sin (B + C) = \ldots$     
-a. $\frac{2}{3}\sqrt{2}$     
-b. $\frac{1}{3}\sqrt{2}$     
-c. $\frac{1}{3}$     
-d. $-\frac{1}{3}$     
-e. $-\frac{2}{3}\sqrt{2}$   
-   
-**66.** $(1 - \sin^{2}x)\left(1 + \frac{1}{\cot^{2}x}\right) = \ldots$     
-a. $-2$     
-b. $-1$     
-c. 0     
-d. 1     
-e. 2   
-   
-**67.** Nilai dari $\sin x \cos x\left(\frac{1}{\cot x} + \cot x\right) = \ldots$     
-a. $-1$     
-b. 0     
-c. $\sin^{2}x$     
-d. $\cos^{2}x$     
-e. 1   
-   
-**68.** Bentuk sederhana dari $\frac{\tan \alpha + \sin \alpha}{1 + \sec \alpha}$ adalah ....     
-a. $\sec \alpha$     
-b. $\sin \alpha$     
-c. $\tan \alpha$     
-d. $\cos \alpha$     
-e. $\cos \alpha$   
-   
-**69.** Bentuk $(\cos^{2} \alpha)(1 + \tan^{2} \alpha)$ dapat disederhanakan menjadi ....     
-a. $1 + \sin^{2} \alpha$     
-b. $\sin^{2} \alpha - \cos^{2} \alpha$     
-c. $1 + \cos^{2} \alpha$     
-d. $\sin^{2} \alpha + \cos^{2} \alpha$     
-e. $\sin^{2} \alpha$   
-   
-**70.** Jika $a - b = \cos A$ dan $ab = \frac{1}{2}\sin^{2}A$, maka $a^{2} + b^{2} = \ldots$     
-a. $-2$     
-b. $\frac{1}{4}$     
-c. $\frac{2}{3}$     
-d. 1     
-e. 1   
-   
-**71.** Bentuk lain dari $\frac{\cos x}{1 - \sin x}$ adalah ....     
-a. $\frac{1 + \sin x}{\cos x}$     
-b. $\frac{1 - \sin x}{\cos x}$     
-c. $\frac{1 + \cos x}{\sin x}$     
-d. $\frac{1 + \cos x}{1 - \sin x}$     
-e. $\frac{1 + \cos x}{\sin x}$   
-   
-**72.** $\frac{\cot x}{\sec x \cdot \cos x} = \ldots$     
-a. $\sin^{2} x$     
-b. $\cos^{2} x$     
-c. $\sin x$     
-d. $\sec^{2} x$     
-e. $\cos x$   
-   
-**73.** $\cos^{4} x - \sin^{4} x = \ldots$     
-a. $1 - 2 \cos^{2} x$     
-b. $2 \cos^{2} x - 1$     
-c. $1 - \sin^{2} x$     
-d. $2 \sin^{2} x + 1$     
-e. $\sin x - \cos x$   
-   
-**74.** Jika $\sin x - \cos x = p$, maka nilai $2 \sin x \cos x$ adalah ....     
-a. $2p^{2}$     
-b. $p^{2} + 1$     
-c. $p^{2} - 1$     
-d. $1 - p^{2}$     
-e. $\frac{1}{2}(1 - p^{2})$   
-   
-**75.** $\sec A (\cos A - \sec A) = \ldots$     
-a. $\tan^{2} A$     
-b. $\cot \tan^{2} A$     
-c. 1     
-d. $-\tan^{2} A$     
-e. $-\cot \tan^{2} A$   
-   
-**76.** $\frac{1 - \cos x}{1 + \cos x} = \ldots$     
-a. $(\sec x - \tan x)^{2}$     
-b. $(\csc x - \cot x)^{2}$     
-c. $(\cot x + \csc x)^{2}$     
-d. $(\tan x + \sec x)^{2}$     
-e. $(\cot x - \tan x)^{2}$   
-   
-**77.** $\frac{1 - \cos x}{\sin x} = \ldots$     
-a. $-\sin x$     
-b. $\frac{1 + \sin x}{1 - \sin x}$     
-c. $\frac{1 - \cos x}{\sin x}$     
-d. $\frac{\cos x}{1 + \sin x}$     
-e. $\frac{\sin x}{1 + \cos x}$   
-   
-**78.** $(1 - \cos^{2} A) \cot^{2} A = \ldots$     
-a. $2 \sin^{2} A - 1$     
-b. $\sin^{2} A + \cos^{2} A$     
-c. $1 - \cos^{2} A$     
-d. $1 - \sin^{2} A$     
-e. $\cos^{2} A + 2$   
-   
-**79.** $\frac{\tan x + 1}{\tan x - 1} = \ldots$    
-a. $\frac{1 + \sin x \cos x}{1 - \sin x \cos x}$     
-b. $\frac{1 - \sin x \cos x}{1 + \sin x \cos x}$     
-c. $\frac{1 + \sin^2 x }{1 + \cos^2 x}$     
-d. $\frac{\cosec x + \sec x}{\cosec x - \sec x}$     
-e. $\frac{cosec x + \sec x}{\sec x - \cosec x}$   
-   
-**80.** $\frac{\cos A \cot A - \cos A}{\csc A} = \ldots$   
-a. ${\cosec A}{1 + \sin A}$     
-b. ${1 + \cos A}{\sec A}$     
-c. ${1 + \sin A}{\cosec A}$     
-d. ${\cos A}{1 + \cos A}$     
-e. ${1 + \cos A}{\cosec A}$     
-   
-**Soal Uraian (B):**   
-   
-1. Hitunglah nilai dari:     
-a. $\sin \frac{2}{\pi}$     
-b. $\cos \frac{3}{\pi}$     
-c. $\frac{\sin 2\pi \sec \frac{1}{4}}{\cot \frac{1}{4}\pi}$   
-   
-2. Jika diketahui $\sin a^{\circ} = \frac{3}{5}$ dan $90^{\circ} < a^{\circ} < 180^{\circ}$ hitunglah $\csc a^{\circ} + \cot (180 - a)^{\circ} + \tan (180 - a)^{\circ} + \csc (630 + a)^{\circ}$   
-   
-3. Jika $\tan 35^{\circ} = a$ tentukanlah:     
-a. $\frac{\tan 235^{\circ} - \tan 305^{\circ}}{\cot 235^{\circ} \cot 305^{\circ} - 1}$     
-b. $\frac{\tan 215^{\circ} + \tan 125^{\circ}}{\cot 125^{\circ} + \cot 235^{\circ}}$   
-   
-4. Pada gambar tersebut, garis $CD$ tegak lurus terhadap $AB$. Jika $\angle CAD = 45^{\circ}$, $\angle CBD = 30^{\circ}$, dan panjang $AD = \frac{2}{3}\sqrt{3}$ dm, tentukanlah panjang garis $AB$.      
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_B04.png" width="400"><br>      
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_49.png" width="400"><br>  
+Seorang anak diminta untuk mengukur tinggi tiang listrik yang ada di depan sekolahnya dengan menggunakan klinometer. Pada posisi berdiri pertama dengan melihat ujung atas tiang listrik, terlihat klinometer menunjukkan sudut $30^{\circ}$. Kemudian, dia bergerak mendekati tiang listrik sejauh $18 \mathrm{~m}$ dan terlihat klinometer menunjukkan sudut $45^{\circ}$. Tinggi tiang listrik tersebut adalah ... m.  
+a. $(18\sqrt{3} - 18)$  
+b. $(9\sqrt{3} + 9)$  
+c. $18\sqrt{3}$  
+d. $(9\sqrt{3} + 18)$  
+e. $(18\sqrt{3} + 27)$  
+  
+**50.** $\sec 330^{\circ} \cdot \tan 240^{\circ} \cdot \sin 315^{\circ} = \ldots$  
+a. $-\sqrt{2}$  
+b. $-1$  
+c. $-\frac{1}{3}\sqrt{6}$  
+d. $\frac{1}{3}\sqrt{6}$  
+e. $\sqrt{2}$  
 
-5. Aldi memandangi puncak sebuah gedung. Dia berdiri 30 meter dari gedung tersebut. Jika Aldi memandang puncak gedung dengan sudut elevasi $60^{\circ}$ dan tinggi Aldi adalah 1,5 meter, berapakah tinggi gedung itu?   
-   
-6. Perhatikan gambar berikut.   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_B06.png" width="400"><br>      
+**51.** $\sin 570^\circ \cdot \tan 510^\circ = \dots$  
+a. $-\frac{1}{2}$  
+b. $-\frac{1}{6}\sqrt{3}$  
+c. $\frac{1}{6}\sqrt{3}$  
+d. $\frac{1}{2}$  
+e. $\frac{1}{2}\sqrt{6}$  
 
-7. Perhatikan gambar berikut. Gambar tersebut menunjukkan lahan tanah yang harus ditanami rumput. Berapa meter persegi rumput yang dibutuhkan untuk menutupi seluruh tanah tersebut? Jarak 32 meter dari kaki sebuah gedung. Ia mengamati puncak gedung dan helikopter yang tepat berada di atas gedung dengan sudut elevasi masing-masing $30^{\circ}$ dan $45^{\circ}$. Hitunglah tinggi helikopter tersebut dari puncak gedung.   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_B07.png" width="400"><br>      
+**52.** Nilai dari $\cos 120^\circ + \cos 315^\circ + \cos 135^\circ = \dots$  
+a. $-\frac{1}{2}\sqrt{3}$  
+b. $-\frac{1}{2}\sqrt{2}$  
+c. $-\frac{1}{2}$  
+d. $\frac{1}{2}\sqrt{2}$  
+e. $\frac{1}{2}\sqrt{3}$  
 
-8. Seorang wanita sedang berada di rooftop suatu gedung dengan ketinggian tertentu. Wanita tersebut mengamati sebuah mobil dengan sudut depresi $\alpha$. Ketika nilai $\tan \alpha = 1$, terlihat bahwa mobil bergerak maju menuju dasar gedung. Sepuluh menit kemudian, sudut depresi berubah menjadi $\beta$ dengan nilai $\tan \beta = 5$. Jika mobil bergerak dengan kecepatan tetap, maka berapakah waktu yang dibutuhkan mobil untuk mencapai dasar gedung tersebut?   
-   
-9. Buktikan persamaan berikut dengan menggunakan identitas trigonometri.     
-a. $\frac{1 - \sin A}{1 + \sin A} = (\sec A - \tan A)^2$     
-b. $\frac{\sec A - \csc A}{\sec A + \csc A} = \frac{\tan A - 1}{\tan A + 1}$     
-c. $\tan A + \frac{\cos A}{1 + \sin A} = \sec A$   
-   
-10. Jika $k = \frac{\sec x + 1}{\tan x}$, buktikan bahwa $\frac{1}{k} = \frac{\sec x - 1}{\tan x}$. Kemudian, tentukan nilai $\sec x$, $\tan x$, dan $\sin x$ dalam $k$.   
-   
-**HOTS:**   
-   
-1. Seorang pengamat dengan tinggi $b$ berdiri di atas tanjakan yang berjarak $d$ dari dasar suatu gedung dengan tinggi $T$, seperti tampak pada gambar. Besar sudut elevasi pengamat terhadap puncak gedung adalah $\theta$, dan tanjakan membentuk sudut sebesar $\alpha$ terhadap garis horizontal.     
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_C01.png" width="400"><br>      
-a. Tuliskan $T$ dalam $b, d, \alpha$, dan $\theta$.     
-b. Jika $b = 6$ kaki, $d = 50$ kaki, $\alpha = 15^{\circ}$, dan $\theta = 31.4^{\circ}$, tentukanlah tinggi gedung tersebut.   
-   
-2. Suatu tangga yang panjangnya 16 kaki disandarkan di dinding suatu gedung. Besar sudut antara tangga dan gedung adalah $25^{\circ}$.     
-a. Taksirlah jarak antara kaki tangga dan gedung.     
-b. Jika jarak antara kaki tangga dan gedung berkurang 1,5 kaki, taksirlah seberapa jauh ujung tangga bergeser ke atas?   
-   
-3. Jika puncak suatu gunung dilihat dari titik $P$ seperti tampak pada gambar, besar sudut elevasinya adalah $\alpha$. Adapun jika dilihat dari titik $Q$ yang berjarak $d$ mil lebih dekat ke gunung, besar sudut elevasinya meningkat menjadi $\beta$. [gambar]     
-<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_C03.png" width="400"><br>      
-a. Buktikan bahwa tinggi gunung $b$ adalah $b = \frac{d}{\cot \alpha - \cot \beta}$.     
-b. Jika $d = 2$ mil, $\alpha = 15^{\circ}$, dan $\beta = 20^{\circ}$, taksirlah tinggi gunung tersebut.   
-   
-4. Diberikan sudut $\alpha$ kurang dari $90^{\circ}$ dan sudut $\theta$ lebih dari atau sama dengan $90^{\circ}$ dan kurang dari $180^{\circ}$. Analisis kebenaran pernyataan berikut:     
-a. $2\alpha \geq 90^{\circ}$     
-b. $\theta - \alpha \geq 30^{\circ}$     
-c. $2\alpha + \frac{1}{2}\theta \geq 90^{\circ}$   
-   
-5. Jika $\cot \theta = \frac{7}{8}$, tentukan nilai dari: [gambar persamaan]   
-   
-6. Diketahui segitiga $RST$, dengan $\angle RST = 90^{\circ}$, $\angle STR = 60^{\circ}$, dan $ST = 6 \mathrm{~cm}$. Tentukan:     
-a. keliling segitiga $RST$     
-b. luas segitiga $RST$     
-c. $(\sin \angle STR)^{2} + (\sin \angle RST)^{2}$   
-   
-7. Seorang petugas kehutanan, 200 kaki dari dasar pohon redwood, mengamati bahwa sudut antara tanah dan puncak pohon adalah $60^{\circ}$. Taksirlah tinggi pohon tersebut.   
-   
-8. Dengan menggunakan identitas trigonometri, sederhanakan setiap bentuk berikut:     
-a. $(\tan x + \sec x)(\tan x - \sec x)$     
-b. $\frac{1}{1 + \cos x} + \frac{1}{1 - \cos x}$     
-c. $\tan x - \frac{\sec^{2}x}{\tan x}$   
+**53.** Nilai $\sin 1110^\circ \cdot \tan 2220^\circ = \dots$  
+a. $-\sqrt{3}$  
+b. $-\frac{1}{2}\sqrt{3}$  
+c. $\frac{1}{2}$  
+d. $\frac{1}{2}\sqrt{3}$  
+e. $\sqrt{3}$  
 
------
+**54.** Nilai dari $\frac{\sin 270^\circ \cdot \cos 135^\circ \cdot \tan 135^\circ}{\sin 210^\circ \cdot \cos 225^\circ} = \dots$  
+a. $-2$  
+b. $-\frac{1}{2}$  
+c. $\frac{1}{2}$  
+d. $1$  
+e. $2$  
+
+**55.** $\left(\cos^2 \frac{3\pi}{4} + \sin^2 \frac{3\pi}{4}\right)\sin \frac{2\pi}{3} \cos \frac{3\pi}{4} = \dots$  
+a. $-\frac{1}{2}\sqrt{6}$  
+b. $-\frac{1}{4}\sqrt{6}$  
+c. $\frac{1}{4}\sqrt{6}$  
+d. $\frac{1}{2}\sqrt{6}$  
+e. $\sqrt{6}$  
+
+**56.** Nilai dari $\frac{\sin 225^{\circ} \cdot \sin 35^{\circ}}{\cos 135^{\circ} \cdot \cos 125^{\circ}} = \ldots$  
+a. -2  
+b. -1  
+c. 0  
+d. 1  
+e. 2  
+
+**57.** Nilai dari $\frac{\sin 45^\circ \cdot \sin 15^\circ}{\sin 30^\circ \cdot \cos 75^\circ} = \dots$  
+a. $\sqrt{6}$  
+b. $\sqrt{2}$  
+c. $1$  
+d. $\frac{1}{3}\sqrt{6}$  
+e. $\frac{1}{4}\sqrt{2}$  
+ 
+**58.** Jika $\cos 27^{\circ} = 0,89$, maka $\sin 117^{\circ} = \ldots$  
+a. 1  
+b. 0,91  
+c. 0,89  
+  
+**59.** Jika $\sin 25^{\circ} = x$, maka $\cos 65^{\circ} = \ldots$  
+a. $x$  
+b. $x^{2}$  
+c. $1 - x$  
+d. $1 - x^{-1}$  
+e. $x^{-1}$  
+  
+**60.** Jika $\cos 40^{\circ} = m$, maka $\sin 130^{\circ} = \ldots$  
+a. $-2m$  
+b. $-m$  
+c. $\sqrt{m}$  
+  
+**61.** Apabila $\sin x = a$ dengan $x$ terletak di kuadran I, maka nilai dari $\cos (180^{\circ} - x)$ adalah ....  
+a. $-\frac{2a}{\sqrt{a^{2}+1}}$  
+b. $-\frac{\sqrt{1-a^{2}}}{2a}$  
+c. $-\sqrt{1-a^{2}}$  
+  
+**62.** Jika $\sin x = \frac{3}{5}$, maka $\sin \left(x + \frac{\pi}{2}\right) + \cos (\pi - x) = \ldots$  
+  
+**63.** Jika $\cot x = \frac{3}{5}$, maka $\cos \left(\frac{\pi}{2} - x\right) = \ldots$  
+a. $-\frac{7}{34}\sqrt{34}$  
+b. $-\frac{5}{34}\sqrt{34}$  
+c. $\frac{3}{34}\sqrt{34}$  
+d. $\frac{5}{34}\sqrt{34}$  
+e. $\frac{7}{34}\sqrt{34}$  
+  
+**64.** Untuk setiap segitiga sembarang ABC, nilai $\cos \frac{1}{2} (A + C)$ adalah ....  
+a. $\sin B$  
+b. $\cos 2B$  
+c. $\cos \frac{1}{2} B$  
+d. $\cos B$  
+e. $\sin \frac{1}{2} B$  
+  
+**65.** Jika $A, B, C$ sudut-sudut pada segitiga dengan $A$ lancip dan $\cos A = \frac{1}{3}$, maka $\sin (B + C) = \ldots$  
+a. $\frac{2}{3}\sqrt{2}$  
+b. $\frac{1}{3}\sqrt{2}$  
+c. $\frac{1}{3}$  
+d. $-\frac{1}{3}$  
+e. $-\frac{2}{3}\sqrt{2}$  
+  
+**66.** $(1 - \sin^{2}x)\left(1 + \frac{1}{\cot^{2}x}\right) = \ldots$  
+a. $-2$  
+b. $-1$  
+c. 0  
+d. 1  
+e. 2  
+  
+**67.** Nilai dari $\sin x \cos x\left(\frac{1}{\cot x} + \cot x\right) = \ldots$  
+a. $-1$  
+b. 0  
+c. $\sin^{2}x$  
+d. $\cos^{2}x$  
+e. 1  
+  
+**68.** Bentuk sederhana dari $\frac{\tan \alpha + \sin \alpha}{1 + \sec \alpha}$ adalah ....  
+a. $\sec \alpha$  
+b. $\sin \alpha$  
+c. $\tan \alpha$  
+d. $\cos \alpha$  
+e. $\cos \alpha$  
+  
+**69.** Bentuk $(\cos^{2} \alpha)(1 + \tan^{2} \alpha)$ dapat disederhanakan menjadi ....  
+a. $1 + \sin^{2} \alpha$  
+b. $\sin^{2} \alpha - \cos^{2} \alpha$  
+c. $1 + \cos^{2} \alpha$  
+d. $\sin^{2} \alpha + \cos^{2} \alpha$  
+e. $\sin^{2} \alpha$  
+  
+**70.** Jika $a - b = \cos A$ dan $ab = \frac{1}{2}\sin^{2}A$, maka $a^{2} + b^{2} = \ldots$  
+a. $-2$  
+b. $\frac{1}{4}$  
+c. $\frac{2}{3}$  
+d. 1  
+e. 1  
+  
+**71.** Bentuk lain dari $\frac{\cos x}{1 - \sin x}$ adalah ....  
+a. $\frac{1 + \sin x}{\cos x}$  
+b. $\frac{1 - \sin x}{\cos x}$  
+c. $\frac{1 + \cos x}{\sin x}$  
+d. $\frac{1 + \cos x}{1 - \sin x}$  
+e. $\frac{1 + \cos x}{\sin x}$  
+  
+**72.** $\frac{\cot x}{\sec x \cdot \cos x} = \ldots$  
+a. $\sin^{2} x$  
+b. $\cos^{2} x$  
+c. $\sin x$  
+d. $\sec^{2} x$  
+e. $\cos x$  
+  
+**73.** $\cos^{4} x - \sin^{4} x = \ldots$  
+a. $1 - 2 \cos^{2} x$  
+b. $2 \cos^{2} x - 1$  
+c. $1 - \sin^{2} x$  
+d. $2 \sin^{2} x + 1$  
+e. $\sin x - \cos x$  
+  
+**74.** Jika $\sin x - \cos x = p$, maka nilai $2 \sin x \cos x$ adalah ....  
+a. $2p^{2}$  
+b. $p^{2} + 1$  
+c. $p^{2} - 1$  
+d. $1 - p^{2}$  
+e. $\frac{1}{2}(1 - p^{2})$  
+  
+**75.** $\sec A (\cos A - \sec A) = \ldots$  
+a. $\tan^{2} A$  
+b. $\cot \tan^{2} A$  
+c. 1  
+d. $-\tan^{2} A$  
+e. $-\cot \tan^{2} A$  
+  
+**76.** $\frac{1 - \cos x}{1 + \cos x} = \ldots$  
+a. $(\sec x - \tan x)^{2}$  
+b. $(\csc x - \cot x)^{2}$  
+c. $(\cot x + \csc x)^{2}$  
+d. $(\tan x + \sec x)^{2}$  
+e. $(\cot x - \tan x)^{2}$  
+  
+**77.** $\frac{1 - \cos x}{\sin x} = \ldots$  
+a. $-\sin x$  
+b. $\frac{1 + \sin x}{1 - \sin x}$  
+c. $\frac{1 - \cos x}{\sin x}$  
+d. $\frac{\cos x}{1 + \sin x}$  
+e. $\frac{\sin x}{1 + \cos x}$  
+  
+**78.** $(1 - \cos^{2} A) \cot^{2} A = \ldots$  
+a. $2 \sin^{2} A - 1$  
+b. $\sin^{2} A + \cos^{2} A$  
+c. $1 - \cos^{2} A$  
+d. $1 - \sin^{2} A$  
+e. $\cos^{2} A + 2$  
+  
+**79.** $\frac{\tan x + 1}{\tan x - 1} = \ldots$  
+a. $\frac{1 + \sin x \cos x}{1 - \sin x \cos x}$  
+b. $\frac{1 - \sin x \cos x}{1 + \sin x \cos x}$  
+c. $\frac{1 + \sin^2 x }{1 + \cos^2 x}$  
+d. $\frac{\cosec x + \sec x}{\cosec x - \sec x}$  
+e. $\frac{cosec x + \sec x}{\sec x - \cosec x}$  
+  
+**80.** $\frac{\cos A \cot A - \cos A}{\csc A} = \ldots$  
+a. ${\cosec A}{1 + \sin A}$  
+b. ${1 + \cos A}{\sec A}$  
+c. ${1 + \sin A}{\cosec A}$  
+d. ${\cos A}{1 + \cos A}$  
+e. ${1 + \cos A}{\cosec A}$  
+  
+**Soal Uraian (B):**  
+  
+1. Hitunglah nilai dari:  
+a. $\sin \frac{2}{\pi}$  
+b. $\cos \frac{3}{\pi}$  
+c. $\frac{\sin 2\pi \sec \frac{1}{4}}{\cot \frac{1}{4}\pi}$  
+  
+2. Jika diketahui $\sin a^{\circ} = \frac{3}{5}$ dan $90^{\circ} < a^{\circ} < 180^{\circ}$ hitunglah $\csc a^{\circ} + \cot (180 - a)^{\circ} + \tan (180 - a)^{\circ} + \csc (630 + a)^{\circ}$  
+  
+3. Jika $\tan 35^{\circ} = a$ tentukanlah:  
+a. $\frac{\tan 235^{\circ} - \tan 305^{\circ}}{\cot 235^{\circ} \cot 305^{\circ} - 1}$  
+b. $\frac{\tan 215^{\circ} + \tan 125^{\circ}}{\cot 125^{\circ} + \cot 235^{\circ}}$  
+  
+4. Pada gambar tersebut, garis $CD$ tegak lurus terhadap $AB$. Jika $\angle CAD = 45^{\circ}$, $\angle CBD = 30^{\circ}$, dan panjang $AD = \frac{2}{3}\sqrt{3}$ dm, tentukanlah panjang garis $AB$.  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_B04.png" width="400"><br>  
+
+5. Aldi memandangi puncak sebuah gedung. Dia berdiri 30 meter dari gedung tersebut. Jika Aldi memandang puncak gedung dengan sudut elevasi $60^{\circ}$ dan tinggi Aldi adalah 1,5 meter, berapakah tinggi gedung itu?  
+  
+6. Perhatikan gambar berikut.  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_B06.png" width="400"><br>  
+
+7. Perhatikan gambar berikut. Gambar tersebut menunjukkan lahan tanah yang harus ditanami rumput. Berapa meter persegi rumput yang dibutuhkan untuk menutupi seluruh tanah tersebut? Jarak 32 meter dari kaki sebuah gedung. Ia mengamati puncak gedung dan helikopter yang tepat berada di atas gedung dengan sudut elevasi masing-masing $30^{\circ}$ dan $45^{\circ}$. Hitunglah tinggi helikopter tersebut dari puncak gedung.  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_B07.png" width="400"><br>  
+
+8. Seorang wanita sedang berada di rooftop suatu gedung dengan ketinggian tertentu. Wanita tersebut mengamati sebuah mobil dengan sudut depresi $\alpha$. Ketika nilai $\tan \alpha = 1$, terlihat bahwa mobil bergerak maju menuju dasar gedung. Sepuluh menit kemudian, sudut depresi berubah menjadi $\beta$ dengan nilai $\tan \beta = 5$. Jika mobil bergerak dengan kecepatan tetap, maka berapakah waktu yang dibutuhkan mobil untuk mencapai dasar gedung tersebut?  
+  
+9. Buktikan persamaan berikut dengan menggunakan identitas trigonometri.  
+a. $\frac{1 - \sin A}{1 + \sin A} = (\sec A - \tan A)^2$  
+b. $\frac{\sec A - \csc A}{\sec A + \csc A} = \frac{\tan A - 1}{\tan A + 1}$  
+c. $\tan A + \frac{\cos A}{1 + \sin A} = \sec A$  
+  
+10. Jika $k = \frac{\sec x + 1}{\tan x}$, buktikan bahwa $\frac{1}{k} = \frac{\sec x - 1}{\tan x}$. Kemudian, tentukan nilai $\sec x$, $\tan x$, dan $\sin x$ dalam $k$.  
+  
+**HOTS:**  
+  
+1. Seorang pengamat dengan tinggi $b$ berdiri di atas tanjakan yang berjarak $d$ dari dasar suatu gedung dengan tinggi $T$, seperti tampak pada gambar. Besar sudut elevasi pengamat terhadap puncak gedung adalah $\theta$, dan tanjakan membentuk sudut sebesar $\alpha$ terhadap garis horizontal.  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_C01.png" width="400"><br>  
+a. Tuliskan $T$ dalam $b, d, \alpha$, dan $\theta$.  
+b. Jika $b = 6$ kaki, $d = 50$ kaki, $\alpha = 15^{\circ}$, dan $\theta = 31.4^{\circ}$, tentukanlah tinggi gedung tersebut.  
+  
+2. Suatu tangga yang panjangnya 16 kaki disandarkan di dinding suatu gedung. Besar sudut antara tangga dan gedung adalah $25^{\circ}$.  
+a. Taksirlah jarak antara kaki tangga dan gedung.  
+b. Jika jarak antara kaki tangga dan gedung berkurang 1,5 kaki, taksirlah seberapa jauh ujung tangga bergeser ke atas?  
+  
+3. Jika puncak suatu gunung dilihat dari titik $P$ seperti tampak pada gambar, besar sudut elevasinya adalah $\alpha$. Adapun jika dilihat dari titik $Q$ yang berjarak $d$ mil lebih dekat ke gunung, besar sudut elevasinya meningkat menjadi $\beta$. [gambar]  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_buku1_C03.png" width="400"><br>  
+a. Buktikan bahwa tinggi gunung $b$ adalah $b = \frac{d}{\cot \alpha - \cot \beta}$.  
+b. Jika $d = 2$ mil, $\alpha = 15^{\circ}$, dan $\beta = 20^{\circ}$, taksirlah tinggi gunung tersebut.  
+  
+4. Diberikan sudut $\alpha$ kurang dari $90^{\circ}$ dan sudut $\theta$ lebih dari atau sama dengan $90^{\circ}$ dan kurang dari $180^{\circ}$. Analisis kebenaran pernyataan berikut:  
+a. $2\alpha \geq 90^{\circ}$  
+b. $\theta - \alpha \geq 30^{\circ}$  
+c. $2\alpha + \frac{1}{2}\theta \geq 90^{\circ}$  
+  
+5. Jika $\cot \theta = \frac{7}{8}$, tentukan nilai dari: [gambar persamaan]  
+  
+6. Diketahui segitiga $RST$, dengan $\angle RST = 90^{\circ}$, $\angle STR = 60^{\circ}$, dan $ST = 6 \mathrm{~cm}$. Tentukan:  
+a. keliling segitiga $RST$  
+b. luas segitiga $RST$  
+c. $(\sin \angle STR)^{2} + (\sin \angle RST)^{2}$  
+  
+7. Seorang petugas kehutanan, 200 kaki dari dasar pohon redwood, mengamati bahwa sudut antara tanah dan puncak pohon adalah $60^{\circ}$. Taksirlah tinggi pohon tersebut.  
+  
+8. Dengan menggunakan identitas trigonometri, sederhanakan setiap bentuk berikut:  
+a. $(\tan x + \sec x)(\tan x - \sec x)$  
+b. $\frac{1}{1 + \cos x} + \frac{1}{1 - \cos x}$  
+c. $\tan x - \frac{\sec^{2}x}{\tan x}$  
+
+### Aturan Sinus Cosinus dan Fungsi Trigon
+1\. Berdasarkan gambar berikut, perbandingan $KM:LM = \ldots$  
+[gambar: segitiga siku-siku dengan sudut]  
+a. $1:\sqrt{2}$  
+b. $\sqrt{2}:1$  
+c. $\sqrt{3}:2$  
+d. $2:\sqrt{3}$  
+e. $\sqrt{2}:\sqrt{3}$
+
+2\. Panjang $PR$ pada gambar berikut adalah ....  
+[gambar: segitiga siku-siku]  
+a. $8\sqrt{3}$  
+b. $8\sqrt{2}$  
+c. $4\sqrt{6}$  
+d. $4\sqrt{3}$  
+e. $4\sqrt{2}$
+
+3\. Pada segitiga lancip ABC dengan panjang AC $= 10 \mathrm{cm}$ dan $BC = 8 \mathrm{cm}$. Jika sin $A = \frac{3}{5}$, maka cos $B = \ldots$  
+a. $\frac{1}{4}\sqrt{7}$  
+b. $\frac{1}{5}\sqrt{7}$  
+c. $\frac{1}{6}\sqrt{7}$  
+d. $\frac{1}{7}\sqrt{7}$  
+e. $\frac{1}{8}\sqrt{7}$
+
+4\. Diketahui $\Delta ABC$ dengan panjang sisi $BC = 6 \mathrm{cm}$ dan $AC = 8 \mathrm{cm}$. Jika besar sudut $\angle BAC = 30^{\circ}$, maka nilai cos $\angle ABC$ adalah ....  
+a. $\frac{1}{3}$  
+b. $\frac{1}{5}\sqrt{3}$  
+c. $\frac{1}{2}$  
+d. $\frac{1}{4}\sqrt{5}$  
+e. $\frac{1}{3}\sqrt{5}$
+
+5\. Diketahui $\Delta ABC$ dengan $AB = 27\sqrt{2} \mathrm{cm}$, $\angle ABC = 105^{\circ}$, dan $\angle BAC = 30^{\circ}$. Panjang $BC = \ldots \mathrm{cm}$.  
+a. $27\sqrt{3}$  
+b. $30\sqrt{2}$  
+c. $20\sqrt{3}$  
+d. 30  
+e. 27
+
+6\. Pada segitiga lancip $ABC$ diketahui panjang sisi $AC = 8 \mathrm{cm}$, $AB = 10 \mathrm{cm}$, dan cos $\angle ABC = \frac{4}{5}$, maka sin $\angle ACB = \ldots$  
+a. $\frac{3}{4}$  
+b. $\frac{2}{3}$  
+c. $\frac{3}{5}$  
+d. $\frac{2}{5}$  
+e. $\frac{1}{3}$
+
+7\. Pada segiempat $ABCD$ seperti tampak pada gambar. Nilai sin $\angle BCD$ adalah ....  
+[gambar: segiempat]  
+a. $\frac{5}{12}\sqrt{6}$  
+b. $\frac{5}{8}\sqrt{6}$  
+c. $\frac{5}{6}\sqrt{6}$  
+d. $\frac{5}{3}\sqrt{6}$  
+e. $\frac{5}{2}\sqrt{6}$
+
+8\. Pada trapesium $ABCD$, $DA \perp AB$, dan panjang sisi $AB > DC$. Dari titik $C$ ditarik garis yang sejajar dan $AD$ memotong $AB$ di titik $E$. Jika diketahui $\angle ABD = 30^{\circ}$, $\angle DBC = 45^{\circ}$, dan $DC = 10$ satuan, maka panjang sisi $BC$ adalah .... satuan.  
+a. 2,5  
+b. 5  
+c. $5\sqrt{2}$  
+d. 10  
+e. $10\sqrt{2}$
+
+9\. Diberikan belah ketupat $ABCD$ dengan panjang sisinya $5 \mathrm{cm}$ dan kedua diagonalnya berpotongan di titik $P$. Dari titik $D$ ditarik garis bagi sudut $CDP$ yang memotong diagonal $AC$ di $Q$. Panjang $QC$ adalah .... cm.  
+a. $\frac{5}{3}\sqrt{3}$  
+b. $\frac{5}{2}\sqrt{2}$  
+c. $\frac{5}{2}\sqrt{3}$  
+d. 5  
+e. $5\sqrt{3}$
+
+10\. Berdasarkan gambar berikut, nilai $x$ adalah ....  
+[gambar: segitiga]  
+a. $\sqrt{8}$  
+b. $\sqrt{10}$  
+c. $\sqrt{11}$  
+d. $\sqrt{13}$  
+e. $\sqrt{14}$
+
+11\. Diketahui $\Delta ABC$, dengan panjang $AB = 4$ cm, $BC = 6$ cm, dan $AC = 8$ cm, maka nilai cos $\angle BCA =$ ....  
+a. $\frac{8}{9}$  
+b. $\frac{7}{8}$  
+c. $\frac{6}{7}$  
+d. $\frac{7}{8}$  
+e. $\frac{8}{9}$
+
+12\. Sebuah $\Delta ABC$ dengan panjang sisi berturut-turut $8\mathrm{cm}$, $10\mathrm{cm}$, dan $12\mathrm{cm}$, maka nilai cosinus dari sudut terbesar adalah ....  
+a. $-0,250$  
+b. $-0,125$  
+c. $0,125$  
+d. $0,250$  
+e. $0,750$
+
+13\. Sebuah $\Delta ABC$, panjang $AB$, $BC$, dan $AC$ masing-masing adalah $10\mathrm{cm}$, $12\mathrm{cm}$, dan $14\mathrm{cm}$, maka nilai cos $\angle ABC$ adalah ....  
+a. $\frac{1}{5}$  
+b. $\frac{2}{5}$  
+c. $\frac{3}{5}$  
+d. $\frac{3}{4}$  
+e. $\frac{4}{5}$
+
+14\. Pada segitiga $ABC$ diketahui panjang sisi $AB = 6\mathrm{cm}$, $AC = 10\mathrm{cm}$, dan $\angle CAB = 120^{\circ}$. Panjang sisi $BC = \ldots \mathrm{cm}$.  
+a. $\sqrt{195}$  
+b. $\sqrt{196}$  
+c. $\sqrt{197}$  
+d. $\sqrt{198}$  
+e. $\sqrt{199}$
+
+15\. Diketahui segitiga $ABC$ dengan $AB = 7\mathrm{cm}$, $BC = 5\mathrm{cm}$, dan $AC = 6\mathrm{cm}$. Nilai cos $\angle ABC = \ldots$  
+a. $\frac{15}{35}$  
+b. $\frac{16}{35}$  
+c. $\frac{17}{35}$  
+d. $\frac{19}{35}$  
+e. $\frac{22}{25}$
+
+16\. Pada segitiga $ABC$ diketahui sisi $AB = 5\mathrm{cm}$, $AC = 7\mathrm{cm}$, dan $\angle CAB = 60^{\circ}$. Panjang sisi $BC = \ldots$  
+a. $\sqrt{39}\mathrm{cm}$  
+b. $\sqrt{41}\mathrm{cm}$  
+c. $2\sqrt{39}\mathrm{cm}$  
+d. $2\sqrt{41}\mathrm{cm}$  
+e. $3\sqrt{29}\mathrm{cm}$
+
+17\. Nilai cosinus terbesar dari segitiga yang sisinya $5\mathrm{cm}$, $6\mathrm{cm}$, dan $7\mathrm{cm}$ adalah ....  
+a. $\frac{4}{5}$  
+b. $\frac{5}{6}$  
+c. $\frac{5}{7}$  
+d. $\frac{6}{7}$  
+e. $\frac{7}{8}$
+
+18\. Diketahui segitiga $ABC$ dengan panjang sisi $AC = 4\mathrm{cm}$ dan $\angle CAB = 60^{\circ}$. Jika $CD$ adalah garis tinggi segitiga $ABC$ dengan panjang $BD = 3\mathrm{cm}$, maka nilai cos $\angle ACB = \ldots$  
+a. $\frac{5}{14}\sqrt{21}$  
+b. $\frac{3}{14}\sqrt{21}$  
+c. $\frac{3}{14}\sqrt{14}$  
+d. $\frac{1}{14}\sqrt{21}$  
+e. $\frac{1}{14}\sqrt{14}$
+
+19\. Jika pada segitiga $ABC$ dengan panjang sisi $AB = c$, $AC = b$, dan $BC = a$ terdapat hubungan $a^{2} = b^{2} + c^{2} + bc$, maka besar sudut $CAB$ adalah ....  
+a. $30^{\circ}$  
+b. $60^{\circ}$  
+c. $90^{\circ}$  
+d. $120^{\circ}$  
+e. $135^{\circ}$
+
+20\. Diketahui $\Delta ABC$, titik $D$ pada $AC$, dengan $AB = 8$, $BC = 10$, $AC = 12$, dan $BD = CD$. Panjang $AD = \ldots$  
+a. $\frac{20}{3}$  
+b. $\frac{17}{3}$  
+c. $\frac{16}{3}$  
+d. $\frac{14}{3}$  
+e. $\frac{13}{3}$
+
+21\. Diagonal persegi $ABCD$ yang sisi-sisinya $4a$ berpotongan di titik $S$. Jika $T$ titik tengah ruas garis $SC$, maka sin $\angle TBC$ adalah ....  
+a. $\frac{1}{3}\sqrt{3}$  
+b. $\frac{1}{5}\sqrt{5}$  
+c. $\frac{1}{6}\sqrt{6}$  
+d. $\frac{1}{7}\sqrt{7}$  
+e. $\frac{1}{10}\sqrt{10}$
+
+22\. Sebuah segitiga ABC dengan panjang sisinya masing-masing 12 cm, 10 cm, dan 8 cm mempunyai luas ... cm².  
+a. $15\sqrt{7}$  
+b. $15\sqrt{6}$  
+c. $15\sqrt{5}$  
+d. $7\sqrt{15}$  
+e. $6\sqrt{15}$
+
+23\. Diberikan suatu $\Delta ABC$ dengan panjang $BC = 10 \mathrm{cm}$, $AB = 6 \mathrm{cm}$, dan $\angle ABC = 150^{\circ}$, maka luas $\Delta ABC$ tersebut adalah ....  
+a. $15 \mathrm{cm}^{2}$  
+b. $15\sqrt{2} \mathrm{cm}^{2}$  
+c. $15\sqrt{3} \mathrm{cm}^{2}$  
+d. $30 \mathrm{cm}^{2}$  
+e. $30\sqrt{2} \mathrm{cm}^{2}$
+
+24\. Diketahui segiempat $KLMN$ dengan $KL = 6 \mathrm{cm}$, $LM = 8 \mathrm{cm}$, dan $MN = 12 \mathrm{cm}$.  
+[gambar: segiempat]  
+Jika $\angle KMN = 150^{\circ}$, maka luas $KLMN$ adalah ....  
+a. $48 \mathrm{cm}^{2}$  
+b. $54 \mathrm{cm}^{2}$  
+c. $56 \mathrm{cm}^{2}$  
+d. $58 \mathrm{cm}^{2}$  
+e. $64 \mathrm{cm}^{2}$
+
+25\. Diketahui segitiga $ABC$ dengan luas $14 \mathrm{cm}^{2}$, $BC = 8 \mathrm{cm}$, dan $AC = 7 \mathrm{cm}$, maka $\angle BCA = \ldots$  
+a. $30^{\circ}$  
+b. $45^{\circ}$  
+c. $60^{\circ}$  
+d. $90^{\circ}$  
+e. $120^{\circ}$
+
+26\. Jika diketahui luas $\Delta ABC$ adalah $24\sqrt{3} \mathrm{cm}^{2}$, sisi $AC = 8 \mathrm{cm}$, $AB = 12 \mathrm{cm}$, dan sudut $CAB$ tumpul, maka nilai cos $A = \ldots$  
+a. $-\frac{1}{2}\sqrt{3}$  
+b. $-\frac{1}{2}$  
+c. $\frac{1}{2}$  
+d. $\frac{1}{2}\sqrt{2}$  
+e. $\frac{1}{2}\sqrt{3}$
+
+27\. Jika pada $\Delta PQR$ diketahui sisi $PQ = 20 \mathrm{cm}$, $PR = 5 \mathrm{cm}$, dan $\angle RPQ = 120^{\circ}$, maka $QR = \ldots \mathrm{cm}$.  
+a. $12\sqrt{13}$  
+b. $25\sqrt{3}$  
+c. $8\sqrt{17}$  
+d. $\sqrt{552}$  
+e. $5\sqrt{21}$
+
+28\. Jika diketahui $\Delta ABC$ dengan panjang $BC = 8 \mathrm{cm}$ dan $AC = 9 \mathrm{cm}$, serta luas segitiga tersebut $18\sqrt{2} \mathrm{cm}^{2}$, maka besar sudut $BCA$ adalah ....  
+a. $30^{\circ}$  
+b. $45^{\circ}$  
+c. $60^{\circ}$  
+d. $90^{\circ}$  
+e. $120^{\circ}$
+
+29\. Jika diketahui $\Delta ABC$ dengan panjang $BC = 8 \mathrm{cm}$, $AC = 5 \mathrm{cm}$, dan luas segitiga tersebut $10\sqrt{2} \mathrm{cm}^{2}$, maka nilai cos $\angle BCA$ adalah ....  
+a. 0  
+b. $\frac{1}{2}$  
+c. $\frac{1}{2}\sqrt{2}$  
+d. $\frac{1}{2}\sqrt{3}$  
+e. 1
+
+30\. Pada $\Delta ABC$, diketahui panjang sisi $BC = 13 \mathrm{cm}$ dan $AB = 12 \mathrm{cm}$. Jika luasnya adalah $39 \mathrm{cm}^{2}$, maka $\angle ABC = \ldots$  
+a. $150^{\circ}$  
+b. $120^{\circ}$  
+c. $90^{\circ}$  
+d. $60^{\circ}$  
+e. $45^{\circ}$
+
+31\. Luas $\Delta ABC$ adalah $(2 + 3\sqrt{3}) \mathrm{cm}^{2}$. Jika panjang $AB = (4 + 6\sqrt{3}) \mathrm{cm}$ dan $BC = 5 \mathrm{cm}$, maka nilai $\sin \angle ABC = \ldots$  
+a. $\frac{1}{5}$  
+b. $\frac{5}{4 + 6\sqrt{3}}$  
+c. $\frac{1}{2}$  
+d. $\frac{2}{5}\sqrt{3}$  
+e. $\frac{5}{2 + 3\sqrt{3}}$
+
+32\. Perhatikan gambar berikut.  
+[gambar: segitiga ABC dengan garis tinggi]  
+Pada segitiga $ABC$ sisi-sisi yang bersebarangan dengan sudut-sudut $A$, $B$, dan $C$ masing-masing adalah $a$, $b$, dan $c$. Panjang garis tegak lurus $AB$ yang ditarik dari titik $C$ adalah ....  
+a. $\frac{ac}{b} \sin B$  
+b. $\frac{ab}{c} \cos C$  
+c. $\frac{ac}{b} \cos B$  
+d. $\frac{ab}{c} \sin C$  
+e. $\frac{bc}{a} \sin A$
+
+33\. Segitiga ABD siku-siku di B. Titik C pada BD sehingga $CD = 3$ dan $BC = 2$. Jika $AB = 1$ dan $\angle CAD = \beta$, maka $\sin^2 \beta = \ldots$  
+a. $\frac{1}{10}$  
+b. $\frac{1}{5}$  
+c. $\frac{2}{5}$  
+d. $\frac{1}{2}$  
+e. $\frac{3}{5}$
+
+34\. Pada segitiga ABC, AB = 6 cm, BC = 8 cm, dan AC = 10 cm. Titik D terletak pada sisi AC sehingga BD merupakan garis bagi sudut ABC. Panjang AD adalah ....  
+a. $3\sqrt{7}$ cm  
+b. $2\sqrt{17}$ cm  
+c. $2\sqrt{19}$ cm  
+d. $4\sqrt{7}$ cm  
+e. $4\sqrt{17}$ cm
+
+35\. Diberikan segiempat ABCD seperti pada gambar berikut.  
+[gambar: segiempat]  
+Luas segitiga ABC adalah ... cm².  
+a. $14\sqrt{2}$  
+b. $8\sqrt{6}$  
+c. $9\sqrt{6}$  
+d. $16\sqrt{2}$  
+e. $16\sqrt{3}$
+
+36\. Diberikan segi empat ABCD seperti tampak pada gambar. Panjang BC adalah ....  
+[gambar: segiempat]  
+a. $4\sqrt{2}$ cm  
+b. $6\sqrt{2}$ cm  
+c. $7\sqrt{3}$ cm  
+d. $5\sqrt{6}$ cm  
+e. $7\sqrt{6}$ cm
+
+37\. Kapal $P$ dan kapal $Q$ akan berlayar dari pelabuhan $A$ dengan kecepatan masing-masing $20 \mathrm{km/jam}$ dan $25 \mathrm{km/jam}$. Jika kapal $P$ dan $Q$ bergerak berlawanan arah jarum jam masing-masing sejauh $35^{\circ}$ dan $335^{\circ}$ dari arah timur, maka jarak kapal $P$ dan $Q$ setelah $2 \mathrm{jam}$ adalah ... km.  
+a. $8\sqrt{21}$ km  
+b. $8\sqrt{23}$ km  
+c. $10\sqrt{21}$ km  
+d. $10\sqrt{23}$ km  
+e. $10\sqrt{26}$ km
+
+38\. Sebuah kapal berlayar dari pulau $A$ dengan arah jurusan tiga angka $045^{\circ}$ sejauh $40 \mathrm{km}$. Kemudian, berubah haluan dengan arah jurusan tiga angka $105^{\circ}$ sejauh $50 \mathrm{km}$. Jarak antara kapal tersebut dan pulau $A$ adalah ....  
+a. $20\sqrt{7}$ km  
+b. $20\sqrt{11}$ km  
+c. $10\sqrt{57}$ km  
+d. $10\sqrt{59}$ km  
+e. $10\sqrt{61}$ km
+
+39\. Diketahui jajargenjang dengan panjang sisi berurutan adalah $5 \mathrm{cm}$ dan $8 \mathrm{cm}$. Salah satu sudutnya sama dengan $60^{\circ}$. Luas jajargenjang tersebut adalah ....  
+a. $16\sqrt{3}$ cm²  
+b. $20\sqrt{3}$ cm²  
+c. $30\sqrt{3}$ cm²  
+d. $32\sqrt{3}$ cm²  
+e. $40\sqrt{3}$ cm²
+
+40\. Sebuah kapal berlayar ke arah timur sejauh $30 \mathrm{mi}$. Kemudian, kapal melanjutkan perjalanan dengan bergerak searah jarum jam sejauh $60^{\circ}$ dan menempuh jarak $40 \mathrm{mi}$. Jarak kapal tersebut terhadap posisi awal kapal adalah .... mil.  
+a. $10\sqrt{17}$  
+b. $10\sqrt{37}$  
+c. $10\sqrt{57}$  
+d. $10\sqrt{67}$  
+e. $10\sqrt{77}$
+
+41\. Diketahui $A$ dan $B$ adalah ujung-ujung suatu terowongan yang lurus. Faris sedang mengamati terowongan tersebut dari titik $C$ yang berada di luar terowongan dengan $ACB$ membentuk sudut $45^{\circ}$. Jika jarak antara posisi Faris dan titik-titik ujung terowongan masing-masing $8 \mathrm{m}$ dan $16 \mathrm{m}$, maka panjang terowongan tersebut adalah ....  
+a. $3\sqrt{7}$  
+b. $4\sqrt{5}$  
+c. $8\sqrt{2}$  
+d. 16  
+e. 24
+
+42\. Sebuah kapal berlayar dari pelabuhan $A$ ke pelabuhan $B$ sejauh $60 \mathrm{mi}$ dengan arah jurusan tiga angka $050^{\circ}$ dari $A$. Kemudian, berputar haluan dilanjutkan ke pelabuhan $C$ sejauh $80 \mathrm{mi}$ dengan arah jurusan tiga angka $170^{\circ}$ dari $B$. Jarak terdekat dari pelabuhan $A$ ke $C$ adalah .... mil.  
+a. $20\sqrt{7}$  
+b. $20\sqrt{11}$  
+c. $20\sqrt{13}$  
+d. $20\sqrt{14}$  
+e. $20\sqrt{15}$
+
+43\. Dua buah mobil berangkat dari tempat yang sama. Arah mobil pertama dengan mobil kedua membentuk sudut $60^{\circ}$. Jika kecepatan masing-masing mobil adalah $40 \text{km/jam}$ dan $30 \text{km/jam}$, maka jarak kedua mobil tersebut setelah 2 jam adalah .... km.  
+a. $10\sqrt{13}$  
+b. $20\sqrt{13}$  
+c. $26\sqrt{13}$  
+d. $18\sqrt{61}$  
+e. $20\sqrt{61}$
+
+44\. Sebuah kapal mulai bergerak dari pelabuhan $A$ pada pukul 07.00 dengan arah jurusan tiga angka $030^{\circ}$ dan tiba di pelabuhan $B$ setelah 4 jam bergerak. Pukul 12.00 kapal bergerak kembali dari pelabuhan $B$ menuju pelabuhan $C$ dengan memutar haluan dengan arah jurusan tiga angka $150^{\circ}$ dan tiba di pelabuhan $C$ pukul 20.00. Kecepatan kapal selalu konstan $50 \text{mil/jam}$. Jarak tempuh kapal dari pelabuhan $C$ ke pelabuhan $A$ adalah ....  
+a. $200\sqrt{2} \text{mil}$  
+b. $200\sqrt{3} \text{mil}$  
+c. $200\sqrt{6} \text{mil}$  
+d. $200\sqrt{7} \text{mil}$  
+e. $600 \text{mil}$
+
+45\. Siska diminta mengukur tinggi tiang bendera menggunakan klinometer. Saat pertama berdiri dengan melihat ujung tiang bendera, terlihat pada klinometer menunjuk pada sudut $60^{\circ}$. Kemudian, ia bergerak menjauhi tiang bendera sejauh $10 \text{meter}$ dan terlihat pada klinometer menunjuk pada sudut $45^{\circ}$. Jika tinggi Siska diabaikan, maka tinggi tiang bendera adalah ....  
+a. $(15 + 10\sqrt{3}) \text{m}$  
+b. $(15 + 5\sqrt{3}) \text{m}$  
+c. $(5 + 10\sqrt{3}) \text{m}$  
+d. $(15 - 5\sqrt{3}) \text{m}$  
+e. $(10\sqrt{3} - 15) \text{m}$
+
+46\. Dari suatu tempat, Yudi melihat puncak menara dengan sudut elevasi sebesar $30^{\circ}$. Setelah berjalan $60 \text{meter}$ ke arah kaki menara, sudut elevasi Yudi terhadap puncak menara menjadi $60^{\circ}$. Jika tinggi Yudi diabaikan, maka jarak Yudi dari tempat semula ke kaki menara tersebut adalah ....  
+a. $75 \text{m}$  
+b. $80 \text{m}$  
+c. $85 \text{m}$  
+d. $90 \text{m}$  
+e. $100 \text{m}$
+
+47\. Ayah Sarah memiliki sebidang tanah berbentuk segitiga dengan dua sisi di antaranya mempunyai panjang $1.5 \text{hm}$ dan $1.2 \text{hm}$ serta kedua sisi tersebut membentuk sudut $30^{\circ}$. Luas tanah tersebut adalah ....  
+a. $0.3 \text{hektare}$  
+b. $0.45 \text{hektare}$  
+c. $3 \text{hektare}$  
+d. $4.5 \text{hektare}$  
+e. $6 \text{hektare}$
+
+48\. Di sebuah museum terdapat miniatur piramida berbentuk limas segiempat beraturan. Dari data museum, diketahui panjang rusuk tegak piramida 4 meter dan antara dua rusuk tegak membentuk sudut $30^{\circ}$ di puncaknya. Luas satu sisi tegak piramida tersebut adalah ....  
+a. $40 \text{dm}^2$  
+b. $80 \text{dm}^2$  
+c. $400 \text{dm}^2$  
+d. $800 \text{dm}^2$  
+e. $4.000 \text{dm}^2$
+
+49\. Suatu taman di tengah kota berbentuk segitiga sembarang. Jika sudut apit sebesar $60^{\circ}$ dan dua sisi yang mengapitnya masing-masing panjangnya 18 meter dan 16 meter, maka luas taman tersebut adalah ....  
+a. $72 \text{m}^2$  
+b. $72 \sqrt{2} \text{m}^2$  
+c. $72 \sqrt{3} \text{m}^2$  
+d. $144 \text{m}^2$  
+e. $144 \sqrt{3} \text{m}^2$
+
+50\. Luas segi-12 beraturan dengan panjang jari-jari lingkaran luar $10 \text{cm}$ adalah ....  
+a. $200 \text{cm}^2$  
+b. $210 \text{cm}^2$  
+c. $240 \text{cm}^2$  
+d. $280 \text{cm}^2$  
+e. $300 \text{cm}^2$
+
+51\. Keliling segi-12 beraturan dengan panjang jari-jari lingkaran luar $8 \text{cm}$ adalah ....  
+a. $72 \sqrt{2} + \sqrt{2} \text{cm}$  
+b. $96 \sqrt{2} - \sqrt{3} \text{cm}$  
+c. $9 \sqrt{2} + \sqrt{3} \text{cm}$  
+d. $8 \sqrt{2} + \sqrt{3} \text{cm}$  
+e. $128 - \sqrt{3} \text{cm}$
+
+52\. Perhatikan gambar berikut.  
+[gambar: segitiga sama sisi dengan lingkaran dan segi enam beraturan]  
+Dalam segitiga sama sisi yang panjang sisinya 4 cm, dibuat suatu lingkaran. Kemudian, dibuat segi enam beraturan di dalam lingkaran tersebut. Luas daerah yang diarsir adalah .... cm².
+
+**MM WAJIB X (ATURAN SINUS DAN COSINUS) Soal Grafik No. 74**
+
+74\. Grafik berikut ini menunjukkan gambar dari fungsi ....  
+[gambar: grafik sinus/cosinus]  
+a. $y = -\frac{1}{2} \sin x$  
+b. $y = -\sin \frac{1}{2}x$  
+c. $y = 2 \sin \frac{1}{2}x$  
+d. $y = -\cos x$  
+e. $y = \frac{1}{2}\cos 2x$
+
+75\. Grafik berikut ini menunjukkan gambar dari fungsi ....  
+[gambar: grafik sinus/cosinus]  
+a. $y = \sin x + 1$  
+b. $y = \sin 2x + 1$  
+c. $y = 2 \sin x + 1$  
+d. $y = \cos x + 1$  
+e. $y = \cos 2x + 1$
+
+76\. Grafik berikut ini menunjukkan gambar dari fungsi ....  
+[gambar: grafik sinus/cosinus]  
+a. $y = 3 \sin x - 1$  
+b. $y = 3 \sin 2x - 1$  
+c. $y = 2 \sin x - 1$  
+d. $y = 3 \cos x - 1$  
+e. $y = 3 \cos 2x - 1$
+
+77\. Grafik berikut ini menunjukkan gambar dari fungsi ....  
+[gambar: grafik sinus/cosinus]  
+a. $y = 3 \sin x$  
+b. $y = 3 \sin 2x$  
+c. $y = 3 \cos x$  
+d. $y = \cos 3x$  
+e. $y = 3 \cos 2x$
+
+78\. Grafik berikut ini menunjukkan gambar dari fungsi ....  
+[gambar: grafik sinus/cosinus]  
+a. $y = -3 \sin x$  
+b. $y = -3 \cos x$  
+c. $y = -2 \cos 3x$  
+d. $y = -\sin 3x$  
+e. $y = -3 \cos 2x$
+
+79\. Grafik berikut ini menunjukkan gambar dari fungsi ....  
+[gambar: grafik sinus/cosinus]  
+a. $y = -\sin \frac{1}{2}x$  
+b. $y = -\frac{1}{2}\sin 2x$  
+c. $y = -\cos \frac{1}{2}x$  
+d. $y = -\frac{1}{2}\cos x$  
+e. $y = -\cos 2x$
+
+80\. Grafik berikut ini menunjukkan gambar dari fungsi ....  
+[gambar: grafik sinus/cosinus]  
+a. $y = 2 \cos \frac{1}{2} x$  
+b. $y = \frac{1}{2} \sin 2x$  
+c. $y = 2 \sin x$  
+d. $y = \frac{1}{2} \cos x$  
+e. $y = \cos 2x$
+
+81\. Grafik berikut ini menunjukkan gambar dari fungsi ....  
+[gambar: grafik sinus/cosinus]  
+a. $y = 2 \sin 2x$  
+b. $y = \sin 2x$  
+c. $y = 2 \sin x$  
+d. $y = \cos 2x$  
+e. $y = -2 \cos 2x$
+
+82\. Grafik berikut ini menunjukkan gambar dari fungsi ....  
+[gambar: grafik sinus/cosinus]  
+a. $y = \sin x$  
+b. $y = 2 \cos 2x$  
+c. $y = 2 \sin x$  
+d. $y = 2 \cos x$  
+e. $y = \sin 2x$
+
+83\. Grafik berikut ini menunjukkan gambar dari fungsi ....  
+[gambar: grafik sinus/cosinus]  
+a. $y = -3 \cos 3x$  
+b. $y = -3 \sin 3x$  
+c. $y = -3 \sin x$  
+d. $y = 3 \cos 2x$  
+e. $y = 3 \sin 2x$
+
+84\. Grafik berikut ini menunjukkan gambar dari fungsi ....  
+[gambar: grafik sinus/cosinus]  
+a. $y = \sin x - 1$  
+b. $y = \sin 2x - 1$  
+c. $y = 2 \sin x - 1$  
+d. $y = \cos x - 1$  
+e. $y = \cos 2x - 1$
+
+85\. Grafik berikut ini menunjukkan gambar dari fungsi ....  
+[gambar: grafik sinus/cosinus]  
+a. $y = 3 \sin x - 2$  
+b. $y = 3 \sin 2x - 2$  
+c. $y = 2 \sin x - 2$  
+d. $y = 3 \cos x - 2$  
+e. $y = 3 \cos 2x - 2$
+
+**MM WAJIB X (ATURAN SINUS DAN COSINUS) Soal Uraian No. 8**
+
+8\. Jawablah pertanyaan berikut dengan benar. Perhatikan jajargenjang ABCD berikut.  
+[gambar: jajargenjang]  
+Tentukanlah:  
+a. panjang kedua diagonalnya;  
+b. keliling jajargenjang ABCD; dan  
+c. luas jajargenjang ABCD.
+
+[gambar: lingkaran dengan titik P dan L]  
+Pada lingkaran seperti tampak pada gambar, tentukan panjang PL.
+
+3\. Diketahui segitiga ABC dengan panjang $AB = 6 \mathrm{cm}$, $BC = 5 \mathrm{cm}$, dan $AC = 4 \mathrm{cm}$. Tentukan nilai tan $\angle ABC$.
+
+4\. Suatu belah ketupat yang panjang sisinya $100 \mathrm{cm}$ dan salah satu sudutnya membentuk sudut sebesar $150^{\circ}$. Tentukanlah panjang kedua diagonal belah ketupat tersebut.
+
+5\. Meli mempunyai sebidang tanah berbentuk segitiga dengan dua sisi di antaranya mempunyai panjang $15 \mathrm{m}$ dan $13 \mathrm{m}$. Jika besar sudut apit antara dua sisi tersebut adalah $45^{\circ}$, tentukanlah luas tanah yang dimiliki Meli.
+
+6\. Hitunglah luas segitiga $PQR$, dengan panjang sisi-sisinya $PQ = 3 \mathrm{m}$, $QR = 8 \mathrm{m}$, dan $PR = 9 \mathrm{m}$.
+
+7\. Pada suatu lingkaran dibuat sebuah segi delapan beraturan seperti berikut.  
+[gambar: segi delapan dalam lingkaran]  
+Jika jari-jari lingkaran $14 \mathrm{cm}$, maka tentukanlah:  
+a. panjang sisi segi delapan;  
+b. keliling segi delapan;  
+c. luas segi delapan.
+
+8\. Tentukanlah nilai maksimum, nilai minimum, periode, dan amplitudo dari fungsi-fungsi berikut.  
+a. $y = 3 \sin 2x + 1$  
+b. $y = 4 \cos 3x - 10$  
+c. $y = -2 \sin 5x + 4$  
+d. $y = -5 \cos 6x - 12$
+
+9\. Tentukanlah titik potong grafik dari fungsi berikut terhadap sumbu-sumbu koordinat.  
+a. $y = 2 \sin 2x$ dengan $0^{\circ} \leq x \leq 90^{\circ}$  
+b. $y = \sqrt{2} \cos 3x - 1$ dengan $0^{\circ} \leq x \leq 90^{\circ}$
+
+10\. Gambarlah grafik dari fungsi berikut pada interval $0^{\circ} \leq x \leq 360^{\circ}$.  
+a. $f(x) = 2 \cos 3x - 1$  
+b. $g(x) = -2 \sin 2x - 1$
+
+**MM WAJIB X (ATURAN SINUS DAN COSINUS) Soal HOTs No. 1**
+
+1\. [gambar: gereja di bukit]  
+Suatu gereja terletak di suatu bukit, seperti tampak pada gambar. Ketika puncak gereja dilihat dari dasar bukit, maka besar sudut elevasinya adalah $48^{\circ}$. Adapun ketika puncak gereja dilihat dari 200 kaki dari dasar bukit, maka sudut elevasi yang terbentuk adalah $41^{\circ}$. Bukit tersebut berdiri miring dengan membentuk sudut $32^{\circ}$ terhadap dasar horizontal. Tentukanlah tinggi gereja tersebut.
+
+[gambar: sungai dengan titik A, B, C, D, E]  
+Jarak suatu titik ke titik yang berada di seberang sungai yang ditunjukkan oleh gambar berikut dapat ditentukan tanpa mengukur sudut. Dua titik $B$ dan $C$ yang berada di seberang sungai dipilih sehingga terbentuk segmen garis $AB$ dan $AC$ seperti yang terlihat pada gambar. Titik $D$ dan $E$ dipilih seperti yang terlihat, dan jarak $BC, BD, BE, CD$ dan $CE$ diukur. Misalkan $BC = 184$ kaki, $BD = 102$ kaki, $BE = 218$ kaki, $CD = 236$ kaki, dan $CE = 80$ kaki.  
+a. Taksirlah jarak antara $A$ dan $B$ serta jarak antara $A$ dan $C$.  
+b. Tentukanlah jarak terdekat dari titik $A$ ke seberang sungai.
+
+**MM WAJIB X (ATURAN SINUS DAN COSINUS) Soal Bahasa Inggris No. 1**
+
+1\. Given triangle $ABC$, with $AB = 20 \mathrm{cm}$, $AC = 30 \mathrm{cm}$, and $\angle ABC = 150^{\circ}$. Find the length of $BC$ and $\angle BAC$.
+
+2\. At the time of researching a lake, a researcher walked $425 \mathrm{m}$ from point $A$ to point $B$, then turn $60^{\circ}$ and go as far as $300 \mathrm{m}$ to point $C$. Find the length of $AC$.
+
+3\. To determine the distance between two points $A$ and $B$, a surveyor choose a point $C$ that is $375$ yards from $A$ and $530$ yards from $B$. If $\angle BCA$ has measure $120^{\circ}$, approximation the distance between $A$ and $B$.
+
+4\. A ship leaves at 1:00 P.M. and travels $S35^{\circ}E$ at the rate of $24 \mathrm{mi/hr}$. Another ship leaves the same port at 1:30 P.M. and travels $S25^{\circ}W$ at the rate of $18 \mathrm{mi/hr}$. Approximately how far apart are the ships at 3:00 P.M.?
+
+5\. Draw every function $f(x)$ below, for $D_f: \{0 \leq x \leq 2\pi \}$.  
+a. $y = 2 \sin x$  
+b. $y = 3 \cos x - 1$  
+c. $y = -\sin x$  
+d. $y = -\cos x$  
+e. $y = -\tan x$  
+f. $y = 2 + \sin x$
+
+### Persamaan Trigonometri
+**XI MM MINAT (PERSAMAAN TRIGONOMETRI) No. 1**
+
+1\. Jika sin $x = \frac{1}{2} \sqrt{2}$ dan $0^\circ \leq x < 360^\circ$, maka $x = \ldots$  
+a. $45^{\circ}$  
+b. $60^{\circ}$  
+c. $45^{\circ}$ atau $135^{\circ}$  
+d. $60^{\circ}$ atau $120^{\circ}$  
+e. $45^{\circ}$ atau $215^{\circ}$
+
+2\. Jika cos $x = -\frac{1}{2}$ dan $0^\circ < x < 360^\circ$, maka $x = \ldots$  
+a. $60^{\circ}$  
+b. $150^{\circ}$  
+c. $60^{\circ}$ atau $120^{\circ}$  
+d. $120^{\circ}$ atau $240^{\circ}$  
+e. $120^{\circ}$ atau $300^{\circ}$
+
+3\. Jika sin $x = -\frac{1}{2} \sqrt{3}$ dan $0^\circ \leq x \leq 360^\circ$, maka $x = \ldots$  
+a. $60^{\circ}$ atau $120^{\circ}$  
+b. $120^{\circ}$ atau $360^{\circ}$  
+c. $150^{\circ}$ atau $330^{\circ}$  
+d. $240^{\circ}$ atau $300^{\circ}$  
+e. $240^{\circ}$ atau $360^{\circ}$
+
+4\. Jika tg $3x = \sqrt{3}$ untuk $0^\circ < x < 180^\circ$, maka himpunan nilai $x$ adalah ....  
+a. $\{20^{\circ}, 80^{\circ}, 140^{\circ}\}$  
+b. $\{20^{\circ}\}$  
+c. $\{20^{\circ}, 140^{\circ}\}$  
+d. $\{80^{\circ}, 140^{\circ}\}$  
+e. $\{140^{\circ}\}$
+
+5\. Himpunan penyelesaian dari cos $3x = -\frac{1}{2} \sqrt{3}$ adalah ....  
+a. $\{40^{\circ}, 50^{\circ}, 80^{\circ}\}$  
+b. $\{40^{\circ}, 80^{\circ}\}$  
+c. $\{50^{\circ}, 70^{\circ}\}$  
+d. $\{70^{\circ}\}$  
+e. $\{40^{\circ}, 50^{\circ}, 70^{\circ}, 80^{\circ}\}$
+
+6\. Jumlah semua nilai $x$ yang memenuhi $\cos x = \frac{1}{2}, 0^\circ \leq x \leq 360^\circ$ adalah ....  
+a. $540^{\circ}$  
+b. $435^{\circ}$  
+c. $360^{\circ}$  
+d. $300^{\circ}$  
+e. $60^{\circ}$
+
+7\. Himpunan penyelesaian sin $(2x + 50^{\circ}) = \frac{1}{2}$ untuk $0^\circ \leq x \leq 180^\circ$ adalah ....  
+a. $\{40^{\circ}, 140^{\circ}\}$  
+b. $\{40^{\circ}, 155^{\circ}\}$  
+c. $\{40^{\circ}, 100^{\circ}\}$  
+d. $\{55^{\circ}, 140^{\circ}\}$  
+e. $\{55^{\circ}, 95^{\circ}\}$
+
+8\. Nilai $x$ yang memenuhi cos $(3x + 30^{\circ}) = \sin 2x$ adalah ....  
+a. $10^{\circ}$  
+b. $11^{\circ}$  
+c. $12^{\circ}$  
+d. $13^{\circ}$  
+e. $14^{\circ}$
+
+9\. Semua nilai $x$ yang memenuhi tg $(5x - 40^{\circ}) = \cot 50^{\circ}$ adalah ....  
+a. $16^{\circ}$  
+b. $42^{\circ}$  
+c. $52^{\circ}$  
+d. $16^{\circ}$ dan $42^{\circ}$  
+e. $16^{\circ}$ dan $52^{\circ}$
+
+10\. Jika sin $2x = \cos x$, maka salah satu nilai $x$ yang memenuhi adalah ....  
+a. $30^{\circ}$  
+b. $60^{\circ}$  
+c. $40^{\circ}$  
+d. $50^{\circ}$  
+e. $70^{\circ}$
+
+11\. Jika sin $(3x - 10^{\circ}) = \cos (x + 20^{\circ})$, maka salah satu nilai $x$ yang memenuhi adalah ....  
+a. $20^{\circ}$  
+b. $35^{\circ}$  
+c. $40^{\circ}$  
+d. $50^{\circ}$  
+e. $60^{\circ}$
+
+12\. Diketahui sin $(-x + 5^{\circ}) = \cos (25^{\circ} - 3x)$, maka himpunan penyelesaian untuk nilai $x$ pada interval $0^\circ \leq x \leq 90^\circ$ adalah ....  
+a. $\{50^{\circ}, 70^{\circ}\}$  
+b. $\{55^{\circ}, 75^{\circ}\}$  
+c. $\{55^{\circ}\}$  
+d. $\{75^{\circ}\}$  
+e. $\{25^{\circ}, 35^{\circ}\}$
+
+13\. Jika tan $(2x + 10^{\circ}) = \cot (3x - 15^{\circ})$, maka nilai $x$ yang memenuhi di antaranya adalah ....  
+a. $26^{\circ}$  
+b. $25^{\circ}$  
+c. $21^{\circ}$  
+d. $19^{\circ}$  
+e. $13^{\circ}$
+
+**XI MM MINAT (PERSAMAAN TRIGONOMETRI) No. 26**
+
+26\. Jika $3 \sec^2 x = 8 \tan x - 2 \tan 0^\circ \leq x \leq 360^\circ$ maka tan $x = \ldots$  
+a. 1  
+b. $\frac{5}{3}$  
+c. 2  
+d. 1 dan 2  
+e. 1 dan $\frac{5}{3}$
+
+27\. Diketahui persamaan tan $x - 2 \cot x - 1 = 0$, untuk $90^\circ < x < 180^\circ$. Nilai sin $x = \ldots$  
+a. $\frac{2}{5} \sqrt{5}$  
+b. $\frac{1}{2} \sqrt{2}$  
+c. $\frac{1}{3} \sqrt{3}$  
+d. $\frac{1}{2}$  
+e. $\frac{1}{5} \sqrt{5}$
+
+28\. Diketahui persamaan cos $2x - 3 \sin x + 1 = 0$, untuk $0 \leq x \leq \frac{\pi}{2}$. Nilai tan $x = \ldots$  
+a. $\frac{1}{6} \sqrt{3}$  
+b. $\frac{1}{3} \sqrt{3}$  
+c. $\frac{1}{2} \sqrt{3}$  
+d. $\sqrt{2}$  
+e. $\sqrt{3}$
+
+29\. Jika $\tan^2 x - 2 \tan x - 8 = 0$ dan $0 \leq x \leq \pi$, maka cos $x = \ldots$  
+a. $-\frac{1}{5} \sqrt{5}$ dan $\frac{1}{17} \sqrt{17}$  
+b. $\frac{1}{5} \sqrt{5}$ dan $\frac{1}{17} \sqrt{17}$  
+c. $\frac{1}{5} \sqrt{5}$ dan $-\frac{1}{17} \sqrt{17}$  
+d. $\frac{2}{5} \sqrt{5}$ dan $-\frac{1}{17} \sqrt{17}$  
+e. $-\frac{2}{5} \sqrt{5}$ dan $-\frac{1}{17} \sqrt{17}$
+
+30\. Diketahui persamaan $2 \sin^2 x + \sin x - 1 = 0$ untuk $0 \leq x \leq 2\pi$, maka nilai $x$ yang memenuhi adalah ....  
+a. $\left\{\frac{\pi}{6}, \frac{7}{6} \pi, \frac{3}{2} \pi\right\}$  
+b. $\left\{\frac{\pi}{6}, \frac{5}{6} \pi, \frac{3}{2} \pi\right\}$  
+c. $\left\{\frac{\pi}{6}, \frac{7}{6} \pi, \pi\right\}$  
+d. $\left\{\frac{1}{2} \pi\right\}$  
+e. $\left\{\frac{7}{6} \pi, \frac{3}{2} \pi\right\}$
+
+31\. Nilai tan $x$ yang memenuhi persamaan cos $2x + 7 \cos x - 3 = 0$ adalah ....  
+a. $\sqrt{3}$  
+b. $\frac{1}{2} \sqrt{3}$  
+c. $\frac{1}{3} \sqrt{3}$  
+d. $\frac{1}{2}$  
+e. $\frac{1}{5} \sqrt{3}$
+
+32\. Diketahui persamaan tan $x - 2 \cot x + 1 = 0$, untuk $90^\circ < x < 180^\circ$. Nilai sin $x$ adalah ....  
+a. $\frac{2}{5} \sqrt{5}$  
+b. $\frac{1}{2} \sqrt{3}$  
+c. $\frac{1}{3} \sqrt{3}$  
+d. $\frac{1}{2}$  
+e. $\frac{1}{5} \sqrt{5}$
+
+33\. Jika $\frac{\sec 2x}{1 + \cos 2x} = \frac{1}{2}$ dan $0 \leq x \leq 2\pi$, maka himpunan nilai $x$ yang memenuhi adalah ....  
+a. $\{0^\circ , 150^\circ , 360^\circ \}$  
+b. $\{30^\circ , 120^\circ , 330^\circ \}$  
+c. $\{0^\circ , 180^\circ , 360^\circ \}$  
+d. $\{60^\circ , 180^\circ , 330^\circ \}$  
+e. $\{30^\circ , 120^\circ , 360^\circ \}$
+
+34\. Jika $\tan^2 2x - \tan 2x - 2 = 0$ dan $45^\circ \leq x \leq 135^\circ$, maka nilai $x$ yang memenuhi adalah ....  
+a. $12,5^\circ$  
+b. $22,5^\circ$  
+c. $37,5^\circ$  
+d. $47,5^\circ$  
+e. $67,5^\circ$
+
+35\. Salah satu penyelesaian dari persamaan $\sin^2 x + 3 \sin x + 2 = 0$ adalah ....  
+a. $30^\circ$  
+b. $90^\circ$  
+c. $45^\circ$  
+d. $270^\circ$  
+e. $330^\circ$
+
+36\. Penyelesaian dari $2\cos^{2}x - 3\cos x - 2 = 0$ untuk $0^{\circ}< x< 180^{\circ}$ adalah ....  
+a. $135^{\circ}$  
+b. $120^{\circ}$  
+c. $90^{\circ}$  
+d. $60^{\circ}$  
+e. $45^{\circ}$
+
+37\. Himpunan penyelesaian persamaan $2\cos^{2}x - 3\cos x + 1 = 0$ untuk $0< x< 2\pi$ adalah ....  
+a. $\left\{\frac{\pi}{6},\frac{5\pi}{6}\right\}$  
+b. $\left\{\frac{\pi}{6},\frac{11\pi}{6}\right\}$  
+c. $\left\{\frac{\pi}{3},\frac{2\pi}{3}\right\}$  
+d. $\left\{\frac{\pi}{3},\frac{5\pi}{3}\right\}$  
+e. $\left\{\frac{2\pi}{3},\frac{4\pi}{3}\right\}$
+
+38\. Himpunan penyelesaian persamaan $\sin^{2}2x - 2\sin x\cos x - 2 = 0$, untuk $0^{\circ}\leq x\leq 360^{\circ}$ adalah ....  
+a. $\{45^{\circ},135^{\circ}\}$  
+b. $\{135^{\circ},180^{\circ}\}$  
+c. $\{45^{\circ},225^{\circ}\}$  
+d. $\{135^{\circ},225^{\circ}\}$  
+e. $\{135^{\circ},315^{\circ}\}$
+
+39\. Himpunan penyelesaian cos $2x + \sin x - 1 = 0$ untuk $0\leq x\leq 2\pi$ adalah ....  
+a. $\left\{0,\frac{\pi}{6},\frac{5\pi}{6}\right\}$  
+b. $\{0,\pi ,2\pi \}$  
+c. $\left\{0,\frac{\pi}{6},\frac{5\pi}{6},\pi ,2\pi \right\}$  
+d. $\left\{0,\frac{\pi}{6},\frac{5\pi}{6},\frac{1}{2}\pi ,2\pi \right\}$  
+e. $\left\{0,\frac{1}{3}\pi ,\frac{5\pi}{6},\pi ,2\pi \right\}$
+
+40\. Hasil penjumlahan dari semua anggota himpunan penyelesaian $3\tan x + \cot x - 2\sqrt{3} = 0$ dengan $0\leq x\leq 2\pi$ adalah ....  
+a. $\frac{5}{3}\pi$  
+b. $\frac{4}{3}\pi$  
+c. $\frac{5}{4}\pi$  
+d. $\frac{5}{6}\pi$  
+e. $\frac{2}{3}\pi$
+
+41\. Jika $\frac{\pi}{4} < x< \frac{\pi}{2}$ dan $x$ memenuhi persamaan $2\tan^{2}x - 5\tan x + 2 = 0$, maka himpunan nilai sin $x$ adalah ....  
+a. $\left\{\frac{\sqrt{5}}{5},\frac{2\sqrt{5}}{5}\right\}$  
+b. $\left\{\frac{2\sqrt{5}}{5}\right\}$  
+c. $\left\{\frac{\sqrt{5}}{5}\right\}$  
+d. $\{1\}$  
+e. $\emptyset$
+
+42\. Himpunan penyelesaian $2\cos^{2}x + \cos x - 1 = 0$, untuk $0< x\leq \pi$ adalah ....  
+a. $\left\{\frac{\pi}{2},\pi \right\}$  
+b. $\left\{\frac{\pi}{3},\pi \right\}$  
+c. $\left\{\frac{\pi}{4},\pi \right\}$  
+d. $\left\{\frac{\pi}{6},\frac{\pi}{3}\right\}$  
+e. $\left\{\frac{\pi}{6},\frac{\pi}{2}\right\}$
+
+43\. Himpunan penyelesaian dari persamaan $2\sin^{2}x + 5\cos x = 4$, untuk $0^{\circ}\leq x\leq 360^{\circ}$ adalah ....  
+a. $\{30^{\circ},330^{\circ}\}$  
+b. $\{60^{\circ},300^{\circ}\}$  
+c. $\{120^{\circ},240^{\circ}\}$  
+d. $\{150^{\circ},210^{\circ}\}$  
+e. $\{180^{\circ},360^{\circ}\}$
+
+44\. Nilai tan $x$ yang memenuhi persamaan $2\cos^{2}x + 3\cos x - 2 = 0$, untuk $0^{\circ}\leq x\leq 90^{\circ}$ adalah ....  
+a. $\frac{1}{2}$  
+b. $\frac{1}{2}\sqrt{3}$  
+c. $\frac{1}{3}\sqrt{3}$  
+d. $\sqrt{3}$  
+e. 2
+
+**XI MM MINAT (PERSAMAAN TRIGONOMETRI) Soal Uraian No. 1**
+
+1\. Tentukan banyaknya $x$ dengan $0^{\circ} \leq x \leq 360^{\circ}$ yang memenuhi persamaan  
+$\frac{1 - 3 \cos x}{\sin x} + \frac{7 \sin x}{1 - \cos x} = 3 \cos x$.
+
+2\. Suatu fungsi didefinisikan sebagai berikut.  
+$f(x) = \cos 3x + \cos 3x \cdot \sin 3x + \cos 3x \cdot \sin^{2} 3x + \cos 3x \cdot \sin^{3} 3x + \dots$  
+Didefinisikan pula dua himpunan sebagai berikut.  
+$P = \{x:f(x) = 1 \text{ dengan } 0^{\circ} \leq x \leq 720^{\circ}\}$  
+$Q = \{x:f(x) = \sqrt{3} \text{ dengan } 0^{\circ} \leq x \leq 720^{\circ}\}$  
+a. Tentukan berapa banyak anggota dari $P \cap Q$.  
+b. Bagaimana jika $f$ didefinisikan sebagai:  
+$f(x) = \sin 3x + \sin 3x \cdot \cos 3x + \sin 3x \cdot \cos^{2} 3x + \sin 3x \cdot \cos^{3} 3x + \dots$,  
+berapa banyak anggota dari $P \cap Q$.
+
+**XI MM MINAT (PERSAMAAN TRIGONOMETRI) Soal Bahasa Inggris No. 1**
+
+1\. Find the solution for each of the following equations:  
+a. $\sin (x - 10^{\circ}) = \frac{\sqrt{3}}{2}$  
+b. $\sin (3x - 10^{\circ}) = \sin (x + 32^{\circ})$  
+c. $\sin 2x = \cos (x + 15^{\circ})$
+
+2\. Find $x$ if $2 \sin^{2} x + \sin x = 0$ for $0^{\circ} \leq x \leq 360^{\circ}$.
+
+3\. Determine the solution for each of the following equations for $-180^{\circ} \leq x \leq 180^{\circ}$:  
+a. $2 \cos^{2} x - 3 \cos x = 2$  
+b. $\sin (x + 15^{\circ}) = \sqrt{3} (x + 15^{\circ})$  
+c. $\sin^{2} x - 3 \cos^{2} x = 0$
+
+4\. Given a trigonometric equation $1 + a \cos x = (a + 1)^{2}$ with $a$ is an integer and $a \neq 0$. Find the value of $a$ such that the equation has solution.
+
+5\. If $\sin x = \cos 2x$, then determine the value of $\tan x$.
+
 ## Defantri Trigonometri X
 ### Defantri 04-Latihan 03-Perbandingan-perbandingan trigonometri
 
@@ -1192,7 +2024,7 @@ e. $2$ dan $2$
 
 ### Defantri 03-Latihan 01-Aturan Sinus dan 02-Aturan Cosinus [www.defantri.com].pdf
 
-**01.** Sebuah segitiga ABC diketahui panjang sisi AB = 12 cm, \(\angle B = 75^\circ\) dan \(\angle A = 60^\circ\), maka panjang sisi BC = …. cm  
+**01.** Sebuah segitiga ABC diketahui panjang sisi AB = 12 cm, $\angle B = 75^\circ$ dan $\angle A = 60^\circ$, maka panjang sisi BC = …. cm  
 a. $4\sqrt{6}$  
 b. $6\sqrt{6}$  
 c. $6\sqrt{2}$  
@@ -1531,7 +2363,8 @@ c. $(24\sqrt{2} + 8\sqrt{3})$ cm²
 d. $(48\sqrt{2} + 16\sqrt{3})$ cm²  
 e. $(48\sqrt{2} + 8\sqrt{3})$ cm²
 
-## Trigon 1 MathCyber
+## MathCyber
+### Trigon 1 MathCyber
 
 **Soal 1**  
 <img src="https://ifbsatu.sirv.com/Projek/trigon_mc2_01.png" width="300"><br>
@@ -1655,7 +2488,7 @@ D. $-\dfrac{2}{5}\sqrt{5}$
 E. $-\dfrac{4}{5}\sqrt{5}$
 
 **Soal 16**  
-Perhatikan gambar berikut.   
+Perhatikan gambar berikut.  
 <img src="https://ifbsatu.sirv.com/Projek/trigon_mc2_16.png" width="400"><br>
 Diketahui panjang $AC = p$ dan $\angle BAC = \theta$. Panjang $DE = \cdots$.  
 A. $p \sin \theta \cos \theta$  
@@ -1724,8 +2557,8 @@ D. $90^\circ$
 E. $150^\circ$
 
 **Soal 5**  
-Perhatikan gambar $\triangle ABC$ di bawah ini.    
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc3_05.png" width="400"><br>   
+Perhatikan gambar $\triangle ABC$ di bawah ini.  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc3_05.png" width="400"><br>  
 Perbandingan panjang $BC$ dan $AC$ adalah $\cdots$.  
 A. $3 : 4$  
 B. $4 : 3$  
@@ -1734,8 +2567,8 @@ D. $\sqrt{3} : 2\sqrt{2}$
 E. $\sqrt{3} : \sqrt{2}$
 
 **Soal 6**  
-Perhatikan gambar berikut.   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc3_06.png" width="400"><br>   
+Perhatikan gambar berikut.  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc3_06.png" width="400"><br>  
 Nilai dari $\sin D$ adalah $\cdots$.  
 A. $\dfrac{1}{2}\sqrt{6}$  
 B. $\dfrac{1}{4}\sqrt{6}$  
@@ -1788,7 +2621,7 @@ Diketahui segitiga $PQR$ dengan $PR=3$ cm dan $QR=\dfrac{3\sqrt{6}}{2}$ cm, sert
 Pada segitiga $ABC,$ diketahui $\angle A = 45^\circ,$ $AC = 2$ cm, dan $BC = 2\sqrt{2}$ cm. Tentukan nilai dari $\cos B.$
 
 **Soal Uraian 5**  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc3_25.png" width="400"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc3_25.png" width="400"><br>  
 Sigma Boy mula-mula berada di titik A. Pada denah berskala $1 : 100,$ ia terlihat berjalan sejauh $6$ cm menuju titik $B.$ Sebesar $30^\circ$ searah jarum jam, ia melihat suatu perosotan anak-anak, tepatnya di titik $C.$ Bantulah Sigma Boy menentukan jarak sebenarnya (bukan jarak pada denah) dari posisi mula-mula (titik $A$) ke perosotan tersebut (titik $C$) jika $\angle ACB=120^\circ.$
 
 **Soal Uraian 6**  
@@ -1804,8 +2637,8 @@ $$c(\sin^2 A + \sin^2 B) = \sin C(a \cdot \sin A + b \cdot \sin B).$$
 ### trigon 3 aturan kosinus mathcyber
 Berikut adalah ekstrak semua soal dan pilihan ganda dari halaman tersebut (16 soal pilihan ganda dan 6 soal uraian):
 
-**Soal 1**   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_01.png" width="300"><br>   
+**Soal 1**  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_01.png" width="300"><br>  
 Diketahui segitiga ABC seperti yang tampak pada gambar berikut. Panjang AC adalah ... cm.  
 A. $\sqrt{33}$  
 B. $\sqrt{37}$  
@@ -1839,7 +2672,7 @@ E. $8\sqrt{3 + \sqrt{2}}$
 
 **Soal 5**  
 Nilai $\cos \theta$ pada gambar di bawah adalah ... .  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_05.png" width="300"><br>   
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_05.png" width="300"><br>  
 A. $-1$  
 B. $-\dfrac{5}{7}$  
 C. $-\dfrac{2}{3}$  
@@ -1848,7 +2681,7 @@ E. $\dfrac{2}{3}$
 
 **Soal 6**  
 Perhatikan gambar segi empat PQRS berikut. 
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_06.png" width="400"><br>   
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_06.png" width="400"><br>  
 Panjang RS = ... cm.  
 A. $6\sqrt{2}$  
 B. $6\sqrt{3}$  
@@ -1858,7 +2691,7 @@ E. $9\sqrt{3}$
 
 **Soal 7**  
 Perhatikan segi empat ABCD berikut. 
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_07.png" width="400"><br>   
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_07.png" width="400"><br>  
 Panjang AD adalah ... cm.  
 A. $2\sqrt{7}$  
 B. $4\sqrt{6}$  
@@ -1868,7 +2701,7 @@ E. $8$
 
 **Soal 8**  
 Perhatikan segi empat ABCD berikut. 
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_08.png" width="400"><br>   
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_08.png" width="400"><br>  
 Panjang CD adalah ... cm.  
 A. $4\sqrt{2}$  
 B. $4\sqrt{3}$  
@@ -1933,7 +2766,7 @@ D. 7
 E. 8
 
 **Soal 16**  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_16.png" width="400"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_16.png" width="400"><br>  
 Diketahui segitiga ABC dengan $a = 7$, $b = 8$, dan $c = 9$. Nilai $\cos A + \cos B + \cos C = \cdots$.  
 A. $\dfrac{1}{2}$  
 B. $\dfrac{3}{4}$  
@@ -1942,25 +2775,25 @@ D. $\dfrac{5}{4}$
 E. $\dfrac{3}{2}$
 
 **Soal Uraian 1**  
-Diketahui segi empat ABCD seperti yang terlihat pada gambar.   
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_21.png" width="400"><br>    
+Diketahui segi empat ABCD seperti yang terlihat pada gambar.  
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_21.png" width="400"><br>  
 Tentukan panjang BC.
 
 **Soal Uraian 2**  
 Perhatikan segitiga PQR berikut. 
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_22.png" width="400"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_22.png" width="400"><br>  
 Tentukan nilai x yang memenuhi kondisi yang diberikan pada gambar.
 
 **Soal Uraian 3**  
 Diketahui $\triangle ABC$ dengan $a+c = 12$ cm dan $b + c = 13$ cm, serta $\angle A = 60^\circ$. Tentukan nilai a.
 
 **Soal Uraian 4**  
-Pada gambar di bawah,   
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_24.png" width="300"><br>    
+Pada gambar di bawah,  
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_24.png" width="300"><br>  
 ABCD adalah segi empat tali busur lingkaran (besar sudut yang berhadapan jumlahnya 180°). Buktikan bahwa $\cos \theta = \dfrac{c^2+d^2-a^2-b^2}{2(ab+cd)}$.
 
 **Soal Uraian 5**  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_25.png" width="300"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc4_25.png" width="300"><br>  
 Diketahui $\triangle ABC$ dengan CD adalah garis berat, yaitu garis yang membagi dua sama panjang sisi AB. Dengan menggunakan aturan kosinus, buktikan bahwa:  
 a. $CD^2 = \dfrac{1}{2}a^2 + \dfrac{1}{2}b^2 - \dfrac{1}{4}c^2$  
 b. $4CD^2 = a^2 + b^2 + 2ab \cos C$
@@ -1973,7 +2806,7 @@ Berikut adalah ekstrak semua soal dari halaman tersebut (10 soal pilihan ganda d
 
 **Soal 1**  
 Perhatikan segitiga $KLM$ berikut.  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_01.png" width="400"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_01.png" width="400"><br>  
 Luas segitiga tersebut adalah $\cdots~\text{cm}^2.$  
 A. $12$  
 B. $6\sqrt{3}$  
@@ -2007,7 +2840,7 @@ E. $10\sqrt{3}$
 
 **Soal 5**  
 Luas segi empat $ABCD$ pada gambar di bawah adalah $\cdots~\text{cm}^2.$  
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_05.png" width="400"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_05.png" width="400"><br>  
 A. $(72 + 50\sqrt{3})$  
 B. $(72 + 25\sqrt{3})$  
 C. $74$  
@@ -2040,7 +2873,7 @@ E. $9$
 
 **Soal 9**  
 Sebuah heksagon (segi enam) diposisikan di dalam segitiga siku-siku seperti gambar berikut. <br> 
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_09.png" width="400"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_09.png" width="400"><br>  
 Luas heksagon tersebut adalah $\cdots$.  
 A. $60$  
 B. $80$  
@@ -2050,7 +2883,7 @@ E. $180$
 
 **Soal 10**  
 Pada gambar di bawah, <br>
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_10.png" width="400"><br>     
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_10.png" width="400"><br>  
 terdapat dua persegi dengan panjang sisi masing-masing $4$ cm dan $5$ cm, sebuah segitiga dengan luas $8~\text{cm}^2,$ dan jajaran genjang yang terarsir. Luas jajaran genjang itu adalah $\cdots~\text{cm}^2.$  
 A. $15$  
 B. $16$  
@@ -2059,11 +2892,11 @@ D. $20$
 E. $22$
 
 **Soal Uraian 1**  
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_11.jpg" width="400"><br>    
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_11.jpg" width="400"><br>  
 An artist is going to create a decorative design for a triangular glass panel, as shown in the figure below. After measuring it, the glass is found to have side lengths of $18$ cm and $10$ cm, with an included angle of $45^\circ.$ What is the area of the triangular glass?
 
 **Soal Uraian 2**  
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_12.png" width="400"><br>    
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_12.png" width="400"><br>  
 Sekawanan burung terbang di atas langit biru secara bersama-sama. Pada saat tertentu, posisi mereka membentuk formasi berupa bangun datar segitiga yang titik sudutnya diberi nama $A,B,$ dan $C.$ Jarak burung $A$ ke burung $B$ adalah $30$ m, sedangkan jaraknya ke burung $C$ adalah $40$ m. Sudut yang terbentuk di titik $A$ adalah $45^\circ.$ Tentukan luas segitiga yang terbentuk atas formasi burung tersebut.
 
 **Soal Uraian 3**  
@@ -2071,343 +2904,343 @@ Diketahui segi empat $PQRS$ dengan $PS = 3$ cm, $PQ = 4$ cm, $QR = 6$ cm, $\angl
 
 **Soal Uraian 4**  
 Suatu wadah berbentuk prisma segitiga berisi sejumlah air seperti yang terlihat pada gambar berikut.<br>
-<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_14.png" width="300"><br>    
+<img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_14.png" width="300"><br>  
 Jika penuangan sebanyak $80$ liter air ke dalam wadah tersebut akan membuatnya terisi penuh, tentukan volume air mula-mula.
 
 **Soal Uraian 5**  
 Buktikan bahwa luas segi empat tali busur $ABCD$ pada gambar di bawah adalah $L = \dfrac{1}{2}(ab + cd) \sin \theta.$<br>
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_15.png" width="300"><br>    
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_15.png" width="300"><br>  
 
 **Soal Uraian 6**  
 Buktikan bahwa luas segi empat $ABCD$ sembarang pada gambar di bawah adalah $L = \dfrac{1}{2} \cdot AC \cdot BD \cdot \sin \theta.$<br>
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_16.png" width="300"><br>    
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_mc5_16.png" width="300"><br>  
 
 ## LKPD Matematika X SMAN 70
 **Halaman 4**
 
 **Asesmen Formatif 4.1**
 
-1) Diketahui segitiga siku-siku ABC siku-siku di B. Dengan panjang AB = 3 cm, AC = 5 cm, α pada sudut C. Tentukan :   
-a) panjang BC   
-b) $\sin \alpha$   
-c) $\cos \alpha$   
-d) $\tan \alpha$   
-e) $\csc \alpha$   
-f) $\sec \alpha$   
-g) $\cot \alpha$   
-   
-2) Diketahui $\tan \alpha = 4$ dan $\alpha$ sudut lancip. Tentukan $\sec \alpha$ !   
-   
-3) Jika $\cos \alpha = \frac{12}{13}$ dan $\alpha$ sudut lancip. Tentukan $\sin \alpha$ !   
-   
-4) Jika $\sin \beta = \frac{3}{5}$ dan $\beta$ sudut lancip. Tentukan $\cos \beta$ !   
-   
-**Halaman 5**   
-   
-**Asesmen Formatif 4.2**   
-   
-1) $\frac{1}{5}$ putaran = ... rad = ...°   
-   
-2) $\frac{1}{6}$ putaran = ... rad = ...°   
-   
-3) $135^\circ = \ldots \text{ rad} = \ldots \text{ putaran}$   
-   
-4) Ubahlah dari satuan radian menjadi derajat   
-a) $\frac{7}{3} \pi \text{ rad}$   
-b) $\frac{5}{6} \pi \text{ rad}$   
-c) $\frac{1}{10} \pi \text{ rad}$   
-d) $\frac{3}{4} \pi \text{ rad}$   
-e) $\frac{8}{3} \pi \text{ rad}$   
-f) $3\pi \text{ rad}$   
-   
-5) Ubahlah dari satuan derajat menjadi radian   
-a) $120^\circ$   
-b) $270^\circ$   
-c) $60^\circ$   
-d) $150^\circ$   
-e) $210^\circ$   
-f) $330^\circ$   
-   
-6) Jika suatu alat pemancar berputar 60 putaran dalam setiap menit, berapa besar putaran dalam derajat per detik? Berapa putaran dalam radian per detik?   
-   
-**Halaman 6 (PILIHAN GANDA)**   
-   
-7) Diketahui segitiga ABC siku-siku di C. Jika $\sin B = p$, maka $\tan B = \ldots$   
-A. $\frac{p}{\sqrt{1-p^2}}$   
-B. $\frac{1}{\sqrt{1-p^2}}$   
-C. $\frac{1}{\sqrt{p^2-1}}$   
-D. $\frac{p}{\sqrt{p^2-1}}$   
-E. $\frac{\sqrt{1-p^2}}{p}$   
-   
-**Halaman 7**   
-   
-8) Diketahui segitiga KLM siku-siku di L. Jika $\cos K = \frac{1}{a}$, maka $\sin K \cdot \tan K = \ldots$   
-A. $\frac{a^2+1}{a}$   
-B. $\frac{a^2-1}{a}$   
-C. $\frac{a}{a^2-1}$   
-D. $\frac{a^2+1}{a^2+1}$   
-E. $\frac{a^2-1}{a^2+1}$   
-   
-9) Diketahui segitiga KLM siku-siku di L. Jika $\sin M = \frac{2}{3}$ dan $KL = \sqrt{20}$ cm. Maka panjang $KM = \ldots$   
-A. $2\sqrt{5}$   
-B. $3\sqrt{5}$   
-C. $2\sqrt{10}$   
-D. $3\sqrt{10}$   
-E. $4\sqrt{10}$   
-   
-10) Dalam segitiga ABC  siku-siku di A, panjang BC = a dan besar $\angle ABC = \beta$. Jika D ada di antara B dan C, panjang garis tinggi $AD = \ldots$   
-A. $\sin^2 \beta \cdot \cos \beta$   
-B. $a \sin \beta \cdot \cos \beta$   
-C. $a \sin^2 \beta$   
-D. $a \sin \beta \cdot \cos^2 \beta$   
-E. $a \sin \beta$   
-   
-**Halaman 11**   
-   
-1) Tentukan nilai dari   
-a) $\frac{\sin 60^\circ + 2 \cdot \cos 30^\circ}{\tan 45^\circ}$   
-b) $\frac{\sec 30^\circ + 3 \cdot \tan 45^\circ}{\cot 60^\circ \cdot \sin 60^\circ}$   
-c) $\frac{\sin \frac{\pi}{4} + \cos \frac{\pi}{2}}{\tan \frac{\pi}{3}}$   
-   
-2) Sebuah tangga yang panjangnya 2 meter disandarkan ke bagian paling atas sebuah dinding sedemikian hingga tangga dengan tanah membentuk sudut $\alpha$. Jika tinggi dinding = $\sqrt{3}$ meter maka besar sudut $\alpha$ adalah….   
-   
-3) Perhatikan gambar di bawah! Berdasarkan gambar di atas maka panjang $CD = \ldots$   
-   
-4) Diketahui segitiga ABC dengan $\angle B = 90^\circ$, $\sin A = 0,5$ dan $AB = 100$ cm. Jika $AB = x$ dan $AC = y$ maka $y : x = \ldots$   
-A. $2:\sqrt{3}$   
-B. $2:1$   
-C. $1:1$   
-D. $1:2$   
-E. $\sqrt{3}:2$   
-   
-5) Segitiga ABC siku-siku di A. $BC = p$, $AD \perp BC$, $DE \perp AC$, dan $\angle B = \beta$, dan $\angle ADB = 90^\circ$. Maka panjang $DE = \ldots$   
-A. $p \sin \beta \cos^2 \beta$   
-B. $p \sin \beta$   
-C. $p \sin^2 \beta \cos \beta$   
-D. $p \sin \beta \tan \beta$   
-E. $p \sin^2 \beta \cos^2 \beta$   
-   
-**Halaman 12**   
-   
-**Contoh 4.1** (soal)   
-Tentukan nilai dari   
-a. $\sin 150^\circ$   
-b. $\cos 210^\circ$   
-c. $\tan 300^\circ$   
-   
-**Halaman 13**   
-   
-**Asesmen Formatif 4.4**   
-   
-1. Tentukan nilai dari   
-a. $\sin \frac{4\pi}{3}$   
-b. $\cos \frac{2\pi}{3}$   
-c. $\tan \frac{4\pi}{3}$   
-d. $\csc 315^\circ$   
-e. $\sec 330^\circ$   
-f. $\cot 135^\circ$   
-g. $\sin 750^\circ$   
-h. $\cos(-30^\circ)$   
-i. $\tan(-150^\circ)$   
-   
-2. Tentukan nilai dari   
-a. $\sin 45^\circ + 2 \cdot \cos 135^\circ$   
-b. $\sin 60^\circ + 3 \cdot \cos 150^\circ$   
-c. $\frac{\cos 210^\circ}{\sec 330^\circ \cdot \tan 120^\circ \cdot \sin 315^\circ}$   
-d. $\frac{\sin 270^\circ \cdot \sin 135^\circ \cdot \tan 225^\circ}{\sin 150^\circ \cdot \sin 225^\circ}$   
-   
-3. Sederhanakan bentuk-bentuk berikut   
-a. $\cos(90^\circ - \alpha)$   
-b. $\sin(90^\circ - \alpha)$   
-c. $\tan(180^\circ - \alpha)$   
-d. $\tan(360^\circ - \alpha)$   
-   
-**Halaman 14**   
-   
-4. Jika $\cos \alpha = -\frac{2}{3}$ dan $90^\circ < \alpha < 180^\circ$ tentukan nilai dari :   
-a. $\sin \alpha$   
-b. $\tan \alpha \cdot \csc \alpha$   
-   
-5. Jika $\sin x = a$ dan $90^\circ < x < 180^\circ$ maka nilai $\cos(90^\circ + x) + \sin(180^\circ - x) + \cos(180^\circ + x) = \ldots$   
-   
-6. Jika $\cos 65^\circ = p$, nyatakan bentuk-bentuk berikut dalam $p$   
-a. $\sin 25^\circ$   
-b. $\cos 245^\circ$   
-c. $\sin 335^\circ$   
-   
-7. Jika $\sin 31^\circ = r$, nyatakan bentuk-bentuk berikut dalam $r$   
-a. $\cos 149^\circ$   
-b. $\tan 59^\circ$   
-c. $\csc 239^\circ$   
-   
-8. Jika $\tan 23^\circ = q$, nyatakan bentuk-bentuk berikut dalam $q$   
-a. $\tan 157^\circ$   
-b. $\frac{\tan 157^\circ - \tan 337^\circ}{1 + \cot 293^\circ - \tan 203^\circ}$   
-c. $\frac{\cot 293^\circ - \tan 157^\circ}{\tan 337^\circ - \cot 113^\circ}$   
-   
-9. Jika $A$, $B$, dan $C$ adalah sudut-sudut sebuah segitiga, maka $\tan \frac{1}{2}(A + C) = \ldots$   
-   
-10. Jika $\frac{\sin x + \cos 60^\circ}{\sin 150^\circ - \sin 270^\circ} = 0$, dan $0 \leq x \leq 360^\circ$, maka nilai $x$ yang memenuhi adalah….   
+1) Diketahui segitiga siku-siku ABC siku-siku di B. Dengan panjang AB = 3 cm, AC = 5 cm, α pada sudut C. Tentukan :  
+a) panjang BC  
+b) $\sin \alpha$  
+c) $\cos \alpha$  
+d) $\tan \alpha$  
+e) $\csc \alpha$  
+f) $\sec \alpha$  
+g) $\cot \alpha$  
+  
+2) Diketahui $\tan \alpha = 4$ dan $\alpha$ sudut lancip. Tentukan $\sec \alpha$ !  
+  
+3) Jika $\cos \alpha = \frac{12}{13}$ dan $\alpha$ sudut lancip. Tentukan $\sin \alpha$ !  
+  
+4) Jika $\sin \beta = \frac{3}{5}$ dan $\beta$ sudut lancip. Tentukan $\cos \beta$ !  
+  
+**Halaman 5**  
+  
+**Asesmen Formatif 4.2**  
+  
+1) $\frac{1}{5}$ putaran = ... rad = ...°  
+  
+2) $\frac{1}{6}$ putaran = ... rad = ...°  
+  
+3) $135^\circ = \ldots \text{ rad} = \ldots \text{ putaran}$  
+  
+4) Ubahlah dari satuan radian menjadi derajat  
+a) $\frac{7}{3} \pi \text{ rad}$  
+b) $\frac{5}{6} \pi \text{ rad}$  
+c) $\frac{1}{10} \pi \text{ rad}$  
+d) $\frac{3}{4} \pi \text{ rad}$  
+e) $\frac{8}{3} \pi \text{ rad}$  
+f) $3\pi \text{ rad}$  
+  
+5) Ubahlah dari satuan derajat menjadi radian  
+a) $120^\circ$  
+b) $270^\circ$  
+c) $60^\circ$  
+d) $150^\circ$  
+e) $210^\circ$  
+f) $330^\circ$  
+  
+6) Jika suatu alat pemancar berputar 60 putaran dalam setiap menit, berapa besar putaran dalam derajat per detik? Berapa putaran dalam radian per detik?  
+  
+**Halaman 6 (PILIHAN GANDA)**  
+  
+7) Diketahui segitiga ABC siku-siku di C. Jika $\sin B = p$, maka $\tan B = \ldots$  
+A. $\frac{p}{\sqrt{1-p^2}}$  
+B. $\frac{1}{\sqrt{1-p^2}}$  
+C. $\frac{1}{\sqrt{p^2-1}}$  
+D. $\frac{p}{\sqrt{p^2-1}}$  
+E. $\frac{\sqrt{1-p^2}}{p}$  
+  
+**Halaman 7**  
+  
+8) Diketahui segitiga KLM siku-siku di L. Jika $\cos K = \frac{1}{a}$, maka $\sin K \cdot \tan K = \ldots$  
+A. $\frac{a^2+1}{a}$  
+B. $\frac{a^2-1}{a}$  
+C. $\frac{a}{a^2-1}$  
+D. $\frac{a^2+1}{a^2+1}$  
+E. $\frac{a^2-1}{a^2+1}$  
+  
+9) Diketahui segitiga KLM siku-siku di L. Jika $\sin M = \frac{2}{3}$ dan $KL = \sqrt{20}$ cm. Maka panjang $KM = \ldots$  
+A. $2\sqrt{5}$  
+B. $3\sqrt{5}$  
+C. $2\sqrt{10}$  
+D. $3\sqrt{10}$  
+E. $4\sqrt{10}$  
+  
+10) Dalam segitiga ABC  siku-siku di A, panjang BC = a dan besar $\angle ABC = \beta$. Jika D ada di antara B dan C, panjang garis tinggi $AD = \ldots$  
+A. $\sin^2 \beta \cdot \cos \beta$  
+B. $a \sin \beta \cdot \cos \beta$  
+C. $a \sin^2 \beta$  
+D. $a \sin \beta \cdot \cos^2 \beta$  
+E. $a \sin \beta$  
+  
+**Halaman 11**  
+  
+1) Tentukan nilai dari  
+a) $\frac{\sin 60^\circ + 2 \cdot \cos 30^\circ}{\tan 45^\circ}$  
+b) $\frac{\sec 30^\circ + 3 \cdot \tan 45^\circ}{\cot 60^\circ \cdot \sin 60^\circ}$  
+c) $\frac{\sin \frac{\pi}{4} + \cos \frac{\pi}{2}}{\tan \frac{\pi}{3}}$  
+  
+2) Sebuah tangga yang panjangnya 2 meter disandarkan ke bagian paling atas sebuah dinding sedemikian hingga tangga dengan tanah membentuk sudut $\alpha$. Jika tinggi dinding = $\sqrt{3}$ meter maka besar sudut $\alpha$ adalah….  
+  
+3) Perhatikan gambar di bawah! Berdasarkan gambar di atas maka panjang $CD = \ldots$  
+  
+4) Diketahui segitiga ABC dengan $\angle B = 90^\circ$, $\sin A = 0,5$ dan $AB = 100$ cm. Jika $AB = x$ dan $AC = y$ maka $y : x = \ldots$  
+A. $2:\sqrt{3}$  
+B. $2:1$  
+C. $1:1$  
+D. $1:2$  
+E. $\sqrt{3}:2$  
+  
+5) Segitiga ABC siku-siku di A. $BC = p$, $AD \perp BC$, $DE \perp AC$, dan $\angle B = \beta$, dan $\angle ADB = 90^\circ$. Maka panjang $DE = \ldots$  
+A. $p \sin \beta \cos^2 \beta$  
+B. $p \sin \beta$  
+C. $p \sin^2 \beta \cos \beta$  
+D. $p \sin \beta \tan \beta$  
+E. $p \sin^2 \beta \cos^2 \beta$  
+  
+**Halaman 12**  
+  
+**Contoh 4.1** (soal)  
+Tentukan nilai dari  
+a. $\sin 150^\circ$  
+b. $\cos 210^\circ$  
+c. $\tan 300^\circ$  
+  
+**Halaman 13**  
+  
+**Asesmen Formatif 4.4**  
+  
+1. Tentukan nilai dari  
+a. $\sin \frac{4\pi}{3}$  
+b. $\cos \frac{2\pi}{3}$  
+c. $\tan \frac{4\pi}{3}$  
+d. $\csc 315^\circ$  
+e. $\sec 330^\circ$  
+f. $\cot 135^\circ$  
+g. $\sin 750^\circ$  
+h. $\cos(-30^\circ)$  
+i. $\tan(-150^\circ)$  
+  
+2. Tentukan nilai dari  
+a. $\sin 45^\circ + 2 \cdot \cos 135^\circ$  
+b. $\sin 60^\circ + 3 \cdot \cos 150^\circ$  
+c. $\frac{\cos 210^\circ}{\sec 330^\circ \cdot \tan 120^\circ \cdot \sin 315^\circ}$  
+d. $\frac{\sin 270^\circ \cdot \sin 135^\circ \cdot \tan 225^\circ}{\sin 150^\circ \cdot \sin 225^\circ}$  
+  
+3. Sederhanakan bentuk-bentuk berikut  
+a. $\cos(90^\circ - \alpha)$  
+b. $\sin(90^\circ - \alpha)$  
+c. $\tan(180^\circ - \alpha)$  
+d. $\tan(360^\circ - \alpha)$  
+  
+**Halaman 14**  
+  
+4. Jika $\cos \alpha = -\frac{2}{3}$ dan $90^\circ < \alpha < 180^\circ$ tentukan nilai dari :  
+a. $\sin \alpha$  
+b. $\tan \alpha \cdot \csc \alpha$  
+  
+5. Jika $\sin x = a$ dan $90^\circ < x < 180^\circ$ maka nilai $\cos(90^\circ + x) + \sin(180^\circ - x) + \cos(180^\circ + x) = \ldots$  
+  
+6. Jika $\cos 65^\circ = p$, nyatakan bentuk-bentuk berikut dalam $p$  
+a. $\sin 25^\circ$  
+b. $\cos 245^\circ$  
+c. $\sin 335^\circ$  
+  
+7. Jika $\sin 31^\circ = r$, nyatakan bentuk-bentuk berikut dalam $r$  
+a. $\cos 149^\circ$  
+b. $\tan 59^\circ$  
+c. $\csc 239^\circ$  
+  
+8. Jika $\tan 23^\circ = q$, nyatakan bentuk-bentuk berikut dalam $q$  
+a. $\tan 157^\circ$  
+b. $\frac{\tan 157^\circ - \tan 337^\circ}{1 + \cot 293^\circ - \tan 203^\circ}$  
+c. $\frac{\cot 293^\circ - \tan 157^\circ}{\tan 337^\circ - \cot 113^\circ}$  
+  
+9. Jika $A$, $B$, dan $C$ adalah sudut-sudut sebuah segitiga, maka $\tan \frac{1}{2}(A + C) = \ldots$  
+  
+10. Jika $\frac{\sin x + \cos 60^\circ}{\sin 150^\circ - \sin 270^\circ} = 0$, dan $0 \leq x \leq 360^\circ$, maka nilai $x$ yang memenuhi adalah….  
 
 ## IBMath_Haese
-### IBMath_Haese_LATIHAN 7D   
-1. Sebuah tiang bendera menghasilkan bayangan sepanjang $9,32$ m ketika sudut elevasi matahari adalah $63^\circ$. Tentukan tinggi tiang bendera tersebut.      
-2. Sebuah bukit terjal memiliki kemiringan $18^\circ$ terhadap horizontal. Bukit tersebut menurun ke arah pantai sehingga dasarnya berada di permukaan laut.   
-a. Jika saya berjalan sejauh $150$ m mendaki bukit, berapa ketinggian saya di atas permukaan laut?   
-b. Jika saya mendaki hingga ke titik setinggi $80$ m di atas permukaan laut, seberapa jauh saya telah berjalan?      
-3. Sebuah kereta api harus mendaki tanjakan konstan sejauh $5,5$ m untuk setiap $200$ m lintasan. Tentukan sudut kemiringannya.      
+### IBMath_Haese_LATIHAN 7D  
+1. Sebuah tiang bendera menghasilkan bayangan sepanjang $9,32$ m ketika sudut elevasi matahari adalah $63^\circ$. Tentukan tinggi tiang bendera tersebut.  
+2. Sebuah bukit terjal memiliki kemiringan $18^\circ$ terhadap horizontal. Bukit tersebut menurun ke arah pantai sehingga dasarnya berada di permukaan laut.  
+a. Jika saya berjalan sejauh $150$ m mendaki bukit, berapa ketinggian saya di atas permukaan laut?  
+b. Jika saya mendaki hingga ke titik setinggi $80$ m di atas permukaan laut, seberapa jauh saya telah berjalan?  
+3. Sebuah kereta api harus mendaki tanjakan konstan sejauh $5,5$ m untuk setiap $200$ m lintasan. Tentukan sudut kemiringannya.  
 4. a. Tentukan sudut elevasi ke puncak gedung setinggi $56$ m dari titik A yang berjarak $113$ m dari dasarnya.
-b. Berapakah sudut depresi dari puncak gedung ke titik A?      
+b. Berapakah sudut depresi dari puncak gedung ke titik A?  
 5. Sudut depresi dari puncak tebing vertikal setinggi $20$ m ke sebuah perahu B adalah $8^\circ$.
 Seberapa jauh jarak perahu tersebut dari dasar tebing?
 <br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d05.png"><br>
 6. Cari $\theta$, kemiringan atap tersebut.
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d06.png"><br>      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d06.png"><br>  
 7. Kemiringan atap yang diberikan adalah $23^\circ$. Cari panjang balok kayu $[AB]$.
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d07.png"><br>      
-8. Sebuah lapangan persegi panjang memiliki panjang $20$ meter lebih panjang daripada lebarnya. Ketika Patrick berjalan dari satu sudut ke sudut yang berlawanan, ia membentuk sudut $55^\circ$ dengan sisi lapangan yang lebih pendek. Cari panjang sisi yang lebih pendek ini.      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d07.png"><br>  
+8. Sebuah lapangan persegi panjang memiliki panjang $20$ meter lebih panjang daripada lebarnya. Ketika Patrick berjalan dari satu sudut ke sudut yang berlawanan, ia membentuk sudut $55^\circ$ dengan sisi lapangan yang lebih pendek. Cari panjang sisi yang lebih pendek ini.  
 9. Sebuah saluran air hujan memiliki bentuk seperti yang diilustrasikan. Tentukan sudut $\beta$ di mana sisi sebelah kiri bertemu dengan dasar saluran tersebut.
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d09.png"><br>      
-10. Dari seorang pengamat $O$ yang berjarak $200$ m dari sebuah gedung, sudut elevasi ke bagian bawah dan bagian atas tiang bendera masing-masing adalah $36^\circ$ dan $38^\circ$. Cari tinggi tiang bendera tersebut.      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d09.png"><br>  
+10. Dari seorang pengamat $O$ yang berjarak $200$ m dari sebuah gedung, sudut elevasi ke bagian bawah dan bagian atas tiang bendera masing-masing adalah $36^\circ$ dan $38^\circ$. Cari tinggi tiang bendera tersebut.  
 <br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d10.png"><br>
-11. Sudut depresi dari puncak tebing setinggi $15$ m ke sebuah perahu di laut adalah $2,7^\circ$. Seberapa jauh perahu tersebut harus bergerak mendekati tebing agar sudut depresinya menjadi $4^\circ$?      
-12. Sebuah helikopter terbang secara horizontal dengan kecepatan $100\text{ km h}^{-1}$. Seorang pengamat memperhatikan bahwa dibutuhkan waktu $20$ detik bagi helikopter untuk terbang dari posisi tepat di atas kepala hingga mencapai sudut elevasi $60^\circ$. Cari tinggi helikopter di atas permukaan tanah.      
+11. Sudut depresi dari puncak tebing setinggi $15$ m ke sebuah perahu di laut adalah $2,7^\circ$. Seberapa jauh perahu tersebut harus bergerak mendekati tebing agar sudut depresinya menjadi $4^\circ$?  
+12. Sebuah helikopter terbang secara horizontal dengan kecepatan $100\text{ km h}^{-1}$. Seorang pengamat memperhatikan bahwa dibutuhkan waktu $20$ detik bagi helikopter untuk terbang dari posisi tepat di atas kepala hingga mencapai sudut elevasi $60^\circ$. Cari tinggi helikopter di atas permukaan tanah.  
 13. $[AC]$ adalah garis pantai lurus sepanjang $5$ km. $B$ adalah sebuah perahu di laut. Cari jarak terpendek dari perahu ke pantai.
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d13.png"><br>      
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d13.png"><br>  
 14. Sebuah fitur baru di kebun raya akan berupa taman bunga berbentuk heptagon (segi tujuh) beraturan dengan panjang sisi $20$ m. Cari lebar lahan $d\text{ m}$ yang dibutuhkan untuk taman bunga tersebut.
 <br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d14.png"><br>
-15. Kubus yang ditunjukkan memiliki panjang sisi $13$ cm. Cari:   
-a. $BD$   
-b. $F\hat{D}B$   
+15. Kubus yang ditunjukkan memiliki panjang sisi $13$ cm. Cari:  
+a. $BD$  
+b. $F\hat{D}B$  
 <br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d15.png"><br>
 16. Dalam prisma persegi panjang yang ditunjukkan, $Z$ adalah titik tengah $[WX]$. Cari:
-a. $VX$   
-b. $R\hat{X}V$   
-c. $YZ$   
-d. $Y\hat{Z}U$   
+a. $VX$  
+b. $R\hat{X}V$  
+c. $YZ$  
+d. $Y\hat{Z}U$  
 <br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d16.png"><br>
-17. Sebuah kerucut terbuka memiliki sudut vertikal berukuran $40^\circ$ dan jari-jari alas $30$ cm. Cari:   
-a. tinggi kerucut   
-b. kapasitas kerucut dalam liter      
+17. Sebuah kerucut terbuka memiliki sudut vertikal berukuran $40^\circ$ dan jari-jari alas $30$ cm. Cari:  
+a. tinggi kerucut  
+b. kapasitas kerucut dalam liter  
 <br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d17.png"><br>
 18. Sebuah tanjakan dibangun seperti prisma segitiga yang ditunjukkan.
-a. Cari panjang:   
-i. $CE$   
-ii. $CD$   
-b. Cari $D\hat{C}E$   
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d18.png"><br>    
-19. Elizabeth sangat takut pada laba-laba. Saat dia berjalan masuk ke sebuah ruangan, dia melihat seekor laba-laba di sudut yang berlawanan $S$.   
-a. Jika tinggi Elizabeth $1,6$ m, seberapa jauh laba-laba tersebut dari kepalanya?    
-b. Laba-laba tersebut dapat melihat hingga sudut $42^\circ$ dari arah yang dihadapinya. Laba-laba ini sedang menghadap seekor lalat di $F$. Dapatkah ia melihat Elizabeth?   
+a. Cari panjang:  
+i. $CE$  
+ii. $CD$  
+b. Cari $D\hat{C}E$  
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d18.png"><br>  
+19. Elizabeth sangat takut pada laba-laba. Saat dia berjalan masuk ke sebuah ruangan, dia melihat seekor laba-laba di sudut yang berlawanan $S$.  
+a. Jika tinggi Elizabeth $1,6$ m, seberapa jauh laba-laba tersebut dari kepalanya?  
+b. Laba-laba tersebut dapat melihat hingga sudut $42^\circ$ dari arah yang dihadapinya. Laba-laba ini sedang menghadap seekor lalat di $F$. Dapatkah ia melihat Elizabeth?  
 <br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d19.png"><br> 
-20. Rico sedang menerbangkan layang-layangnya dengan bantuan angin selatan. Dia telah mengulur benang sepanjang $34$ m, dan layang-layang tersebut berada pada sudut elevasi $37^\circ$. Temannya Edward berdiri di sebelah barat, berjarak $65$ m.   
-a. Seberapa jauh Edward dari layang-layang?   
-b. Berapakah sudut elevasi dari Edward ke layang-layang?         
+20. Rico sedang menerbangkan layang-layangnya dengan bantuan angin selatan. Dia telah mengulur benang sepanjang $34$ m, dan layang-layang tersebut berada pada sudut elevasi $37^\circ$. Temannya Edward berdiri di sebelah barat, berjarak $65$ m.  
+a. Seberapa jauh Edward dari layang-layang?  
+b. Berapakah sudut elevasi dari Edward ke layang-layang?   
 <br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d20.png"><br>
-21. Cari sudut antara rusuk miring $[AX]$ dan diagonal alas $[AC]$.   
-<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d21.png"><br>      
+21. Cari sudut antara rusuk miring $[AX]$ dan diagonal alas $[AC]$.  
+<br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d21.png"><br>  
 22. Cari volume dari setiap bangun ruang berikut:
 <br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_7d22.png"><br>
 
 
 
-### IBMath_Haese_REVIEW SET 8A   
-   
-1. Ubah ke radian dalam bentuk $\pi$:   
-a. $120^\circ$   
-b. $225^\circ$   
-c. $150^\circ$   
-d. $540^\circ$   
-2. Ilustrasikan kuadran di mana $\sin \theta$ dan $\cos \theta$ memiliki tanda yang sama.   
-3. Tentukan koordinat titik pada lingkaran satuan yang bersesuaian dengan sudut:   
-a. $320^\circ$   
-b. $163^\circ$   
-c. $0,68^c$   
-d. $\frac{11\pi}{8}$   
-4. Tentukan panjang busur sebuah juring dengan sudut $1,5$ radian dan jari-jari $8$ cm.   
-5. Tentukan sudut lancip yang memiliki nilai yang sama dengan:   
-a. sinus dari $\frac{2\pi}{3}$   
-b. sinus dari $165^\circ$   
-c. kosinus dari $276^\circ$   
-6. Tentukan:   
-a. $\sin 159^\circ$ jika $\sin 21^\circ \approx 0,358$   
-b. $\cos 92^\circ$ jika $\cos 88^\circ \approx 0,035$   
-c. $\cos 75^\circ$ jika $\cos 105^\circ \approx -0,259$   
-d. $\tan(-133^\circ)$ jika $\tan 47^\circ \approx 1,072$   
-7. Gunakan diagram lingkaran satuan untuk menentukan:   
-a. $\cos 360^\circ$ dan $\sin 360^\circ$   
-b. $\cos(-\pi)$ dan $\sin(-\pi)$   
-8. Tentukan nilai eksak untuk $\sin \theta$, $\cos \theta$, dan $\tan \theta$ untuk $\theta$ sama dengan:   
-a. $\frac{2\pi}{3}$   
-b. $\frac{5\pi}{4}$   
+### IBMath_Haese_REVIEW SET 8A  
+  
+1. Ubah ke radian dalam bentuk $\pi$:  
+a. $120^\circ$  
+b. $225^\circ$  
+c. $150^\circ$  
+d. $540^\circ$  
+2. Ilustrasikan kuadran di mana $\sin \theta$ dan $\cos \theta$ memiliki tanda yang sama.  
+3. Tentukan koordinat titik pada lingkaran satuan yang bersesuaian dengan sudut:  
+a. $320^\circ$  
+b. $163^\circ$  
+c. $0,68^c$  
+d. $\frac{11\pi}{8}$  
+4. Tentukan panjang busur sebuah juring dengan sudut $1,5$ radian dan jari-jari $8$ cm.  
+5. Tentukan sudut lancip yang memiliki nilai yang sama dengan:  
+a. sinus dari $\frac{2\pi}{3}$  
+b. sinus dari $165^\circ$  
+c. kosinus dari $276^\circ$  
+6. Tentukan:  
+a. $\sin 159^\circ$ jika $\sin 21^\circ \approx 0,358$  
+b. $\cos 92^\circ$ jika $\cos 88^\circ \approx 0,035$  
+c. $\cos 75^\circ$ jika $\cos 105^\circ \approx -0,259$  
+d. $\tan(-133^\circ)$ jika $\tan 47^\circ \approx 1,072$  
+7. Gunakan diagram lingkaran satuan untuk menentukan:  
+a. $\cos 360^\circ$ dan $\sin 360^\circ$  
+b. $\cos(-\pi)$ dan $\sin(-\pi)$  
+8. Tentukan nilai eksak untuk $\sin \theta$, $\cos \theta$, dan $\tan \theta$ untuk $\theta$ sama dengan:  
+a. $\frac{2\pi}{3}$  
+b. $\frac{5\pi}{4}$  
 9. <img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_rs8a17.png" ><br>
-a. Nyatakan nilai $\theta$ dalam:   
-i. derajat   
-ii. radian   
-b. Nyatakan panjang busur $AP$.   
-c. Nyatakan luas juring minor $OAP$.   
-10. Jika $\sin x = -\frac{1}{4}$ dan $\pi < x < \frac{3\pi}{2}$, tentukan nilai eksak dari $\tan x$.   
-11. Jika $\cos \theta = \frac{3}{4}$, tentukan nilai $\sin \theta$ yang mungkin.   
-12. Hitunglah:   
-a. $2 \sin \frac{\pi}{3} \cos \frac{\pi}{3}$   
-b. $\tan^2(\frac{\pi}{4}) - 1$   
-c. $\cos^2(\frac{\pi}{6}) - \sin^2(\frac{\pi}{6})$   
-13. Diketahui $\tan x = -\frac{3}{2}$ dan $\frac{3\pi}{2} < x < 2\pi$, tentukan:   
-a. $\cos x$   
-b. $\sin x$   
-14. Misalkan $\cos \theta = \frac{\sqrt{11}}{\sqrt{17}}$ dan $\theta$ adalah sudut lancip. Tentukan nilai eksak dari $\tan \theta$.   
-15. Jelaskan bagaimana cara menggunakan lingkaran satuan untuk mencari $\theta$ ketika $\cos \theta = -\sin \theta$, $0 \le \theta \le 2\pi$.   
-16. Tentukan dua sudut pada lingkaran satuan dengan $0 \le \theta \le 2\pi$, sedemikian sehingga:   
-a. $\cos \theta = \frac{2}{3}$   
-b. $\sin \theta = -\frac{1}{4}$   
-c. $\tan \theta = 3$   
-17. Tentukan persamaan dari setiap garis:   
+a. Nyatakan nilai $\theta$ dalam:  
+i. derajat  
+ii. radian  
+b. Nyatakan panjang busur $AP$.  
+c. Nyatakan luas juring minor $OAP$.  
+10. Jika $\sin x = -\frac{1}{4}$ dan $\pi < x < \frac{3\pi}{2}$, tentukan nilai eksak dari $\tan x$.  
+11. Jika $\cos \theta = \frac{3}{4}$, tentukan nilai $\sin \theta$ yang mungkin.  
+12. Hitunglah:  
+a. $2 \sin \frac{\pi}{3} \cos \frac{\pi}{3}$  
+b. $\tan^2(\frac{\pi}{4}) - 1$  
+c. $\cos^2(\frac{\pi}{6}) - \sin^2(\frac{\pi}{6})$  
+13. Diketahui $\tan x = -\frac{3}{2}$ dan $\frac{3\pi}{2} < x < 2\pi$, tentukan:  
+a. $\cos x$  
+b. $\sin x$  
+14. Misalkan $\cos \theta = \frac{\sqrt{11}}{\sqrt{17}}$ dan $\theta$ adalah sudut lancip. Tentukan nilai eksak dari $\tan \theta$.  
+15. Jelaskan bagaimana cara menggunakan lingkaran satuan untuk mencari $\theta$ ketika $\cos \theta = -\sin \theta$, $0 \le \theta \le 2\pi$.  
+16. Tentukan dua sudut pada lingkaran satuan dengan $0 \le \theta \le 2\pi$, sedemikian sehingga:  
+a. $\cos \theta = \frac{2}{3}$  
+b. $\sin \theta = -\frac{1}{4}$  
+c. $\tan \theta = 3$  
+17. Tentukan persamaan dari setiap garis:  
 <br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_rs8a17.png" ><br>
---------------------------   
-### IBMath_Haese_REVIEW SET 8B   
-1. Ubah ke derajat, hingga 2 tempat desimal:   
-a. $\frac{2\pi}{7}$   
-b. $1,46$   
-c. $0,435^c$   
-d. $-5,271$   
-2. Tentukan luas juring dengan sudut $\frac{5\pi}{12}$ dan jari-jari $13$ cm.   
-3. Tentukan sudut yang dibentuk $[OA]$ dengan sumbu $x$ positif jika koordinat $x$ dari titik $A$ pada lingkaran satuan adalah $-0,222$.   
-4. Tentukan jari-jari dan luas juring yang memiliki keliling $36$ cm dengan sudut $\frac{2\pi}{3}$.   
-5. Sebuah juring memiliki keliling $21$ cm dan luas $27 \text{ cm}^2$. Tentukan jari-jari juring tersebut.   
-6. Gunakan diagram lingkaran satuan untuk menentukan:   
-a. $\cos \frac{3\pi}{2}$ dan $\sin \frac{3\pi}{2}$   
-b. $\cos(-\frac{\pi}{2})$ dan $\sin(-\frac{\pi}{2})$   
-7. Misalkan $m = \sin p$, di mana $p$ adalah sudut lancip. Tuliskan ekspresi dalam bentuk $m$ untuk:   
-a. $\sin(\pi - p)$   
-b. $\sin(p + 2\pi)$   
-c. $\cos p$   
-d. $\tan p$   
-8. Tentukan semua sudut antara $0^\circ$ dan $360^\circ$ yang memiliki:   
-a. nilai kosinus $-\frac{\sqrt{3}}{2}$   
-b. nilai sinus $\frac{1}{\sqrt{2}}$   
-c. nilai tangen $-\sqrt{3}$   
-9. Tentukan $\theta$ untuk $0 \le \theta \le 2\pi$ jika:   
-a. $\cos \theta = -1$   
-b. $\sin^2 \theta = \frac{3}{4}$   
-10. Tentukan sudut tumpul yang memiliki nilai yang sama dengan:   
-a. sinus dari $47^\circ$   
-b. sinus dari $\frac{\pi}{15}$   
-c. kosinus dari $186^\circ$   
-11. Tentukan keliling dan luas juring dengan jari-jari $11$ cm dan sudut $63^\circ$.   
-12. Tunjukkan bahwa $\cos \frac{3\pi}{4} - \sin \frac{3\pi}{4} = -\sqrt{2}$.   
-13. Jika $\cos \theta = -\frac{3}{4}$, $\frac{\pi}{2} < \theta < \pi$, tentukan nilai eksak dari:   
-a. $\sin \theta$   
-b. $\tan \theta$   
-c. $\cos(\pi - \theta)$   
-14. Tanpa menggunakan kalkulator, hitunglah:   
-a. $\tan^2 60^\circ - \sin^2 45^\circ$   
-b. $\cos^2(\frac{\pi}{4}) + \sin \frac{\pi}{2}$   
-c. $\cos \frac{5\pi}{3} - \tan \frac{5\pi}{4}$   
-d. $\tan^2(\frac{2\pi}{3})$   
-15. Gunakan diagram lingkaran satuan untuk menunjukkan bahwa $\cos(\frac{\pi}{2} + \theta) = -\sin \theta$ untuk $\frac{\pi}{2} < \theta < \pi$.   
-16. Tiga lingkaran dengan jari-jari $r$ digambar seperti yang ditunjukkan, masing-masing dengan pusatnya berada di keliling dua lingkaran lainnya. $A, B$, dan $C$ adalah pusat dari ketiga lingkaran tersebut. Buktikan bahwa ekspresi untuk luas daerah yang diarsir adalah $A = \frac{r^2}{2}(\pi - \sqrt{3})$.   
+--------------------------  
+### IBMath_Haese_REVIEW SET 8B  
+1. Ubah ke derajat, hingga 2 tempat desimal:  
+a. $\frac{2\pi}{7}$  
+b. $1,46$  
+c. $0,435^c$  
+d. $-5,271$  
+2. Tentukan luas juring dengan sudut $\frac{5\pi}{12}$ dan jari-jari $13$ cm.  
+3. Tentukan sudut yang dibentuk $[OA]$ dengan sumbu $x$ positif jika koordinat $x$ dari titik $A$ pada lingkaran satuan adalah $-0,222$.  
+4. Tentukan jari-jari dan luas juring yang memiliki keliling $36$ cm dengan sudut $\frac{2\pi}{3}$.  
+5. Sebuah juring memiliki keliling $21$ cm dan luas $27 \text{ cm}^2$. Tentukan jari-jari juring tersebut.  
+6. Gunakan diagram lingkaran satuan untuk menentukan:  
+a. $\cos \frac{3\pi}{2}$ dan $\sin \frac{3\pi}{2}$  
+b. $\cos(-\frac{\pi}{2})$ dan $\sin(-\frac{\pi}{2})$  
+7. Misalkan $m = \sin p$, di mana $p$ adalah sudut lancip. Tuliskan ekspresi dalam bentuk $m$ untuk:  
+a. $\sin(\pi - p)$  
+b. $\sin(p + 2\pi)$  
+c. $\cos p$  
+d. $\tan p$  
+8. Tentukan semua sudut antara $0^\circ$ dan $360^\circ$ yang memiliki:  
+a. nilai kosinus $-\frac{\sqrt{3}}{2}$  
+b. nilai sinus $\frac{1}{\sqrt{2}}$  
+c. nilai tangen $-\sqrt{3}$  
+9. Tentukan $\theta$ untuk $0 \le \theta \le 2\pi$ jika:  
+a. $\cos \theta = -1$  
+b. $\sin^2 \theta = \frac{3}{4}$  
+10. Tentukan sudut tumpul yang memiliki nilai yang sama dengan:  
+a. sinus dari $47^\circ$  
+b. sinus dari $\frac{\pi}{15}$  
+c. kosinus dari $186^\circ$  
+11. Tentukan keliling dan luas juring dengan jari-jari $11$ cm dan sudut $63^\circ$.  
+12. Tunjukkan bahwa $\cos \frac{3\pi}{4} - \sin \frac{3\pi}{4} = -\sqrt{2}$.  
+13. Jika $\cos \theta = -\frac{3}{4}$, $\frac{\pi}{2} < \theta < \pi$, tentukan nilai eksak dari:  
+a. $\sin \theta$  
+b. $\tan \theta$  
+c. $\cos(\pi - \theta)$  
+14. Tanpa menggunakan kalkulator, hitunglah:  
+a. $\tan^2 60^\circ - \sin^2 45^\circ$  
+b. $\cos^2(\frac{\pi}{4}) + \sin \frac{\pi}{2}$  
+c. $\cos \frac{5\pi}{3} - \tan \frac{5\pi}{4}$  
+d. $\tan^2(\frac{2\pi}{3})$  
+15. Gunakan diagram lingkaran satuan untuk menunjukkan bahwa $\cos(\frac{\pi}{2} + \theta) = -\sin \theta$ untuk $\frac{\pi}{2} < \theta < \pi$.  
+16. Tiga lingkaran dengan jari-jari $r$ digambar seperti yang ditunjukkan, masing-masing dengan pusatnya berada di keliling dua lingkaran lainnya. $A, B$, dan $C$ adalah pusat dari ketiga lingkaran tersebut. Buktikan bahwa ekspresi untuk luas daerah yang diarsir adalah $A = \frac{r^2}{2}(\pi - \sqrt{3})$.  
 <br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_rs8b16.png" ><br> 
-17. Tentukan, dalam radian, ukuran dari $\theta$:   
+17. Tentukan, dalam radian, ukuran dari $\theta$:  
 <br><img src="https://ifbsatu.sirv.com/Projek/trigon_ibmath_haese_rs8b17.png" ><br>
 
 
