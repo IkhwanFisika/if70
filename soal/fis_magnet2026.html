@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Magnet_BocoranSumatif</title>
+	<title>Magnet_BocoranSumatif2026</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -40,7 +40,7 @@
 <body>
 <div class="container-fluid">
 
-<h1>Fisika Fase F - Induksi Magnetik</h1>
+<h1>Fisika Fase F - Induksi Magnetik 2026</h1>
 <p>Latihan pra Sumatif TP  Induksi Magnet <br>
 silahkan dipelajari dengan baik. Semoga sukses.<br><br>*Pak Ikhwan Fisika.
 </p>
@@ -53,10 +53,307 @@ silahkan dipelajari dengan baik. Semoga sukses.<br><br>*Pak Ikhwan Fisika.
 <div class="card">
 <div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#collapse1">
 <h2>Materi 1 Arah Medan dan Gaya Magnet</h2></a></div><div id="collapse1" class="collapse" data-bs-parent="#accordion"><div class="card-body">
-<!-- <h5 style="color:Tomato">Materi 1: Persamaan Gelombang<kbd></kbd> </h5> -->
-    <div id="question-container" class="my-4"></div>
- <details><summary><strong>Kunci:</strong></summary><div id="key-container" class="my-4"></div> </details>   
+<!-- ================= SOAL A1_01 ================= -->
+<span class="soal" id="a1">Soal A1 Arah Medan Magnet</span><br>
+<ol>
+<li>Sebuah kawat lurus panjang melintang secara horizontal dialiri arus dari   <span id="a1_01_arah1"></span>. Tentukan arah medan magnet pada titik yang tepat berada di sebelah <span id="a1_01_arah2"></span> kawat.</li>
+<li>Sebuah kawat lurus panjang melintang secara vertikal dialiri arus dari <span id="a1_02_arah1"></span>. Tentukan arah medan magnet pada titik yang tepat berada di sebelah <span id="a1_02_arah2"></span> kawat.</li>
+<li>Di bidang kertas, sebuah kawat lurus panjang melintang secara vertikal dialiri arus dari <span id="a1_03_arah1"></span>. Tentukan arah medan magnet pada titik yang tepat berada di sebelah <span id="a1_03_arah2"></span> kawat.</li>
+<li>Di ruang kartesian, sebuah kawat lurus panjang melintang dialiri arus dari <span id="a1_04_arah1"></span>. Tentukan arah medan magnet pada titik yang tepat berada di koordinat <span id="a1_04_arah2"></span>.</li>
+</ol>
+<details>
+  <summary><strong>Kunci:</strong></summary>
+  A1_1) Arah medan magnet = <span id="a1_01_kunci"></span><br>
+  A1_2) Arah medan magnet = <span id="a1_02_kunci"></span><br>
+  A1_3) Arah medan magnet = <span id="a1_03_kunci"></span><br>
+  A1_4) Arah medan magnet = <span id="a1_04_kunci"></span>
+</details>
+
+<script>
+// a1_01
+const soalA101 = [
+  { a1_01_arah1: "utara ke selatan", a1_01_arah2: "atas", a1_01_kunci: "barat" },
+  { a1_01_arah1: "utara ke selatan", a1_01_arah2: "barat", a1_01_kunci: "bawah" },
+  { a1_01_arah1: "utara ke selatan", a1_01_arah2: "bawah", a1_01_kunci: "timur" },
+  { a1_01_arah1: "utara ke selatan", a1_01_arah2: "timur", a1_01_kunci: "atas" },
+  { a1_01_arah1: "selatan ke utara", a1_01_arah2: "atas", a1_01_kunci: "timur" },
+  { a1_01_arah1: "selatan ke utara", a1_01_arah2: "barat", a1_01_kunci: "atas" },
+  { a1_01_arah1: "selatan ke utara", a1_01_arah2: "bawah", a1_01_kunci: "barat" },
+  { a1_01_arah1: "selatan ke utara", a1_01_arah2: "timur", a1_01_kunci: "bawah" },
+  { a1_01_arah1: "barat ke timur", a1_01_arah2: "atas", a1_01_kunci: "selatan" },
+  { a1_01_arah1: "barat ke timur", a1_01_arah2: "selatan", a1_01_kunci: "bawah" },
+  { a1_01_arah1: "barat ke timur", a1_01_arah2: "bawah", a1_01_kunci: "utara" },
+  { a1_01_arah1: "barat ke timur", a1_01_arah2: "utara", a1_01_kunci: "atas" },
+  { a1_01_arah1: "timur ke barat", a1_01_arah2: "atas", a1_01_kunci: "utara" },
+  { a1_01_arah1: "timur ke barat", a1_01_arah2: "selatan", a1_01_kunci: "atas" },
+  { a1_01_arah1: "timur ke barat", a1_01_arah2: "bawah", a1_01_kunci: "selatan" },
+  { a1_01_arah1: "timur ke barat", a1_01_arah2: "utara", a1_01_kunci: "bawah" },
+  { a1_01_arah1: "barat laut ke tenggara", a1_01_arah2: "atas", a1_01_kunci: "barat daya" },
+  { a1_01_arah1: "barat laut ke tenggara", a1_01_arah2: "bawah", a1_01_kunci: "timur laut" },
+  { a1_01_arah1: "barat laut ke tenggara", a1_01_arah2: "timur laut", a1_01_kunci: "atas" },
+  { a1_01_arah1: "barat laut ke tenggara", a1_01_arah2: "barat daya", a1_01_kunci: "bawah" },
+  { a1_01_arah1: "barat daya ke timur laut", a1_01_arah2: "atas", a1_01_kunci: "tenggara" },
+  { a1_01_arah1: "barat daya ke timur laut", a1_01_arah2: "bawah", a1_01_kunci: "barat laut" },
+  { a1_01_arah1: "barat daya ke timur laut", a1_01_arah2: "barat laut", a1_01_kunci: "atas" },
+  { a1_01_arah1: "barat daya ke timur laut", a1_01_arah2: "tenggara", a1_01_kunci: "bawah" },
+  { a1_01_arah1: "tenggara ke barat laut", a1_01_arah2: "atas", a1_01_kunci: "timur laut" },
+  { a1_01_arah1: "tenggara ke barat laut", a1_01_arah2: "bawah", a1_01_kunci: "barat daya" },
+  { a1_01_arah1: "tenggara ke barat laut", a1_01_arah2: "timur laut", a1_01_kunci: "bawah" },
+  { a1_01_arah1: "tenggara ke barat laut", a1_01_arah2: "barat daya", a1_01_kunci: "atas" },
+  { a1_01_arah1: "timur laut ke barat daya", a1_01_arah2: "atas", a1_01_kunci: "barat laut" },
+  { a1_01_arah1: "timur laut ke barat daya", a1_01_arah2: "bawah", a1_01_kunci: "tenggara" },
+  { a1_01_arah1: "timur laut ke barat daya", a1_01_arah2: "barat laut", a1_01_kunci: "bawah" },
+  { a1_01_arah1: "timur laut ke barat daya", a1_01_arah2: "tenggara", a1_01_kunci: "atas" }
+];
+
+function displayRandomA101() {
+  const s = soalA101[Math.floor(Math.random() * soalA101.length)];
+  document.getElementById("a1_01_arah1").innerHTML = s.a1_01_arah1;
+  document.getElementById("a1_01_arah2").innerHTML = s.a1_01_arah2;
+  document.getElementById("a1_01_kunci").innerHTML = s.a1_01_kunci;
+}
+displayRandomA101();
+// a1_02
+const soalA102 = [
+  { a1_02_arah1: "atas ke bawah", a1_02_arah2: "timur", a1_02_kunci: "selatan" },
+  { a1_02_arah1: "atas ke bawah", a1_02_arah2: "selatan", a1_02_kunci: "barat" },
+  { a1_02_arah1: "atas ke bawah", a1_02_arah2: "barat", a1_02_kunci: "utara" },
+  { a1_02_arah1: "atas ke bawah", a1_02_arah2: "utara", a1_02_kunci: "timur" },
+  { a1_02_arah1: "atas ke bawah", a1_02_arah2: "timur laut", a1_02_kunci: "tenggara" },
+  { a1_02_arah1: "atas ke bawah", a1_02_arah2: "tenggara", a1_02_kunci: "barat daya" },
+  { a1_02_arah1: "atas ke bawah", a1_02_arah2: "barat daya", a1_02_kunci: "barat laut" },
+  { a1_02_arah1: "atas ke bawah", a1_02_arah2: "barat laut", a1_02_kunci: "timur laut" },
+  { a1_02_arah1: "bawah ke atas", a1_02_arah2: "timur", a1_02_kunci: "utara" },
+  { a1_02_arah1: "bawah ke atas", a1_02_arah2: "selatan", a1_02_kunci: "timur" },
+  { a1_02_arah1: "bawah ke atas", a1_02_arah2: "barat", a1_02_kunci: "selatan" },
+  { a1_02_arah1: "bawah ke atas", a1_02_arah2: "utara", a1_02_kunci: "barat" },
+  { a1_02_arah1: "bawah ke atas", a1_02_arah2: "timur laut", a1_02_kunci: "barat laut" },
+  { a1_02_arah1: "bawah ke atas", a1_02_arah2: "tenggara", a1_02_kunci: "timur laut" },
+  { a1_02_arah1: "bawah ke atas", a1_02_arah2: "barat daya", a1_02_kunci: "tenggara" },
+  { a1_02_arah1: "bawah ke atas", a1_02_arah2: "barat laut", a1_02_kunci: "barat daya" }
+];
+
+function displayRandomA102() {
+  const s = soalA102[Math.floor(Math.random() * soalA102.length)];
+  document.getElementById("a1_02_arah1").innerHTML = s.a1_02_arah1;
+  document.getElementById("a1_02_arah2").innerHTML = s.a1_02_arah2;
+  document.getElementById("a1_02_kunci").innerHTML = s.a1_02_kunci;
+}
+displayRandomA102();
+// a1_03
+const soalA103 = [
+  { a1_03_arah1: "atas ke bawah", a1_03_arah2: "kanan", a1_03_kunci: "keluar bidang kertas" },
+  { a1_03_arah1: "atas ke bawah", a1_03_arah2: "kiri", a1_03_kunci: "masuk bidang kertas" },
+  { a1_03_arah1: "bawah ke atas", a1_03_arah2: "kanan", a1_03_kunci: "masuk bidang kertas" },
+  { a1_03_arah1: "bawah ke atas", a1_03_arah2: "kiri", a1_03_kunci: "keluar bidang kertas" },
+  { a1_03_arah1: "kiri ke kanan", a1_03_arah2: "atas", a1_03_kunci: "keluar bidang kertas" },
+  { a1_03_arah1: "kiri ke kanan", a1_03_arah2: "bawah", a1_03_kunci: "masuk bidang kertas" },
+  { a1_03_arah1: "kanan ke kiri", a1_03_arah2: "atas", a1_03_kunci: "masuk bidang kertas" },
+  { a1_03_arah1: "kanan ke kiri", a1_03_arah2: "bawah", a1_03_kunci: "keluar bidang kertas" }
+];
+
+function displayRandomA103() {
+  const s = soalA103[Math.floor(Math.random() * soalA103.length)];
+  document.getElementById("a1_03_arah1").innerHTML = s.a1_03_arah1;
+  document.getElementById("a1_03_arah2").innerHTML = s.a1_03_arah2;
+  document.getElementById("a1_03_kunci").innerHTML = s.a1_03_kunci;
+}
+displayRandomA103();
+// a1_04
+const soalA104 = [
+  { a1_04_arah1: "arah sumbu x+ ke sumbu x- melewati titik (1,1,1)", a1_04_arah2: "(1,5,1)",  a1_04_kunci: "arah sumbu z-" },
+  { a1_04_arah1: "arah sumbu x+ ke sumbu x- melewati titik (1,1,1)", a1_04_arah2: "(1,1,5)",  a1_04_kunci: "arah sumbu y+" },
+  { a1_04_arah1: "arah sumbu x+ ke sumbu x- melewati titik (1,1,1)", a1_04_arah2: "(1,-3,1)", a1_04_kunci: "arah sumbu z+" },
+  { a1_04_arah1: "arah sumbu x+ ke sumbu x- melewati titik (1,1,1)", a1_04_arah2: "(1,1,-3)", a1_04_kunci: "arah sumbu y-" },
+  { a1_04_arah1: "arah sumbu x- ke sumbu x+ melewati titik (1,1,1)", a1_04_arah2: "(1,5,1)",  a1_04_kunci: "arah sumbu z+" },
+  { a1_04_arah1: "arah sumbu x- ke sumbu x+ melewati titik (1,1,1)", a1_04_arah2: "(1,1,5)",  a1_04_kunci: "arah sumbu y-" },
+  { a1_04_arah1: "arah sumbu x- ke sumbu x+ melewati titik (1,1,1)", a1_04_arah2: "(1,-3,1)", a1_04_kunci: "arah sumbu z-" },
+  { a1_04_arah1: "arah sumbu x- ke sumbu x+ melewati titik (1,1,1)", a1_04_arah2: "(1,1,-3)", a1_04_kunci: "arah sumbu y+" },
+  { a1_04_arah1: "arah sumbu y+ ke sumbu y- melewati titik (1,1,1)", a1_04_arah2: "(5,1,1)",  a1_04_kunci: "arah sumbu z+" },
+  { a1_04_arah1: "arah sumbu y+ ke sumbu y- melewati titik (1,1,1)", a1_04_arah2: "(1,1,5)",  a1_04_kunci: "arah sumbu x-" },
+  { a1_04_arah1: "arah sumbu y+ ke sumbu y- melewati titik (1,1,1)", a1_04_arah2: "(-3,1,1)", a1_04_kunci: "arah sumbu z-" },
+  { a1_04_arah1: "arah sumbu y+ ke sumbu y- melewati titik (1,1,1)", a1_04_arah2: "(1,1,-3)", a1_04_kunci: "arah sumbu x+" },
+  { a1_04_arah1: "arah sumbu y- ke sumbu y+ melewati titik (1,1,1)", a1_04_arah2: "(5,1,1)",  a1_04_kunci: "arah sumbu z-" },
+  { a1_04_arah1: "arah sumbu y- ke sumbu y+ melewati titik (1,1,1)", a1_04_arah2: "(1,1,5)",  a1_04_kunci: "arah sumbu x+" },
+  { a1_04_arah1: "arah sumbu y- ke sumbu y+ melewati titik (1,1,1)", a1_04_arah2: "(-3,1,1)", a1_04_kunci: "arah sumbu z+" },
+  { a1_04_arah1: "arah sumbu y- ke sumbu y+ melewati titik (1,1,1)", a1_04_arah2: "(1,1,-3)", a1_04_kunci: "arah sumbu x-" },
+  { a1_04_arah1: "arah sumbu z+ ke sumbu z- melewati titik (1,1,1)", a1_04_arah2: "(5,1,1)",  a1_04_kunci: "arah sumbu y+" },
+  { a1_04_arah1: "arah sumbu z+ ke sumbu z- melewati titik (1,1,1)", a1_04_arah2: "(1,5,1)",  a1_04_kunci: "arah sumbu x-" },
+  { a1_04_arah1: "arah sumbu z+ ke sumbu z- melewati titik (1,1,1)", a1_04_arah2: "(-3,1,1)", a1_04_kunci: "arah sumbu y-" },
+  { a1_04_arah1: "arah sumbu z+ ke sumbu z- melewati titik (1,1,1)", a1_04_arah2: "(1,-3,1)", a1_04_kunci: "arah sumbu x+" },
+  { a1_04_arah1: "arah sumbu z- ke sumbu z+ melewati titik (1,1,1)", a1_04_arah2: "(5,1,1)",  a1_04_kunci: "arah sumbu y-" },
+  { a1_04_arah1: "arah sumbu z- ke sumbu z+ melewati titik (1,1,1)", a1_04_arah2: "(1,5,1)",  a1_04_kunci: "arah sumbu x+" },
+  { a1_04_arah1: "arah sumbu z- ke sumbu z+ melewati titik (1,1,1)", a1_04_arah2: "(-3,1,1)", a1_04_kunci: "arah sumbu y+" },
+  { a1_04_arah1: "arah sumbu z- ke sumbu z+ melewati titik (1,1,1)", a1_04_arah2: "(1,-3,1)", a1_04_kunci: "arah sumbu x-" }
+];
+
+function displayRandomA104() {
+  const s = soalA104[Math.floor(Math.random() * soalA104.length)];
+  document.getElementById("a1_04_arah1").innerHTML = s.a1_04_arah1;
+  document.getElementById("a1_04_arah2").innerHTML = s.a1_04_arah2;
+  document.getElementById("a1_04_kunci").innerHTML = s.a1_04_kunci;
+}
+displayRandomA104();
+</script>
+  
 <!--separator soal-->
+<!-- ================= SOAL A2_01 ================= -->
+<hr>
+<span class="soal" id="a2">Soal A2 Arah Gaya Magnet</span><br>
+<ol>
+<li>Tentukan arah gaya magnet yang dialami kawat berarus listrik vertikal denganarah arus <span id="a2_01_arah_arus"></span> berada di daerah medan magnet yang berarah <span id="a2_01_arah_medan"></span>.</li>
+<li>Tentukan arah gaya magnet yang dialami sebuah elektron yang bergerak lurus dengan arah di bidang kertas <span id="a2_02_arah_elektron"></span> saat berada di daerah medan magnet yang berarah <span id="a2_02_arah_medan"></span>.</li>
+<li>Tentukan arah gaya magnet yang dialami sebuah proton yang bergerak lurus dengan arah di bidang kartesian <span id="a2_03_arah_proton"></span> saat berada di daerah medan magnet yang berarah <span id="a2_03_arah_medan"></span>.</li>
+<li>Tentukan arah gaya magnet yang dialami kawat berarus listrik horizontal dengan arah arus <span id="a2_04_arah_arus"></span> berada di daerah medan magnet yang berarah <span id="a2_04_arah_medan"></span>.</li>
+</ol>
+
+<details>
+  <summary><strong>Kunci:</strong></summary>
+  A2_1) Arah gaya magnet = <span id="a2_01_kunci"></span><br>
+  A2_2) Arah gaya magnet = <span id="a2_02_kunci"></span><br>
+  A2_3) Arah gaya magnet = <span id="a2_03_kunci"></span><br>
+  A2_4) Arah gaya magnet = <span id="a2_04_kunci"></span>
+
+</details>
+
+<script>
+
+// a2_01 — kawat vertikal, arah arus & medan mata angin 3D
+const soalA201 = [
+  { a2_01_arah_arus: "ke atas", a2_01_arah_medan: "utara", a2_01_kunci: "barat" },
+  { a2_01_arah_arus: "ke atas", a2_01_arah_medan: "selatan", a2_01_kunci: "timur" },
+  { a2_01_arah_arus: "ke atas", a2_01_arah_medan: "timur", a2_01_kunci: "utara" },
+  { a2_01_arah_arus: "ke atas", a2_01_arah_medan: "barat", a2_01_kunci: "selatan" },
+  { a2_01_arah_arus: "ke atas", a2_01_arah_medan: "timur laut", a2_01_kunci: "barat laut" },
+  { a2_01_arah_arus: "ke atas", a2_01_arah_medan: "tenggara", a2_01_kunci: "barat daya" },
+  { a2_01_arah_arus: "ke atas", a2_01_arah_medan: "barat daya", a2_01_kunci: "tenggara" },
+  { a2_01_arah_arus: "ke atas", a2_01_arah_medan: "barat laut", a2_01_kunci: "timur laut" },
+  { a2_01_arah_arus: "ke bawah", a2_01_arah_medan: "utara", a2_01_kunci: "timur" },
+  { a2_01_arah_arus: "ke bawah", a2_01_arah_medan: "selatan", a2_01_kunci: "barat" },
+  { a2_01_arah_arus: "ke bawah", a2_01_arah_medan: "timur", a2_01_kunci: "selatan" },
+  { a2_01_arah_arus: "ke bawah", a2_01_arah_medan: "barat", a2_01_kunci: "utara" },
+  { a2_01_arah_arus: "ke bawah", a2_01_arah_medan: "timur laut", a2_01_kunci: "tenggara" },
+  { a2_01_arah_arus: "ke bawah", a2_01_arah_medan: "tenggara", a2_01_kunci: "timur laut" },
+  { a2_01_arah_arus: "ke bawah", a2_01_arah_medan: "barat daya", a2_01_kunci: "barat laut" },
+  { a2_01_arah_arus: "ke bawah", a2_01_arah_medan: "barat laut", a2_01_kunci: "barat daya" }
+];
+
+function displayRandomA201() {
+  const s = soalA201[Math.floor(Math.random() * soalA201.length)];
+  document.getElementById("a2_01_arah_arus").innerHTML = s.a2_01_arah_arus;
+  document.getElementById("a2_01_arah_medan").innerHTML = s.a2_01_arah_medan;
+  document.getElementById("a2_01_kunci").innerHTML = s.a2_01_kunci;
+}
+displayRandomA201();
+
+// a2_02 — elektron (muatan negatif): F = -e (v × B)
+const soalA202 = [
+  { a2_02_arah_elektron: "ke kanan", a2_02_arah_medan: "masuk bidang kertas", a2_02_kunci: "ke atas" },
+  { a2_02_arah_elektron: "ke kanan", a2_02_arah_medan: "keluar bidang kertas", a2_02_kunci: "ke bawah" },
+  { a2_02_arah_elektron: "ke kiri", a2_02_arah_medan: "masuk bidang kertas", a2_02_kunci: "ke bawah" },
+  { a2_02_arah_elektron: "ke kiri", a2_02_arah_medan: "keluar bidang kertas", a2_02_kunci: "ke atas" },
+  { a2_02_arah_elektron: "ke atas", a2_02_arah_medan: "masuk bidang kertas", a2_02_kunci: "ke kiri" },
+  { a2_02_arah_elektron: "ke atas", a2_02_arah_medan: "keluar bidang kertas", a2_02_kunci: "ke kanan" },
+  { a2_02_arah_elektron: "ke bawah", a2_02_arah_medan: "masuk bidang kertas", a2_02_kunci: "ke kanan" },
+  { a2_02_arah_elektron: "ke bawah", a2_02_arah_medan: "keluar bidang kertas", a2_02_kunci: "ke kiri" },
+  { a2_02_arah_elektron: "masuk bidang kertas", a2_02_arah_medan: "ke kanan", a2_02_kunci: "ke atas" },
+  { a2_02_arah_elektron: "masuk bidang kertas", a2_02_arah_medan: "ke kiri", a2_02_kunci: "ke bawah" },
+  { a2_02_arah_elektron: "keluar bidang kertas", a2_02_arah_medan: "ke kanan", a2_02_kunci: "ke bawah" },
+  { a2_02_arah_elektron: "keluar bidang kertas", a2_02_arah_medan: "ke kiri", a2_02_kunci: "ke atas" }
+];
+
+function displayRandomA202() {
+  const s = soalA202[Math.floor(Math.random() * soalA202.length)];
+  document.getElementById("a2_02_arah_elektron").innerHTML = s.a2_02_arah_elektron;
+  document.getElementById("a2_02_arah_medan").innerHTML = s.a2_02_arah_medan;
+  document.getElementById("a2_02_kunci").innerHTML = s.a2_02_kunci;
+}
+displayRandomA202();
+
+// a2_03 — proton (muatan positif): F = q (v × B)
+const soalA203 = [
+  { a2_03_arah_proton: "arah sumbu x+", a2_03_arah_medan: "arah sumbu y+", a2_03_kunci: "arah sumbu z+" },
+  { a2_03_arah_proton: "arah sumbu x+", a2_03_arah_medan: "arah sumbu y-", a2_03_kunci: "arah sumbu z-" },
+  { a2_03_arah_proton: "arah sumbu x+", a2_03_arah_medan: "arah sumbu z+", a2_03_kunci: "arah sumbu y-" },
+  { a2_03_arah_proton: "arah sumbu x+", a2_03_arah_medan: "arah sumbu z-", a2_03_kunci: "arah sumbu y+" },
+  { a2_03_arah_proton: "arah sumbu x-", a2_03_arah_medan: "arah sumbu y+", a2_03_kunci: "arah sumbu z-" },
+  { a2_03_arah_proton: "arah sumbu x-", a2_03_arah_medan: "arah sumbu y-", a2_03_kunci: "arah sumbu z+" },
+  { a2_03_arah_proton: "arah sumbu x-", a2_03_arah_medan: "arah sumbu z+", a2_03_kunci: "arah sumbu y+" },
+  { a2_03_arah_proton: "arah sumbu x-", a2_03_arah_medan: "arah sumbu z-", a2_03_kunci: "arah sumbu y-" },
+  { a2_03_arah_proton: "arah sumbu y+", a2_03_arah_medan: "arah sumbu x+", a2_03_kunci: "arah sumbu z-" },
+  { a2_03_arah_proton: "arah sumbu y+", a2_03_arah_medan: "arah sumbu x-", a2_03_kunci: "arah sumbu z+" },
+  { a2_03_arah_proton: "arah sumbu y+", a2_03_arah_medan: "arah sumbu z+", a2_03_kunci: "arah sumbu x+" },
+  { a2_03_arah_proton: "arah sumbu y+", a2_03_arah_medan: "arah sumbu z-", a2_03_kunci: "arah sumbu x-" },
+  { a2_03_arah_proton: "arah sumbu y-", a2_03_arah_medan: "arah sumbu x+", a2_03_kunci: "arah sumbu z+" },
+  { a2_03_arah_proton: "arah sumbu y-", a2_03_arah_medan: "arah sumbu x-", a2_03_kunci: "arah sumbu z-" },
+  { a2_03_arah_proton: "arah sumbu y-", a2_03_arah_medan: "arah sumbu z+", a2_03_kunci: "arah sumbu x-" },
+  { a2_03_arah_proton: "arah sumbu y-", a2_03_arah_medan: "arah sumbu z-", a2_03_kunci: "arah sumbu x+" },
+  { a2_03_arah_proton: "arah sumbu z+", a2_03_arah_medan: "arah sumbu x+", a2_03_kunci: "arah sumbu y+" },
+  { a2_03_arah_proton: "arah sumbu z+", a2_03_arah_medan: "arah sumbu x-", a2_03_kunci: "arah sumbu y-" },
+  { a2_03_arah_proton: "arah sumbu z+", a2_03_arah_medan: "arah sumbu y+", a2_03_kunci: "arah sumbu x-" },
+  { a2_03_arah_proton: "arah sumbu z+", a2_03_arah_medan: "arah sumbu y-", a2_03_kunci: "arah sumbu x+" },
+  { a2_03_arah_proton: "arah sumbu z-", a2_03_arah_medan: "arah sumbu x+", a2_03_kunci: "arah sumbu y-" },
+  { a2_03_arah_proton: "arah sumbu z-", a2_03_arah_medan: "arah sumbu x-", a2_03_kunci: "arah sumbu y+" },
+  { a2_03_arah_proton: "arah sumbu z-", a2_03_arah_medan: "arah sumbu y+", a2_03_kunci: "arah sumbu x+" },
+  { a2_03_arah_proton: "arah sumbu z-", a2_03_arah_medan: "arah sumbu y-", a2_03_kunci: "arah sumbu x-" }
+];
+
+function displayRandomA203() {
+  const s = soalA203[Math.floor(Math.random() * soalA203.length)];
+  document.getElementById("a2_03_arah_proton").innerHTML = s.a2_03_arah_proton;
+  document.getElementById("a2_03_arah_medan").innerHTML = s.a2_03_arah_medan;
+  document.getElementById("a2_03_kunci").innerHTML = s.a2_03_kunci;
+}
+displayRandomA203();
+
+// a2_04 — kawat horizontal, F = I L × B
+// Mencakup: tegak lurus, sejajar (F = 0), berlawanan (F = 0), dan sudut 45°
+const soalA204 = [
+  // ---- TEGAK LURUS (hasil gaya jelas) ----
+  { a2_04_arah_arus: "ke timur", a2_04_arah_medan: "ke utara", a2_04_kunci: "ke atas" },
+  { a2_04_arah_arus: "ke timur", a2_04_arah_medan: "ke selatan", a2_04_kunci: "ke bawah" },
+  { a2_04_arah_arus: "ke timur", a2_04_arah_medan: "ke atas", a2_04_kunci: "ke selatan" },
+  { a2_04_arah_arus: "ke timur", a2_04_arah_medan: "ke bawah", a2_04_kunci: "ke utara" },
+  { a2_04_arah_arus: "ke barat", a2_04_arah_medan: "ke utara", a2_04_kunci: "ke bawah" },
+  { a2_04_arah_arus: "ke barat", a2_04_arah_medan: "ke selatan", a2_04_kunci: "ke atas" },
+  { a2_04_arah_arus: "ke barat", a2_04_arah_medan: "ke atas", a2_04_kunci: "ke utara" },
+  { a2_04_arah_arus: "ke barat", a2_04_arah_medan: "ke bawah", a2_04_kunci: "ke selatan" },
+  { a2_04_arah_arus: "ke utara", a2_04_arah_medan: "ke timur", a2_04_kunci: "ke bawah" },
+  { a2_04_arah_arus: "ke utara", a2_04_arah_medan: "ke barat", a2_04_kunci: "ke atas" },
+  { a2_04_arah_arus: "ke selatan", a2_04_arah_medan: "ke timur", a2_04_kunci: "ke atas" },
+  { a2_04_arah_arus: "ke selatan", a2_04_arah_medan: "ke barat", a2_04_kunci: "ke bawah" },
+
+  // ---- SEJAJAR / BERLAWANAN (F = 0) ----
+  { a2_04_arah_arus: "ke timur", a2_04_arah_medan: "ke timur", a2_04_kunci: "nol (tidak ada gaya)" },
+  { a2_04_arah_arus: "ke timur", a2_04_arah_medan: "ke barat", a2_04_kunci: "nol (tidak ada gaya)" },
+  { a2_04_arah_arus: "ke barat", a2_04_arah_medan: "ke timur", a2_04_kunci: "nol (tidak ada gaya)" },
+  { a2_04_arah_arus: "ke utara", a2_04_arah_medan: "ke utara", a2_04_kunci: "nol (tidak ada gaya)" },
+  { a2_04_arah_arus: "ke utara", a2_04_arah_medan: "ke selatan", a2_04_kunci: "nol (tidak ada gaya)" },
+  { a2_04_arah_arus: "ke atas", a2_04_arah_medan: "ke atas", a2_04_kunci: "nol (tidak ada gaya)" },
+
+  // ---- SUDUT 45° (arah gaya tetap tegak lurus bidang I-B) ----
+  { a2_04_arah_arus: "ke timur", a2_04_arah_medan: "ke timur laut", a2_04_kunci: "ke atas" },
+  { a2_04_arah_arus: "ke timur", a2_04_arah_medan: "ke tenggara", a2_04_kunci: "ke bawah" },
+  { a2_04_arah_arus: "ke timur", a2_04_arah_medan: "ke barat laut", a2_04_kunci: "ke atas" },
+  { a2_04_arah_arus: "ke timur", a2_04_arah_medan: "ke barat daya", a2_04_kunci: "ke bawah" },
+  { a2_04_arah_arus: "ke barat", a2_04_arah_medan: "ke timur laut", a2_04_kunci: "ke bawah" },
+  { a2_04_arah_arus: "ke barat", a2_04_arah_medan: "ke tenggara", a2_04_kunci: "ke atas" },
+  { a2_04_arah_arus: "ke barat", a2_04_arah_medan: "ke barat laut", a2_04_kunci: "ke bawah" },
+  { a2_04_arah_arus: "ke barat", a2_04_arah_medan: "ke barat daya", a2_04_kunci: "ke atas" },
+  { a2_04_arah_arus: "ke utara", a2_04_arah_medan: "ke timur laut", a2_04_kunci: "ke bawah" },
+  { a2_04_arah_arus: "ke utara", a2_04_arah_medan: "ke barat laut", a2_04_kunci: "ke atas" },
+  { a2_04_arah_arus: "ke selatan", a2_04_arah_medan: "ke tenggara", a2_04_kunci: "ke atas" },
+  { a2_04_arah_arus: "ke selatan", a2_04_arah_medan: "ke barat daya", a2_04_kunci: "ke bawah" }
+];
+
+function displayRandomA204() {
+  const s = soalA204[Math.floor(Math.random() * soalA204.length)];
+  document.getElementById("a2_04_arah_arus").innerHTML = s.a2_04_arah_arus;
+  document.getElementById("a2_04_arah_medan").innerHTML = s.a2_04_arah_medan;
+  document.getElementById("a2_04_kunci").innerHTML = s.a2_04_kunci;
+}
+displayRandomA204();
+</script>
 </div>
 </div>
 </div> 
@@ -527,4 +824,3 @@ document.getElementById("m101jb").innerHTML = m101jb.toPrecision(3);
 
 </body>
 </html>
-
